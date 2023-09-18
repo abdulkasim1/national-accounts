@@ -1,0 +1,13 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+w,"Calendar adjusted data, not seasonally adjusted",W,,0,
+y,Calendar and seasonally adjusted data,Y,,1,
+k,Calendar component,K,,2,Synonyms: Calendar effects; calendar factors
+i,Irregular component,I,,3,Synonym: Irregular effects
+n,Neither seasonally adjusted nor calendar adjusted data,N,,4,Synonyms: Raw data; unadjusted data
+_z,Not applicable,_Z,,5,
+m,Seasonal and calendar components,M,,6,Synonyms: Seasonal and calendar effects; seasonal and calendar factors
+x,Seasonal component,X,,7,Synonyms: Seasonal effects; seasonal factors
+s,"Seasonally adjusted data, not calendar adjusted",S,,8,
+t,Trend,T,,9,
+c,"Trend-cycle data, calendar adjusted",C,,10,
+r,"Trend-cycle data, not calendar adjusted",R,,11,

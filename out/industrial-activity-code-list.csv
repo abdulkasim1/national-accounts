@@ -1,0 +1,198 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+i55,Accommodation,I55,,0,
+i,Accommodation and food service activities,I,,1,
+m692,"Accounting, bookkeeping and auditing activities; tax consultancy",M692,,2,
+k66,Activities auxiliary to financial services and insurance activities,K66,,3,
+u,Activities of extraterritorial organisations and bodies,U,,4,
+u99,Activities of extraterritorial organisations and bodies,U99,,5,
+m701,Activities of head offices,M701,,6,
+m70,Activities of head offices; management consultancy activities,M70,,7,
+k642,Activities of holding companies,K642,,8,
+t97,Activities of households as employers of domestic personnel,T97,,9,
+t,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,T,,10,
+s94,Activities of membership organisations,S94,,11,
+atuxfprv,Activities other than financial and insurance,ATUXFPRV,,12,ATUXFPRV=A+B+C+D35+E+F+G+H+I+J+L+M+N+P85+Q+R+S+O_T_U+PRV_VE
+n,Administrative and support service activities,N,,13,
+m731,Advertising,M731,,14,
+m73,Advertising and market research,M73,,15,
+m73t75,"Advertising and market research; other professional, scientific and technical activities; veterinary activities",M73T75,,16,M73T75=M73+M74+M75
+a,"Agriculture, forestry and fishing",A,,17,
+h51,Air transport,H51,,18,
+fdi_t,All FDI activities,FDI_T,,19,Non Standard NACE/ISIC activity
+a_f_htu,All activities except Industry and Trade,A_F_HTU,,20,A_F_HTU=A+F+H+I+J+K+L+M+N+O+P+Q+R+S+T+U
+ats,All activities except activities of households as employers; undifferentiated goods- and services-producing activities of households for own use and activities of extraterritorial organisations and bodies,ATS,,21,ATS=A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S
+atn_rtu,"All activities except activities of public administration, defence, education, human health and social work",ATN_RTU,,22,ATN_RTU= A+B+C+D+E+F+G+H+I+J+K+L+M+N+R+S+T+U
+m71,Architectural and engineering activities; technical testing and analysis,M71,,23,
+r,"Arts, entertainment and recreation",R,,24,
+rtt,"Arts, entertainment and recreation; Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use; other service activities",RTT,,25,RTT=R+S+T
+r_s,"Arts, entertainment and recreation; other service activities",R_S,,26,R+S
+rtu,"Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",RTU,,27,RTU=R+S+T+U
+btn,Business economy,BTN,,28,BTN=B+C+D+E+F+G+H+I+J+K+L+M+N
+f42,Civil engineering,F42,,29,
+j_h53,Communication & services related to broadcasting,J_H53,,30,J_H53 = J + H53
+j62,"Computer programming, consultancy and related activities",J62,,31,
+j62_63,"Computer programming, consultancy, and information service activities",J62_63,,32,J62_63=J62+J63
+f,Construction,F,,33,
+f41,Construction of buildings,F41,,34,
+r90,"Creative, arts and entertainment activities",R90,,35,
+r90t92,"Creative, arts and entertainment activities; libraries, archives, museums and other cultural activities; gambling and betting activities",R90T92,,36,R90T92=R90+R91+R92
+a01,"Crop and animal production, hunting and related service activities",A01,,37,
+p,Education,P,,38,
+p85,Education,P85,,39,
+pts,"Education; human health and social work activities; arts, entertainment and recreation; other service activities",PTS,,40,PTS=P+Q+R+S
+d,"Electricity, gas, steam and air conditioning supply",D,,41,
+d35,"Electricity, gas, steam and air conditioning supply",D35,,42,
+d_e,"Electricity, gas, steam and air conditioning supply; Water supply; sewerage, waste management and remediation activities",D_E,,43,
+n78,Employment activities,N78,,44,
+n78t82,"Employment, travel agency, security and investigation, service and landscape, office administrative and support activities",N78T82,,45,N78T82= N78+N79+N80+N81+N82
+b06,Extraction of crude petroleum and natural gas,B06,,46,
+b06_09,Extraction of crude petroleum and natural gas; mining support service activities,B06_09,,47,B06+B09
+k,Financial and insurance activities,K,,48,
+k_l,Financial and insurance activities; real estate activities,K_L,,49,K_L=K+L
+ktn,"Financial and insurance activities; real estate activities; professional, scientific and technical activities; administrative and support service activities",KTN,,50,KTN=K+L+M+N
+k64,"Financial service activities, except insurance and pension funding",K64,,51,
+a03,Fishing and aquaculture,A03,,52,
+i56,Food and beverage service activities,I56,,53,
+a02,Forestry and logging,A02,,54,
+r92,Gambling and betting activities,R92,,55,
+r92_93,Gambling and betting activities; sporting and other recreational activities,R92_93,,56,R92_93=R92+R93
+q86,Human health activities,Q86,,57,
+q,Human health and social work activities,Q,,58,
+l68a,Imputed rents of owner-occupied dwellings,L68A,,59,
+bte,Industry (except construction),BTE,,60,BTE=B+C+D+E
+btf,Industry and construction,BTF,,61,BTF=B+C+D+E+F
+bts,"Industry, construction and services (except activities of households as employers and extra-territorial organisations and bodies)",BTS,,62,BTS=B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S
+btsxo,"Industry, construction and services (except public administration and defence; compulsory social security; activities of households as employers; undifferentiated goods- and services-producing activities of households for own use; activities of extraterritorial organisations and bodies)",BTSXO,,63,BTSXO=B+C+D+E+F+G+H+I+J+K+L+M+N+P+Q+R+S
+j,Information and communication,J,,64,
+j63,Information service activities,J63,,65,
+j_m_n_rtu,"Information, communication, professional, business and other services",J_M_N_RTU,,66,J_M_N_RTU=J+M+N+RTU
+k65,"Insurance, reinsurance and pension funding, except compulsory social security",K65,,67,
+h49,Land transport and transport via pipelines,H49,,68,
+m691,Legal activities,M691,,69,
+m69,Legal and accounting activities,M69,,70,
+m69_70,Legal and accounting activities; activities of head offices; management consultancy activities,M69_70,,71,M69_70=M69+M70
+m69t71,Legal and accounting activities; activities of head offices; management consultancy activities; architectural and engineering activities; technical testing and analysis,M69T71,,72,M69T71=M69+M70+M71
+r91,"Libraries, archives, museums and other cultural activities",R91,,73,
+c26t30,Machinery and Equipment,C26T30,,74,C26T30 = C26 + C27 + C28 + C29 + C29+C30
+m702,Management consultancy activities,M702,,75,
+c303,Manufacture of air and spacecraft and related machinery,C303,,76,C303
+c24,Manufacture of basic metals,C24,,77,
+c24_25,"Manufacture of basic metals and fabricated metal products, except machinery and equipment",C24_25,,78,C24_25=C24+C25
+c21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,C21,,79,
+c11,Manufacture of beverages,C11,,80,
+c20,Manufacture of chemicals and chemical products,C20,,81,
+c19,Manufacture of coke and refined petroleum products,C19,,82,
+c263_264,Manufacture of communication equipment and consumer electronics,C263_264,,83,This aggregate includes the NACE/ISIC activities C263 and C264
+c26,"Manufacture of computer, electronic and optical products",C26,,84,
+c262,Manufacture of computers and peripheral equipment,C262,,85,
+c27,Manufacture of electrical equipment,C27,,86,
+c25,"Manufacture of fabricated metal products, except machinery and equipment",C25,,87,
+c10,Manufacture of food products,C10,,88,
+c10t12,Manufacture of food products; beverages and tobacco products,C10T12,,89,C10T12=C10+C11+C12
+c31,Manufacture of furniture,C31,,90,
+c31t33,"Manufacture of furniture; jewellery, musical instruments, toys, etc.; repair and installation of machinery and equipment",C31T33,,91,C31T33=C31+C32+C33
+c31_32,Manufacture of furniture; other manufacturing,C31_32,,92,C31_32=C31+C32
+c265_266,"Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks; manufacture of irradiation, electromedical and electrotherapeutic equipment",C265_266,,93,This aggregate includes the NACE/ISIC activities C265 and C266
+c15,Manufacture of leather and related products,C15,,94,
+c28,Manufacture of machinery and equipment n.e.c.,C28,,95,
+c24t28x27,"Manufacture of metal and machinery products, except electrical equipment",C24T28X27,,96,C24+C25+C26+C28
+c29,"Manufacture of motor vehicles, trailers and semi-trailers",C29,,97,
+c29_30,"Manufacture of motor vehicles, trailers, semi-trailers and of other transport equipment",C29_30,,98,C29_30=C29+C30
+c23,Manufacture of other non-metallic mineral products,C23,,99,
+c30,Manufacture of other transport equipment,C30,,100,
+c17,Manufacture of paper and paper products,C17,,101,
+c19t22,"Manufacture of petroleum, chemical, pharmaceutical, rubber and plastic products",C19T22,,102,C19+C20+C21+C22
+c22,Manufacture of rubber and plastic products,C22,,103,
+c22_23,Manufacture of rubber and plastic products and other non-metallic mineral products,C22_23,,104,C22_23=C22+C23
+c13,Manufacture of textiles,C13,,105,
+c13_14,Manufacture of textiles and wearing apparel,C13_14,,106,C13+C14
+c13t15,"Manufacture of textiles, wearing apparel, leather and related products",C13T15,,107,C13T15=C13+C14+C15
+c13t18x15,"Manufacture of textiles, wearing apparel, wood and paper products; printing and reproduction",C13T18X15,,108,C13+C14+C16+C17+C18
+c12,Manufacture of tobacco products,C12,,109,
+c14,Manufacture of wearing apparel,C14,,110,
+c16,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",C16,,111,
+c16t18,"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials; manufacture of paper and paper products; printing and reproduction of recorded media",C16T18,,112,C16T18=C16+C17+C18
+c,Manufacturing,C,,113,
+m732,Market research and public opinion polling,M732,,114,
+gtn_rtu,"Market services - Services excluding public administration, education, health and social services - sections G to N and R to U",GTN_RTU,,115,GTN_RTU=GTN+RTU
+gtn,Market services - sections G to N,GTN,,116,GTN=G+H+I+J+K+L+M+N
+b,Mining and quarrying,B,,117,
+b05,Mining of coal and lignite,B05,,118,
+b07,Mining of metal ores,B07,,119,
+b09,Mining support service activities,B09,,120,
+k641,Monetary intermediation,K641,,121,This includes NACE/ISIC activity K6411 to K6419
+j59,"Motion picture, video and television programme production, sound recording and music publishing activities",J59,,122,
+j59_60,"Motion picture, video, television programme production; programming and broadcasting activities",J59_60,,123,J59_60=J59+J60
+nal,Not allocated [deprecated],NAL,,124,
+_z,Not applicable,_Z,,125,
+n82,"Office administrative, office support and other business support activities",N82,,126,
+c16t23_c31t33,Other Manufactured Goods,C16T23_C31T33,,127,C16T23_C31T33= C16T18+C19T22+ C23+ C31T33
+c32,Other manufacturing,C32,,128,
+c_oth,"Other manufacturing (C15, C23, C27, C31, C32, C33)",C_OTH,,129,C15+C23+C27+C31+C32+C33
+b08,Other mining and quarrying,B08,,130,
+s96,Other personal service activities,S96,,131,
+m74,"Other professional, scientific and technical activities",M74,,132,
+m74_75,"Other professional, scientific and technical activities; veterinary activities",M74_75,,133,M74_75=M74+M75
+s,Other service activities,S,,134,
+h53,Postal and courier activities,H53,,135,
+c18,Printing and reproduction of recorded media,C18,,136,
+prv_re,Private real estate activities,PRV_RE,,137,Non Standard NACE/ISIC activity
+m,"Professional, scientific and technical activities",M,,138,
+m_n,"Professional, scientific and technical activities; administrative and support service activities",M_N,,139,M_N=M+N
+j60,Programming and broadcasting activities,J60,,140,
+o,Public administration and defence; compulsory social security,O,,141,
+o84,Public administration and defence; compulsory social security,O84,,142,
+otu,"Public administration and defence; compulsory social security; education; human health and social work activities; arts, entertainment and recreation, repair of household goods and other services",OTU,,143,OTU=O+P+Q+R+S+T+U
+ots,"Public administration and defence; compulsory social security; education; human health and social work activities; arts, entertainment and recreation; other service activities",OTS,,144,OTS=O+P+Q+R+S
+otq,"Public administration, defence, education, human health and social work activities",OTQ,,145,OTQ=O+P+Q
+o_t_u,Public administration; activities of households and of extraterritorial organisations,O_T_U,,146,O_T_U=O+T+U
+j58,Publishing activities,J58,,147,
+j58_62_63,"Publishing, computer programming and consultancy, information service activities",J58_62_63,,148,J58_62_63=J58+J62+J63
+j58t60,"Publishing, motion picture, video, television programme production; sound recording, programming and broadcasting activities",J58T60,,149,J58T60=J58+J59+J60
+l,Real estate activities,L,,150,
+l68b,Real estate activities excluding imputed rents,L68B,,151,
+ltn,"Real estate, ownership of dwelling & professional services",LTN,,152,LTN = L + M + N
+e39,Remediation activities and other waste management services,E39,,153,
+n77,Rental and leasing activities,N77,,154,
+c33,Repair and installation of machinery and equipment,C33,,155,
+s95,Repair of computers and personal and household goods,S95,,156,
+s95_96,"Repair of computers, personal and household goods; other personal service activities",S95_96,,157,S95_96=S95+S96
+q87,Residential care activities,Q87,,158,
+q87_88,Residential care activities and social work activities without accommodation,Q87_88,,159,Q87_88=Q87+Q88
+g47,"Retail trade, except of motor vehicles and motorcycles",G47,,160,
+m72,Scientific research and development,M72,,161,
+n80,Security and investigation activities,N80,,162,
+n80t82,"Security and investigation, service and landscape, office administrative and support activities",N80T82,,163,N80T82=N80+N81+N82
+gtu,Services,GTU,,164,GTU=G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U
+gts,Services (except activities of households as employers and extra-territorial organisations and bodies),GTS,,165,GTS=G+H+I+J+K+L+M+N+O+P+Q+R+S
+gtuxh,Services (except transportation and storage),GTUXH,,166,GTUXH=G+I+J+K+L+M+N+O+P+Q+R+S+T+U
+itu,"Services (except wholesale and retail trade, transportation and storage)",ITU,,167,ITU=I+J+K+L+M+N+O+P+Q+R+S+T+U
+n81,Services to buildings and landscape activities,N81,,168,
+e37,Sewerage,E37,,169,
+e37t39,"Sewerage, waste management, remediation activities",E37T39,,170,E37T39=E37+E38+E39
+q88,Social work activities without accommodation,Q88,,171,
+f43,Specialised construction activities,F43,,172,
+r93,Sports activities and amusement and recreation activities,R93,,173,
+j61,Telecommunications,J61,,174,
+_t,Total - All activities,_T,,175,This aggregate includes all activities
+a_b,Total Primary sector,A_B,,176,A+B
+hx53,Transport and storage except postal and courier activities,HX53,,177,H49+H50+H51+H52
+h,Transportation and storage,H,,178,
+h_j,Transportation and storage; Information and communication,H_J,,179,H_J=H+J
+n79,"Travel agency, tour operator and other reservation service and related activities",N79,,180,
+k643,"Trusts, funds, and similar financial entities",K643,,181,This includes NACE/ISIC activity K6430
+t98,Undifferentiated goods- and services-producing activities of private households for own use,T98,,182,
+_u,Unknown,_U,,183,
+_x,Unspecified,_X,,184,
+m75,Veterinary activities,M75,,185,
+h52,Warehousing and support activities for transportation,H52,,186,
+e38,"Waste collection, treatment and disposal activities; materials recovery",E38,,187,
+e36,"Water collection, treatment and supply",E36,,188,
+e,"Water supply; sewerage, waste management and remediation activities",E,,189,
+h50,Water transport,H50,,190,
+g45,Wholesale and retail trade and repair of motor vehicles and motorcycles,G45,,191,
+g,Wholesale and retail trade; repair of motor vehicles and motorcycles,G,,192,
+g_i,Wholesale and retail trade; repair of motor vehicles and motorcycles; Accommodation and food service activities,G_I,,193,G_I=G+I
+gtj,Wholesale and retail trade; repair of motor vehicles and motorcycles; Accommodation and food service activities; Transportation and storage; Information and communication,GTJ,,194,GTJ=G+H+I+J
+gti,Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities,GTI,,195,GTI=G+H+I
+g46,"Wholesale trade, except of motor vehicles and motorcycles",G46,,196,

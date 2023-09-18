@@ -1,0 +1,2165 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Unit of measure code list",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "All currencies",
+            "notation": "_T"
+        },
+        {
+            "label": "Not specified",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Andorran franc (1-1 peg to the French franc)",
+            "notation": "ADF"
+        },
+        {
+            "label": "Andorran peseta (1-1 peg to the Spanish peseta)",
+            "notation": "ADP"
+        },
+        {
+            "label": "United Arab Emirates dirham",
+            "notation": "AED"
+        },
+        {
+            "label": "Afghanistan afghani (old)",
+            "notation": "AFA"
+        },
+        {
+            "label": "Afghanistan, Afghanis",
+            "notation": "AFN"
+        },
+        {
+            "label": "Albanian lek",
+            "notation": "ALL"
+        },
+        {
+            "label": "Armenian dram",
+            "notation": "AMD"
+        },
+        {
+            "label": "Netherlands Antillean guilder",
+            "notation": "ANG"
+        },
+        {
+            "label": "Angolan kwanza",
+            "notation": "AOA"
+        },
+        {
+            "label": "Angolan kwanza (old)",
+            "notation": "AON"
+        },
+        {
+            "label": "Angolan kwanza readjustado (old)",
+            "notation": "AOR"
+        },
+        {
+            "label": "Argentine peso",
+            "notation": "ARS"
+        },
+        {
+            "label": "Austrian schilling",
+            "notation": "ATS"
+        },
+        {
+            "label": "Australian dollar",
+            "notation": "AUD"
+        },
+        {
+            "label": "Aruban florin/guilder",
+            "notation": "AWG"
+        },
+        {
+            "label": "Azerbaijanian manat (old)",
+            "notation": "AZM"
+        },
+        {
+            "label": "Azerbaijan, manats",
+            "notation": "AZN"
+        },
+        {
+            "label": "Bosnia-Hezergovinian convertible mark",
+            "notation": "BAM"
+        },
+        {
+            "label": "Barbados dollar",
+            "notation": "BBD"
+        },
+        {
+            "label": "Bangladesh taka",
+            "notation": "BDT"
+        },
+        {
+            "label": "Belgian franc",
+            "notation": "BEF"
+        },
+        {
+            "label": "Belgian franc (financial)",
+            "notation": "BEL"
+        },
+        {
+            "label": "Bulgarian lev (old)",
+            "notation": "BGL"
+        },
+        {
+            "label": "Bulgarian lev",
+            "notation": "BGN"
+        },
+        {
+            "label": "Bahraini dinar",
+            "notation": "BHD"
+        },
+        {
+            "label": "Burundi franc",
+            "notation": "BIF"
+        },
+        {
+            "label": "Bermudian dollar",
+            "notation": "BMD"
+        },
+        {
+            "label": "Brunei dollar",
+            "notation": "BND"
+        },
+        {
+            "label": "Bolivian boliviano",
+            "notation": "BOB"
+        },
+        {
+            "label": "Brazilian real",
+            "notation": "BRL"
+        },
+        {
+            "label": "Bahamas dollar",
+            "notation": "BSD"
+        },
+        {
+            "label": "Bhutan ngultrum",
+            "notation": "BTN"
+        },
+        {
+            "label": "Botswana pula",
+            "notation": "BWP"
+        },
+        {
+            "label": "Belarussian rouble (old)",
+            "notation": "BYB"
+        },
+        {
+            "label": "Belarusian Ruble",
+            "notation": "BYN"
+        },
+        {
+            "label": "Belarus, Rubles (deprecated)",
+            "notation": "BYR"
+        },
+        {
+            "label": "Belize dollar",
+            "notation": "BZD"
+        },
+        {
+            "label": "Canadian dollar",
+            "notation": "CAD"
+        },
+        {
+            "label": "National currency per US dollar (unit for exchange rates and PPP)",
+            "notation": "CD"
+        },
+        {
+            "label": "Congo franc (ex Zaire)",
+            "notation": "CDF"
+        },
+        {
+            "label": "National currency per Euro (unit for exchange rates and PPP)",
+            "notation": "CE"
+        },
+        {
+            "label": "WIR Euro",
+            "notation": "CHE"
+        },
+        {
+            "label": "Swiss franc",
+            "notation": "CHF"
+        },
+        {
+            "label": "WIR Franc",
+            "notation": "CHW"
+        },
+        {
+            "label": "Unidades de fomento",
+            "notation": "CLF"
+        },
+        {
+            "label": "Chilean peso",
+            "notation": "CLP"
+        },
+        {
+            "label": "Chinese yuan renminbi",
+            "notation": "CNY"
+        },
+        {
+            "label": "Colombian peso",
+            "notation": "COP"
+        },
+        {
+            "label": "Unidad de Valor Real",
+            "notation": "COU"
+        },
+        {
+            "label": "Costa Rican colon",
+            "notation": "CRC"
+        },
+        {
+            "label": "Serbian dinar (old)",
+            "notation": "CSD"
+        },
+        {
+            "label": "Euro cent",
+            "notation": "CT"
+        },
+        {
+            "label": "Cuban peso",
+            "notation": "CUP"
+        },
+        {
+            "label": "Cape Verde escudo",
+            "notation": "CVE"
+        },
+        {
+            "label": "Cypriot pound",
+            "notation": "CYP"
+        },
+        {
+            "label": "Czech koruna",
+            "notation": "CZK"
+        },
+        {
+            "label": "German mark",
+            "notation": "DEM"
+        },
+        {
+            "label": "Djibouti franc",
+            "notation": "DJF"
+        },
+        {
+            "label": "Danish krone",
+            "notation": "DKK"
+        },
+        {
+            "label": "Dominican peso",
+            "notation": "DOP"
+        },
+        {
+            "label": "Days",
+            "notation": "DY"
+        },
+        {
+            "label": "Algerian dinar",
+            "notation": "DZD"
+        },
+        {
+            "label": "Currency of EER-12 group of trading partners (of the euro area moving composition): AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US",
+            "notation": "E0"
+        },
+        {
+            "label": "Currency of EER-20 group of trading partners (of the euro area-18 composition): AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,CN and HR",
+            "notation": "E1"
+        },
+        {
+            "label": "Currency of EER-19 group of trading partners (of the euro area-18 composition): AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,CN",
+            "notation": "E2"
+        },
+        {
+            "label": "Currency of EER-39 group of trading partners (of the euro area-18 composition): AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,CN and HR,DZ,AR,BR,CL,IS,IN,ID,IL,MY,MX,MA,NZ,PH,RU,ZA,TW,TH,TR,VE",
+            "notation": "E3"
+        },
+        {
+            "label": "Currency of EER-12 group of trading partners (of the euro area-18 composition): AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US",
+            "notation": "E4"
+        },
+        {
+            "label": "Currency of EER-19 group of trading partners: AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,HU,PL,RO,CN and HR",
+            "notation": "E5"
+        },
+        {
+            "label": "Currency of EER-18 group of trading partners: AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,HU,PL,RO,CN",
+            "notation": "E6"
+        },
+        {
+            "label": "Currency of EER-38 group of trading partners: AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,HU,PL,RO,CN and HR,DZ,AR,BR,CL, IS,IN,ID,IL,MY,MX,MA,NZ,PH,RU,ZA,TW,TH,TR,VE",
+            "notation": "E7"
+        },
+        {
+            "label": "Currency of EER-12 group of trading partners: AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US",
+            "notation": "E8"
+        },
+        {
+            "label": "Ecuador sucre (old)",
+            "notation": "ECS"
+        },
+        {
+            "label": "Estonian kroon",
+            "notation": "EEK"
+        },
+        {
+            "label": "Egyptian pound",
+            "notation": "EGP"
+        },
+        {
+            "label": "Erytrean nafka",
+            "notation": "ERN"
+        },
+        {
+            "label": "Spanish peseta",
+            "notation": "ESP"
+        },
+        {
+            "label": "Ethiopian birr",
+            "notation": "ETB"
+        },
+        {
+            "label": "Euro",
+            "notation": "EUR"
+        },
+        {
+            "label": "Euro; ratio to total activity",
+            "notation": "EUR_R_ACTIVITY"
+        },
+        {
+            "label": "Euro; ratio to EU",
+            "notation": "EUR_R_B0"
+        },
+        {
+            "label": "Euro; ratio to gross value added",
+            "notation": "EUR_R_B1G"
+        },
+        {
+            "label": "Euro; ratio to gross domestic product",
+            "notation": "EUR_R_B1GQ"
+        },
+        {
+            "label": "Euro; ratio to gross domestic product (chained linked volume)",
+            "notation": "EUR_R_B1GQ_L"
+        },
+        {
+            "label": "Euro; ratio to gross domestic product (annual levels)",
+            "notation": "EUR_R_B1GQ_LA"
+        },
+        {
+            "label": "Euro; ratio to EU15",
+            "notation": "EUR_R_B2"
+        },
+        {
+            "label": "Euro; ratio to EU27",
+            "notation": "EUR_R_B4"
+        },
+        {
+            "label": "Euro; ratio to EU28",
+            "notation": "EUR_R_B5"
+        },
+        {
+            "label": "Euro per card",
+            "notation": "EUR_R_C"
+        },
+        {
+            "label": "Euro; ratio to overnight deposits denominated in all currencies of non-MFIs held in institutions offering payment services to non-MFIs",
+            "notation": "EUR_R_F22A"
+        },
+        {
+            "label": "Euro; ratio to equity and investment fund shares",
+            "notation": "EUR_R_F5"
+        },
+        {
+            "label": "Euro; ratio to Euro Area 17",
+            "notation": "EUR_R_I6"
+        },
+        {
+            "label": "Euro; ratio to Euro Area 18",
+            "notation": "EUR_R_I7"
+        },
+        {
+            "label": "Euro; ratio to Euro Area 19",
+            "notation": "EUR_R_I8"
+        },
+        {
+            "label": "Euro; ratio to Euro Area 20",
+            "notation": "EUR_R_I9"
+        },
+        {
+            "label": "Euro per kilogram",
+            "notation": "EUR_R_KG"
+        },
+        {
+            "label": "EUR per kg Chain linked volumes",
+            "notation": "EUR_R_KG_L"
+        },
+        {
+            "label": "Euro; ratio to number of transactions",
+            "notation": "EUR_R_PNT"
+        },
+        {
+            "label": "Euro; ratio to total population",
+            "notation": "EUR_R_POP"
+        },
+        {
+            "label": "Euro per million inhabitants",
+            "notation": "EUR_R_POP6"
+        },
+        {
+            "label": "Euro; ratio to employees in hours worked",
+            "notation": "EUR_R_SAL_HW"
+        },
+        {
+            "label": "Euro; ratio to employees in persons",
+            "notation": "EUR_R_SAL_PS"
+        },
+        {
+            "label": "Euro per terminal",
+            "notation": "EUR_R_T"
+        },
+        {
+            "label": "Euro; ratio to total payment transactions",
+            "notation": "EUR_R_TT"
+        },
+        {
+            "label": "Euro; ratio to Euro Area (changing composition)",
+            "notation": "EUR_R_U2"
+        },
+        {
+            "label": "Finnish markka",
+            "notation": "FIM"
+        },
+        {
+            "label": "Fiji dollar",
+            "notation": "FJD"
+        },
+        {
+            "label": "Falkland Islands pound",
+            "notation": "FKP"
+        },
+        {
+            "label": "French franc",
+            "notation": "FRF"
+        },
+        {
+            "label": "Full time equivalent",
+            "notation": "FT"
+        },
+        {
+            "label": "Full time equivalents; ratio to total activity",
+            "notation": "FT_R_ACTIVITY"
+        },
+        {
+            "label": "UK pound sterling",
+            "notation": "GBP"
+        },
+        {
+            "label": "Georgian lari",
+            "notation": "GEL"
+        },
+        {
+            "label": "Guernsey, Pounds",
+            "notation": "GGP"
+        },
+        {
+            "label": "Ghanaian cedi (old)",
+            "notation": "GHC"
+        },
+        {
+            "label": "Ghana Cedi",
+            "notation": "GHS"
+        },
+        {
+            "label": "Gibraltar pound",
+            "notation": "GIP"
+        },
+        {
+            "label": "Gambian dalasi",
+            "notation": "GMD"
+        },
+        {
+            "label": "Guinea franc",
+            "notation": "GNF"
+        },
+        {
+            "label": "Grams",
+            "notation": "GR"
+        },
+        {
+            "label": "Greek drachma",
+            "notation": "GRD"
+        },
+        {
+            "label": "Gross tonnage (GT)",
+            "notation": "GT"
+        },
+        {
+            "label": "Guatemalan quetzal",
+            "notation": "GTQ"
+        },
+        {
+            "label": "Gigawatt",
+            "notation": "GW"
+        },
+        {
+            "label": "Gigawatt-hour",
+            "notation": "GWHR"
+        },
+        {
+            "label": "Guinea-Bissau Peso",
+            "notation": "GWP"
+        },
+        {
+            "label": "Guyanan dollar",
+            "notation": "GYD"
+        },
+        {
+            "label": "Currency of Euro area-18 countries: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LV,MT,SK",
+            "notation": "H1"
+        },
+        {
+            "label": "Currency of Euro area-19 countries and EER-38 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,HU,PL,RO,CN and HR,DZ,AR,BR,CL,IS,IN,ID,IL,MY,MX,MA,NZ,PH,RU,ZA,TW,TH,TR,VE",
+            "notation": "H10"
+        },
+        {
+            "label": "Currency of Euro area-19 countries and EER-19 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,HU,PL,RO,CN and HR",
+            "notation": "H11"
+        },
+        {
+            "label": "Currency of Euro area-20 countries: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK,HR",
+            "notation": "H12"
+        },
+        {
+            "label": "Currency of Euro area-20 countries and the EER-12 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK,HR and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US",
+            "notation": "H13"
+        },
+        {
+            "label": "Currency of Euro area-20 countries and the EER-18 group of trading partners (AU, CA, DK, HK, JP, NO, SG, KR, SE, CH, GB, US, BG, CZ, HU, PL, RO and CN)",
+            "notation": "H14"
+        },
+        {
+            "label": "Currency of Euro area-20 countries and the EER-37 group of trading partners (AU, CA, DK, HK, JP, NO, SG, KR, SE, CH, GB, US, BG, CZ, HU, PL, RO, CN, DZ, AR, BR, CL, IS, IN, ID, IL, MY, MX, MA, NZ, PH, RU, ZA, TW, TH, TR and VE)",
+            "notation": "H15"
+        },
+        {
+            "label": "Currency of Euro area-18 countries and EER-12 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US",
+            "notation": "H2"
+        },
+        {
+            "label": "Currency of Euro area-18 countries and EER-19 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,CN",
+            "notation": "H3"
+        },
+        {
+            "label": "Currency of European Commission IC-36 group of trading partners: BE,DE,EE,GR,ES,FR,IE,IT,CY,LU,NL,MT,AT,PT,SI,SK,FI,BG,CZ,DK,LV,LT,HU,PL,RO,SE,GB and US,AU,CA,JP,MX,NZ,NO,CH,TR",
+            "notation": "H36"
+        },
+        {
+            "label": "Currency of European Commission IC-37 group of trading partners: BE,DE,EE,GR,ES,FR,IE,IT,CY,LU,NL,MT,AT,PT,SI,SK,FI,BG,CZ,DK,HR,LV,LT,HU,PL,RO,SE,GB and US,AU,CA,JP,MX,NZ,NO,CH,TR",
+            "notation": "H37"
+        },
+        {
+            "label": "Currency of Euro area-18 countries and EER-39 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,CN and HR,DZ,AR,BR,CL,IS,IN,ID,IL,MY,MX,MA,NZ,PH,RU,ZA,TW,TH,TR,VE",
+            "notation": "H4"
+        },
+        {
+            "label": "Currency of European Commission IC-42 group of trading partners : BE,DE,EE,GR,ES,FR,IE,IT,CY,LU,NL,MT,AT,PT,SI,SK,FI,BG,CZ,DK,HR,LV,LT,HU,PL,RO,SE,GB and US,AU,CA,JP,MX,NZ,NO,CH,TR,KR,CN,HK,RU,BR",
+            "notation": "H42"
+        },
+        {
+            "label": "Currency of Euro area-18 countries and EER-20 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,CN and HR",
+            "notation": "H5"
+        },
+        {
+            "label": "Currency of Euro area-18 countries and EER-21 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,LT,HU,PL,RO,HR,TR,RU",
+            "notation": "H6"
+        },
+        {
+            "label": "Currency of Euro area-19 countries: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK",
+            "notation": "H7"
+        },
+        {
+            "label": "Currency of Euro area-19 countries and EER-12 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US",
+            "notation": "H8"
+        },
+        {
+            "label": "Currency of Euro area-19 countries and EER-18 group of trading partners: FR,BE,LU,NL,DE,IT,IE,PT,ES,FI,AT,GR,SI,CY,EE,LT,LV,MT,SK and AU,CA,DK,HK,JP,NO,SG,KR,SE,CH,GB,US and BG,CZ,HU,PL,RO,CN",
+            "notation": "H9"
+        },
+        {
+            "label": "Hectare",
+            "notation": "HA"
+        },
+        {
+            "label": "Hong Kong dollar",
+            "notation": "HKD"
+        },
+        {
+            "label": "Hong Kong dollar (old)",
+            "notation": "HKQ"
+        },
+        {
+            "label": "Hectolitre",
+            "notation": "HL"
+        },
+        {
+            "label": "Honduran lempira",
+            "notation": "HNL"
+        },
+        {
+            "label": "Hours",
+            "notation": "HR"
+        },
+        {
+            "label": "Croatian kuna",
+            "notation": "HRK"
+        },
+        {
+            "label": "Haitian gourde",
+            "notation": "HTG"
+        },
+        {
+            "label": "Hungarian forint",
+            "notation": "HUF"
+        },
+        {
+            "label": "Hours worked",
+            "notation": "HW"
+        },
+        {
+            "label": "Hours worked; ratio to total activity",
+            "notation": "HW_R_ACTIVITY"
+        },
+        {
+            "label": "Hours worked per person employed",
+            "notation": "HW_R_EMP_PS"
+        },
+        {
+            "label": "Hours worked per capita",
+            "notation": "HW_R_POP"
+        },
+        {
+            "label": "Index, EU=100",
+            "notation": "I_EU"
+        },
+        {
+            "label": "Index, EU27=100",
+            "notation": "I_EU27"
+        },
+        {
+            "label": "Index, EU28=100",
+            "notation": "I_EU28"
+        },
+        {
+            "label": "Index, 2000=100",
+            "notation": "I00"
+        },
+        {
+            "label": "Index, 2001=100",
+            "notation": "I01"
+        },
+        {
+            "label": "Index, 2005=100",
+            "notation": "I05"
+        },
+        {
+            "label": "Index, 2006=100",
+            "notation": "I06"
+        },
+        {
+            "label": "Index, 2008=100",
+            "notation": "I08"
+        },
+        {
+            "label": "Index, 2009=100",
+            "notation": "I09"
+        },
+        {
+            "label": "Index, 2010=100",
+            "notation": "I10"
+        },
+        {
+            "label": "Index, 2012=100",
+            "notation": "I12"
+        },
+        {
+            "label": "Index, 2015=100",
+            "notation": "I15"
+        },
+        {
+            "label": "Index, 1990=100",
+            "notation": "I90"
+        },
+        {
+            "label": "Index, 1995=100",
+            "notation": "I95"
+        },
+        {
+            "label": "Index, 1996=100",
+            "notation": "I96"
+        },
+        {
+            "label": "Index, 1999=100",
+            "notation": "I99"
+        },
+        {
+            "label": "Indonesian rupiah",
+            "notation": "IDR"
+        },
+        {
+            "label": "Irish pound",
+            "notation": "IEP"
+        },
+        {
+            "label": "Israeli shekel",
+            "notation": "ILS"
+        },
+        {
+            "label": "Isle of Man, Pounds",
+            "notation": "IMP"
+        },
+        {
+            "label": "Indian rupee",
+            "notation": "INR"
+        },
+        {
+            "label": "Iraqi dinar",
+            "notation": "IQD"
+        },
+        {
+            "label": "Iranian rial",
+            "notation": "IRR"
+        },
+        {
+            "label": "Iceland krona",
+            "notation": "ISK"
+        },
+        {
+            "label": "Italian lira",
+            "notation": "ITL"
+        },
+        {
+            "label": "Index",
+            "notation": "IX"
+        },
+        {
+            "label": "Index of notional stocks",
+            "notation": "IX_R_LE"
+        },
+        {
+            "label": "Jobs",
+            "notation": "JB"
+        },
+        {
+            "label": "Jobs; ratio to total activity",
+            "notation": "JB_R_ACTIVITY"
+        },
+        {
+            "label": "Jersey, Pounds",
+            "notation": "JEP"
+        },
+        {
+            "label": "Jamaican dollar",
+            "notation": "JMD"
+        },
+        {
+            "label": "Jordanian dinar",
+            "notation": "JOD"
+        },
+        {
+            "label": "Japanese yen",
+            "notation": "JPY"
+        },
+        {
+            "label": "Kilocalorie",
+            "notation": "KCAL"
+        },
+        {
+            "label": "Kenyan shilling",
+            "notation": "KES"
+        },
+        {
+            "label": "Kilograms",
+            "notation": "KG"
+        },
+        {
+            "label": "kg per dollar of GDP in USD",
+            "notation": "KG_R_GDP_USD"
+        },
+        {
+            "label": "Kg of CO2E per Kg of Product",
+            "notation": "KGCO2E_R_KG"
+        },
+        {
+            "label": "Kilogram of oil equivalent (KGOE)",
+            "notation": "KGOE"
+        },
+        {
+            "label": "Kyrgyzstan som",
+            "notation": "KGS"
+        },
+        {
+            "label": "Kampuchean real (Cambodian)",
+            "notation": "KHR"
+        },
+        {
+            "label": "Kilolitres",
+            "notation": "KL"
+        },
+        {
+            "label": "Kilometre",
+            "notation": "KM"
+        },
+        {
+            "label": "Square kilometre",
+            "notation": "KM2"
+        },
+        {
+            "label": "Comoros franc",
+            "notation": "KMF"
+        },
+        {
+            "label": "Korean won (North)",
+            "notation": "KPW"
+        },
+        {
+            "label": "Korean won (Republic)",
+            "notation": "KRW"
+        },
+        {
+            "label": "Kilowatt",
+            "notation": "KW"
+        },
+        {
+            "label": "Kuwait dinar",
+            "notation": "KWD"
+        },
+        {
+            "label": "Kilowatt-hour",
+            "notation": "KWHR"
+        },
+        {
+            "label": "Cayman Islands dollar",
+            "notation": "KYD"
+        },
+        {
+            "label": "Kazakstan tenge",
+            "notation": "KZT"
+        },
+        {
+            "label": "Lao kip",
+            "notation": "LAK"
+        },
+        {
+            "label": "Lebanese pound",
+            "notation": "LBP"
+        },
+        {
+            "label": "Sri Lanka rupee",
+            "notation": "LKR"
+        },
+        {
+            "label": "Liberian dollar",
+            "notation": "LRD"
+        },
+        {
+            "label": "Lesotho loti",
+            "notation": "LSL"
+        },
+        {
+            "label": "Litres",
+            "notation": "LT"
+        },
+        {
+            "label": "Lithuanian litas",
+            "notation": "LTL"
+        },
+        {
+            "label": "Luxembourg franc",
+            "notation": "LUF"
+        },
+        {
+            "label": "Latvian lats",
+            "notation": "LVL"
+        },
+        {
+            "label": "Libyan dinar",
+            "notation": "LYD"
+        },
+        {
+            "label": "Metre",
+            "notation": "M"
+        },
+        {
+            "label": "Cubic metre",
+            "notation": "M3"
+        },
+        {
+            "label": "Moroccan dirham",
+            "notation": "MAD"
+        },
+        {
+            "label": "Man Days",
+            "notation": "MD"
+        },
+        {
+            "label": "Moldovian leu",
+            "notation": "MDL"
+        },
+        {
+            "label": "Madagascar, Ariary",
+            "notation": "MGA"
+        },
+        {
+            "label": "Malagasy franc",
+            "notation": "MGF"
+        },
+        {
+            "label": "Months",
+            "notation": "MH"
+        },
+        {
+            "label": "Macedonian denar",
+            "notation": "MKD"
+        },
+        {
+            "label": "Myanmar kyat",
+            "notation": "MMK"
+        },
+        {
+            "label": "Minute",
+            "notation": "MN"
+        },
+        {
+            "label": "Mongolian tugrik",
+            "notation": "MNT"
+        },
+        {
+            "label": "Macau pataca",
+            "notation": "MOP"
+        },
+        {
+            "label": "Square Metres",
+            "notation": "MQ"
+        },
+        {
+            "label": "Mauritanian ouguiya",
+            "notation": "MRO"
+        },
+        {
+            "label": "Maltese lira",
+            "notation": "MTL"
+        },
+        {
+            "label": "Mauritius rupee",
+            "notation": "MUR"
+        },
+        {
+            "label": "Maldive rufiyaa",
+            "notation": "MVR"
+        },
+        {
+            "label": "Megawatt",
+            "notation": "MW"
+        },
+        {
+            "label": "Malawi kwacha",
+            "notation": "MWK"
+        },
+        {
+            "label": "Mexican peso",
+            "notation": "MXN"
+        },
+        {
+            "label": "Mexican peso (old)",
+            "notation": "MXP"
+        },
+        {
+            "label": "Mexican Unidad de Inversion (UDI)",
+            "notation": "MXV"
+        },
+        {
+            "label": "Man Years",
+            "notation": "MY"
+        },
+        {
+            "label": "Malaysian ringgit",
+            "notation": "MYR"
+        },
+        {
+            "label": "Mozambique metical (old)",
+            "notation": "MZM"
+        },
+        {
+            "label": "Mozambique, Meticais",
+            "notation": "MZN"
+        },
+        {
+            "label": "Namibian dollar",
+            "notation": "NAD"
+        },
+        {
+            "label": "Nigerian naira",
+            "notation": "NGN"
+        },
+        {
+            "label": "Nicaraguan cordoba",
+            "notation": "NIO"
+        },
+        {
+            "label": "Netherlands guilder",
+            "notation": "NLG"
+        },
+        {
+            "label": "Norwegian krone",
+            "notation": "NOK"
+        },
+        {
+            "label": "Nepaleese rupee",
+            "notation": "NPR"
+        },
+        {
+            "label": "New Zealand dollar",
+            "notation": "NZD"
+        },
+        {
+            "label": "Oman Sul rial",
+            "notation": "OMR"
+        },
+        {
+            "label": "Ounces",
+            "notation": "OZ"
+        },
+        {
+            "label": "Percent per annum",
+            "notation": "PA"
+        },
+        {
+            "label": "Panama balboa",
+            "notation": "PAB"
+        },
+        {
+            "label": "Percentage change",
+            "notation": "PC"
+        },
+        {
+            "label": "Percentage points",
+            "notation": "PD"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities (PPS = EUR for EU28)",
+            "notation": "PE"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities (PPS = EUR for EU27 as of 31 January 2020 (brexit)); ratio to total population",
+            "notation": "PE_B6_R_POP"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities (PPS = EUR for EU27 as of 31 January 2020 (brexit))",
+            "notation": "PE_B6"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities (PPS = EUR for EU27 as of 31 January 2020 (brexit)); ratio to employees in hours worked",
+            "notation": "PE_B6_R_SAL_HW"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities (PPS = EUR for EU27 as of 31 January 2020 (brexit)); ratio to employees in persons",
+            "notation": "PE_B6_R_SAL_PS"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU15",
+            "notation": "PE_R_B2"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU27",
+            "notation": "PE_R_B4"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU27 per capita",
+            "notation": "PE_R_B4_POP"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU28",
+            "notation": "PE_R_B5"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU28 hours worked",
+            "notation": "PE_R_B5_EMP_HW"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU28 persons employed",
+            "notation": "PE_R_B5_EMP_PS"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU28 per capita",
+            "notation": "PE_R_B5_POP"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU27 as of 31 January 2020 (brexit)",
+            "notation": "PE_R_B6"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EU27 as of 31 January 2020 (brexit) per capita",
+            "notation": "PE_R_B6_POP"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to EuroArea 17",
+            "notation": "PE_R_I6"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 18",
+            "notation": "PE_R_I7"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 18 hours worked",
+            "notation": "PE_R_I7_EMP_HW"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 18 persons employed",
+            "notation": "PE_R_I7_EMP_PS"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 19",
+            "notation": "PE_R_I8"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 19 hours worked",
+            "notation": "PE_R_I8_EMP_HW"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 19 persons employed",
+            "notation": "PE_R_I8_EMP_PS"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 20",
+            "notation": "PE_R_I9"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 20 hours worked",
+            "notation": "PE_R_I9_EMP_HW"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area 20 persons employed",
+            "notation": "PE_R_I9_EMP_PS"
+        },
+        {
+            "label": "PPS per kg",
+            "notation": "PE_R_KG"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to total population",
+            "notation": "PE_R_POP"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to employees in hours worked",
+            "notation": "PE_R_SAL_HW"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to employees in persons",
+            "notation": "PE_R_SAL_PS"
+        },
+        {
+            "label": "Euro, converted using purchasing power parities; ratio to Euro Area (changing composition)",
+            "notation": "PE_R_U2"
+        },
+        {
+            "label": "Peru nuevo sol",
+            "notation": "PEN"
+        },
+        {
+            "label": "Papua New Guinea kina",
+            "notation": "PGK"
+        },
+        {
+            "label": "Philippine peso",
+            "notation": "PHP"
+        },
+        {
+            "label": "Pakistan rupee",
+            "notation": "PKR"
+        },
+        {
+            "label": "Polish zloty",
+            "notation": "PLN"
+        },
+        {
+            "label": "Polish zloty (old)",
+            "notation": "PLZ"
+        },
+        {
+            "label": "Per mill",
+            "notation": "PM"
+        },
+        {
+            "label": "Pure number",
+            "notation": "PN"
+        },
+        {
+            "label": "Pure number; ratio to EU",
+            "notation": "PN_R_B0"
+        },
+        {
+            "label": "Pure number per card",
+            "notation": "PN_R_C"
+        },
+        {
+            "label": "Pure number per number of overnight deposits\u00a0denominated in all currencies of non-MFIs held in institutions offering payment services to non-MFIs",
+            "notation": "PN_R_F22A"
+        },
+        {
+            "label": "Pure number per million inhabitants",
+            "notation": "PN_R_POP6"
+        },
+        {
+            "label": "Pure number per terminal",
+            "notation": "PN_R_T"
+        },
+        {
+            "label": "Pure number; ratio to total payment transactions",
+            "notation": "PN_R_TT"
+        },
+        {
+            "label": "Points",
+            "notation": "PO"
+        },
+        {
+            "label": "Purchasing power parities",
+            "notation": "PP"
+        },
+        {
+            "label": "Persons",
+            "notation": "PS"
+        },
+        {
+            "label": "Persons; ratio to total activity",
+            "notation": "PS_R_ACTIVITY"
+        },
+        {
+            "label": "Total employment per capita",
+            "notation": "PS_R_POP"
+        },
+        {
+            "label": "Percent",
+            "notation": "PT"
+        },
+        {
+            "label": "Portuguese escudo",
+            "notation": "PTE"
+        },
+        {
+            "label": "US dollar, converted using purchasing power parities",
+            "notation": "PU"
+        },
+        {
+            "label": "US $, PPP converted, ratio to value added",
+            "notation": "PU_R_B1G"
+        },
+        {
+            "label": "US $ , PPP converted, ratio to value added of non-financial corporations",
+            "notation": "PU_R_B1G_S11"
+        },
+        {
+            "label": "US $, PPP converted, ratio to value added of financial corporations",
+            "notation": "PU_R_B1G_S12"
+        },
+        {
+            "label": "US $, PPP converted, ratio to gross domestic product",
+            "notation": "PU_R_B1GQ"
+        },
+        {
+            "label": "US $, PPP converted, ratio to gross operating surplus of non-financial corporations",
+            "notation": "PU_R_B2G_S11"
+        },
+        {
+            "label": "US $ , PPP converted, ratio to gross operating surplus of financial corporations",
+            "notation": "PU_R_B2G_S12"
+        },
+        {
+            "label": "US $, PPP converted, ratio to household and NPISH gross disposable income",
+            "notation": "PU_R_B6G_S1M"
+        },
+        {
+            "label": "US $, PPP converted, ratio to household and NPISH net disposable income",
+            "notation": "PU_R_B6N_S1M"
+        },
+        {
+            "label": "US $, PPP converted, ratio to total household and NIPSH financial assets",
+            "notation": "PU_R_F_S1M"
+        },
+        {
+            "label": "US $, PPP converted, ratio to total expenditure of General Government",
+            "notation": "PU_R_OTE"
+        },
+        {
+            "label": "US $, PPP converted, deflated by final consumption of households and NPISH",
+            "notation": "PU_R_P31_S1M_D"
+        },
+        {
+            "label": "US $, PPP converted, deflated by actual individual consumption",
+            "notation": "PU_R_P41_D"
+        },
+        {
+            "label": "US $, PPP converted, ratio to GFCF",
+            "notation": "PU_R_P51G"
+        },
+        {
+            "label": "Per capita, US $, PPP converted",
+            "notation": "PU_R_POP"
+        },
+        {
+            "label": "Per capita, US $, PPP converted, index, 2007q1=100",
+            "notation": "PU_R_POP_I07Q1"
+        },
+        {
+            "label": "Index per capita, US $, PPP converted,\u00a0 OECD = 100",
+            "notation": "PU_R_POP_PU_6O"
+        },
+        {
+            "label": "Paraguay guarani",
+            "notation": "PYG"
+        },
+        {
+            "label": "Qatari rial",
+            "notation": "QAR"
+        },
+        {
+            "label": "Ratio",
+            "notation": "RO"
+        },
+        {
+            "label": "Romanian leu (old)",
+            "notation": "ROL"
+        },
+        {
+            "label": "Romanian leu",
+            "notation": "RON"
+        },
+        {
+            "label": "Serbian Dinar",
+            "notation": "RSD"
+        },
+        {
+            "label": "Interest rate",
+            "notation": "RT"
+        },
+        {
+            "label": "Russian rouble",
+            "notation": "RUB"
+        },
+        {
+            "label": "Russian ruble (old)",
+            "notation": "RUR"
+        },
+        {
+            "label": "Rwanda franc",
+            "notation": "RWF"
+        },
+        {
+            "label": "Saudi riyal",
+            "notation": "SAR"
+        },
+        {
+            "label": "Solomon Islands dollar",
+            "notation": "SBD"
+        },
+        {
+            "label": "Seychelles rupee",
+            "notation": "SCR"
+        },
+        {
+            "label": "Sudanese dinar (old)",
+            "notation": "SDD"
+        },
+        {
+            "label": "Sudan, Dinars",
+            "notation": "SDG"
+        },
+        {
+            "label": "First sudanese Pound",
+            "notation": "SDP"
+        },
+        {
+            "label": "Swedish krona",
+            "notation": "SEK"
+        },
+        {
+            "label": "Singapore dollar",
+            "notation": "SGD"
+        },
+        {
+            "label": "St. Helena pound",
+            "notation": "SHP"
+        },
+        {
+            "label": "Slovenian tolar",
+            "notation": "SIT"
+        },
+        {
+            "label": "Slovak koruna",
+            "notation": "SKK"
+        },
+        {
+            "label": "Sierra Leone leone",
+            "notation": "SLL"
+        },
+        {
+            "label": "Somali shilling",
+            "notation": "SOS"
+        },
+        {
+            "label": "Seborga, Luigini",
+            "notation": "SPL"
+        },
+        {
+            "label": "Suriname, Dollars",
+            "notation": "SRD"
+        },
+        {
+            "label": "Suriname guilder (old)",
+            "notation": "SRG"
+        },
+        {
+            "label": "South Sudanese Pound",
+            "notation": "SSP"
+        },
+        {
+            "label": "Sao Tome and Principe dobra",
+            "notation": "STD"
+        },
+        {
+            "label": "El Salvador colon",
+            "notation": "SVC"
+        },
+        {
+            "label": "Syrian pound",
+            "notation": "SYP"
+        },
+        {
+            "label": "Swaziland lilangeni",
+            "notation": "SZL"
+        },
+        {
+            "label": "Tonnes of CO2-equivalent",
+            "notation": "TCO2E"
+        },
+        {
+            "label": "Tonnes of CO2-equivalent per capita",
+            "notation": "TCO2E_R_POP"
+        },
+        {
+            "label": "Thai baht",
+            "notation": "THB"
+        },
+        {
+            "label": "Terajoule",
+            "notation": "TJ"
+        },
+        {
+            "label": "Tajikistan rouble (old)",
+            "notation": "TJR"
+        },
+        {
+            "label": "Tajikistan, Somoni",
+            "notation": "TJS"
+        },
+        {
+            "label": "Turkmenistan manat",
+            "notation": "TMM"
+        },
+        {
+            "label": "Turkmenistan New Manat",
+            "notation": "TMT"
+        },
+        {
+            "label": "Tonnes",
+            "notation": "TN"
+        },
+        {
+            "label": "Tonnes per capita",
+            "notation": "TN_R_POP"
+        },
+        {
+            "label": "Tonnes in raw material equivalents",
+            "notation": "TN_RME"
+        },
+        {
+            "label": "Tunisian dinar",
+            "notation": "TND"
+        },
+        {
+            "label": "Tonnes of NMVOC equivalent",
+            "notation": "TNMVOCE"
+        },
+        {
+            "label": "Tonnes of NMVOC equivalent per capita",
+            "notation": "TNMVOCE_R_POP"
+        },
+        {
+            "label": "Tonnes of NO2-equivalent",
+            "notation": "TNO2E"
+        },
+        {
+            "label": "Tonnes of NO2-equivalent per capita",
+            "notation": "TNO2E_R_POP"
+        },
+        {
+            "label": "Tonnes of oil equivalent (TOE)",
+            "notation": "TNOE"
+        },
+        {
+            "label": "Tongan paanga",
+            "notation": "TOP"
+        },
+        {
+            "label": "East Timor escudo (old)",
+            "notation": "TPE"
+        },
+        {
+            "label": "Turkish lira (old)",
+            "notation": "TRL"
+        },
+        {
+            "label": "Turkish lira",
+            "notation": "TRY"
+        },
+        {
+            "label": "Tonnes of SO2-equivalent",
+            "notation": "TSO2E"
+        },
+        {
+            "label": "Tonnes of SO2-equivalent per capita",
+            "notation": "TSO2E_R_POP"
+        },
+        {
+            "label": "Trinidad and Tobago dollar",
+            "notation": "TTD"
+        },
+        {
+            "label": "Tuvalu Dollars",
+            "notation": "TVD"
+        },
+        {
+            "label": "New Taiwan dollar",
+            "notation": "TWD"
+        },
+        {
+            "label": "Tanzania shilling",
+            "notation": "TZS"
+        },
+        {
+            "label": "Ukraine hryvnia",
+            "notation": "UAH"
+        },
+        {
+            "label": "Uganda Shilling",
+            "notation": "UGX"
+        },
+        {
+            "label": "US dollar",
+            "notation": "USD"
+        },
+        {
+            "label": "Dollars; Ratio to Current account",
+            "notation": "USD_R_CA"
+        },
+        {
+            "label": "Dollars; Ratio to Total goods and services",
+            "notation": "USD_R_GS"
+        },
+        {
+            "label": "USD per kilogram",
+            "notation": "USD_R_KG"
+        },
+        {
+            "label": "Per capita, US $, exchange rates converted",
+            "notation": "USD_R_POP"
+        },
+        {
+            "label": "Unit described in title",
+            "notation": "UT"
+        },
+        {
+            "label": "Uruguay Peso en Unidades Indexadas",
+            "notation": "UYI"
+        },
+        {
+            "label": "Uruguayan peso",
+            "notation": "UYU"
+        },
+        {
+            "label": "Uzbekistan sum",
+            "notation": "UZS"
+        },
+        {
+            "label": "Venezuela bolivar (old)",
+            "notation": "VEB"
+        },
+        {
+            "label": "Venezuelan bolivar fuerte",
+            "notation": "VEF"
+        },
+        {
+            "label": "Vietnamese dong",
+            "notation": "VND"
+        },
+        {
+            "label": "Vanuatu vatu",
+            "notation": "VUV"
+        },
+        {
+            "label": "Samoan tala",
+            "notation": "WST"
+        },
+        {
+            "label": "All currencies except national domestic currency",
+            "notation": "X1"
+        },
+        {
+            "label": "All currencies except: EUR, domestic currency",
+            "notation": "X10"
+        },
+        {
+            "label": "All currencies except: EUR, USD, XU3",
+            "notation": "X11"
+        },
+        {
+            "label": "All currencies except: EUR, USD, XU3, GBP",
+            "notation": "X12"
+        },
+        {
+            "label": "All currencies except: EUR, USD, XU3, GBP, BRL, CAD, CHF, CNY, INR, JPY, KRW, MXN, NOK, RUB, SGD, TRY",
+            "notation": "X13"
+        },
+        {
+            "label": "All currencies except: USD, domestic currency",
+            "notation": "X14"
+        },
+        {
+            "label": "All currencies except: EUR, JPY, GBP, USD",
+            "notation": "X15"
+        },
+        {
+            "label": "All currencies except: USD",
+            "notation": "X2"
+        },
+        {
+            "label": "All currencies except EUR",
+            "notation": "X3"
+        },
+        {
+            "label": "All currencies except: EUR, USD",
+            "notation": "X4"
+        },
+        {
+            "label": "All currencies except: EUR,  JPY, USD",
+            "notation": "X5"
+        },
+        {
+            "label": "All currencies except: EUR, CHF, GBP, JPY, USD",
+            "notation": "X6"
+        },
+        {
+            "label": "All currencies except: EUR, USD, JPY, GBP, CHF",
+            "notation": "X7"
+        },
+        {
+            "label": "All currencies except: USD, EUR, GBP, JPY, CHF, CNY, AUD, CAD",
+            "notation": "X8"
+        },
+        {
+            "label": "All currencies except: EUR, USD, JPY, domestic currency",
+            "notation": "X9"
+        },
+        {
+            "label": "CFA franc / BEAC",
+            "notation": "XAF"
+        },
+        {
+            "label": "Silver",
+            "notation": "XAG"
+        },
+        {
+            "label": "Gold",
+            "notation": "XAU"
+        },
+        {
+            "label": "Bond Markets Unit European Composite Unit (EURCO)",
+            "notation": "XBA"
+        },
+        {
+            "label": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+            "notation": "XBB"
+        },
+        {
+            "label": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
+            "notation": "XBC"
+        },
+        {
+            "label": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
+            "notation": "XBD"
+        },
+        {
+            "label": "Eastern Caribbean dollar",
+            "notation": "XCD"
+        },
+        {
+            "label": "Currencies included in the SDR basket, gold and SDRs",
+            "notation": "XDB"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fixed parity)",
+            "notation": "XDC"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to total assets of households and NPISHs",
+            "notation": "XDC_R_A_S1M"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to gross value added",
+            "notation": "XDC_R_B1G"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to annual moving sum of sector specific gross value added",
+            "notation": "XDC_R_B1G_CY"
+        },
+        {
+            "label": "percentage of value added of non-financial corporations",
+            "notation": "XDC_R_B1G_S11"
+        },
+        {
+            "label": "percentage of value added of financial corporations",
+            "notation": "XDC_R_B1G_S12"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to gross domestic product",
+            "notation": "XDC_R_B1GQ"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to the annual moving sum of gross domestic product",
+            "notation": "XDC_R_B1GQ_CY"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to gross domestic product (chained linked volume)",
+            "notation": "XDC_R_B1GQ_L"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to gross domestic product (annual levels)",
+            "notation": "XDC_R_B1GQ_LA"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to net value added",
+            "notation": "XDC_R_B1N"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to annual moving sum of sector specific net value added",
+            "notation": "XDC_R_B1N_CY"
+        },
+        {
+            "label": "percentage of net value added of non-financial corporations",
+            "notation": "XDC_R_B1N_S11"
+        },
+        {
+            "label": "percentage of net value added of financial corporations",
+            "notation": "XDC_R_B1N_S12"
+        },
+        {
+            "label": "percentage of gross operating surplus of non-financial corporations",
+            "notation": "XDC_R_B2G_S11"
+        },
+        {
+            "label": "percentage of gross operating surplus of financial corporations",
+            "notation": "XDC_R_B2G_S12"
+        },
+        {
+            "label": "percentage of household and NPISH primary income",
+            "notation": "XDC_R_B5G_S1M"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to the annual moving sum of sector specific gross disposable income",
+            "notation": "XDC_R_B6G_CY"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to per capita sector specific gross disposable income",
+            "notation": "XDC_R_B6G_POP"
+        },
+        {
+            "label": "percentage of household and NPISH gross disposable income",
+            "notation": "XDC_R_B6G_S1M"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to sector specific gross disposable income, adjusted for the change in net equity of households in pension funds reserves",
+            "notation": "XDC_R_B6GA"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to the annual moving sum of sector specific gross disposable income, adjusted for the change in net equity of households in pension funds reserves",
+            "notation": "XDC_R_B6GA_CY"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to per capita sector specific gross disposable income, adjusted for the change in net equity of households in pension funds reserves",
+            "notation": "XDC_R_B6GA_POP"
+        },
+        {
+            "label": "percentage of household and NPISH gross disposable income adjusted for the net change in pension entitlements",
+            "notation": "XDC_R_B6GA_S1M"
+        },
+        {
+            "label": "percentage of household and NPISH net disposable income",
+            "notation": "XDC_R_B6N_S1M"
+        },
+        {
+            "label": "percentage of household and NPISH net adjusted disposable income",
+            "notation": "XDC_R_B7N_S1M"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to total employment",
+            "notation": "XDC_R_EMP"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to total employment in hours worked",
+            "notation": "XDC_R_EMP_HW"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to total employment in persons",
+            "notation": "XDC_R_EMP_PS"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to sector specific assets/liabilities",
+            "notation": "XDC_R_F"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to liabilities of general government",
+            "notation": "XDC_R_F_L_S13"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to liabilities of Non-financial corporations, general government and households and NPISH",
+            "notation": "XDC_R_F_L_S1S"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to financial assets of total economy",
+            "notation": "XDC_R_F_S1"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to\u00a0 financial assets of non-financial corporations",
+            "notation": "XDC_R_F_S11"
+        },
+        {
+            "label": "percentage of total household and NIPSH financial assets",
+            "notation": "XDC_R_F_S1M"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to currency and deposits liabilities of the Monetary Financial Institutions",
+            "notation": "XDC_R_F2_L_S12K"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to short-term liabilities of non-financial corporations",
+            "notation": "XDC_R_F2T4S_L_S11"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to short-term liabilities of financial corporations",
+            "notation": "XDC_R_F2T4S_L_S12"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to equity and investment fund shares",
+            "notation": "XDC_R_F5"
+        },
+        {
+            "label": "Number of times of liability of equity and investment fund shares",
+            "notation": "XDC_R_F5_L"
+        },
+        {
+            "label": "Number of times of liability of equity and investment fund shares of non-financial corporations",
+            "notation": "XDC_R_F5_L_S11"
+        },
+        {
+            "label": "Number of times of liability of equity and investment fund shares of financial corporations",
+            "notation": "XDC_R_F5_L_S12"
+        },
+        {
+            "label": "Number of times of liability of equity",
+            "notation": "XDC_R_F51_L"
+        },
+        {
+            "label": "Number of times of liability of equity of\u00a0 the Monetary Financial Institutions",
+            "notation": "XDC_R_F51_L_S12K"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to sector specific financing",
+            "notation": "XDC_R_FD"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to sector specific financial investment",
+            "notation": "XDC_R_FI"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to Maastricht debt",
+            "notation": "XDC_R_GD"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to total expenditure in social protection",
+            "notation": "XDC_R_GF10"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to Euro area 18",
+            "notation": "XDC_R_I7"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to Euro area 19",
+            "notation": "XDC_R_I8"
+        },
+        {
+            "label": "Gross value added per unit of net fixed assets",
+            "notation": "XDC_R_LE_N11N"
+        },
+        {
+            "label": "percentage of total expenditure of General Government",
+            "notation": "XDC_R_OTE"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to intermediate consumption at basic 'prices by activity (same activity for denominator and numerator)",
+            "notation": "XDC_R_P2_B_ACT"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to intermediate consumption at basic 'prices by activity and by product (same activity and same product for denominator and numerator)",
+            "notation": "XDC_R_P2_B_ACT_PROD"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to intermediate consumption at basic 'prices by product (same product for denominator and numerator)",
+            "notation": "XDC_R_P2_B_PROD"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to household final consumption expenditure at basic 'prices by product (same product for denominator and numerator)",
+            "notation": "XDC_R_P3_S14_B_PROD"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to household final consumption expenditure at purchasers' prices by product (same product for denominator and numerator)",
+            "notation": "XDC_R_P3_S14_O_PROD"
+        },
+        {
+            "label": "national currency, deflated by final consumption of households and NPISH",
+            "notation": "XDC_R_P31_S1M_D"
+        },
+        {
+            "label": "national currency, deflated by actual individual consumption",
+            "notation": "XDC_R_P41_D"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to Gross fixed capital formation",
+            "notation": "XDC_R_P51G"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to gross fixed capital formation at basic 'prices by product (same product for denominator and numerator)",
+            "notation": "XDC_R_P51G_B_PROD"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to exports at basic 'prices by product (same product for denominator and numerator)",
+            "notation": "XDC_R_P6_B_PROD"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to total population",
+            "notation": "XDC_R_POP"
+        },
+        {
+            "label": "Domestic currency (incl conversion to current currency made using a fixed parity); ratio to employees in hours worked",
+            "notation": "XDC_R_SAL_HW"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fixed parity); ratio to employees in persons",
+            "notation": "XDC_R_SAL_PS"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to total supply at purchasers' prices by product (same product for denominator and numerator)",
+            "notation": "XDC_R_TS_O_PROD"
+        },
+        {
+            "label": "Currencies included in the SDR basket (USD, EUR, JPY, GBP, CNY)",
+            "notation": "XDD"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using a fixed parity or market exchange rate)",
+            "notation": "XDF"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate) ; ratio to EU",
+            "notation": "XDF_R_B0"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate); ratio to GDP",
+            "notation": "XDF_R_B1GQ"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate) per card",
+            "notation": "XDF_R_C"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate); ratio to overnight deposits denominated in all currencies of non-MFIs held in institutions offering payment services to non-MFIs",
+            "notation": "XDF_R_F22A"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate); ratio to number of transactions",
+            "notation": "XDF_R_PNT"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate) per million inhabitants",
+            "notation": "XDF_R_POP6"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate) per terminal",
+            "notation": "XDF_R_T"
+        },
+        {
+            "label": "Domestic currency\u00a0 (incl. conversion to current currency made using a fixed parity or market exchange rate); ratio to total payment transactions",
+            "notation": "XDF_R_TT"
+        },
+        {
+            "label": "Domestic currency (incl. conversion to current currency made using market exchange rate)",
+            "notation": "XDM"
+        },
+        {
+            "label": "Domestic currency (currency previously used by a country before joining a Monetary Union)",
+            "notation": "XDN"
+        },
+        {
+            "label": "Other currencies not included in the SDR basket, exc. gold and SDRs",
+            "notation": "XDO"
+        },
+        {
+            "label": "Special Drawing Rights (S.D.R.)",
+            "notation": "XDR"
+        },
+        {
+            "label": "European Currency Unit (E.C.U.)",
+            "notation": "XEU"
+        },
+        {
+            "label": "Gold-Franc",
+            "notation": "XFO"
+        },
+        {
+            "label": "UIC-Franc",
+            "notation": "XFU"
+        },
+        {
+            "label": "Gold fine troy ounces",
+            "notation": "XGO"
+        },
+        {
+            "label": "Euro area non-participating foreign currency",
+            "notation": "XNC",
+            "description": "_T (All currencies) = XNC + XPC + XDC"
+        },
+        {
+            "label": "CFA franc / BCEAO",
+            "notation": "XOF"
+        },
+        {
+            "label": "Euro area participating foreign currency",
+            "notation": "XPC",
+            "description": "_T (All currencies) = XNC + XPC + XDC"
+        },
+        {
+            "label": "Palladium",
+            "notation": "XPD"
+        },
+        {
+            "label": "Pacific franc",
+            "notation": "XPF"
+        },
+        {
+            "label": "Platinum",
+            "notation": "XPT"
+        },
+        {
+            "label": "Sucre",
+            "notation": "XSU"
+        },
+        {
+            "label": "Codes specifically reserved for testing purposes",
+            "notation": "XTS"
+        },
+        {
+            "label": "National currencies of an EU Member State not belonging to the euro area (changing composition)",
+            "notation": "XU3"
+        },
+        {
+            "label": "ADB Unit of Account",
+            "notation": "XUA"
+        },
+        {
+            "label": "Exchange rate: currency of area per currency of counterpart area with conversion factor to fixed exchange rate series",
+            "notation": "XXCF"
+        },
+        {
+            "label": "Exchange rate (average): currency of area per currency of counterpart area with conversion factor to fixed exchange rate series",
+            "notation": "XXCFA"
+        },
+        {
+            "label": "Exchange rate (end of period): currency of area per currency of counterpart area with conversion factor to fixed exchange rate series",
+            "notation": "XXCFE"
+        },
+        {
+            "label": "Exchange rate (average): currency of area per currency of counterpart area",
+            "notation": "XXEXA"
+        },
+        {
+            "label": "Exchange rate (end of period): currency of area per currency of counterpart area",
+            "notation": "XXEXE"
+        },
+        {
+            "label": "Purchasing power parities: currency of area per currency of counterpart area",
+            "notation": "XXPP"
+        },
+        {
+            "label": "Transactions where no currency is involved",
+            "notation": "XXX"
+        },
+        {
+            "label": "Yemeni rial",
+            "notation": "YER"
+        },
+        {
+            "label": "Years",
+            "notation": "YR"
+        },
+        {
+            "label": "Yugoslav dinar (old)",
+            "notation": "YUM"
+        },
+        {
+            "label": "South African rand",
+            "notation": "ZAR"
+        },
+        {
+            "label": "Zambian kwacha",
+            "notation": "ZMK"
+        },
+        {
+            "label": "Zimbabwe dollar",
+            "notation": "ZWD"
+        },
+        {
+            "label": "Fourth zimbabwe dollar",
+            "notation": "ZWL"
+        },
+        {
+            "label": "Zimbabwe dollars (old)",
+            "notation": "ZWN"
+        },
+        {
+            "label": "Third zimbabwe dollar",
+            "notation": "ZWR"
+        }
+    ]
+}

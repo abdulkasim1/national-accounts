@@ -1,0 +1,575 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Custom breakdown code list (NA)",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Total",
+            "notation": "_T"
+        },
+        {
+            "label": "Social instruments (use of proceeds), assurance level unspecified, standard unspecified",
+            "notation": "C_XX"
+        },
+        {
+            "label": "Custom 01",
+            "notation": "C01"
+        },
+        {
+            "label": "Custom 02",
+            "notation": "C02"
+        },
+        {
+            "label": "Custom 03",
+            "notation": "C03"
+        },
+        {
+            "label": "Custom 04",
+            "notation": "C04"
+        },
+        {
+            "label": "Custom 05",
+            "notation": "C05"
+        },
+        {
+            "label": "Custom 06",
+            "notation": "C06"
+        },
+        {
+            "label": "Custom 07",
+            "notation": "C07"
+        },
+        {
+            "label": "Custom 08",
+            "notation": "C08"
+        },
+        {
+            "label": "Custom 09",
+            "notation": "C09"
+        },
+        {
+            "label": "Custom 10",
+            "notation": "C10"
+        },
+        {
+            "label": "Custom 11",
+            "notation": "C11"
+        },
+        {
+            "label": "Custom 12",
+            "notation": "C12"
+        },
+        {
+            "label": "Custom 13",
+            "notation": "C13"
+        },
+        {
+            "label": "Custom 14",
+            "notation": "C14"
+        },
+        {
+            "label": "Custom 15",
+            "notation": "C15"
+        },
+        {
+            "label": "Custom 16",
+            "notation": "C16"
+        },
+        {
+            "label": "Custom 17",
+            "notation": "C17"
+        },
+        {
+            "label": "Custom 18",
+            "notation": "C18"
+        },
+        {
+            "label": "Custom 19",
+            "notation": "C19"
+        },
+        {
+            "label": "Custom 20",
+            "notation": "C20"
+        },
+        {
+            "label": "Custom 21",
+            "notation": "C21"
+        },
+        {
+            "label": "Custom 22",
+            "notation": "C22"
+        },
+        {
+            "label": "Custom 23",
+            "notation": "C23"
+        },
+        {
+            "label": "Custom 24",
+            "notation": "C24"
+        },
+        {
+            "label": "Custom 25",
+            "notation": "C25"
+        },
+        {
+            "label": "Custom 26",
+            "notation": "C26"
+        },
+        {
+            "label": "Custom 27",
+            "notation": "C27"
+        },
+        {
+            "label": "Custom 28",
+            "notation": "C28"
+        },
+        {
+            "label": "Custom 29",
+            "notation": "C29"
+        },
+        {
+            "label": "Custom 30",
+            "notation": "C30"
+        },
+        {
+            "label": "Custom 31",
+            "notation": "C31"
+        },
+        {
+            "label": "Custom 32",
+            "notation": "C32"
+        },
+        {
+            "label": "Custom 33",
+            "notation": "C33"
+        },
+        {
+            "label": "Custom 34",
+            "notation": "C34"
+        },
+        {
+            "label": "Custom 35",
+            "notation": "C35"
+        },
+        {
+            "label": "Custom 36",
+            "notation": "C36"
+        },
+        {
+            "label": "Custom 37",
+            "notation": "C37"
+        },
+        {
+            "label": "Custom 38",
+            "notation": "C38"
+        },
+        {
+            "label": "Custom 39",
+            "notation": "C39"
+        },
+        {
+            "label": "Custom 40",
+            "notation": "C40"
+        },
+        {
+            "label": "Custom 41",
+            "notation": "C41"
+        },
+        {
+            "label": "Custom 42",
+            "notation": "C42"
+        },
+        {
+            "label": "Custom 43",
+            "notation": "C43"
+        },
+        {
+            "label": "Custom 44",
+            "notation": "C44"
+        },
+        {
+            "label": "Custom 45",
+            "notation": "C45"
+        },
+        {
+            "label": "Custom 46",
+            "notation": "C46"
+        },
+        {
+            "label": "Custom 47",
+            "notation": "C47"
+        },
+        {
+            "label": "Custom 48",
+            "notation": "C48"
+        },
+        {
+            "label": "Custom 49",
+            "notation": "C49"
+        },
+        {
+            "label": "Custom 50",
+            "notation": "C50"
+        },
+        {
+            "label": "Custom 51",
+            "notation": "C51"
+        },
+        {
+            "label": "Custom 52",
+            "notation": "C52"
+        },
+        {
+            "label": "Custom 53",
+            "notation": "C53"
+        },
+        {
+            "label": "Custom 54",
+            "notation": "C54"
+        },
+        {
+            "label": "Custom 55",
+            "notation": "C55"
+        },
+        {
+            "label": "Custom 56",
+            "notation": "C56"
+        },
+        {
+            "label": "Custom 57",
+            "notation": "C57"
+        },
+        {
+            "label": "Custom 58",
+            "notation": "C58"
+        },
+        {
+            "label": "Custom 59",
+            "notation": "C59"
+        },
+        {
+            "label": "Custom 60",
+            "notation": "C60"
+        },
+        {
+            "label": "Custom 61",
+            "notation": "C61"
+        },
+        {
+            "label": "Custom 62",
+            "notation": "C62"
+        },
+        {
+            "label": "Custom 63",
+            "notation": "C63"
+        },
+        {
+            "label": "Custom 64",
+            "notation": "C64"
+        },
+        {
+            "label": "Custom 65",
+            "notation": "C65"
+        },
+        {
+            "label": "Custom 66",
+            "notation": "C66"
+        },
+        {
+            "label": "Custom 67",
+            "notation": "C67"
+        },
+        {
+            "label": "Custom 68",
+            "notation": "C68"
+        },
+        {
+            "label": "Custom 69",
+            "notation": "C69"
+        },
+        {
+            "label": "Custom 70",
+            "notation": "C70"
+        },
+        {
+            "label": "Custom 71",
+            "notation": "C71"
+        },
+        {
+            "label": "Custom 72",
+            "notation": "C72"
+        },
+        {
+            "label": "Custom 73",
+            "notation": "C73"
+        },
+        {
+            "label": "Custom 74",
+            "notation": "C74"
+        },
+        {
+            "label": "Custom 75",
+            "notation": "C75"
+        },
+        {
+            "label": "Custom 76",
+            "notation": "C76"
+        },
+        {
+            "label": "Custom 77",
+            "notation": "C77"
+        },
+        {
+            "label": "Custom 78",
+            "notation": "C78"
+        },
+        {
+            "label": "Custom 79",
+            "notation": "C79"
+        },
+        {
+            "label": "Custom 80",
+            "notation": "C80"
+        },
+        {
+            "label": "Custom 81",
+            "notation": "C81"
+        },
+        {
+            "label": "Custom 82",
+            "notation": "C82"
+        },
+        {
+            "label": "Custom 83",
+            "notation": "C83"
+        },
+        {
+            "label": "Custom 84",
+            "notation": "C84"
+        },
+        {
+            "label": "Custom 85",
+            "notation": "C85"
+        },
+        {
+            "label": "Custom 86",
+            "notation": "C86"
+        },
+        {
+            "label": "Custom 87",
+            "notation": "C87"
+        },
+        {
+            "label": "Custom 88",
+            "notation": "C88"
+        },
+        {
+            "label": "Custom 89",
+            "notation": "C89"
+        },
+        {
+            "label": "Custom 90",
+            "notation": "C90"
+        },
+        {
+            "label": "Custom 91",
+            "notation": "C91"
+        },
+        {
+            "label": "Custom 92",
+            "notation": "C92"
+        },
+        {
+            "label": "Custom 93",
+            "notation": "C93"
+        },
+        {
+            "label": "Custom 94",
+            "notation": "C94"
+        },
+        {
+            "label": "Custom 95",
+            "notation": "C95"
+        },
+        {
+            "label": "Custom 96",
+            "notation": "C96"
+        },
+        {
+            "label": "Custom 97",
+            "notation": "C97"
+        },
+        {
+            "label": "Custom 98",
+            "notation": "C98"
+        },
+        {
+            "label": "Custom 99",
+            "notation": "C99"
+        },
+        {
+            "label": "Government assistance to the financial sector",
+            "notation": "FAM"
+        },
+        {
+            "label": "EDP Financial Crisis concept",
+            "notation": "FC"
+        },
+        {
+            "label": "Direct Investment",
+            "notation": "FND"
+        },
+        {
+            "label": "Direct investor in direct investment enterprises",
+            "notation": "FND1"
+        },
+        {
+            "label": "Direct investment excluding direct investment between fellow enterprises",
+            "notation": "FND1D2"
+        },
+        {
+            "label": "Direct investment enterprises in direct investor",
+            "notation": "FND2"
+        },
+        {
+            "label": "Direct Investment between fellow enterprises",
+            "notation": "FND3"
+        },
+        {
+            "label": "Financial Derivatives and Employee Stock Options",
+            "notation": "FNF"
+        },
+        {
+            "label": "Other Investment",
+            "notation": "FNO"
+        },
+        {
+            "label": "Portfolio Investment",
+            "notation": "FNP"
+        },
+        {
+            "label": "Reserve Assets",
+            "notation": "FNR"
+        },
+        {
+            "label": "All functional categories (total) excluding Direct Investment",
+            "notation": "FNTXD"
+        },
+        {
+            "label": "Green instruments (use of proceeds), assurance level unspecified, standard unspecified",
+            "notation": "G_XX"
+        },
+        {
+            "label": "LCD table",
+            "notation": "L"
+        },
+        {
+            "label": "EFSF guarantor (Intergovernmental lending ) - LCD concept",
+            "notation": "L_EFSF"
+        },
+        {
+            "label": "Imputed - LCD concept",
+            "notation": "L_I",
+            "description": "L_I = L_ICP + L_ICL"
+        },
+        {
+            "label": "Cash collateral related to financial derivatives - LCD concept",
+            "notation": "L_ICC"
+        },
+        {
+            "label": "Cashless at inception - LCD concept",
+            "notation": "L_ICL"
+        },
+        {
+            "label": "Cash payment at inception - LCD concept",
+            "notation": "L_ICP",
+            "description": "L_ICP = L_ICC + L_ISL"
+        },
+        {
+            "label": "Rerouted from Development Banks - LCD concept",
+            "notation": "L_IDBK"
+        },
+        {
+            "label": "Public-Private Partnership (PPP), EPC and Concessions on GG BS - LCD concept",
+            "notation": "L_IPEC"
+        },
+        {
+            "label": "Other imputations or rearrangements - LCD concept",
+            "notation": "L_IRXR"
+        },
+        {
+            "label": "Loan component in Off Market Swaps - LCD concept",
+            "notation": "L_ISL"
+        },
+        {
+            "label": "Long Term payables, including trade credits (F.89 reclassified in F.4) - LCD concept",
+            "notation": "L_IT"
+        },
+        {
+            "label": "Assistance\u00a0[INSTR_ASSET]\u00a0under\u00a0[REF_AREA]\u00a0stability mechanism - LCD concept",
+            "notation": "L_LSM",
+            "description": "In combination with INSTR_ASSET F4 and REF_AREA 4D the code should be read as \u00a0\"Assistance loan under EU stability mechanism\""
+        },
+        {
+            "label": "Nominal/face value difference - LCD concept",
+            "notation": "L_N_F"
+        },
+        {
+            "label": "Methodological adjustments to EDP perimeter - LCD concept",
+            "notation": "L_OA"
+        },
+        {
+            "label": "Serviced - LCD concept",
+            "notation": "L_S"
+        },
+        {
+            "label": "Not allocated/unallocated - LCD concept",
+            "notation": "L_X"
+        },
+        {
+            "label": "[INSTR_ASSET]\u00a0other than Assistance\u00a0[INSTR_ASSET]\u00a0under\u00a0[REF_AREA]\u00a0stability mechanism (L_LSM) - LCD concept",
+            "notation": "L_XLSM",
+            "description": "In combination with INSTR_ASSET F4 and REF_AREA 4D the code should be read as \u00a0\"Loan other than Assistance\u00a0loan\u00a0under\u00a0EU\u00a0stability mechanism (L_LSM)\""
+        },
+        {
+            "label": "Sustainability-linked instruments, assurance level unspecified, standard unspecified",
+            "notation": "L_XX"
+        },
+        {
+            "label": "Sustainable instruments (use of proceeds), assurance level unspecified, standard unspecified",
+            "notation": "S_XX"
+        },
+        {
+            "label": "Looking through via financing conduits, extended concept (direct + indirect)",
+            "notation": "VFCA"
+        },
+        {
+            "label": "Looking through (via) financing conduits - indirect approach",
+            "notation": "VFCI"
+        },
+        {
+            "label": "Looking through via investment fund shares, total (direct + indirect holdings)",
+            "notation": "VIFA"
+        },
+        {
+            "label": "Looking through (via)\u00a0non-MMF investment fund shares -\u00a0indirect approach",
+            "notation": "VIFI"
+        },
+        {
+            "label": "Looking through (via) money market fund shares - indirect approach",
+            "notation": "VIFM"
+        },
+        {
+            "label": "Not green, not social, not sustainable and not sustainability-linked instruments, assurance level unspecified, standard unspecified",
+            "notation": "Z_XX"
+        }
+    ]
+}

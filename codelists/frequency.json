@@ -1,0 +1,60 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Frequency",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Annual",
+            "notation": "A",
+            "description": "To be used for data collected or disseminated every year."
+        },
+        {
+            "label": "Half-yearly, semester",
+            "notation": "S",
+            "description": "To be used for data collected or disseminated every semester."
+        },
+        {
+            "label": "Quarterly",
+            "notation": "Q",
+            "description": "To be used for data collected or disseminated every quarter."
+        },
+        {
+            "label": "Monthly",
+            "notation": "M",
+            "description": "To be used for data collected or disseminated every month."
+        },
+        {
+            "label": "Weekly",
+            "notation": "W",
+            "description": "To be used for data collected or disseminated every week."
+        },
+        {
+            "label": "Daily",
+            "notation": "D",
+            "description": "To be used for data collected or disseminated every day."
+        },
+        {
+            "label": "Hourly",
+            "notation": "H",
+            "description": "To be used for data collected or disseminated every hour."
+        },
+        {
+            "label": "Daily \u2013 businessweek",
+            "notation": "B",
+            "description": "Similar to \"daily\", however there are no observations for Saturdays and Sundays (so, neither \"missing values\" nor \"numeric values\" should be provided for Saturday and Sunday). This treatment  (\"business\") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily (\"D\"), thus, with missing values in the weekend."
+        },
+        {
+            "label": "Minutely",
+            "notation": "N",
+            "description": "While N denotes \"minutely\", usually, there may be no observations every minute (for several series the frequency is usually \"irregular\" within a day/days). And though observations may be sparse (not collected or disseminated every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed."
+        }
+    ]
+}

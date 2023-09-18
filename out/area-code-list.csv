@@ -1,0 +1,902 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+r6,"ACP (African, Caribbean and Pacific countries, Lomé convention)",R6,,0,AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SL + SN + SO + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW+AG + BB + BS + BZ + CU (from 2009) + DM + DO + GD + GY + HT + JM + KN + LC + SR + TT + VC+CK + FJ + FM + KI + MH + NR + NU + PG + PW + SB + TL (from 2009) + TO + TV + VU + WS
+5u,ADC (Andean Development Corporation),5U,,1,
+7h,AFREXIMBANK (African Export-Import Bank),7H,,2,
+5m,AMF (Arab Monetary Fund),5M,,3,
+r16,APEC (Asia-Pacific Economic Co-operation),R16,,4,AU + BN + CA + CL + CN + HK + ID + JP + KR + MX+ MY + NZ + PE + PG + PH + RU + SG + TH + TW + US +VN
+r4,ASEAN (Countries for the Association of South-East Asian Nations),R4,,5,BN + ID + KH + LA + MM + MY + PH + SG + TH + VN
+r45,ASEAN-5,R45,,6,ID + MY + PH + SG + TH
+4j842,ATHENA Mechanism,4J842,,7,
+ae1,Abu Dhabi,AE1,,8,
+xr29,Advanced Economies (IMF),XR29,,9,
+xr23,Advanced Economies G-20 (IMF),XR23,,10,
+xe2,Advanced Europe (IMF),XE2,,11,
+5d,AfDB (African Development Bank),5D,,12,
+af,Afghanistan,AF,,13,
+f1,Africa,F1,,14,rule 1: DZ + EG + LY + MA + TN + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RE + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW  + F19
+5z1,Africa Finance Corporation,5Z1,,15,
+f99,Africa and Middle East countries,F99,,16,DZ + EG + LY + MA + TN + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW + AE + BH + IQ + KW + OM + QA + SA+YE+AM+AZ+GE+IL+JO+LB+SY (72 countries)
+f1xf4,Africa excluding North Africa,F1XF4,,17,
+f19,Africa not allocated,F19,,18,
+r61,African ACP countries,R61,,19,AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SL + SN + SO + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW
+f1xm,African Countries excluding Maghreb,F1XM,,20,EG + LY + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW (53 countries)
+5z2,African Development Bank Group,5Z2,,21,
+5q,African Development Fund,5Q,,22,
+6a1,African Union,6A1,,23,
+4j81,Agency for the Cooperation of Energy Regulators,4J81,,24,
+ax,Aland Islands,AX,,25,
+us1,Alaska,US1,,26,
+al,Albania,AL,,27,
+dz,Algeria,DZ,,28,
+w00,"All Countries, excluding the IO",W00,,29,W00=W0-1A
+z6,All areas other than EU 15 (fixed composition) and reference/home area as of 1 January 1995,Z6,,30,
+u9,All areas other than EU and ref./home area,U9,,31,
+m1,All areas other than Euro area 11 (fixed composition) and reference/home area as of 1 January 1999,M1,,32,
+m2,All areas other than Euro area 12 (fixed composition) and reference/home area as of 1 January 2001,M2,,33,
+m3,All areas other than Euro area 13 (fixed composition) and reference/home area as of 1 January 2007,M3,,34,
+m4,All areas other than Euro area 15 (fixed composition) and reference/home area as of 1 January 2008,M4,,35,
+m5,All areas other than Euro area 16 (fixed composition) and reference/home area as of 1 January 2009,M5,,36,
+m6,All areas other than Euro area 17 (fixed composition) and reference/home area as of 1 January 2011,M6,,37,
+m7,All areas other than Euro area 18 (fixed composition) and reference/home area as of 1 January 2014,M7,,38,
+m8,All areas other than Euro area 19 (fixed composition) and reference/home area as of 1 January 2015,M8,,39,
+u8,All areas other than Euro area and ref./home area,U8,,40,
+4aa,All the European Union Institutions excluding the ECB,4AA,,41,4AA=4B+4C+4D+4E+4G+4H+4I+4J+4M+4R+4T+4U+4V+4S+4W
+4dj,All the European Union Institutions financed via the EU Budget,4DJ,,42,4DJ=4D+4J
+4x,All the European Union Institutions not financed via the EU Budget,4X,,43,4C+4E+4G+4H+4I+4R+4T+4V+4F+4S+4U
+4a,"All the European Union and EURATOM institutions, excluding euro area institutions (changing composition)",4A,,44,4A=4B+4C+4D+4E+4G+4H+4I+4J+4M+4R+4T+4U+4V
+4y,"All the European Union and EURATOM institutions, including euro area institutions (changing composition)",4Y,,45,4Y=4A+4F+4S+4W
+a1,America,A1,,46,CA + US + GL + AG + AI + AW + BB + BM + BQ + BS + BZ + CR + CU + CW + DM + DO + GD + GT + HN + HT + JM + KN + KY + LC + MS + MX + NI + PA + SV + SX + TC + TT + VC + VG + VI  + AR + BO + BR + CL + CO + EC + FK + GY + PE + PY + SR + UY + VE + A19
+a1x,America Excluding OECD countries,A1X,,47,A1 - CA - CL (from 2010) - CO (from 2020) - MX - US
+a1x0,America Excluding OECD countries (Fixed composition-36 members),A1X0,,48,A1 - CA - CL - MX - US
+a1x1,America Excluding OECD countries (Fixed composition-37 members),A1X1,,49,A1 - CA - CL - CO - MX - US
+a19,America not allocated,A19,,50,
+o3m,American Oceania,O3M,,51,AS + GU + UM
+as,American Samoa,AS,,52,
+ad,Andorra,AD,,53,
+ao,Angola,AO,,54,
+ai,Anguilla,AI,,55,
+aq,Antarctica,AQ,,56,
+ag,Antigua and Barbuda,AG,,57,
+5z3,Arab Fund for Economic and Social Development,5Z3,,58,
+ar,Argentina,AR,,59,
+am,Armenia,AM,,60,
+aw,Aruba,AW,,61,
+5e,AsDB (Asian Development Bank),5E,,62,
+s1,Asia,S1,,63,S1 = S3 + S6 + S19
+s1x,Asia Excluding OECD countries,S1X,,64,S1-IL(from 2010)-JP-KR
+s1x0,Asia Excluding OECD countries (Fixed composition),S1X0,,65,S1-IL-JP-KR
+s1x2,Asia excl. Japan,S1X2,,66,S1 - JP
+s1x3,Asia excl. Japan & China,S1X3,,67,S1 - JP - CN
+s19,Asia not allocated,S19,,68,
+5z4,Asian Clearing Union,5Z4,,69,
+5r,Asian Development Fund,5R,,70,
+5x,Asian Infrastructure Investment Bank,5X,,71,
+s198,Asian NICs of the second wave of industrialization,S198,,72,MY+PH+TH
+6a2,Association of Southeast Asian Nations,6A2,,73,
+au,Australia,AU,,74,
+o6x0,Australia and New Zealand Excluding OECD countries deprecated,O6X0,,75,O6-AU-NZ
+o6,Australia and New Zealand deprecated,O6,,76,AU+NZ+NF+O69
+o69,Australia and New Zealand not allocated deprecated,O69,,77,
+o1x0,"Australia, Oceania and Polar regions Excluding OECD countries",O1X0,,78,O1-AU-NZ
+o1,"Australia, Oceania and polar regions",O1,,79,AU + FJ + FM + KI + MH + MP + NC + NR + NZ + PF + PG + PN + PW + SB + TO + TV + VU + WF + WS + CC + CX+HM + NF + AS + GU + UM + CK + NU + TK + AQ + BV + GS + T F+ O19
+o19,"Australia, Oceania and polar regions not allocated",O19,,80,
+o3a,Australian Oceania,O3A,,81,CC + CX + HM + NF
+at,Austria,AT,,82,
+az,Azerbaijan,AZ,,83,
+5n,BADEA (Banque arabe pour le développement économique en Afrique),5N,,84,
+5o,BCEAO (Banque Centrale des Etats de l'Afrique de l'Ouest),5O,,85,
+5w,BEAC (Banque des Etats de l'Afrique Centrale),5W,,86,
+5b,BIS (Bank for International Settlements),5B,,87,
+7i,BLADEX (Banco Latino Americano De Comercio Exterior),7I,,88,
+r7,BRIC,R7,,89,BR+RU+IN+CN
+r8,BRICS deprecated,R8,,90,BR+RU+IN+CN+ZA
+bs,Bahamas,BS,,91,
+bh,Bahrain,BH,,92,
+e31,Baltic countries,E31,,93,EE+LT+LV
+bd,Bangladesh,BD,,94,
+bb,Barbados,BB,,95,
+by,Belarus,BY,,96,
+be,Belgium,BE,,97,
+r109,Belgium-Luxembourg not allocated,R109,,98,
+r1,Belgo-Luxembourg Economic Union,R1,,99,BE+LU
+bz,Belize,BZ,,100,
+bj,Benin,BJ,,101,
+bm,Bermuda,BM,,102,
+bt,Bhutan,BT,,103,
+7g,Black Sea Trade and Development Banks,7G,,104,
+4j82,Body of European Regulators for Electronic Communications,4J82,,105,
+bo,Bolivia,BO,,106,
+bq,"Bonaire, Saint Eustatius and Saba",BQ,,107,
+ba,Bosnia and Herzegovina,BA,,108,
+bw,Botswana,BW,,109,
+bv,Bouvet Island,BV,,110,
+br,Brazil,BR,,111,
+io,British Indian Ocean territory,IO,,112,
+gb3,British Overseas Territories,GB3,,113,
+bn,Brunei Darussalam,BN,,114,
+bg,Bulgaria,BG,,115,
+bf,Burkina Faso,BF,,116,
+bi,Burundi,BI,,117,
+5t,CABEI (Central American Bank for Economic Integration),5T,,118,
+5p,CASDB (Central African States Development Bank),5P,,119,
+5l,CDB (Caribbean Development Bank),5L,,120,
+7e,CEB (Council of Europe Development Bank),7E,,121,
+n1,CEMAC (Communauté Économique et Monétaire de l’Afrique Centrale),N1,,122,
+6p,CERN (European Organisation for Nuclear Research),6P,,123,
+r14m,CIS & Mongolia,R14M,,124,R14 + MN
+kh,Cambodia,KH,,125,
+cm,Cameroon,CM,,126,
+ca,Canada,CA,,127,
+es2,Canary Islands,ES2,,128,
+c0,Candidate Countries (Changing composition),C0,,129,
+c5,"Candidate countries (AL,ME,MK,RS,TR)",C5,,130,C5=AL+ME+MK+RS+TR
+c3,"Candidate countries (HR,IS,ME,MK,TR)",C3,,131,
+c2,"Candidate countries (HR,IS,MK,TR)",C2,,132,
+c1,"Candidate countries (HR, MK, TR)",C1,,133,
+c4,"Candidate countries (IS,ME,MK,RS,TR)",C4,,134,IS+ME+MK+RS+TR
+cv,Cape Verde,CV,,135,
+r62,Caribbean ACP countries,R62,,136,AG + BB + BS + BZ + CU + DM + DO + GD + GY + HT + JM + KN + LC + SR + TT + VC
+6a3,Caribbean Community and Common Market,6A3,,137,
+a4,Caribbean deprecated,A4,,138,AI+AG+AN (until end 2010)+AW+BS (from 2011)+BB+BM+BQ+KY+CU+CW (from 2011)+DM+DO+GD+HT+JM+MS+KN+LC+VC+SX (from 2011)+TT+TC+VG+VI+A49
+a49,Caribbean not allocated deprecated,A49,,139,
+ky,Cayman Islands,KY,,140,
+s5,Central & South Asia,S5,,141,AF + BD + BT + BN + KH + IN + ID + KZ + KG + LA + MY + MV + MM + NP + PK + PH + SG + LK + TJ + TH + TL + TM + UZ + VN + S59
+s59,Central & South Asia not allocated,S59,,142,
+cf,Central African Republic,CF,,143,
+a3,"Central America (UN composition, namely Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua and Panama) deprecated",A3,,144,BZ+CR+SV+GT+HN+MX+NI+PA+A39
+a3x,Central America Excluding OECD countries deprecated,A3X,,145,A3X=A3-MX
+a5,Central America and Caribbean countries,A5,,146,AG + AI + AW + BB + BM + BQ + BS + BZ + CR + CU + CW + DM + DO + GD + GT + HN + HT + JM + KN + KY + LC + MS + MX + NI + PA + SV + SX + TC + TT + VC + VG + VI
+a5x,Central America and Caribbean countries excluding OECD countries,A5X,,147,A5-MX
+a39,Central America not allocated deprecated,A39,,148,
+6a4,Central American Common Market,6A4,,149,
+s4,Central Asia deprecated,S4,,150,KZ+KG+TJ+TM+UZ+S49
+s49,Central Asia not allocated deprecated,S49,,151,
+e7,Central and Eastern Europe,E7,,152,AL+BA+ME+MK+RS
+f2,Central and South Africa countries,F2,,153,AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW (51 countries)
+es11,Ceuta,ES11,,154,
+es1,Ceuta and Melilla,ES1,,155,
+td,Chad,TD,,156,
+cl,Chile,CL,,157,
+cn,China,CN,,158,
+cx,Christmas Island,CX,,159,
+cc,Cocos (Keeling) Islands,CC,,160,
+co,Colombia,CO,,161,
+5z5,Colombo Plan,5Z5,,162,
+4j7,Committee of Regions,4J7,,163,
+4j83,Community Plant Variety Office,4J83,,164,
+r14,Community of Independent States (CIS),R14,,165,AM + AZ + BY + GE (until end 2009)+ KG + KZ + MD + RU + TJ + TM + UA + UZ
+km,Comoros,KM,,166,
+4j84,Computer Emergency Response Team,4J84,,167,
+cg,Congo,CG,,168,
+cd,"Congo, the Democratic Republic of the",CD,,169,
+ck,Cook Islands,CK,,170,
+r9,Core Newly Industrializing Countries,R9,,171,HK+KR+SG+TW
+cr,Costa Rica,CR,,172,
+6c,Council of Europe,6C,,173,
+4j2,Council of the European Union,4J2,,174,
+xr41,Countries in Transition (IMF),XR41,,175,
+z14,Country aggregate (HR+HU+BG),Z14,,176,
+z13,Country aggregate (HR+HU+BG+RO),Z13,,177,
+4j4,Court of Auditors,4J4,,178,
+4j3,Court of Justice,4J3,,179,
+hr,Croatia,HR,,180,
+cu,Cuba,CU,,181,
+cw,Curacao,CW,,182,
+cy,Cyprus,CY,,183,
+cz,Czechia,CZ,,184,
+ci,Côte d'Ivoire,CI,,185,
+p3,DAC Reporting Countries,P3,,186,
+dk,Denmark,DK,,187,
+xs25,Developing Asia (IMF),XS25,,188,
+xs3,Developing Asia Excl. China & India (IMF),XS3,,189,
+7n,Development Bank of Latin America (Banco de Desarrollo de America Latina),7N,,190,
+dj,Djibouti,DJ,,191,
+w2,Domestic (home or reference area),W2,,192,
+w08,Domestic vis-à-vis world plus rest of the world vis-à-vis domestic,W08,,193,Reference / counterpart area (W2.W0+W1.W2)
+dm,Dominica,DM,,194,
+do,Dominican Republic,DO,,195,
+ae2,Dubai,AE2,,196,
+r19,EAC (East African Community) deprecated,R19,,197,BI+KE+RW+TZ+UG
+4t1,EBA (European Banking Authority),4T1,,198,
+5f,EBRD (European Bank for Reconstruction and Development),5F,,199,
+6k,EBU/UER (European Broadcasting Union/Union européenne de radio-télévision),6K,,200,
+4f,ECB (European Central Bank),4F,,201,
+5i,ECCB (Eastern Caribbean Central Bank),5I,,202,
+n2,ECCU (Eastern Caribbean Currency Union),N2,,203,
+6n,ECMWF (European Centre for Medium-Range Weather Forecasts),6N,,204,
+6a6,ECOWAS Bank for Investment and Development,6A6,,205,
+7c,EDB (Eurasian Development Bank ),7C,,206,
+4e,EDF (European Development Fund),4E,,207,
+g00,EEA except the EU countries participating in the Single Supervisory Mechanism (SSM),G00,,208,
+g2,EEA except the euro area and reference area,G2,,209,
+4w,EFSF (European Financial Stability Facility),4W,,210,
+r2,EFTA (European Free Trade Association),R2,,211,CH+IS+LI+NO
+4c,EIB (European Investment Bank),4C,,212,
+4g,EIF (European Investment Fund),4G,,213,
+4t3,EIOPA (European Insurance and Occupational Pensions Authority),4T3,,214,
+6i,EMBL (European Molecular Biology Laboratory),6I,,215,
+4b,EMS (European Monetary System),4B,,216,
+6f,EPO (European Patent Office),6F,,217,
+6e,ESA (European Space Agency),6E,,218,
+4s,ESM (European Stability Mechanism),4S,,219,
+4t2,ESMA (European Securities and Markets Authority),4T2,,220,
+6m,ESO (European Southern Observatory),6M,,221,
+b09,"EU  (Member States and Institutions of the European Union) changing composition, not allocated",B09,,222,B09= U29+U39
+b0,EU (Member States and Institutions of the European Union) changing composition,B0,,223,
+b00,"EU (Member States of the European Union) changing composition, excluding EU Institutions",B00,,224,AT + BE + BG (from 2007)+ CY + CZ + DE + DK + EE + ES + FI + FR + GB (until 2020) + GR + HR (from 2013) + HU + IE + IT + LT + LU + LV   MT + NL + PL + PT + RO (from 2007) SE + SI + SK + B09
+z10,EU 12 (fixed composition) including West Germany as of 1 November 1993,Z10,,225,
+z9,EU 15 (fixed composition) excluding LU as of 1 January 1995,Z9,,226,
+b4,EU 27 (fixed composition),B4,,227,AT + BE + BG + CY + CZ + DE + DK + EE + ES + FI + FR + GB + GR + HU + IE + IT + LT + LU + LV +  MT + NL + PL + PT + RO + SE + SI + SK+4Y+B09
+q1,"EU 27 member states, outside the euro area 13, excluding DK, SE, GB (CY,CZ,EE,HU,LV,LT,MT,PL,SK,RO,BG) as of 1 January 2007",Q1,,228,
+q2,"EU 27 member states, outside the euro area 15, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,SK,RO,BG) as of 1 January 2008",Q2,,229,
+q3,"EU 27 member states, outside the euro area 16, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,RO,BG) as of 1 January 2009",Q3,,230,
+q4,"EU 27 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG) as of 1 January 2011",Q4,,231,
+q8,"EU 27 member states, outside the euro area 20, excluding DK, SE (CZ,HU,PL,RO,BG) as of 1 January 2023",Q8,,232,
+q5,"EU 28 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG) as of 1 July 2013",Q5,,233,
+q6,"EU 28 member states, outside the euro area 18, excluding DK, SE, GB (CZ,HU,LT,PL,RO,BG) as of 1 January 2014",Q6,,234,
+q7,"EU 28 member states, outside the euro area 19, excluding DK, SE, GB (CZ,HR,HU,PL,RO,BG) as of 1 January 2015",Q7,,235,
+b01,EU countries participating in the Single Supervisory Mechanism (SSM) (changing composition),B01,,236,
+u0,EU excluding the Euro area and reference area (changing composition),U0,,237,
+k1,EU member states not belonging to Euro area 11 (fixed composition) as of 1 January 1999,K1,,238,
+k2,EU member states not belonging to Euro area 12 (fixed composition) as of 1 January 2001,K2,,239,
+k3,EU member states not belonging to Euro area 13 (fixed composition) as of 1 January 2007,K3,,240,
+k4,EU member states not belonging to Euro area 15 (fixed composition) as of 1 January 2008,K4,,241,
+k5,EU member states not belonging to Euro area 16 (fixed composition) as of 1 January 2009,K5,,242,
+4r,EU-Africa Infrastructure Trust Fund,4R,,243,
+b1,EU12 (fixed composition),B1,,244,
+b10,EU12 excluding EU institutions,B10,,245,
+b2,EU15 (fixed composition),B2,,246,
+b20,EU15 excluding EU institutions,B20,,247,
+b3,EU25 (fixed composition),B3,,248,
+b30,EU25 excluding EU institutions,B30,,249,
+b6,EU27 (fixed composition) as of 31 January 2020 (brexit),B6,,250,
+b60,EU27 (fixed composition) excluding EU institutions as of 31 January 2020 (brexit),B60,,251,
+b40,EU27 excluding EU institutions,B40,,252,
+k6,EU27 member states not belonging to Euro area 17 (fixed composition) as of 1 January 2011,K6,,253,
+k11a,EU27 member states not belonging to Euro area 20 (fixed composition) - EU institutions as of 1 January 2023,K11A,,254,
+k11,EU27 member states not belonging to Euro area 20 (fixed composition) as of 1 January 2023,K11,,255,
+k11b,"EU27 member states not belonging to Euro area 20 (fixed composition), as of 1 January 2023 excluding EU institutions not belonging to euro area",K11B,,256,
+k10,"EU27 member states, as of 31 January 2020 (brexit), not belonging to Euro area 19 (fixed composition)",K10,,257,
+k10b,"EU27 member states, as of 31 January 2020 (brexit), not belonging to Euro area 19 (fixed composition) excluding EU institutions not belonging to euro area",K10B,,258,
+b5,EU28 (fixed composition),B5,,259,B5 = I8 + (BG + CZ + DK + GB + HR + HU + PL + RO + SE+ 4A + B09) -U29
+b50,EU28 excluding EU institutions,B50,,260,
+k7,EU28 member states not belonging to Euro area 17 (fixed composition) as of 1 July 2013,K7,,261,
+k8,EU28 member states not belonging to Euro area 18 (fixed composition) as of 1 January 2014,K8,,262,
+k9a,EU28 member states not belonging to Euro area 19 (fixed composition) - United Kingdom - EU institutions as of 1 January 2015,K9A,,263,
+k9,EU28 member states not belonging to Euro area 19 (fixed composition) as of 1 January 2015,K9,,264,
+k9b,"EU28 member states not belonging to Euro area 19 (fixed composition), as of 1 January 2015 excluding EU institutions not belonging to euro area",K9B,,265,
+6l,EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites),6L,,266,
+4u,EURATOM,4U,,267,
+4u2,EURATOM Supply Agency,4U2,,268,
+6g,EUROCONTROL (European Organisation for the Safety of Air Navigation),6G,,269,
+7m,EUROFIMA (European Company for the Financing of Railroad Rolling Stock),7M,,270,
+6h,EUTELSAT (European Telecommunications Satellite Organisation),6H,,271,
+6a5,East African Development Bank,6A5,,272,
+de2,East Germany,DE2,,273,
+f3,Eastern Africa deprecated,F3,,274,BI+KM+DJ+ER+ET+KE+MG+MW+MU+MZ+RW+SC+SD+SO+SS+TZ+UG+ZM+ZW+F39
+f39,Eastern Africa not allocated deprecated,F39,,275,
+s2,Eastern Asia,S2,,276,CN+TW+HK+MO+KP+KR+JP+MN+S29
+s2x,Eastern Asia Excluding OECD countries deprecated,S2X,,277,S2-KR-JP
+s29,Eastern Asia not allocated,S29,,278,
+e2x,Eastern Europe Excluding OECD countries deprecated,E2X,,279,E2-CZ-HU-PL-SK
+e2,Eastern Europe deprecated,E2,,280,BY+BG+CZ+HU+MD+PL+RO+RU+SK+UA+E29
+e29,Eastern Europe not allocated deprecated,E29,,281,
+5z6,Economic Community of West African States,5Z6,,282,
+4j6,Economic and Social Committee,4J6,,283,
+ec,Ecuador,EC,,284,
+eg,Egypt,EG,,285,
+sv,El Salvador,SV,,286,
+xs2,Emerging Asia (IMF),XS2,,287,
+xr24,Emerging Economies G-20 (IMF),XR24,,288,
+xs6,Emerging Europe (IMF),XS6,,289,
+xr43,Emerging and developing economies (IMF),XR43,,290,
+z12,Equally-shared control of UCIs (ultimate controlling institutional units of a foreign affiliate) of more than one EU member state,Z12,,291,
+gq,Equatorial Guinea,GQ,,292,
+er,Eritrea,ER,,293,
+ee,Estonia,EE,,294,
+et,Ethiopia,ET,,295,
+6a11,Eurasian Economic Commission,6A11,,296,
+u2,Euro area (Member States and Institutions of the Euro Area) changing composition,U2,,297,
+u20,"Euro area (Member States of the Euro Area) excluding ECB, ESM and EFSF",U20,,298,AT + BE + CY + DE + EE + ES + FI + FR + GR + IE + IT + LV + LT + LU +  MT + NL + PT + SI + SK + HR (from 01/01/2023)
+u29,Euro area (changing composition) not allocated,U29,,299,
+z1,Euro area (moving concept in the Real Time database context),Z1,,300,
+i1,Euro area 11 (fixed composition) as of 1 January 1999,I1,,301,
+z3,Euro area 11 (fixed composition) excluding LU as of 1 January 1999,Z3,,302,
+i19,Euro area 11 (fixed composition) not allocated as of 1 January 1999,I19,,303,
+i2,Euro area 12 (fixed composition) as of 1 January 2001,I2,,304,
+i29,Euro area 12 (fixed composition) not allocated as of 1 January 2001,I29,,305,
+i3,Euro area 13 (fixed composition) as of 1 January 2007,I3,,306,
+i39,Euro area 13 (fixed composition) not allocated as of 1 January 2007,I39,,307,
+i4,Euro area 15 (fixed composition) as of 1 January 2008,I4,,308,
+i49,Euro area 15 (fixed composition) not allocated as of 1 January 2008,I49,,309,
+i5,Euro area 16 (fixed composition) as of 1 January 2009,I5,,310,
+i59,Euro area 16 (fixed composition) not allocated as of 1 January 2009,I59,,311,
+i6,Euro area 17 (fixed composition) as of 1 January 2011,I6,,312,
+i69,Euro area 17 (fixed composition) not allocated as of 1 January 2011,I69,,313,
+i7,Euro area 18 (fixed composition) as of 1 January 2014,I7,,314,
+i79,Euro area 18 (fixed composition) not allocated as of 1 January 2014,I79,,315,
+i8,Euro area 19 (fixed composition) as of 1 January 2015,I8,,316,
+i89,Euro area 19 (fixed composition) not allocated as of 1 January 2014,I89,,317,
+i9,Euro area 20 (fixed composition) as of 1 January 2023,I9,,318,
+i99,Euro area 20 (fixed composition) not allocated as of 1 January 2023,I99,,319,
+u7,Euro area and the reference area,U7,,320,
+z4,"Euro area countries except Germany, France, Italy and Spain",Z4,,321,
+z11,"Euro area countries: LU, LT, LV, SI, CY, MT, EE, SK",Z11,,322,Z11=LU+LT+LV+SI+CY+MT+EE+SK
+e1,Europe,E1,,323,AT + BE + BG + CY + CZ + DE + DK + EE + ES + FI + FR + GB + GR + HR + HU + IE + IT + LT + LU + LV +  MT + NL + PL + PT + RO + SE + SI + SK + CH + IS + LI + NO + AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS+ E19
+e1x,Europe Excluding OECD countries,E1X,,324,E1-AT-BE-CH-CZ-DE-DK-EE (from 2010) -ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-LV (from 2015)-NL-NO-PL-PT-SE-SI (from 2010)-SK-TR
+e1x0,Europe Excluding OECD countries (Fixed composition-34 members),E1X0,,325,E1-AT-BE-CH-CZ-DE-DK-EE-ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-NL-NO-PL-PT-SE-SI-SK-TR
+e1x1,Europe Excluding OECD countries (Fixed composition-35 members),E1X1,,326,E1-AT-BE-CH-CZ-DE-DK-EE-ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-LV-NL-NO-PL-PT-SE-SI-SK-TR
+e10,Europe except European Economic Area countries,E10,,327,
+e1x2,Europe excluding OECD countries (Fixed composition-36 members),E1X2,,328,E1-AT-BE-CH-CZ-DE-DK-EE-ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-LT-LV-NL-NO-PL-PT-SE-SI-SK-TR
+e19,Europe not allocated,E19,,329,
+4j85,European Agency for Safety and Health at Work,4J85,,330,
+4j86,European Agency for the Management of Operational Cooperation at the External Borders,4J86,,331,
+4j87,"European Agency for the operational management of large-scale IT systems in the area of freedom, security and justice",4J87,,332,
+4j88,European Asylum Support Office,4J88,,333,
+4j89,European Aviation Safety Agency,4J89,,334,
+4j810,European Centre for Disease Prevention and Control,4J810,,335,
+4j811,European Centre for the Development of Vocational Training,4J811,,336,
+4j812,European Chemicals Agency,4J812,,337,
+4h,European Coal and Steel Community,4H,,338,
+4d,European Commission,4D,,339,
+4j5,European Council,4J5,,340,
+4j813,European Data Protection Supervisor,4J813,,341,
+4j814,European Defence Agency,4J814,,342,
+g0,European Economic Area,G0,,343,AT + BE + BG (from 2007)+ CY + CZ + DE + DK + EE + ES + FI + FR + GB (until 2020) + GR + HR (from 2013) + HU + IE + IT + LT + LU + LV   MT + NL + PL + PT + RO (from 2007) SE + SI + SK + IS + LI +NO + 4Y + B09
+e1e,European Economies (CDIS),E1E,,344,E1E = AL + AD + AT + BY + BE + BA + BG + HR + CY + CZ + DK + EE + FO + FI + FR + DE + GI + GR + GL + GG + HU + IS + IE + IM + IT + JE + XK + LV + LI + LT + LU + MK + MT + MD + MC + ME + NL + NO + PL + PT + RO + RU + SM + RS + SK + SI + ES + SE + CH + TR + UA + GB + VA + E1E9
+e1e9,European Economies Not Allocated (CDIS),E1E9,,345,
+4j815,European Environment Agency,4J815,,346,
+4j816,European External Action Service,4J816,,347,
+4j817,European Fisheries Control Agency,4J817,,348,
+4j818,European Food Safety Authority,4J818,,349,
+4j819,European Foundation for the Improvement of Living and Working Conditions,4J819,,350,
+5z7,European Free Trade Association,5Z7,,351,
+4j820,European GNSS Agency,4J820,,352,
+4j821,European Institute for Gender Equality,4J821,,353,
+4j822,European Institute of Innovation and Technology,4J822,,354,
+4j823,European Maritime Safety Agency,4J823,,355,
+4j824,European Medicines Agency,4J824,,356,
+4j825,European Monitoring Centre for Drugs and Drug Addiction,4J825,,357,
+4j826,European Network and Information Security Agency,4J826,,358,
+4j827,European Ombudsman,4J827,,359,
+4j1,European Parliament,4J1,,360,
+4j828,European Personnel Selection Office,4J828,,361,
+4j829,European Police College,4J829,,362,
+4j830,European Police Office,4J830,,363,
+4j831,European Public Prosecutor's Office,4J831,,364,
+4j832,European Railway Agency,4J832,,365,
+4j833,European School of Administration,4J833,,366,
+4sw,European Stability Mechanism (ESM) and European Financial Stability Facility (EFSF),4SW,,367,4SW=4S+4W
+4j834,European Training Foundation,4J834,,368,
+4j835,European Union Agency for Fundamental Rights,4J835,,369,
+4j836,European Union Institute for Security Studies,4J836,,370,
+4j837,European Union Intellectual Property Office,4J837,,371,
+4j838,European Union Satellite Centre,4J838,,372,
+x1f,Export Earnings: Fuel (IMF),X1F,,373,
+x1nf,Export Earnings: Nonfuel (IMF),X1NF,,374,
+g1,Extra EEA,G1,,375,
+u4,Extra Euro area  (changing composition),U4,,376,
+d0,Extra-EU (changing composition),D0,,377,
+d09,Extra-EU (changing composition) not allocated,D09,,378,
+d1,Extra-EU 12 (fixed composition),D1,,379,
+d2,Extra-EU 15 (fixed composition),D2,,380,
+d3,Extra-EU 25 (fixed composition),D3,,381,
+d4,Extra-EU 27 (fixed composition),D4,,382,
+d6,Extra-EU 27 (fixed composition) as of 31 January 2020 (brexit),D6,,383,
+d6a,"Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding BR, CA, CN, IN, JP, RU, CH, US",D6A,,384,
+d6d,"Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding BR, CA, CN, IN, JP, RU, CH, US and including EU institutions non belonging to euro area",D6D,,385,
+d6b,"Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding CA, CN, JP, CH, US, R12, 9A",D6B,,386,
+d6c,"Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding CA, RU, CH, TR, US, F2, E4, B2",D6C,,387,
+d5,Extra-EU 28 (fixed composition),D5,,388,
+d5a,"Extra-EU 28 (fixed composition) excluding BR + CA + CN + IN + JP + RU + CH +US, as of 1 July 2013",D5A,,389,D5A = D5 - (BR + CA + CN + IN + JP + RU + CH +US)
+d5b,"Extra-EU 28 (fixed composition) excluding CA + CN +HK + JP + CH +US + R12 + 9A, as of 1 July 2013",D5B,,390,D5B =  D5 -  (CA + CN +HK + JP + CH +US + R12 + 9A)
+d5c,"Extra-EU 28 (fixed composition) excluding CA+ RU + CH + TR + US + F2 + E4 + B2, as of 1 July 2013",D5C,,391,D5C= D5 -  (CA+ RU + CH + TR + US + F2 + E4 + B2)
+d5d,"Extra-EU 28 (fixed composition), as of 1 July 2013 excluding BR + CA + CN + IN + JP + RU + CH +US and including EU institutions non belonging to euro area",D5D,,392,
+u49,Extra-Euro area (changing composition) not allocated,U49,,393,
+j1,Extra-Euro area 11 (fixed composition) as of 1 January 1999,J1,,394,
+j19,Extra-Euro area 11 (fixed composition) not allocated as of 1 January 1999,J19,,395,
+j2,Extra-Euro area 12 (fixed composition) as of 1 January 2001,J2,,396,
+j29,Extra-Euro area 12 (fixed composition) not allocated as of 1 January 2001,J29,,397,
+j3,Extra-Euro area 13 (fixed composition) as of 1 January 2007,J3,,398,
+j39,Extra-Euro area 13 (fixed composition) not allocated) as of 1 January 2007,J39,,399,
+j4,Extra-Euro area 15 (fixed composition) as of 1 January 2008,J4,,400,
+j49,Extra-Euro area 15 (fixed composition) not allocated as of 1 January 2008,J49,,401,
+j5,Extra-Euro area 16 (fixed composition) as of 1 January 2009,J5,,402,
+j59,Extra-Euro area 16 (fixed composition) not allocated as of 1 January 2009,J59,,403,
+j6,Extra-Euro area 17 (fixed composition) as of 1 January 2011,J6,,404,
+j69,Extra-Euro area 17 (fixed composition) not allocated as of 1 January 2011,J69,,405,
+j7,Extra-Euro area 18 (fixed composition) as of 1 January 2014,J7,,406,
+j79,Extra-Euro area 18 (fixed composition) not allocated as of 1 January 2014,J79,,407,
+j8,Extra-Euro area 19 (fixed composition) as of 1 January 2015,J8,,408,
+j89,Extra-Euro area 19 (fixed composition) not allocated as of 1 January 2015,J89,,409,
+j9,Extra-Euro area 20 (fixed composition) as of 1 January 2023,J9,,410,
+j99,Extra-Euro area 20 (fixed composition) not allocated as of 1 January 2023,J99,,411,
+1j,FAO (Food and Agriculture Organisation),1J,,412,
+4v,FEMIP (Facility for Euro-Mediterranean Investment and Partnership),4V,,413,
+7j,FLAR (Fondo Latino Americano de Reservas),7J,,414,
+fk,Falkland Islands (Malvinas),FK,,415,
+fo,Faroe Islands,FO,,416,
+fj,Fiji,FJ,,417,
+fi,Finland,FI,,418,
+7k,Fonds Belgo-Congolais d'Amortissement et de Gestion,7K,,419,
+5s,Fonds spécial unifié de développement,5S,,420,
+csh,Former Czechoslovakia,CSH,,421,
+csh9,Former Czechoslovakia not allocated,CSH9,,422,
+suh,Former U.S.S.R.,SUH,,423,
+suh9,Former U.S.S.R. not allocated,SUH9,,424,
+yuc,Former Yugoslavia,YUC,,425,
+yuc9,Former Yugoslavia not allocated,YUC9,,426,
+fr,France,FR,,427,
+r13,French Franc zone,R13,,428,BF+BJ+CF+CG+CI+CM+GA+GQ+GW + KM + ML + NE + SN + TD + TG
+gf,French Guiana,GF,,429,
+pf,French Polynesia,PF,,430,
+tf,French Southern Territories,TF,,431,
+fr1,French West Indies,FR1,,432,
+fr19,French West Indies not allocated,FR19,,433,
+4u1,Fusion for Energy,4U1,,434,
+5z8,Fusion for Energy deprecated,5Z8,,435,
+r22,"G20 (Argentina, Australia, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Russia, Saudi Arabia, South Africa, South Korea, Türkiye, United States and the European Union Member States - including France, Germany, Italy, United Kingdom)",R22,,436,R22=AR + AU + BR + CA +CN + B5 + IN + ID + JP + MX+RU+SA+ZA+KR+TR + US
+r222,G20 Non-OECD countries,R222,,437,AR+BR+CN+IN+ID+RU+SA+ZA
+r221,G20 OECD countries,R221,,438,AU+CA+DE+FR+GB+IT+JP+KR+MX+TR+US
+r223,G20 countries (excluding the EU and individual euro area members states),R223,,439,R223=AU+CA+JP+KR+MX+TR+US+ AR+BR+CN+IN+ID+RU+SA+ZA+GB
+r220,G20 excluding European Union (19 individual countries),R220,,440,R220=AU+CA+DE+FR+GB+IT+JP+KR+MX+TR+US+ AR+BR+CN+IN+ID+RU+SA+ZA
+r24,G8: G7 + Russia,R24,,441,R23 + RU
+ga,Gabon,GA,,442,
+gm,Gambia,GM,,443,
+xg,Gaza and Jericho,XG,,444,
+w24,General governments and institutions of the EU,W24,,445,
+ge,Georgia,GE,,446,
+de,Germany,DE,,447,
+gh,Ghana,GH,,448,
+gi,Gibraltar,GI,,449,
+gr,Greece,GR,,450,
+gl,Greenland,GL,,451,
+gd,Grenada,GD,,452,
+gp,Guadeloupe,GP,,453,
+gu,Guam,GU,,454,
+gt,Guatemala,GT,,455,
+gg,Guernsey,GG,,456,
+gn,Guinea,GN,,457,
+gw,Guinea-Bissau,GW,,458,
+s35,Gulf Arabian Countries,S35,,459,AE + BH + IQ + KW + OM + QA + SA + YE
+s359,Gulf Arabian Countries not allocated deprecated,S359,,460,
+gy,Guyana,GY,,461,
+ht,Haiti,HT,,462,
+us2,Hawaii,US2,,463,
+hm,Heard Island and McDonald Islands,HM,,464,
+xr40,Heavily Indebted Poor Countries (IMF),XR40,,465,
+va,Holy See (Vatican City State),VA,,466,
+hn,Honduras,HN,,467,
+hk,"Hong Kong, China",HK,,468,
+hu,Hungary,HU,,469,
+5c,IADB (Inter-American Development Bank),5C,,470,
+1r,IAEA (International Atomic Energy Agency),1R,,471,
+5j,IBEC (International Bank for Economic Co-operation),5J,,472,
+1e,IBRD (International Bank for Reconstruction and Development),1E,,473,
+6d,ICRC (International Committee of the Red Cross),6D,,474,
+1g,ICSID (International Centre for Settlement of Investment Disputes),1G,,475,
+1f,IDA (International Development Association),1F,,476,
+7b,IDB (Islamic Development Bank),7B,,477,
+6a10,IEA (International Energy Agency),6A10,,478,
+1l,IFAD (International Fund for Agricultural Development),1L,,479,
+1m,IFC (International Finance Corporation),1M,,480,
+7l,IFFIm (International finance Facility for Immunisation),7L,,481,
+5k,IIB (International Investment Bank),5K,,482,
+5g,IIC (Inter-American Investment Corporation),5G,,483,
+1s,ILO (International Labour Organisation),1S,,484,
+1c,IMF (International Monetary Fund),1C,,485,
+x0,IMF Member Countries (IMF),X0,,486,
+6q,IOM (International Organisation for Migration),6Q,,487,
+6j,ITSO (International Telecommunications Satellite Organisation),6J,,488,
+1t,ITU (International Telecommunication Union),1T,,489,
+is,Iceland,IS,,490,
+in,India,IN,,491,
+id,Indonesia,ID,,492,
+5z9,Intergovernmental Council of Copper Exporting Countries,5Z9,,493,
+6z2,International Centre for Migration Policy Development,6Z2,,494,
+5z10,International Civil Aviation Organization,5Z10,,495,
+5z11,International Cocoa Organization,5Z11,,496,
+5z12,International Coffee Organization,5Z12,,497,
+5z13,International Copper Study Group,5Z13,,498,
+5z14,International Cotton Advisory Committee,5Z14,,499,
+5z45,International Council for the Exploration of the Sea (ICES),5Z45,,500,
+5z15,International Grains Council,5Z15,,501,
+5z16,International Jute Study Group,5Z16,,502,
+5z17,International Lead and Zinc Study Group,5Z17,,503,
+5z18,International Maritime Organization,5Z18,,504,
+5z19,International Maritime Satellite Organization,5Z19,,505,
+5z20,International Olive Oil Council,5Z20,,506,
+9a,International Organisations excluding European Union Institutions,9A,,507,1A-4Y
+5z21,International Rubber Study Group,5Z21,,508,
+5z22,International Sugar Organization,5Z22,,509,
+7f,International Union of Credit and Investment Insurers,7F,,510,
+1a,International organisations,1A,,511,1A=1B+4A+4F+4S+4W+5A+6A
+9b,International organization excluding the BIS and the IMF,9B,,512,1A-1C-5B
+u30,Intra EU Extra Euro Area  (changing composition) excluding EU institutions,U30,,513,BG + CZ + DK + GB + HR + HU + LT + LV + PL + RO + SE (from 2103)
+u39,Intra EU Extra Euro Area  (changing composition) not allocated,U39,,514,
+u3,Intra EU Extra Euro Area (EU member states and institutions not belonging to the Euro area) changing composition,U3,,515,U3=U30+4A
+u31,Intra EU Extra Euro Area (EU member states and institutions not belonging to the Euro area) changing composition excluding the reference area,U31,,516,
+ir,"Iran, Islamic Republic of",IR,,517,
+iq,Iraq,IQ,,518,
+ie,Ireland,IE,,519,
+im,Isle of Man,IM,,520,
+il,Israel,IL,,521,
+it,Italy,IT,,522,
+jm,Jamaica,JM,,523,
+jp,Japan,JP,,524,
+je,Jersey,JE,,525,
+4t,Joint Committee of the European Supervisory Authorities (ESAs),4T,,526,4T=4T1+4T2+4T3
+jo,Jordan,JO,,527,
+kz,Kazakhstan,KZ,,528,
+ke,Kenya,KE,,529,
+sz,Kingdom of Eswatini,SZ,,530,
+ki,Kiribati,KI,,531,
+kp,"Korea, Democratic People's Republic of",KP,,532,
+kr,"Korea, Republic of",KR,,533,
+xk,Kosovo,XK,,534,
+kw,Kuwait,KW,,535,
+kg,Kyrgyzstan,KG,,536,
+la,Lao People's Democratic Republic,LA,,537,
+a8,Latin America,A8,,538,AR + BO + BR + CL + CO + CR + CU + EC + GT + HN + MX + NI + PA + PE + PY + SV + UY + VE
+a9,Latin America & Caribbean,A9,,539,AI + AG + AR + AW + BS + BB + BZ + BO + BR + VG + KY + CL + CO + CR + CU + DM + DO + EC + SV + FK + GD + GP + GT + GF + GY + HT + HN + JM + MQ + MX + MS + AN + NI + PA + PY + PE + PR + KN + LC + VC + SR + TT + TC + UY + VE + A99
+a99,Latin America & Caribbean not allocated,A99,,540,
+6a7,Latin American Association of Development Financing Institutions,6A7,,541,
+5z24,Latin American Energy Organization,5Z24,,542,
+5z25,Latin American Integration Association,5Z25,,543,
+a84,Latin American NICs of the second wave of industrialization,A84,,544,AR+BR+CL+MX
+5z23,Latin American and the Caribbean Economic System,5Z23,,545,
+lv,Latvia,LV,,546,
+5z26,League of Arab States,5Z26,,547,
+lb,Lebanon,LB,,548,
+a42,Leeward Islands,A42,,549,A42 = VI+ VG+ AI+ MF+ BL+ BQ+ KN+ AG+ MS
+ls,Lesotho,LS,,550,
+lr,Liberia,LR,,551,
+ly,Libya,LY,,552,
+li,Liechtenstein,LI,,553,
+lt,Lithuania,LT,,554,
+lu,Luxembourg,LU,,555,
+xr42,MDRI Countries (IMF),XR42,,556,
+1n,MIGA (Multilateral Investment Guarantee Agency),1N,,557,
+mo,Macao,MO,,558,
+mg,Madagascar,MG,,559,
+f41,Maghreb countries,F41,,560,DZ+MA+TN (3 countries)
+r23,Major Advanced Economies - G7,R23,,561,US + GB + FR + DE + IT + CA + JP
+mw,Malawi,MW,,562,
+my,Malaysia,MY,,563,
+mv,Maldives,MV,,564,
+ml,Mali,ML,,565,
+mt,Malta,MT,,566,
+mh,Marshall Islands,MH,,567,
+mq,Martinique,MQ,,568,
+f42,Mashrek Countries,F42,,569,EG+JO+LB+PS+SY (5 countries)
+mr,Mauritania,MR,,570,
+mu,Mauritius,MU,,571,
+yt,Mayotte,YT,,572,
+r11,Mediterranean Basin countries,R11,,573,AL+BA+DZ+EG+GI+IL+JO+LB+LY+MA+ME+MK+PS+RS+SY+TN+TR
+r17,Mediterranean countries in the European Unionro-Mediterranean Partnership,R17,,574,AL + BA + DZ + EG + IL + JO + LB + MA + ME + MR + PS + SY +TN + TR
+o79,Melanesia  not allocated deprecated,O79,,575,
+o7,Melanesia deprecated,O7,,576,FJ+NC+PG+SB+VU+O79
+es12,Melilla,ES12,,577,
+r15,Mercado comun de los paises del cono sur,R15,,578,AR+BR+PY+UY+VE
+mx,Mexico,MX,,579,
+o89,Micronesia  not allocated deprecated,O89,,580,
+o8,Micronesia deprecated,O8,,581,GU+KI+MH+FM+NR+MP+PW+O89
+fm,"Micronesia, Federated States of",FM,,582,
+f5,Middle Africa deprecated,F5,,583,AO+CM+CF+TD+CG+CD+GQ+GA+ST+F59
+f59,Middle Africa not allocated deprecated,F59,,584,
+f97,Middle East,F97,,585,BH + EG + IR + IQ + JO + KW + LB + LY + OM + QA + SA + SY + AE + PS + YE +F979
+xs5,Middle East and Central Asia (IMF),XS5,,586,
+f98,Middle East and North Africa (MENA),F98,,587,AE+BH+DJ+DZ+EG+IQ+JO+KW+LB+LY+MA+OM+PS+QA+SA+SY+TN+YE
+f979,Middle East not allocated,F979,,588,
+md,"Moldova, Republic of",MD,,589,
+mc,Monaco,MC,,590,
+mn,Mongolia,MN,,591,
+me,Montenegro,ME,,592,
+ms,Montserrat,MS,,593,
+ma,Morocco,MA,,594,
+mz,Mozambique,MZ,,595,
+5aa,Multilateral Lending Agencies,5AA,,596,
+mm,Myanmar,MM,,597,
+r3,NAFTA (North American Free Trade Association),R3,,598,CA+US+MX
+6b,NATO (North Atlantic Treaty Organisation),6B,,599,
+5h,NIB (Nordic Investment Bank),5H,,600,
+namibia,Namibia,namibia,,601,
+nr,Nauru,NR,,602,
+s3x,Near and Middle East Excluding OECD countries,S3X,,603,S3-IL (from 2010)
+s3x0,Near and Middle East Excluding OECD countries (Fixed composition),S3X0,,604,S3-IL
+s3,Near and Middle East countries,S3,,605,AM + AZ + GE + IL + JO + LB + PS + SY + AE + BH + IQ + KW + OM + QA + SA + YE
+s39,Near and Middle East not allocated  deprecated,S39,,606,
+4i,Neighbourhood Investment Facility,4I,,607,
+np,Nepal,NP,,608,
+nl,Netherlands,NL,,609,
+an,Netherlands Antilles,AN,,610,
+nc,New Caledonia,NC,,611,
+c99,"New EU member states 2004 (CY,CZ,EE,HU,LV,LT,MT,PL,SK,SI)",C99,,612,
+c98,"New EU member states joining in 2004 and 2007 (BG,CY,CZ,EE,HU,LV,LT,MT,PL,RO,SK,SI)",C98,,613,
+nz,New Zealand,NZ,,614,
+o3z,New Zealand Oceania,O3Z,,615,CK + NU + TK
+xs4,Newly Industrialized Asian Economies (IMF),XS4,,616,
+ni,Nicaragua,NI,,617,
+ne,Niger,NE,,618,
+ng,Nigeria,NG,,619,
+nu,Niue,NU,,620,
+xr25,Non G-20 Countries (IMF),XR25,,621,
+xr44,Non-oil Developing Countries (IMF),XR44,,622,
+w29,Non-resident in the economic territory,W29,,623,
+nf,Norfolk Island,NF,,624,
+f4,North Africa,F4,,625,DZ + EG + LY + MA + TN (5 countries) +F49
+f49,North Africa not allocated,F49,,626,
+a2x,North America Excluding OECD countries,A2X,,627,A2-CA-US
+a29,North America not allocated deprecated,A29,,628,
+a2,North American countries,A2,,629,CA + US + GL
+a6,North Atlantic & Caribbean,A6,,630,A6 = AI + AG + AW + BS + BB + BM + BQ+ KY + CU + CW + DM + DO + GD + GP + HT + JM + MQ + MS + AN + PR + KN + LC + PM + VC + MF + TT + TC + VG + VI + A69
+a69,North Atlantic & Caribbean not allocated,A69,,631,
+mk,North Macedonia,MK,,632,
+a2a3,North and Central American countries (CDIS),A2A3,,633,A2A3 = BZ + CA + CR + SV + GT + HN + MX + NI + PA + US + A2A39
+a2a39,North and Central American countries Not Allocated (CDIS),A2A39,,634,A2A3 = BZ + CA + CR + SV + GT + HN + MX + NI + PA + US
+e3x,Northern Europe Excluding OECD countries deprecated,E3X,,635,E3-DK-EE(from 2010)-FI-IS-IE-NO-SE-GB
+e3,Northern Europe deprecated,E3,,636,DK+EE(from2010)+FO+FI+GG+IS+IE+IM+JE+LV+LT+NO+SE+GB+E39
+e39,Northern Europe not allocated deprecated,E39,,637,
+mp,Northern Mariana Islands,MP,,638,
+no,Norway,NO,,639,
+_x,Not allocated/ unspecified,_X,,640,
+_z,Not applicable,_Z,,641,
+r252,ODA recipients-Africa (changing composition),R252,,642,DZ + LY + MA + TN + EG + ZA + AO + BW + BI + CM + CV + CF + TD + KM + CG + CD + BJ + ET + GA + GM + GH + GN + GW + GQ + CI + KE + LS + LR + MG + MW + ML + MR + MU + MZ + NE + NG + ZW + RW + ST + SN + SC + ER + SL + SO + DJ + NA + SH + SD + SS + SZ + TZ + TG + UG + BF + ZM
+r253,ODA recipients-America (changing composition),R253,,643,R253=CR + CU + DO + SV + GT + HT + HN + BZ + JM + MX + NI + PA + AG + DM + GD + LC + VC + MS + AR + BO + BR + CL + CO + EC + GY + PY + PE + SR + UY + VE
+r254,ODA recipients-Asia (changing composition),R254,,644,IR + IQ + JO + PS + LB + SY + YE + AM + AZ + GE + KZ + KG + TJ + TM + UZ + AF + BT + MM + LK + IN + MV + NP + PK + BD + KH + CN + ID + KP + LA + MY + MN + PH + TH + TL + VN
+r251,ODA recipients-Europe (changing composition),R251,,645,TR + RS + BA + ME + MK + AL + UA + BY + MD + XK
+r255,ODA recipients-Oceania (changing composition),R255,,646,CK + FJ + KI + NR + VU + NU + MH + FM + PW + PG + SB + TK + TO + TV + WF + WS
+6o,OECD (Organisation for Economic Co-operation and Development),6O,,647,
+p2,OECD Key partners,P2,,648,BR+CN+IN+ID+ZA
+p0,OECD countries (evolving composition),P0,,649,AT+AU+BE+CA+CH+CL(from 2010)+CO(from 2020)+CZ+DE+DK+EE(from 2010)+ES+FI+FR+GB+GR+LU+LT(from 2018)+LV(from 2015)+HU+IE+IL(from 2010)+IS+IT+JP+KR MX+NL+NO+NZ+PL+PT+SE+SI(from 2010)+SK+TR+US
+p00,OECD countries (fixed composition-30 members),P00,,650,AT+AU+BE+CA+CH+CZ+DE+DK+ES+FI+FR+GB+GR+LU+HU+IE+IS+IT+JP+KR+MX+NL+NO+NZ+PL+PT+SE+SK+TR+US
+p1,OECD countries (fixed composition-34 members),P1,,651,AT + AU + BE + CA + CH + CL + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR +  MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (34 countries)
+p4,OECD countries (fixed composition-35 members),P4,,652,AT + AU + BE + CA + CH + CL + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR + LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (35 countries)
+p5,OECD countries (fixed composition-36 members),P5,,653,AT + AU + BE + CA + CH + CL + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR + LT+LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (36 countries)
+p6,OECD countries (fixed composition-37 members),P6,,654,P6=AT + AU + BE + CA + CH + CL + CO + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR + LT+LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (36 countries)
+p7,OECD countries (fixed composition-38 members),P7,,655,P7=AT + AU + BE + CA + CH + CL + CO + CR + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL + IS + IT + JP + KR + LT+LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (38 countries)
+p09,OECD not allocated deprecated,P09,,656,
+e16o,OECD-EU deprecated,E16O,,657,AT+BE+CZ+DE+DK+EE+ES+FI+FR+GB+GR+HU+IE+IT+LU+NL+PL+PT+SE+SI+SK  (from 2010)  AT+BE+CZ+DE+DK+ES+FI+FR+GB+GR+HU+IE+IT+LU+NL+PL+PT+SE+SK  (2004-2009) AT+BE+DE+DK+ES+FI+FR+GB+GR+IE+IT+LU+NL+PT+SE (up to 2003)
+r51,OPEC (Organization of Petroleum Exporting Countries) (from 2016),R51,,658,R51=AE + AO + DZ + EC + GA + ID + IQ + IR + KW + LY + NG + QA + SA + VE
+r52,OPEC (Organization of Petroleum Exporting Countries) (from 2017),R52,,659,R52 = AE + AO + DZ + EC + GA + GQ + IQ + IR + KW + LY + NG + QA + SA + VE
+r53,OPEC (Organization of Petroleum Exporting Countries) (from 2019),R53,,660,R53 = AE + AO + CG + DZ + EC + GA + GQ + IQ + IR + KW + LY + NG + SA + VE
+r54,OPEC (Organization of Petroleum Exporting Countries) (from 2020),R54,,661,R54 = AE + AO + CG + DZ + GA + GQ + IQ + IR + KW + LY + NG + SA + VE
+r5,OPEC (Organization of Petroleum Exporting Countries) - changing composition until 2015,R5,,662,R5=AE + AO (from 2007) + DZ + EC (from 2008) + ID (until 2008)+IQ + IR + KW + LY + NG + QA + SA + VE
+6a8,OPEC Fund for International Development,6A8,,663,
+o3,Oceania,O3,,664,AS + AU + CK + FJ + PF + GU + KI + MH + O8 + NR + NC + NZ + NU + NF + PW + PG + PN + WS + SB + TO + TV + VU + WF + O19
+o2,Oceania and Polar Regions,O2,,665,AS + AU + BV + CX + CC + CK + FJ + TF + PF + GU + HM + KI + MH + O8 + NR + NC + NZ + NU + NF + MP + PW + PG + PN + GS + WS + SB + TK + TO + TV + UM + VU + WF + O29
+o29,Oceania and Polar Regions not allocated,O29,,666,
+o39,Oceania not allocated,O39,,667,
+r12,Offshore financial centers,R12,,668,AD + AG + AI + AW + BB + BH + BM + BS + BZ + CK + CW + DM + GD + GG + GI + HK + IM + JE + KN + KY + LB + LC + LI + LR + MH + MS + MU + NR + NU + PA + PH + SC + SG + SX + TC + VC + VG + VI + VU + WS
+r121,Offshore financial centers excluding Hong Kong,R121,,669,R121 = AD + AG + AI + AW + BB + BH + BM + BS + BZ + CK + CW + DM + GD + GG + GI + IM + JE + KN + KY + LB + LC + LI + LR + MH + MS + MU + NR + NU + PA + PH + SC + SG + SX + TC + VC + VG + VI + VU + WS
+xr30,Oil-Importing Countries (IMF),XR30,,670,
+xr21,Oil-exporting Countries (IMF),XR21,,671,
+om,Oman,OM,,672,
+5z27,Organisation of Eastern Caribbean States,5Z27,,673,
+5z28,Organization of American States,5Z28,,674,
+5z29,Organization of Arab Petroleum Exporting Countries,5Z29,,675,
+5z30,Organization of Central American States,5Z30,,676,
+5z31,Organization of the Petroleum Exporting Countries,5Z31,,677,
+xr32,Other Advanced Economies (IMF),XR32,,678,
+s6,Other Asian countries (non Near and Middle East countries),S6,,679,AF + BD + BN + BT + CN + HK + ID + IN + IR + JP + KG + KH + KP + KR + KZ + LA + LK + MM + MN + MO + MV + MY + NP + PK + PH + SG + TH + TJ + TL + TM + TW + UZ + VN
+s6x,Other Asian countries excluding OECD countries,S6X,,680,S6-KR-JP
+xrc1,Other CPIS Holding Countries Excluding Key Partners (Mandatory FSAP countries - changing composition),XRC1,,681,
+xa6,Other Central America (IMF),XA6,,682,
+xa69,Other Central America not allocated (IMF),XA69,,683,
+x88,Other Countries n.i.e. (IMF),X88,,684,
+g3,Other EEA countries (all countries excluding the reference area),G3,,685,
+k8a,"Other EU countries, i.e. EU28 member states not belonging to Euro area 18 (fixed composition) - United Kingdom - EU institutions ) as of 1 January 2014",K8A,,686,
+z8,Other EU member states (all countries except the reference area),Z8,,687,
+l1,Other Euro area 11 member states (fixed composition - all countries except the reference area) as of 1 January 1999,L1,,688,
+l2,Other Euro area 12 member states (fixed composition - all countries except the reference area) as of 1 January 2001,L2,,689,
+l3,Other Euro area 13 member states (fixed composition - all countries except the reference area) as of 1 January 2007,L3,,690,
+l4,Other Euro area 15 member states (fixed composition - all countries except the reference area) as of 1 January 2008,L4,,691,
+l5,Other Euro area 16 member states (fixed composition - all countries except the reference area) as of 1 January 2009,L5,,692,
+l6,Other Euro area 17 member states (fixed composition - all countries except the reference area) as of 1 January 2011,L6,,693,
+l7,Other Euro area 18 member states (fixed composition - all countries except the reference area) as of 1 January 2014,L7,,694,
+l8,Other Euro area 19 member states (fixed composition - all countries except the reference area) as of 1 January 2015,L8,,695,
+u5,Other Euro area member states (all countries except the reference area) (changing composition),U5,,696,
+xe3,Other European Countries (IMF),XE3,,697,
+xe39,Other European Countries not allocated (IMF),XE39,,698,
+4j8,"Other European Union bodies, interinstitutional services and agencies",4J8,,699,
+4j,Other European Union institutions and bodies covered by General Budget,4J,,700,4J=4J1+4J2+4J3+4J4+4J5+4J6+4J7+4J8
+g9,Other European countries (not EU nor EFTA),G9,,701,AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS +  HR (until 2013) + BG (until 2007) + RO (until 2007) + GB (from 2020)
+g10,Other European countries (not EU nor EFTA) (from 2020 - fixed composition),G10,,702,AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + GB
+g4,Other European countries (not EU),G4,,703,AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + CH + NO + IS + LI + HR (until 2013) + BG (until 2007) + RO (until 2007) + GB (from 2020)
+g6,Other European countries (not EU) (from 2020 - fixed composition),G6,,704,G6=AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + GB + CH + IS + LI + NO
+5z,Other International Financial Organisations n.i.e.,5Z,,705,
+6z,Other International Non-Financial Organisations n.i.e.,6Z,,706,
+5a,Other International Organisations (financial institutions),5A,,707,5AA+5B+…+5Z+7A+…7M
+6a,Other International Organisations (non-financial institutions),6A,,708,6B+…+6Z
+s37e,Other Near and Middle East Economies (CDIS),S37E,,709,S37E = AM + AZ + GE + IL + JO + LB + SY + PS + YE + S37E9
+s37e9,Other Near and Middle East Economies Not Allocated (CDIS),S37E9,,710,
+s37x,Other Near and Middle East Excluding OECD countries,S37X,,711,S37-IL (from 2010)
+s37z,Other Near and Middle East Excluding OECD countries (Fixed composition),S37Z,,712,S37-IL
+s37,Other Near and Middle East countries,S37,,713,AM + AZ + GE + IL + JO + LB + PS + SY
+s379,Other Near and Middle East not allocated  deprecated,S379,,714,
+o5,Other Oceania & Polar regions countries deprecated,O5,,715,AQ+BV+CX+CC+GS+HM+TF+UM
+xa7,Other South America (IMF),XA7,,716,
+xa79,Other South America not allocated (IMF),XA79,,717,
+r63,Pacific ACP countries,R63,,718,CK + FJ + FM + KI + MH + NR + NU + PG + PW + SB + TL + TO + TV + VU + WS
+pk,Pakistan,PK,,719,
+pw,Palau,PW,,720,
+ps,"Palestine, State of",PS,,721,
+pa,Panama,PA,,722,
+pg,Papua New Guinea,PG,,723,
+py,Paraguay,PY,,724,
+7d,Paris Club Creditor Institutions,7D,,725,
+s35e,Persian Gulf Economies (CDIS),S35E,,726,S35E = BH + IQ + IR + KW + OM + QA + SA + AE + A35E9
+s35e9,Persian Gulf Economies Not Allocated (CDIS),S35E9,,727,
+pe,Peru,PE,,728,
+ph,Philippines,PH,,729,
+pn,Pitcairn,PN,,730,
+pl,Poland,PL,,731,
+o1p,Polar regions,O1P,,732,AQ + BV + GS + TF (
+o9,Polynesia deprecated,O9,,733,AS+CK+PF+NU+PN+WS+TK+TO+TV+WF+O99
+o99,Polynesia not allocated deprecated,O99,,734,
+pt,Portugal,PT,,735,
+4j839,Publications Office of the European Union,4J839,,736,
+pr,Puerto Rico,PR,,737,
+qa,Qatar,QA,,738,
+5z46,Regional Environmental Center for Central and Eastern Europe,5Z46,,739,
+z5,Residual for BOP & IIP step 3 ECB needs (J2-DK-GB-SE-4A-D8-CH-CA-US-JP-C4-7Z),Z5,,740,
+xr55,Resource Intensive Countries (IMF),XR55,,741,
+1u,Rest of UN Organisations n.i.e.,1U,,742,
+w1x2,"Rest of World excluding 25 countries (AT, BE, BR, CA, HK, CN, FR, DE, IN, IE, IT, JP, KR, LU, MX, NL, RU, SG, ES, SE, CH, TR, GB, US)",W1X2,,743,
+w1,Rest of the World,W1,,744,W1=sum of all the (ISO 3166-1 alpha-2) partner countries +1A+W19; W1 = BE + LU + DK + DE + GR + ES + FR + IE + IT + NL + AT + PT +  FI + SE + GB + CY + CZ + EE + HU + LT + LV + MT + PL + SI + SK + BG + RO + HR+ CH + IS + LI +  NO + AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + DZ + EG + LY + MA + TN + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW + CA + US + GL + AG + AI + AW + BB + BM + BQ + BS + BZ + CR + CU + CW + DM + DO + GD + GT + HN + HT + JM + KN + KY + LC + MS + MX + NI + PA + SV + SX + TC + TT + VC + VG + VI + AR + BO + BR + CL + CO + EC + FK + GY + PE + PY + SR + UY + VE + AE + BH + IQ + KW + OM + QA + SA + YE + IL + IR + AM + AZ + GE + JO + LB + PS + SY + BN + ID + KH + LA + MM + MY + PH + SG + TH + VN + AF + BD + BT + CN + HK + IN + JP + KG + KP + KR + KZ + LK + MN + MO + MV + NP + PK + TJ + TL + TM + TW + UZ + AU + FJ + FM + KI + MH + MP + NC + NR + NZ + PF + PG + PN + PW + SB + TO + TV + VU + WF + WS + CC + CX + HM + NF + AS + GU + UM + CK + NU + TK + AQ + BV + GS + TF + 1A + W19
+w19,Rest of the World (non allocated geographically),W19,,745,
+w190,Rest of the World (non allocated geographically) plus IO,W190,,746,W190=W19+1A
+w1x1,Rest of the World excluding IMF,W1X1,,747,W1X1=W1-1C
+w12,Rest of the World excluding IO and not allocated,W12,,748,W12=sum of (ISO 3166-1 alpha-2) partner countries; W12=W1-1A-W19
+w10,Rest of the world excluding International Organisations,W10,,749,W10=W1-1A
+re,Reunion,RE,,750,
+ro,Romania,RO,,751,
+ru,Russian Federation,RU,,752,
+rw,Rwanda,RW,,753,
+r18,SADC (South African Development Community),R18,,754,AO+BW+CD+LS+MG+MW+MU+MZ+NA+SC+SZ+TZ+ZA+ZM+ZW
+4m,SRB (Single Resolution Board),4M,,755,
+my1,Sabah,MY1,,756,
+bl,Saint Barthelemy,BL,,757,
+sh,Saint Helena,SH,,758,
+kn,Saint Kitts and Nevis,KN,,759,
+lc,Saint Lucia,LC,,760,
+mf,Saint Martin (French part),MF,,761,
+pm,Saint Pierre and Miquelon,PM,,762,
+vc,Saint Vincent and the Grenadines,VC,,763,
+ws,Samoa,WS,,764,
+sm,San Marino,SM,,765,
+st,Sao Tome and Principe,ST,,766,
+my2,Sarawak,MY2,,767,
+sa,Saudi Arabia,SA,,768,
+sn,Senegal,SN,,769,
+rs,Serbia,RS,,770,
+cs,Serbia and Montenegro,CS,,771,
+cs9,Serbia and Montenegro not allocated,CS9,,772,
+sc,Seychelles,SC,,773,
+sl,Sierra Leone,SL,,774,
+sg,Singapore,SG,,775,
+sx,Sint Maarten (Dutch part),SX,,776,
+sk,Slovakia,SK,,777,
+si,Slovenia,SI,,778,
+z15,Small euro area countries,Z15,,779,Z15=LU+LT+LV+SI+CY+MT+EE+SK+HR
+sb,Solomon Islands,SB,,780,
+so,Somalia,SO,,781,
+za,South Africa,ZA,,782,
+a7x,South America Excluding OECD countries,A7X,,783,A7-CL (from 2010) - CO (from 2020)
+a7x0,South America Excluding OECD countries (Fixed composition-36 members),A7X0,,784,A7-CL
+a7x1,South America Excluding OECD countries (Fixed composition-37 members),A7X1,,785,A7-CL-CO
+a79,South America not allocated deprecated,A79,,786,
+a7e,South American Economies (CDIS),A7E,,787,A7E=AR + BO + BR + CL + CO + EC + FK + GF + GY + PE + PY + SR + UY + VE +A7E9
+a7e9,South American Economies Not Allocated (CDIS),A7E9,,788,
+a7,South American countries,A7,,789,A7=AR + BO + BR + CL + CO + EC + FK + GY + PE + PY + SR + UY + VE
+5z33,South Asian Association for Regional Cooperation,5Z33,,790,
+gs,South Georgia and the South Sandwich Islands,GS,,791,
+ss,South Sudan,SS,,792,
+s8,South-Eastern Asia  deprecated,S8,,793,BN+KH+ID+LA+MY+MM+PH+SG+TH+TL+VN+S89
+s89,South-Eastern Asia not allocated deprecated,S89,,794,
+f7,Southern Africa deprecated,F7,,795,BW+LS+NA+ZA+SZ+F79
+f79,Southern Africa not allocated deprecated,F79,,796,
+s7,Southern Asia deprecated,S7,,797,AF+BD+BT+IN+IR+MV+NP+PK+LK+S79
+s79,Southern Asia not allocated deprecated,S79,,798,
+e4x,Southern Europe Excluding OECD countries deprecated,E4X,,799,E4-GR-IT-PT-SI(from 2010)-ES-TR
+e4,Southern Europe deprecated,E4,,800,AL+AD+BA+HR+CY+GI+GR+VA+IT+MK+MT+ME+PT+SM+RS+SI(from 2010)+ES+TR+E49
+e49,Southern Europe not allocated deprecated,E49,,801,
+es,Spain,ES,,802,
+xr99,Special Categories and Economic Zones,XR99,,803,
+lk,Sri Lanka,LK,,804,
+f6,Sub-Saharan Africa,F6,,805,F6 = AO+ BJ+ BW+ IO+ BF+ BI+ CV+ CM+ CF+ TD+ KM+ CD+ CG+ CI+ DJ+ GQ+ ER+ ET+ GA+ GM+ GH+ GN+ GW + KE+ LS+ LR+ MG+ MW+ ML+ MR+ MU+ YT+ MZ+ NA+ NE+ NG+ RE+ RW+ ST+ SN+ SC+ SL+ SO+ ZA+ SS+ SH+ SD+ SZ+ TZ + TG+ UG+ EH+ ZM + ZW + F69
+f69,Sub-Saharan Africa not allocated,F69,,806,
+sd,Sudan,SD,,807,
+sr,Suriname,SR,,808,
+sj,Svalbard and Jan Mayen,SJ,,809,
+se,Sweden,SE,,810,
+ch,Switzerland,CH,,811,
+sy,Syrian Arab Republic,SY,,812,
+tw,"Taiwan, Province of China",TW,,813,
+tj,Tajikistan,TJ,,814,
+tz,"Tanzania, United Republic of",TZ,,815,
+tzxz,"Tanzania, United Republic of (excluding Zanzibar)",TZXZ,,816,
+th,Thailand,TH,,817,
+7o,The Eastern and Southern African Trade and Development Bank,7O,,818,
+4j840,The European Union’s Judicial Cooperation Unit,4J840,,819,
+6z1,"The Global Fund to Fight AIDS, Tuberculosis and Malaria",6Z1,,820,
+5z43,The Nordic Development Fund,5Z43,,821,
+5z44,The North American Development Bank,5Z44,,822,
+6a9,The Permanent Court of Arbitration,6A9,,823,
+1y,The United Nations World Food Programme,1Y,,824,
+tl,Timor-Leste,TL,,825,
+tg,Togo,TG,,826,
+tk,Tokelau,TK,,827,
+to,Tonga,TO,,828,
+r25,Total Official Development Assistance (ODA) recipients (changing composition),R25,,829,R25=TR + RS + BA + ME + MK + AL + UA + BY + MD + DZ + LY + MA + TN + EG + ZA + AO + BW + BI + CM + CV + CF + TD + KM + CG + CD + BJ + ET + GA + GM + GH + GN + GW + GQ + CI + KE + LS + LR + MG + MW + ML + MR + MU + MZ + NE + NG + ZW + RW + ST + SN + SC + ER + SL + SO + DJ + NA + SH + SD + SS + SZ + TZ + TG + UG + BF + ZM + CR + CU + DO + SV + GT + HT + HN + BZ + JM + MX + NI + PA + AG + DM + GD + LC + VC + MS + AR + BO + BR + CL + CO + EC + GY + PY + PE + SR + UY + VE + IR + IQ + JO + PS + LB + SY + YE + AM + AZ + GE + KZ + KG + TJ + TM + UZ + AF + BT + MM + LK + IN + MV + NP + PK + BD + KH + CN + ID + KP + LA + MY + MN + PH + TH + TL + VN + CK + FJ + KI + NR + VU + NU + MH + FM + PW + PG + SB + TK + TO + TV + WF + WS + XK
+x999,Total reporting countries (IMF),X999,,830,
+4j841,Translation Centre for the Bodies of the European Union,4J841,,831,
+tt,Trinidad and Tobago,TT,,832,
+tn,Tunisia,TN,,833,
+tm,Turkmenistan,TM,,834,
+tc,Turks and Caicos Islands,TC,,835,
+tv,Tuvalu,TV,,836,
+tr,Türkiye,TR,,837,
+gb1,"UK including Guernsey, Isle of Man, Jersey",GB1,,838,
+1b,UN organisations,1B,,839,1B=1C+1D+1E+1F+1G+1H+1J+1K+1L+1M+1N+1O+1P+1Q+1R+1S+1T+1U
+1u1,UNECE (United Nations Economic Commission for Europe),1U1,,840,
+1h,"UNESCO (United Nations Educational, Scientific and Cultural Organisation)",1H,,841,
+1u2,UNFCCC (United Nations Framework Convention for Climate Change),1U2,,842,
+1p,UNHCR (United Nations High Commissioner for Refugees),1P,,843,
+1o,UNICEF (United Nations Children Fund),1O,,844,
+1q,UNRWA (United Nations Relief and Works Agency for Palestine),1Q,,845,
+ug,Uganda,UG,,846,
+ua,Ukraine,UA,,847,
+ae,United Arab Emirates,AE,,848,
+xi,United Kingdom (Northern Ireland),XI,,849,
+xu,United Kingdom (excluding Northern Ireland),XU,,850,
+gb,United Kingdom of Great Britain and Northern Ireland,GB,,851,
+5z34,United Nations Conference on Trade and Development,5Z34,,852,
+1x,United Nations Office on Drugs and Crimes(UNODC),1X,,853,
+us,United States,US,,854,
+um,United States Minor outlying islands,UM,,855,
+1v,Universal Postal Union,1V,,856,
+uy,Uruguay,UY,,857,
+uz,Uzbekistan,UZ,,858,
+vu,Vanuatu,VU,,859,
+ve,"Venezuela, Bolivarian Republic",VE,,860,
+vn,Viet Nam,VN,,861,
+vg,"Virgin Islands, British",VG,,862,
+vi,"Virgin Islands, U.S.",VI,,863,
+7a,WAEMU (West African Economic and Monetary Union),7A,,864,
+1k,WHO (World Health Organisation),1K,,865,
+1d,WTO (World Trade Organisation),1D,,866,
+wku,Wake Islands,WKU,,867,
+fr2,Wallis,FR2,,868,
+wf,Wallis and Futuna,WF,,869,
+5z35,West African Economic Community,5Z35,,870,
+5z36,West African Health Organisation,5Z36,,871,
+5z37,West African Monetary Agency,5Z37,,872,
+5z38,West African Monetary Institute,5Z38,,873,
+de1,West Germany,DE1,,874,
+gb2,West Indies UK,GB2,,875,
+f8,Western Africa deprecated,F8,,876,BJ+BF+CV+CI+GM+GH+GN+GW+LR+ML+MR+NE+NG+SH+SN+SL+TG+F89
+f89,Western Africa not allocated deprecated,F89,,877,
+e5x,Western Europe Excluding OECD countries deprecated,E5X,,878,E5-AT-BE-FR-DE-LU-NL-CH
+e5,Western Europe deprecated,E5,,879,AT+BE+FR+DE+LI+LU+NL+CH+E59
+e59,Western Europe not allocated deprecated,E59,,880,
+a10,Western Hemisphere,A10,,881,AI + AG + AR + AW + BS + BB + BZ + BM + BO + BR + KY + CL + CO + CR + CW + DM + DO + EC + SV + FK + GL + GD + GP + GT + GF + GY + HT + HN + JM + A42 + MQ + MX + MS + AN + NI + PA + PY + PE + SX + KN + LC + PM + VC + SR + TT + UY + VE + A41 + A109
+a109,Western Hemisphere not allocated,A109,,882,
+eh,Western Sahara,EH,,883,
+a41,Windward Islands,A41,,884,A41 = GP + DM + MQ + LC + VC + GD
+w09,"World (all area, including reference area, including IO) not allocated",W09,,885,
+w0,"World (all areas, including reference area, including IO)",W0,,886,W0=W1+W2
+1w,World Bank Group,1W,,887,1W=1E+1F+1G+1M+1N
+5z39,World Council of Churches,5Z39,,888,
+p8,World Excluding OECD countries,P8,,889,P8=W0-P0
+p9,World Excluding OECD countries (fixed composition-34 members),P9,,890,P9=W0-P1
+p10,World Excluding OECD countries (fixed composition-35 members),P10,,891,P10=W0-P2
+p11,World Excluding OECD countries (fixed composition-36 members),P11,,892,P11=W0-P5
+p12,World Excluding OECD countries (fixed composition-37 members),P12,,893,P12=W0-P6
+5z40,World Intellectual Property Organization,5Z40,,894,
+5z41,World Meteorological Organization,5Z41,,895,
+5z42,World Tourism Organization,5Z42,,896,
+ye,Yemen,YE,,897,
+zm,Zambia,ZM,,898,
+tzzn,Zanzibar,TZZN,,899,
+zw,Zimbabwe,ZW,,900,

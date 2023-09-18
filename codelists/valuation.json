@@ -1,0 +1,91 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Valuation",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not allocated/unspecified (including all kinds of valuation methods)",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Accrual",
+            "notation": "A"
+        },
+        {
+            "label": "Basic prices",
+            "notation": "B"
+        },
+        {
+            "label": "Cash",
+            "notation": "C"
+        },
+        {
+            "label": "Accumulation of FDI equity capital flow",
+            "notation": "E"
+        },
+        {
+            "label": "Face value",
+            "notation": "F"
+        },
+        {
+            "label": "Historic acquisition cost",
+            "notation": "H"
+        },
+        {
+            "label": "Stock market price index applied to accumulated FDI equity capital flow",
+            "notation": "I"
+        },
+        {
+            "label": "Market value",
+            "notation": "M"
+        },
+        {
+            "label": "Nominal value",
+            "notation": "N"
+        },
+        {
+            "label": "Purchasers prices",
+            "notation": "O"
+        },
+        {
+            "label": "Producer prices",
+            "notation": "P"
+        },
+        {
+            "label": "Redemption value",
+            "notation": "R"
+        },
+        {
+            "label": "Standard valuation based on SNA/ESA",
+            "notation": "S"
+        },
+        {
+            "label": "Net marked to market value",
+            "notation": "T"
+        },
+        {
+            "label": "Fair value",
+            "notation": "U"
+        },
+        {
+            "label": "Book value",
+            "notation": "V"
+        },
+        {
+            "label": "Notional valuation",
+            "notation": "W"
+        }
+    ]
+}

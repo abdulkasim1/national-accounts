@@ -1,0 +1,63 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Confidentiality Status",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Primary confidentiality due to small counts",
+            "notation": "A"
+        },
+        {
+            "label": "Confidential statistical information",
+            "notation": "C"
+        },
+        {
+            "label": "Secondary confidentiality set by the sender, not for publication",
+            "notation": "D"
+        },
+        {
+            "label": "Not for publication, restricted for internal use only (equivalent to the code N) until the embargo time elapses; Free for publication (equivalent to the code F) after the embargo time elapses.",
+            "notation": "E"
+        },
+        {
+            "label": "Free (free for publication)",
+            "notation": "F"
+        },
+        {
+            "label": "Primary confidentiality due to dominance by one or two units",
+            "notation": "G"
+        },
+        {
+            "label": "Primary confidentiality due to data declared confidential based on other measures of concentration",
+            "notation": "M"
+        },
+        {
+            "label": "Not for publication, restricted for internal use only",
+            "notation": "N"
+        },
+        {
+            "label": "Primary confidentiality due to dominance by one unit",
+            "notation": "O"
+        },
+        {
+            "label": "Secondary confidentiality set and managed by the receiver, not for publication",
+            "notation": "S"
+        },
+        {
+            "label": "Primary confidentiality due to dominance by two units",
+            "notation": "T"
+        },
+        {
+            "label": "Confidentiality due to military secrecy",
+            "notation": "X"
+        }
+    ]
+}

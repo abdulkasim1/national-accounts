@@ -1,0 +1,2590 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "final-consumption-expenditure-by-purpose.csv#dataset",
+    "tables": [
+        {
+            "url": "final-consumption-expenditure-by-purpose.csv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "titles": "EXPENDITURE",
+                        "name": "expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure",
+                        "valueUrl": "coicop.csv#{+expenditure}",
+                        "required": true
+                    },
+                    {
+                        "titles": "STO",
+                        "name": "sto",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/sto",
+                        "valueUrl": "stocks-transactions-other-flows.csv#{+sto}",
+                        "required": true
+                    },
+                    {
+                        "titles": "PRICES",
+                        "name": "prices",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/prices",
+                        "valueUrl": "price-codes.csv#{+prices}",
+                        "required": true
+                    },
+                    {
+                        "titles": "FREQ",
+                        "name": "freq",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/freq",
+                        "valueUrl": "frequency.csv#{+freq}",
+                        "required": true
+                    },
+                    {
+                        "titles": "ADJUSTMENT",
+                        "name": "adjustment",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment",
+                        "valueUrl": "adjustment-indicator.csv#{+adjustment}",
+                        "required": true
+                    },
+                    {
+                        "titles": "REF_AREA",
+                        "name": "ref_area",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area",
+                        "valueUrl": "area-code-list.csv#{+ref_area}",
+                        "required": true
+                    },
+                    {
+                        "titles": "COUNTERPART_AREA",
+                        "name": "counterpart_area",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area",
+                        "valueUrl": "area-code-list.csv#{+counterpart_area}",
+                        "required": true
+                    },
+                    {
+                        "titles": "REF_SECTOR",
+                        "name": "ref_sector",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector",
+                        "valueUrl": "sector-codes.csv#{+ref_sector}",
+                        "required": true
+                    },
+                    {
+                        "titles": "COUNTERPART_SECTOR",
+                        "name": "counterpart_sector",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector",
+                        "valueUrl": "sector-codes.csv#{+counterpart_sector}",
+                        "required": true
+                    },
+                    {
+                        "titles": "ACCOUNTING_ENTRY",
+                        "name": "accounting_entry",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry",
+                        "valueUrl": "accounting-entry-code-list.csv#{+accounting_entry}",
+                        "required": true
+                    },
+                    {
+                        "titles": "INSTR_ASSET",
+                        "name": "instr_asset",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset",
+                        "valueUrl": "instrument-and-assets-classification.csv#{+instr_asset}",
+                        "required": true
+                    },
+                    {
+                        "titles": "ACTIVITY",
+                        "name": "activity",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/activity",
+                        "valueUrl": "industrial-activity-code-list.csv#{+activity}",
+                        "required": true
+                    },
+                    {
+                        "titles": "UNIT_MEASURE",
+                        "name": "unit_measure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure",
+                        "valueUrl": "unit-of-measure-code-list.csv#{+unit_measure}",
+                        "required": true
+                    },
+                    {
+                        "titles": "TRANSFORMATION",
+                        "name": "transformation",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/transformation",
+                        "valueUrl": "transformation-codes.csv#{+transformation}",
+                        "required": true
+                    },
+                    {
+                        "titles": "TIME_FORMAT",
+                        "name": "time_format",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/time_format",
+                        "valueUrl": "time-format.csv#{+time_format}",
+                        "required": true
+                    },
+                    {
+                        "titles": "REF_YEAR_PRICE",
+                        "name": "ref_year_price",
+                        "suppressOutput": true
+                    },
+                    {
+                        "titles": "DECIMALS",
+                        "name": "decimals",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/decimals",
+                        "valueUrl": "decimals.csv#{+decimals}",
+                        "required": true
+                    },
+                    {
+                        "titles": "TABLE_IDENTIFIER",
+                        "name": "table_identifier",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier",
+                        "valueUrl": "na-table-ids.csv#{+table_identifier}",
+                        "required": true
+                    },
+                    {
+                        "titles": "UNIT_MULT",
+                        "name": "unit_mult",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult",
+                        "valueUrl": "unit-multiplier.csv#{+unit_mult}",
+                        "required": true
+                    },
+                    {
+                        "titles": "COMPILING_ORG",
+                        "name": "compiling_org",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org",
+                        "valueUrl": "compiling-organisation-code-list.csv#{+compiling_org}",
+                        "required": true
+                    },
+                    {
+                        "titles": "TIME_PERIOD",
+                        "name": "time_period",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/year",
+                        "valueUrl": "year.csv#{+time_period}",
+                        "required": true
+                    },
+                    {
+                        "titles": "OBS_VALUE",
+                        "name": "obs_value",
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#measure/consumption-expenditure",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "OBS_STATUS",
+                        "name": "obs_status",
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+                        "valueUrl": "final-consumption-expenditure-by-purpose.csv#attribute/obs_status/{+obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "CONF_STATUS",
+                        "name": "conf_status",
+                        "suppressOutput": true
+                    },
+                    {
+                        "name": "virt_slice",
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Slice"
+                    },
+                    {
+                        "name": "virt_slice_structure",
+                        "virtual": true,
+                        "propertyUrl": "qb:sliceStructure",
+                        "valueUrl": "final-consumption-expenditure-by-purpose.csv#slice/cross-measures"
+                    },
+                    {
+                        "name": "virt_obs_obs_value",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure"
+                    },
+                    {
+                        "name": "virt_obs_obs_value_meas",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "final-consumption-expenditure-by-purpose.csv#measure/consumption-expenditure"
+                    },
+                    {
+                        "name": "virt_obs_obs_value_unit",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "final-consumption-expenditure-by-purpose.csv#unit/domestic-currency-incl-conversion-to-current-currency-made-using-a-fixed-parity"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_expenditure",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure",
+                        "valueUrl": "coicop.csv#{+expenditure}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_sto",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/sto",
+                        "valueUrl": "stocks-transactions-other-flows.csv#{+sto}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_prices",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/prices",
+                        "valueUrl": "price-codes.csv#{+prices}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_freq",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/freq",
+                        "valueUrl": "frequency.csv#{+freq}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_adjustment",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment",
+                        "valueUrl": "adjustment-indicator.csv#{+adjustment}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_ref_area",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area",
+                        "valueUrl": "area-code-list.csv#{+ref_area}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_counterpart_area",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area",
+                        "valueUrl": "area-code-list.csv#{+counterpart_area}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_ref_sector",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector",
+                        "valueUrl": "sector-codes.csv#{+ref_sector}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_counterpart_sector",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector",
+                        "valueUrl": "sector-codes.csv#{+counterpart_sector}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_accounting_entry",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry",
+                        "valueUrl": "accounting-entry-code-list.csv#{+accounting_entry}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_instr_asset",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset",
+                        "valueUrl": "instrument-and-assets-classification.csv#{+instr_asset}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_activity",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/activity",
+                        "valueUrl": "industrial-activity-code-list.csv#{+activity}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_unit_measure",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure",
+                        "valueUrl": "unit-of-measure-code-list.csv#{+unit_measure}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_transformation",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/transformation",
+                        "valueUrl": "transformation-codes.csv#{+transformation}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_time_format",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/time_format",
+                        "valueUrl": "time-format.csv#{+time_format}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_decimals",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/decimals",
+                        "valueUrl": "decimals.csv#{+decimals}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_table_identifier",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier",
+                        "valueUrl": "na-table-ids.csv#{+table_identifier}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_unit_mult",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult",
+                        "valueUrl": "unit-multiplier.csv#{+unit_mult}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_compiling_org",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org",
+                        "valueUrl": "compiling-organisation-code-list.csv#{+compiling_org}"
+                    },
+                    {
+                        "name": "virt_dim_obs_value_time_period",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "final-consumption-expenditure-by-purpose.csv#dimension/year",
+                        "valueUrl": "year.csv#{+time_period}"
+                    },
+                    {
+                        "name": "virt_obs_obs_value_type",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_obs_value",
+                        "virtual": true,
+                        "aboutUrl": "final-consumption-expenditure-by-purpose.csv#obs/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}@consumption-expenditure",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "final-consumption-expenditure-by-purpose.csv#dataset"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": "expenditure",
+                        "reference": {
+                            "resource": "coicop.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "sto",
+                        "reference": {
+                            "resource": "stocks-transactions-other-flows.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "prices",
+                        "reference": {
+                            "resource": "price-codes.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "freq",
+                        "reference": {
+                            "resource": "frequency.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "adjustment",
+                        "reference": {
+                            "resource": "adjustment-indicator.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "ref_area",
+                        "reference": {
+                            "resource": "area-code-list.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "counterpart_area",
+                        "reference": {
+                            "resource": "area-code-list.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "ref_sector",
+                        "reference": {
+                            "resource": "sector-codes.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "counterpart_sector",
+                        "reference": {
+                            "resource": "sector-codes.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "accounting_entry",
+                        "reference": {
+                            "resource": "accounting-entry-code-list.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "instr_asset",
+                        "reference": {
+                            "resource": "instrument-and-assets-classification.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "activity",
+                        "reference": {
+                            "resource": "industrial-activity-code-list.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "unit_measure",
+                        "reference": {
+                            "resource": "unit-of-measure-code-list.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "transformation",
+                        "reference": {
+                            "resource": "transformation-codes.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "time_format",
+                        "reference": {
+                            "resource": "time-format.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "decimals",
+                        "reference": {
+                            "resource": "decimals.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "table_identifier",
+                        "reference": {
+                            "resource": "na-table-ids.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "unit_mult",
+                        "reference": {
+                            "resource": "unit-multiplier.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "compiling_org",
+                        "reference": {
+                            "resource": "compiling-organisation-code-list.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "time_period",
+                        "reference": {
+                            "resource": "year.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "expenditure",
+                    "sto",
+                    "prices",
+                    "freq",
+                    "adjustment",
+                    "ref_area",
+                    "counterpart_area",
+                    "ref_sector",
+                    "counterpart_sector",
+                    "accounting_entry",
+                    "instr_asset",
+                    "activity",
+                    "unit_measure",
+                    "transformation",
+                    "time_format",
+                    "decimals",
+                    "table_identifier",
+                    "unit_mult",
+                    "compiling_org",
+                    "time_period"
+                ],
+                "aboutUrl": "final-consumption-expenditure-by-purpose.csv#slice/{expenditure},{sto},{prices},{freq},{adjustment},{ref_area},{counterpart_area},{ref_sector},{counterpart_sector},{accounting_entry},{instr_asset},{activity},{unit_measure},{transformation},{time_format},{decimals},{table_identifier},{unit_mult},{compiling_org},{time_period}"
+            }
+        },
+        {
+            "url": "coicop.csv",
+            "tableSchema": "coicop.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "stocks-transactions-other-flows.csv",
+            "tableSchema": "stocks-transactions-other-flows.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "price-codes.csv",
+            "tableSchema": "price-codes.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "frequency.csv",
+            "tableSchema": "frequency.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "adjustment-indicator.csv",
+            "tableSchema": "adjustment-indicator.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "area-code-list.csv",
+            "tableSchema": "area-code-list.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "area-code-list.csv",
+            "tableSchema": "area-code-list.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "sector-codes.csv",
+            "tableSchema": "sector-codes.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "sector-codes.csv",
+            "tableSchema": "sector-codes.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "accounting-entry-code-list.csv",
+            "tableSchema": "accounting-entry-code-list.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "instrument-and-assets-classification.csv",
+            "tableSchema": "instrument-and-assets-classification.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "industrial-activity-code-list.csv",
+            "tableSchema": "industrial-activity-code-list.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "unit-of-measure-code-list.csv",
+            "tableSchema": "unit-of-measure-code-list.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "transformation-codes.csv",
+            "tableSchema": "transformation-codes.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "time-format.csv",
+            "tableSchema": "time-format.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "decimals.csv",
+            "tableSchema": "decimals.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "na-table-ids.csv",
+            "tableSchema": "na-table-ids.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "unit-multiplier.csv",
+            "tableSchema": "unit-multiplier.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "compiling-organisation-code-list.csv",
+            "tableSchema": "compiling-organisation-code-list.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "year.csv",
+            "tableSchema": "year.table.json",
+            "suppressOutput": true
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/ref_area",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "coicop.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "EXPENDITURE"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/expenditure"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "sector-codes.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "REF_SECTOR"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/ref_sector"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/obs_status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 24
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/compiling_org",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/activity",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "industrial-activity-code-list.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "ACTIVITY"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/activity"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-code-list.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "REF_AREA"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/ref_area"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/sto",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "stocks-transactions-other-flows.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "STO"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/sto"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "unit-of-measure-code-list.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "UNIT_MEASURE"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/unit_measure"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/accounting_entry",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-code-list.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "COUNTERPART_AREA"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/counterpart_area"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/freq",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "frequency.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "FREQ"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/freq"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/ref_area",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "na-table-ids.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "TABLE_IDENTIFIER"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/table_identifier"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/sto",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/adjustment",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "accounting-entry-code-list.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "ACCOUNTING_ENTRY"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/accounting_entry"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/accounting_entry",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/time_format",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/unit_mult",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "compiling-organisation-code-list.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "COMPILING_ORG"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/compiling_org"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/transformation",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/transformation"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/transformation"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 14
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/ref_sector",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/decimals",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/decimals"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/decimals"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 16
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/unit_mult",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 18
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/sto",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/sto"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/sto"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dataset",
+            "@type": [
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://purl.org/linked-data/cube#Attachable"
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "National accounts main aggregates, final consumption expenditure by purpose"
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Final Consumption Expenditure by Purpose"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-09-18T11:38:40.404026"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-09-18T11:38:40.404026"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Final Consumption Expenditure by Purpose"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "National accounts main aggregates"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Final Consumption Expenditure by Purpose"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/compiling_org",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 19
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/prices",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "price-codes.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "PRICES"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/prices"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/freq",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/freq"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/freq"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 22
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "unit-multiplier.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "UNIT_MULT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/unit_mult"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/expenditure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/instr_asset",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 11
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/decimals",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "decimals.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "DECIMALS"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/decimals"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/decimals",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/instr_asset",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 20
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/expenditure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/adjustment",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#slice/cross-measures",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/prices"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/freq"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/activity"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/transformation"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/time_format"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/decimals"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/year"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/sto"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "instrument-and-assets-classification.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "INSTR_ASSET"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/instr_asset"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/prices",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/transformation",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/counterpart_area",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/consumption-expenditure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#measure/consumption-expenditure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#measure/consumption-expenditure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 23
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/unit_measure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/freq",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/time_format",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "time-format.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "TIME_FORMAT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/time_format"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/time_format",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/time_format"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/time_format"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 15
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/activity"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/activity"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 12
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 21
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "sector-codes.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "COUNTERPART_SECTOR"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/counterpart_sector"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "adjustment-indicator.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "ADJUSTMENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/adjustment"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/counterpart_sector",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/ref_sector",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/counterpart_area",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/table_identifier",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 17
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dimension/transformation",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "transformation-codes.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "TRANSFORMATION"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#class/transformation"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#measure/consumption-expenditure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Consumption Expenditure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/prices",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/prices"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/prices"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/table_identifier",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#class/counterpart_sector",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#component/unit_measure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 13
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/prices"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/unit_mult"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/decimals"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/ref_sector"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/sto"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/instr_asset"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/activity"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/measure-type"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/accounting_entry"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/obs_status"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/adjustment"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/expenditure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/unit"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/year"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/transformation"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/consumption-expenditure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/compiling_org"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/unit_measure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/table_identifier"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/counterpart_area"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/freq"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/ref_area"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/time_format"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#component/counterpart_sector"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_measure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/accounting_entry"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/unit_mult"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#measure/consumption-expenditure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/expenditure"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_area"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/time_format"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_area"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/decimals"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/ref_sector"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/adjustment"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/table_identifier"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/activity"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/freq"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/sto"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/instr_asset"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/prices"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/year"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/transformation"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/counterpart_sector"
+                },
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#dimension/compiling_org"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "final-consumption-expenditure-by-purpose.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/coicop",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./coicop.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "coicop.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/stocks-transactions-other-flows",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./stocks-transactions-other-flows.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "stocks-transactions-other-flows.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/price-codes",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./price-codes.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "price-codes.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/frequency",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./frequency.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "frequency.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/adjustment-indicator",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./adjustment-indicator.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "adjustment-indicator.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/area-code-list",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./area-code-list.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "area-code-list.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/area-code-list",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./area-code-list.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "area-code-list.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/sector-codes",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./sector-codes.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "sector-codes.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/sector-codes",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./sector-codes.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "sector-codes.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/accounting-entry-code-list",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./accounting-entry-code-list.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "accounting-entry-code-list.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/instrument-and-assets-classification",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./instrument-and-assets-classification.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "instrument-and-assets-classification.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/industrial-activity-code-list",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./industrial-activity-code-list.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "industrial-activity-code-list.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/unit-of-measure-code-list",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./unit-of-measure-code-list.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "unit-of-measure-code-list.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/transformation-codes",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./transformation-codes.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "transformation-codes.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/time-format",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./time-format.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "time-format.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/decimals",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./decimals.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "decimals.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/na-table-ids",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./na-table-ids.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "na-table-ids.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/unit-multiplier",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./unit-multiplier.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "unit-multiplier.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/compiling-organisation-code-list",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./compiling-organisation-code-list.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "compiling-organisation-code-list.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#dependency/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./year.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "year.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#attribute/obs_status/a",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "A"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#attribute/obs_status/d",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "D"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#attribute/obs_status/g",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "G"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#attribute/obs_status/l",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "L"
+                }
+            ]
+        },
+        {
+            "@id": "final-consumption-expenditure-by-purpose.csv#unit/domestic-currency-incl-conversion-to-current-currency-made-using-a-fixed-parity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Domestic currency (incl. conversion to current currency made using a fixed parity)"
+                }
+            ]
+        }
+    ]
+}

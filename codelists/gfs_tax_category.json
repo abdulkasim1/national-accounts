@@ -1,0 +1,47 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "GFS tax category",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Total",
+            "notation": "_T"
+        },
+        {
+            "label": "Alcohol and tabacco tax",
+            "notation": "AT"
+        },
+        {
+            "label": "Energy tax",
+            "notation": "E"
+        },
+        {
+            "label": "Other taxes on property",
+            "notation": "O"
+        },
+        {
+            "label": "Pollution tax",
+            "notation": "P"
+        },
+        {
+            "label": "Recurrent taxes on immovable property",
+            "notation": "RP"
+        },
+        {
+            "label": "Resource tax",
+            "notation": "RS"
+        },
+        {
+            "label": "Transport tax",
+            "notation": "T"
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Transformation codes",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Average, period on period",
+            "notation": "A1"
+        },
+        {
+            "label": "12-period moving average",
+            "notation": "A12"
+        },
+        {
+            "label": "3-period moving average",
+            "notation": "A3"
+        },
+        {
+            "label": "4-period moving average",
+            "notation": "A4"
+        },
+        {
+            "label": "6-period moving average",
+            "notation": "A6"
+        },
+        {
+            "label": "Annual rate of change corrected for the effect of methodological changes where applicable",
+            "notation": "ACR"
+        },
+        {
+            "label": "Average since 1999",
+            "notation": "AS1999"
+        },
+        {
+            "label": "Weighted average, over 12 periods",
+            "notation": "AW12"
+        },
+        {
+            "label": "12-period cumulated sum",
+            "notation": "C12"
+        },
+        {
+            "label": "16 period cumulated sum",
+            "notation": "C16"
+        },
+        {
+            "label": "3-period cumulated sum",
+            "notation": "C3"
+        },
+        {
+            "label": "4-period cumulated sum",
+            "notation": "C4"
+        },
+        {
+            "label": "Growth rate, period on period, over 4-period cumulated sum",
+            "notation": "C4G"
+        },
+        {
+            "label": "6-period cumulated sum",
+            "notation": "C6"
+        },
+        {
+            "label": "Cumulated sum, over 1 year",
+            "notation": "CY"
+        },
+        {
+            "label": "Differences, period on period, first order",
+            "notation": "D1"
+        },
+        {
+            "label": "Differences, period on period, second order",
+            "notation": "D1D1"
+        },
+        {
+            "label": "Difference period on 4 periods, first order",
+            "notation": "D4"
+        },
+        {
+            "label": "Difference, over 1 year",
+            "notation": "DY"
+        },
+        {
+            "label": "Monthly index, backdated, ECU (to 1989) and fixed euro conversion rate (from 1990) used for weights",
+            "notation": "ECX"
+        },
+        {
+            "label": "Monthly index, backdated, PPP exchange rates used for weights",
+            "notation": "EPX"
+        },
+        {
+            "label": "Monthly index, backdated, fixed euro conversion rate used for weights",
+            "notation": "ERX"
+        },
+        {
+            "label": "Growth rate, flow over stock, period on period",
+            "notation": "F1"
+        },
+        {
+            "label": "Growth rate, flow over stock over 12 periods",
+            "notation": "F12"
+        },
+        {
+            "label": "Growth rate, flow over stock, over 3 periods",
+            "notation": "F3"
+        },
+        {
+            "label": "Growth rate, flow over stock, over 4 periods",
+            "notation": "F4"
+        },
+        {
+            "label": "Growth rate, flow over stock over 6 periods",
+            "notation": "F6"
+        },
+        {
+            "label": "Contribution to growth rate, flow over stock, period on period",
+            "notation": "FO1"
+        },
+        {
+            "label": "Contribution to growth rate, flow over stock, over 12  periods",
+            "notation": "FO12"
+        },
+        {
+            "label": "Contribution to growth rate, flow over stock, over 16 periods",
+            "notation": "FO16"
+        },
+        {
+            "label": "Contribution to growth rate, flow over stock, over 3 periods",
+            "notation": "FO3"
+        },
+        {
+            "label": "Contribution to growth rate, flow over stock, over 4 periods",
+            "notation": "FO4"
+        },
+        {
+            "label": "Contribution to growth rate, flow over stock, over 6 periods",
+            "notation": "FO6"
+        },
+        {
+            "label": "Growth rate, flow over stock, over 1 year",
+            "notation": "FY"
+        },
+        {
+            "label": "Growth rate, period on period",
+            "notation": "G1"
+        },
+        {
+            "label": "Growth rate, over 10 periods",
+            "notation": "G10"
+        },
+        {
+            "label": "Growth rate, over 12 periods",
+            "notation": "G12"
+        },
+        {
+            "label": "Growth rate, over 3 periods",
+            "notation": "G3"
+        },
+        {
+            "label": "Growth rate, over 3 years",
+            "notation": "G3Y"
+        },
+        {
+            "label": "Growth rate, over 4 periods",
+            "notation": "G4"
+        },
+        {
+            "label": "Growth rate, over 4 years",
+            "notation": "G4Y"
+        },
+        {
+            "label": "Growth rate, over 6 periods",
+            "notation": "G6"
+        },
+        {
+            "label": "Compound growth rate, over 10 years",
+            "notation": "GC10Y"
+        },
+        {
+            "label": "Compound growth rate, over 5 years",
+            "notation": "GC5Y"
+        },
+        {
+            "label": "Contribution to growth rate, period on period",
+            "notation": "GO1"
+        },
+        {
+            "label": "Contribution to growth rate, over 12 periods",
+            "notation": "GO12"
+        },
+        {
+            "label": "Contribution to growth rate, over 3 periods",
+            "notation": "GO3"
+        },
+        {
+            "label": "Contribution to growth rate, over  4 periods",
+            "notation": "GO4"
+        },
+        {
+            "label": "Contribution to growth rate, over 6 periods",
+            "notation": "GO6"
+        },
+        {
+            "label": "Contribution to growth rate, over 1 year",
+            "notation": "GOY"
+        },
+        {
+            "label": "Growth rate, over reference year",
+            "notation": "GR",
+            "description": "Attribute REF_YEAR_PRICE is mandatory and provides the reference year"
+        },
+        {
+            "label": "Growth rate, over 1 year",
+            "notation": "GY"
+        },
+        {
+            "label": "Annual levels",
+            "notation": "LA"
+        },
+        {
+            "label": "Non transformed data",
+            "notation": "N"
+        },
+        {
+            "label": "Revisions, difference to last transmission period",
+            "notation": "R1"
+        },
+        {
+            "label": "Growth rate, over 1 year, based on 3-period\u00a0average",
+            "notation": "GYA3"
+        },
+        {
+            "label": "Growth rate, over 1 year, based on 12-period\u00a0average",
+            "notation": "GYA12"
+        }
+    ]
+}

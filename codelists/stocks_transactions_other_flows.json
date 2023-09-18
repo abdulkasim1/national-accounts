@@ -1,0 +1,2538 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Stocks, Transactions, Other Flows",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Unspecified",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Economically active population",
+            "notation": "ACT",
+            "description": "ACT=EPEA"
+        },
+        {
+            "label": "Balancing and net worth items",
+            "notation": "B"
+        },
+        {
+            "label": "Changes in net worth",
+            "notation": "B10"
+        },
+        {
+            "label": "Changes in net worth due to saving and capital transfers",
+            "notation": "B101"
+        },
+        {
+            "label": "Net transactions in assets and liabilities",
+            "notation": "B101A"
+        },
+        {
+            "label": "Changes in net worth due to other changes in volume of assets",
+            "notation": "B102"
+        },
+        {
+            "label": "Changes in net worth due to nominal holding gains and losses",
+            "notation": "B103"
+        },
+        {
+            "label": "Changes in net worth due to neutral holding gains and losses",
+            "notation": "B1031"
+        },
+        {
+            "label": "Changes in net worth due to real holding gains and losses",
+            "notation": "B1032"
+        },
+        {
+            "label": "Changes in net worth due to other changes",
+            "notation": "B10K"
+        },
+        {
+            "label": "Remaining changes in net worth",
+            "notation": "B10R",
+            "description": "B10R=B10-(P5-NP-P51C+F.FM+F.FF-F.F4+B10K.NYN+K.F)"
+        },
+        {
+            "label": "Changes in net worth due to other economic flows",
+            "notation": "B10T",
+            "description": "B10T=B102+B103"
+        },
+        {
+            "label": "External balance of goods and services",
+            "notation": "B11"
+        },
+        {
+            "label": "External balance of goods",
+            "notation": "B111"
+        },
+        {
+            "label": "External balance of services",
+            "notation": "B112"
+        },
+        {
+            "label": "Current external balance",
+            "notation": "B12"
+        },
+        {
+            "label": "Value added, gross",
+            "notation": "B1G"
+        },
+        {
+            "label": "Gross domestic product at market prices",
+            "notation": "B1GQ"
+        },
+        {
+            "label": "Value added excluding FISIM",
+            "notation": "B1GXP119",
+            "description": "only required if FISIM are not allocated"
+        },
+        {
+            "label": "Value added, net",
+            "notation": "B1N"
+        },
+        {
+            "label": "Net domestic product at market prices",
+            "notation": "B1NQ"
+        },
+        {
+            "label": "Operating surplus and mixed income, gross",
+            "notation": "B2A3G"
+        },
+        {
+            "label": "Operating surplus and mixed income, net",
+            "notation": "B2A3N"
+        },
+        {
+            "label": "Operating surplus, mixed and net property income",
+            "notation": "B2AD4",
+            "description": "B2AD4=B2A3G+D4 = B2G+B3G+D4"
+        },
+        {
+            "label": "Operating surplus, gross",
+            "notation": "B2G"
+        },
+        {
+            "label": "Operating surplus, net",
+            "notation": "B2N"
+        },
+        {
+            "label": "Mixed income, gross",
+            "notation": "B3G"
+        },
+        {
+            "label": "Mixed income, net",
+            "notation": "B3N"
+        },
+        {
+            "label": "Entrepreneurial income (gross)",
+            "notation": "B4G"
+        },
+        {
+            "label": "Entrepreneurial income (net)",
+            "notation": "B4N"
+        },
+        {
+            "label": "Balance of primary incomes, gross / National income, gross",
+            "notation": "B5G"
+        },
+        {
+            "label": "Gross national income in market prices [deprecated]",
+            "notation": "B5GQ",
+            "description": "deprecated, replaced by B5G"
+        },
+        {
+            "label": "Gross national income (SNA93/ESA95)",
+            "notation": "B5GQ95"
+        },
+        {
+            "label": "Gross national income (SNA93/ESA95) excluding FISIM allocation",
+            "notation": "B5GQ95XF"
+        },
+        {
+            "label": "Balance of primary incomes, net / National income, net",
+            "notation": "B5N"
+        },
+        {
+            "label": "Net national income in market prices [deprecated]",
+            "notation": "B5NQ",
+            "description": "deprecated, replaced by B5N"
+        },
+        {
+            "label": "Disposable income, gross",
+            "notation": "B6G"
+        },
+        {
+            "label": "Disposable income, gross, adjusted for the net change in pension entitlements",
+            "notation": "B6GA",
+            "description": "B6G + D8(credit) - D8(debit)"
+        },
+        {
+            "label": "Disposable income, net",
+            "notation": "B6N"
+        },
+        {
+            "label": "Adjusted disposable income, gross",
+            "notation": "B7G"
+        },
+        {
+            "label": "Adjusted disposable income, net",
+            "notation": "B7N"
+        },
+        {
+            "label": "Saving, gross",
+            "notation": "B8G"
+        },
+        {
+            "label": "Saving, net",
+            "notation": "B8N"
+        },
+        {
+            "label": "Net lending(+) / net borrowing (-)",
+            "notation": "B9"
+        },
+        {
+            "label": "Net worth",
+            "notation": "B90"
+        },
+        {
+            "label": "Net financial transactions",
+            "notation": "B9F"
+        },
+        {
+            "label": "Discrepancy between the financial (B9F) and non-financial (B9) net lending/borrowing",
+            "notation": "B9FX9"
+        },
+        {
+            "label": "Net lending/net borrowing excluding interest payable (primary deficit or surplus)",
+            "notation": "B9P",
+            "description": "B9P = B9 + D41 D"
+        },
+        {
+            "label": "Net lending (+) / net borrowing (-) excluding government assistance to the financial corporations",
+            "notation": "B9XFAM",
+            "description": "net lending/borrowing (B9) of general government \u2013 impact on net lending/borrowing (B9) related to government assistance to the financial corporations"
+        },
+        {
+            "label": "Financial net worth",
+            "notation": "BF90"
+        },
+        {
+            "label": "Financial net worth adjusted for pension liabilities",
+            "notation": "BF90A",
+            "description": "BF90A=BF90+F6M"
+        },
+        {
+            "label": "Cif/ fob adjustments",
+            "notation": "CIFFOB"
+        },
+        {
+            "label": "Hourly compensation",
+            "notation": "COM_HW"
+        },
+        {
+            "label": "Compensation per employee",
+            "notation": "COM_PS"
+        },
+        {
+            "label": "Distributive transactions",
+            "notation": "D"
+        },
+        {
+            "label": "Compensation of employees",
+            "notation": "D1"
+        },
+        {
+            "label": "Compensation of employees and other taxes excluding other subsidies on products",
+            "notation": "D1_D29X39",
+            "description": "D1_D29X39=D1+D29-D39"
+        },
+        {
+            "label": "Wages and salaries",
+            "notation": "D11"
+        },
+        {
+            "label": "Employers' social contributions",
+            "notation": "D12"
+        },
+        {
+            "label": "Employers' actual social contributions (primary income)",
+            "notation": "D121"
+        },
+        {
+            "label": "Employers' actual pension contributions (primary income)",
+            "notation": "D1211"
+        },
+        {
+            "label": "Employers' actual non-pension contributions (primary income)",
+            "notation": "D1212"
+        },
+        {
+            "label": "Employers' imputed social contributions (primary income)",
+            "notation": "D122"
+        },
+        {
+            "label": "Employers' imputed pension contributions (primary income)",
+            "notation": "D1221"
+        },
+        {
+            "label": "Employers' imputed non-pension contributions (primary income)",
+            "notation": "D1222"
+        },
+        {
+            "label": "Taxes on production and imports",
+            "notation": "D2"
+        },
+        {
+            "label": "Taxes on products",
+            "notation": "D21"
+        },
+        {
+            "label": "Value added type taxes",
+            "notation": "D211"
+        },
+        {
+            "label": "Value Added Tax paid to the EU (deprecated)",
+            "notation": "D211E"
+        },
+        {
+            "label": "Taxes and duties on imports excluding Value Added Tax",
+            "notation": "D212"
+        },
+        {
+            "label": "Import duties",
+            "notation": "D2121"
+        },
+        {
+            "label": "Taxes on imports excluding Value Added Tax and duties",
+            "notation": "D2122"
+        },
+        {
+            "label": "Levies on imported agricultural products",
+            "notation": "D2122A"
+        },
+        {
+            "label": "Monetary compensatory amounts on imports",
+            "notation": "D2122B"
+        },
+        {
+            "label": "Excise duties",
+            "notation": "D2122C"
+        },
+        {
+            "label": "General sales taxes",
+            "notation": "D2122D"
+        },
+        {
+            "label": "Taxes on specific services",
+            "notation": "D2122E"
+        },
+        {
+            "label": "Profits of import monopolies",
+            "notation": "D2122F"
+        },
+        {
+            "label": "Customs and other import duties",
+            "notation": "D212K",
+            "description": "D212K=D2121+D2122A+D2122B"
+        },
+        {
+            "label": "Export taxes",
+            "notation": "D213"
+        },
+        {
+            "label": "Levies on exported goods and services, other than export duties and monetary comp. amounts on exports",
+            "notation": "D213A"
+        },
+        {
+            "label": "Profits of export monopolies",
+            "notation": "D213B"
+        },
+        {
+            "label": "Taxes resulting from multiple exchange rate regimes",
+            "notation": "D213C"
+        },
+        {
+            "label": "Export taxes, exchange taxes",
+            "notation": "D213D"
+        },
+        {
+            "label": "Taxes on products except Value Added Tax, import and export taxes",
+            "notation": "D214"
+        },
+        {
+            "label": "Excise duties and consumption taxes",
+            "notation": "D214A"
+        },
+        {
+            "label": "Stamp taxes",
+            "notation": "D214B"
+        },
+        {
+            "label": "Taxes on financial and capital transactions",
+            "notation": "D214C"
+        },
+        {
+            "label": "Car registration taxes",
+            "notation": "D214D"
+        },
+        {
+            "label": "Taxes on entertainment",
+            "notation": "D214E"
+        },
+        {
+            "label": "Taxes on lotteries, gambling and betting",
+            "notation": "D214F"
+        },
+        {
+            "label": "Taxes on insurance premiums",
+            "notation": "D214G"
+        },
+        {
+            "label": "Other taxes on specific services",
+            "notation": "D214H"
+        },
+        {
+            "label": "General sales or turnover taxes",
+            "notation": "D214I"
+        },
+        {
+            "label": "General sales taxes",
+            "notation": "D214I1"
+        },
+        {
+            "label": "Turnover and other general taxes on goods and services",
+            "notation": "D214I2"
+        },
+        {
+            "label": "Profits of fiscal monopolies",
+            "notation": "D214J"
+        },
+        {
+            "label": "Export duties and monetary comp. amounts on exports",
+            "notation": "D214K"
+        },
+        {
+            "label": "Other taxes on products n. e. c.",
+            "notation": "D214L"
+        },
+        {
+            "label": "Taxes on products involving EU Institutions, traditional EU own resources (custom and agricultural duties)",
+            "notation": "D21EU"
+        },
+        {
+            "label": "Total sales taxes",
+            "notation": "D21K",
+            "description": "D21K=D2122D+D214I1"
+        },
+        {
+            "label": "Total excises",
+            "notation": "D21L",
+            "description": "D21L=D2122C+D214A"
+        },
+        {
+            "label": "General taxes on goods and services",
+            "notation": "D21M",
+            "description": "D21M=D211+D21K+D214I2+D214C"
+        },
+        {
+            "label": "Taxes on specific services",
+            "notation": "D21N",
+            "description": "D21N=D214E+D214F+D214G+D214H"
+        },
+        {
+            "label": "Total taxes on exports",
+            "notation": "D21O",
+            "description": "D21O=D213A+D214K"
+        },
+        {
+            "label": "Profits of export or import monopolies",
+            "notation": "D21P",
+            "description": "D21P=D213B+D2122F"
+        },
+        {
+            "label": "Total exchange taxes",
+            "notation": "D21Q",
+            "description": "D21Q=D213D+D59E1"
+        },
+        {
+            "label": "Taxes less subsidies on products",
+            "notation": "D21X31"
+        },
+        {
+            "label": "Taxes less subsidies on products  excluding VAT",
+            "notation": "D21X31X211"
+        },
+        {
+            "label": "Other taxes on production",
+            "notation": "D29"
+        },
+        {
+            "label": "Taxes on land, buildings or other structures",
+            "notation": "D29A"
+        },
+        {
+            "label": "Taxes on the use of fixed assets",
+            "notation": "D29B"
+        },
+        {
+            "label": "Taxes on the use of motor vehicles",
+            "notation": "D29B1"
+        },
+        {
+            "label": "Taxes on the use of other machinery or equipment",
+            "notation": "D29B2"
+        },
+        {
+            "label": "Total wage bill and payroll taxes",
+            "notation": "D29C"
+        },
+        {
+            "label": "Taxes on international transactions",
+            "notation": "D29D"
+        },
+        {
+            "label": "Business and professional licences",
+            "notation": "D29E"
+        },
+        {
+            "label": "Taxes on pollution",
+            "notation": "D29F"
+        },
+        {
+            "label": "Under-compensation of Value Added Tax (flat rate system)",
+            "notation": "D29G"
+        },
+        {
+            "label": "Other taxes on production n. e. c.",
+            "notation": "D29H"
+        },
+        {
+            "label": "Other taxes on production n. e. c.; recurrent taxes on net wealth",
+            "notation": "D29H1"
+        },
+        {
+            "label": "Other taxes on production n. e. c.; other recurrent taxes on property",
+            "notation": "D29H2"
+        },
+        {
+            "label": "Other taxes on production n. e. c.; other taxes on goods and services",
+            "notation": "D29H3"
+        },
+        {
+            "label": "Other taxes on production n. e. c.; other taxes on production",
+            "notation": "D29H4"
+        },
+        {
+            "label": "Other taxes on production minus other subsidies on production",
+            "notation": "D29X39"
+        },
+        {
+            "label": "Indirect taxes on energy",
+            "notation": "D2M"
+        },
+        {
+            "label": "Indirect taxes excluding VAT and indirect taxes on energy",
+            "notation": "D2N",
+            "description": "D2N=D2-D211-D2M"
+        },
+        {
+            "label": "Taxes on production and imports, other than for own-account capital formation",
+            "notation": "D2NOA",
+            "description": "D2NOA=D2(debit)-P5OA41"
+        },
+        {
+            "label": "Other taxes on goods and services",
+            "notation": "D2R",
+            "description": "D2R=D214L+D29G+D29H3"
+        },
+        {
+            "label": "Taxes on goods and services",
+            "notation": "D2S",
+            "description": "D2S=D21M+D2122T4B+D214J+D21O+D2Q+D2R"
+        },
+        {
+            "label": "Other taxes on international trade and transactions",
+            "notation": "D2T",
+            "description": "D2T=D2122E+D29D+D59E2"
+        },
+        {
+            "label": "Taxes on international trade and transactions",
+            "notation": "D2U",
+            "description": "D2U=D212K+D21O+D21P+D213C+D213D+D2T"
+        },
+        {
+            "label": "Taxes on production and imports less subsidies",
+            "notation": "D2X3"
+        },
+        {
+            "label": "Subsidies",
+            "notation": "D3"
+        },
+        {
+            "label": "Subsidies on products",
+            "notation": "D31"
+        },
+        {
+            "label": "Import subsidies",
+            "notation": "D311"
+        },
+        {
+            "label": "Export subsidies",
+            "notation": "D312"
+        },
+        {
+            "label": "Other subsidies on products",
+            "notation": "D319"
+        },
+        {
+            "label": "Subsidies on products, payable (positive sign, for reporting in GFS presentation)",
+            "notation": "D31P"
+        },
+        {
+            "label": "Other subsidies on production",
+            "notation": "D39"
+        },
+        {
+            "label": "Other subsidies on production, payable (positive sign, for reporting in GFS presentation)",
+            "notation": "D39P"
+        },
+        {
+            "label": "Other subsidies on production, receivable (positive sign, for reporting in GFS presentation)",
+            "notation": "D39R"
+        },
+        {
+            "label": "Subsidies, payable (positive sign, for reporting in GFS presentation)",
+            "notation": "D3P"
+        },
+        {
+            "label": "Property income",
+            "notation": "D4"
+        },
+        {
+            "label": "Property income and other current transfers",
+            "notation": "D4_7",
+            "description": "D4_7=D4+D7"
+        },
+        {
+            "label": "Interest",
+            "notation": "D41"
+        },
+        {
+            "label": "Interest accrued (not yet paid)",
+            "notation": "D41A"
+        },
+        {
+            "label": "Interest before FISIM allocation",
+            "notation": "D41G"
+        },
+        {
+            "label": "Interest from the European instrument for temporary Support to mitigate Unemployment Risks in an Emergency (SURE) and the Recovery and Resilience Facility (RRF) loans",
+            "notation": "D41SP"
+        },
+        {
+            "label": "Distributed income of corporations",
+            "notation": "D42"
+        },
+        {
+            "label": "Dividends",
+            "notation": "D421"
+        },
+        {
+            "label": "Withdrawals from income of quasi-corporations",
+            "notation": "D422"
+        },
+        {
+            "label": "Reinvested earnings on FDI (Excluding IF)",
+            "notation": "D43"
+        },
+        {
+            "label": "Reinvested earnings on FDI (Including IF)",
+            "notation": "D43S"
+        },
+        {
+            "label": "Other investment income",
+            "notation": "D44"
+        },
+        {
+            "label": "Investment income attributable to insurance policyholders",
+            "notation": "D441"
+        },
+        {
+            "label": "Investment income payable on pension entitlements",
+            "notation": "D442"
+        },
+        {
+            "label": "Investment income attributable to collective investment fund share holders",
+            "notation": "D443"
+        },
+        {
+            "label": "Dividends distributed to collective investment fund shareholders (IF)",
+            "notation": "D4431"
+        },
+        {
+            "label": "Reinvested earnings attributable to collective investment fund shareholders (IF)",
+            "notation": "D4432"
+        },
+        {
+            "label": "Property income from investment income disbursements",
+            "notation": "D44K",
+            "description": "D44K=D441+D443"
+        },
+        {
+            "label": "Rent",
+            "notation": "D45"
+        },
+        {
+            "label": "Property income attributed to insurance policy holders and rent",
+            "notation": "D4K",
+            "description": "D4K=D441+D45"
+        },
+        {
+            "label": "Interest and rents",
+            "notation": "D4M"
+        },
+        {
+            "label": "Property income other than interest",
+            "notation": "D4N",
+            "description": "D4N=D42+D43+D44+D45"
+        },
+        {
+            "label": "Investment income (D4 less D45) (BOP)",
+            "notation": "D4P",
+            "description": "D4P=D4-D45"
+        },
+        {
+            "label": "Investment income",
+            "notation": "D4R",
+            "description": "D4R=D4-D41-D45=D4-D4K"
+        },
+        {
+            "label": "Current taxes on income, wealth, etc.",
+            "notation": "D5"
+        },
+        {
+            "label": "Taxes on income",
+            "notation": "D51"
+        },
+        {
+            "label": "Taxes on individual or household income excluding holding gains",
+            "notation": "D51A"
+        },
+        {
+            "label": "Taxes on the income or profits of corporations excluding holding gains",
+            "notation": "D51B"
+        },
+        {
+            "label": "Taxes on holding gains",
+            "notation": "D51C"
+        },
+        {
+            "label": "Taxes on individual or household holding gains",
+            "notation": "D51C1"
+        },
+        {
+            "label": "Taxes on holding gains of corporations",
+            "notation": "D51C2"
+        },
+        {
+            "label": "Other taxes on holding gains n.e.c",
+            "notation": "D51C3"
+        },
+        {
+            "label": "Taxes on winnings from lottery or gambling",
+            "notation": "D51D"
+        },
+        {
+            "label": "Taxes on individuals' winnings from lottery or gambling",
+            "notation": "D51D1"
+        },
+        {
+            "label": "Taxes on corporations' winnings from lottery or gambling",
+            "notation": "D51D2"
+        },
+        {
+            "label": "Other taxes on winnings from lottery or gambling n.e.c.",
+            "notation": "D51D3"
+        },
+        {
+            "label": "Other taxes on income n.e.c.",
+            "notation": "D51E"
+        },
+        {
+            "label": "Taxes on income, payable by individuals",
+            "notation": "D51G1",
+            "description": "D51G1=D51M+D51D1"
+        },
+        {
+            "label": "Taxes on income, payable by corporations and other enterprises",
+            "notation": "D51G2",
+            "description": "D51G2=D51O+D51D2"
+        },
+        {
+            "label": "Other taxes on income, profits, and capital gains",
+            "notation": "D51G3",
+            "description": "D51G3=D51C3+D51D3+D51E"
+        },
+        {
+            "label": "Taxes on individual or household income including holding gains",
+            "notation": "D51M",
+            "description": "D51M=D51A+D51C1"
+        },
+        {
+            "label": "Taxes on the income or profits of corporations including holding gains",
+            "notation": "D51O",
+            "description": "D51O=D51B+D51C2"
+        },
+        {
+            "label": "Other current taxes",
+            "notation": "D59"
+        },
+        {
+            "label": "Current taxes on capital",
+            "notation": "D59A"
+        },
+        {
+            "label": "Current taxes on land, buildings and other structures",
+            "notation": "D59A1"
+        },
+        {
+            "label": "Recurrent taxes on net wealth",
+            "notation": "D59A2"
+        },
+        {
+            "label": "Other recurrent taxes on property",
+            "notation": "D59A3"
+        },
+        {
+            "label": "Current taxes on ownership of motor vehicles",
+            "notation": "D59A4"
+        },
+        {
+            "label": "Poll taxes",
+            "notation": "D59B"
+        },
+        {
+            "label": "Expenditure taxes",
+            "notation": "D59C"
+        },
+        {
+            "label": "Payments by households for licences",
+            "notation": "D59D"
+        },
+        {
+            "label": "Payments by households for licenses to use motor vehicle taxes",
+            "notation": "D59D1"
+        },
+        {
+            "label": "Payments by households for radio and television licenses",
+            "notation": "D59D2"
+        },
+        {
+            "label": "Payments by households for other licenses and permits",
+            "notation": "D59D3"
+        },
+        {
+            "label": "Other current taxes on international transactions",
+            "notation": "D59E"
+        },
+        {
+            "label": "Other current taxes on international transactions; exchange taxes",
+            "notation": "D59E1"
+        },
+        {
+            "label": "Other current taxes on international transactions; other",
+            "notation": "D59E2"
+        },
+        {
+            "label": "Other current taxes n.e.c.",
+            "notation": "D59F"
+        },
+        {
+            "label": "Social contributions and social benefits",
+            "notation": "D6"
+        },
+        {
+            "label": "Net social contributions",
+            "notation": "D61"
+        },
+        {
+            "label": "Employers' actual social contributions",
+            "notation": "D611",
+            "description": "D611= D121"
+        },
+        {
+            "label": "Employers' actual pension contributions",
+            "notation": "D6111",
+            "description": "D6111= D1211"
+        },
+        {
+            "label": "Social security actual pension contributions by employers",
+            "notation": "D6111A"
+        },
+        {
+            "label": "Employment related schemes actual pension contributions by employers",
+            "notation": "D6111B"
+        },
+        {
+            "label": "Employers' actual non-pension contributions",
+            "notation": "D6112",
+            "description": "D6112 = D1212"
+        },
+        {
+            "label": "Social security actual nonpension contributions by employers",
+            "notation": "D6112A"
+        },
+        {
+            "label": "Employment related schemes actual nonpension contributions by employers",
+            "notation": "D6112B"
+        },
+        {
+            "label": "Compulsory employers' actual social contributions",
+            "notation": "D611C"
+        },
+        {
+            "label": "Voluntary employers' actual social contributions",
+            "notation": "D611V"
+        },
+        {
+            "label": "Employers' imputed social contributions",
+            "notation": "D612",
+            "description": "D612 = D122"
+        },
+        {
+            "label": "Employers' imputed pension contributions",
+            "notation": "D6121",
+            "description": "D6121 = D1221"
+        },
+        {
+            "label": "Employers' imputed non-pension contributions",
+            "notation": "D6122",
+            "description": "D6122 = D1222"
+        },
+        {
+            "label": "Households' actual social contributions",
+            "notation": "D613"
+        },
+        {
+            "label": "Households' actual pension contributions",
+            "notation": "D6131"
+        },
+        {
+            "label": "Social security actual pension contributions by employees",
+            "notation": "D6131A1"
+        },
+        {
+            "label": "Social security actual pension contributions by self-employed or nonemployed",
+            "notation": "D6131A2"
+        },
+        {
+            "label": "Employment related schemes actual pension contributions by employees",
+            "notation": "D6131B"
+        },
+        {
+            "label": "Households' actual non-pension contributions",
+            "notation": "D6132"
+        },
+        {
+            "label": "Social security actual nonpension contributions by employees",
+            "notation": "D6132A1"
+        },
+        {
+            "label": "Social security actual nonpension contributions by self-employed or nonemployed",
+            "notation": "D6132A2"
+        },
+        {
+            "label": "Employment related schemes actual nonpension contributions by employees",
+            "notation": "D6132B"
+        },
+        {
+            "label": "Compulsory households' actual social contributions",
+            "notation": "D613C"
+        },
+        {
+            "label": "Compulsory employees' actual social contributions",
+            "notation": "D613CE"
+        },
+        {
+            "label": "Compulsory actual social contributions by the non-employed",
+            "notation": "D613CN"
+        },
+        {
+            "label": "Compulsory actual social contributions by the self-employed",
+            "notation": "D613CS"
+        },
+        {
+            "label": "Voluntary households' actual social contributions",
+            "notation": "D613V"
+        },
+        {
+            "label": "Households' social contribution supplements",
+            "notation": "D614"
+        },
+        {
+            "label": "Households' pension contribution supplements",
+            "notation": "D6141"
+        },
+        {
+            "label": "Households' non-pension contribution supplements",
+            "notation": "D6142"
+        },
+        {
+            "label": "Other (actuarial) change of pension entitlements in social security pension schemes",
+            "notation": "D619"
+        },
+        {
+            "label": "Actual social contributions from employers and households",
+            "notation": "D61N",
+            "description": "D61N=D611+D613"
+        },
+        {
+            "label": "Social insurance scheme service charges (-)",
+            "notation": "D61SC"
+        },
+        {
+            "label": "Social benefits other than social transfers in kind",
+            "notation": "D62"
+        },
+        {
+            "label": "Social benefits and social transfers in kind",
+            "notation": "D62_63",
+            "description": "D62_63=D62+D63"
+        },
+        {
+            "label": "Social security benefits in cash",
+            "notation": "D621"
+        },
+        {
+            "label": "Social security pension benefits",
+            "notation": "D6211"
+        },
+        {
+            "label": "Social security non-pension benefits in cash",
+            "notation": "D6212"
+        },
+        {
+            "label": "Other social insurance benefits",
+            "notation": "D622"
+        },
+        {
+            "label": "Other social insurance pension benefits",
+            "notation": "D6221"
+        },
+        {
+            "label": "Other social insurance non-pension benefits",
+            "notation": "D6222"
+        },
+        {
+            "label": "Social assistance benefits in cash",
+            "notation": "D623"
+        },
+        {
+            "label": "Other social allowances (payments of family, education, medical services and other allowances)",
+            "notation": "D62O"
+        },
+        {
+            "label": "Retirement and survivors' Pensions",
+            "notation": "D62P"
+        },
+        {
+            "label": "Social transfers in kind",
+            "notation": "D63"
+        },
+        {
+            "label": "Social transfers in kind - non-market production",
+            "notation": "D631"
+        },
+        {
+            "label": "Social transfers in kind - purchased market production",
+            "notation": "D632"
+        },
+        {
+            "label": "Social transfers in kind - purchased market production, social security",
+            "notation": "D6321"
+        },
+        {
+            "label": "Social transfers in kind - purchased market production, employment-related schemes",
+            "notation": "D6322"
+        },
+        {
+            "label": "Social transfers in kind - purchased market production, social assistance",
+            "notation": "D6323"
+        },
+        {
+            "label": "Social transfers, other than social transfers in kind minus net social contributions",
+            "notation": "D6K",
+            "description": "D62(credit)-D61(debit)"
+        },
+        {
+            "label": "Social contribution and social benefits, other than social transfer in kind",
+            "notation": "D6L",
+            "description": "D6L=D61+D62"
+        },
+        {
+            "label": "Social benefits other than social transfers in kind and social transfers in kind - purchased market production",
+            "notation": "D6M",
+            "description": "D6M=D62+D632"
+        },
+        {
+            "label": "Other current transfers",
+            "notation": "D7"
+        },
+        {
+            "label": "Net non-life insurance premiums",
+            "notation": "D71"
+        },
+        {
+            "label": "Net non-life direct insurance premiums",
+            "notation": "D711"
+        },
+        {
+            "label": "Net non-life reinsurance premiums",
+            "notation": "D712"
+        },
+        {
+            "label": "Net premiums of nonlife insurance schemes other than standardized guarantee",
+            "notation": "D71A"
+        },
+        {
+            "label": "Fees for standardized guarantee schemes",
+            "notation": "D71B"
+        },
+        {
+            "label": "Non-life insurance claims",
+            "notation": "D72"
+        },
+        {
+            "label": "Non-life direct insurance claims",
+            "notation": "D721"
+        },
+        {
+            "label": "Non-life reinsurance claims",
+            "notation": "D722"
+        },
+        {
+            "label": "Current transfers within general government",
+            "notation": "D73"
+        },
+        {
+            "label": "Current grants to/from governments and international organizations",
+            "notation": "D73_74",
+            "description": "D73_74=D73+D74"
+        },
+        {
+            "label": "Current international cooperation",
+            "notation": "D74"
+        },
+        {
+            "label": "Miscellaneous current transfers",
+            "notation": "D75"
+        },
+        {
+            "label": "Current transfers to NPISHs",
+            "notation": "D751"
+        },
+        {
+            "label": "Current transfers between resident and non-resident households",
+            "notation": "D752"
+        },
+        {
+            "label": "Other miscellaneous current transfers",
+            "notation": "D759"
+        },
+        {
+            "label": "Fines, penalties, and forfeits",
+            "notation": "D759A"
+        },
+        {
+            "label": "Other miscellaneous current transfers , other than fines, penalties, and forfeits",
+            "notation": "D759B"
+        },
+        {
+            "label": "Value Added Tax and GNI - based EU own resources",
+            "notation": "D76",
+            "description": "D76 = D761+D762+D763"
+        },
+        {
+            "label": "VAT-based third EU own resource",
+            "notation": "D761"
+        },
+        {
+            "label": "GNI-based fourth EU own resource",
+            "notation": "D762"
+        },
+        {
+            "label": "Current transfers of which UK rebate",
+            "notation": "D762K"
+        },
+        {
+            "label": "Miscellaneous non-tax contribution of the government to the institutions of the EU",
+            "notation": "D763"
+        },
+        {
+            "label": "Miscellaneous non-tax contribution of the government to the institutions of the European Union (EU): of which plastics contribution - EU own resource",
+            "notation": "D763A"
+        },
+        {
+            "label": "Miscellaneous current transfers and VAT- and GNI-based own resources [deprecated]",
+            "notation": "D7K",
+            "description": "D7K=D75+D76"
+        },
+        {
+            "label": "Current transfers within general government, current international cooperation and miscellaneous current transfers",
+            "notation": "D7L",
+            "description": "D7L=D73+D74+D75"
+        },
+        {
+            "label": "Current international cooperation, miscellaneous current transfers and VAT and GNI-based EU own resources",
+            "notation": "D7N",
+            "description": "D7N=D74+D75+D76"
+        },
+        {
+            "label": "Current transfers financed by the Recovery and Resilience Facility (RRF)",
+            "notation": "D7NP"
+        },
+        {
+            "label": "Secondary income: All miscellaneous current transfers",
+            "notation": "D7O",
+            "description": "D7O=D75+D76"
+        },
+        {
+            "label": "Adjustment for the change in pension entitlements",
+            "notation": "D8"
+        },
+        {
+            "label": "Transfer of pension entitlements between schemes",
+            "notation": "D81"
+        },
+        {
+            "label": "Change in entitlements due to negotiated changes in scheme structure",
+            "notation": "D82"
+        },
+        {
+            "label": "Capital transfers",
+            "notation": "D9"
+        },
+        {
+            "label": "Capital taxes",
+            "notation": "D91"
+        },
+        {
+            "label": "Taxes on capital transfers",
+            "notation": "D91A"
+        },
+        {
+            "label": "Capital levies",
+            "notation": "D91B"
+        },
+        {
+            "label": "Other capital taxes n.e.c.",
+            "notation": "D91C"
+        },
+        {
+            "label": "Investment grants",
+            "notation": "D92"
+        },
+        {
+            "label": "Other capital transfers",
+            "notation": "D99"
+        },
+        {
+            "label": "Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected",
+            "notation": "D995"
+        },
+        {
+            "label": "Taxes on products assessed but unlikely to be collected",
+            "notation": "D995A"
+        },
+        {
+            "label": "Other taxes on production assessed but unlikely to be collected",
+            "notation": "D995B"
+        },
+        {
+            "label": "Taxes on income assessed but unlikely to be collected",
+            "notation": "D995C"
+        },
+        {
+            "label": "Other current taxes assessed but unlikely to be collected",
+            "notation": "D995D"
+        },
+        {
+            "label": "Employers actual social contributions assessed but unlikely to be collected",
+            "notation": "D995E"
+        },
+        {
+            "label": "Households' actual social contributions assessed but unlikely to be collected",
+            "notation": "D995F"
+        },
+        {
+            "label": "Employees' actual social contributions assessed but unlikely to be collected",
+            "notation": "D995FE"
+        },
+        {
+            "label": "Actual social contributions by non-employed persons assessed but unlikely to be collected",
+            "notation": "D995FN"
+        },
+        {
+            "label": "Actual social contributions by self-employed persons assessed but unlikely to be collected",
+            "notation": "D995FS"
+        },
+        {
+            "label": "Capital taxes assessed but unlikely to be collected",
+            "notation": "D995G"
+        },
+        {
+            "label": "Nonlife insurance capital claims",
+            "notation": "D99A"
+        },
+        {
+            "label": "Other capital transfers not elsewhere classified",
+            "notation": "D99B"
+        },
+        {
+            "label": "Calls on guarantees",
+            "notation": "D99CG"
+        },
+        {
+            "label": "Capital injections recorded as capital transfers",
+            "notation": "D99CI"
+        },
+        {
+            "label": "Capital transfers recorded in the context of asset purchases",
+            "notation": "D9IMA"
+        },
+        {
+            "label": "Other capital transfers and investment grants",
+            "notation": "D9N",
+            "description": "D9N=D92+D99"
+        },
+        {
+            "label": "Capital transfers financed by the Recovery and Resilience Facility (RRF)",
+            "notation": "D9NP"
+        },
+        {
+            "label": "Other capital transfers and investment grants, excluding nonlife insurance capital claims",
+            "notation": "D9O",
+            "description": "D9O=D92+D99B; D9O=D9N-D99A"
+        },
+        {
+            "label": "Capital transfers, excluding nonlife insurance capital claims",
+            "notation": "D9P",
+            "description": "D9P=D91+D92+D99B; D9P=D9-D99A"
+        },
+        {
+            "label": "Grants to/from governments and international organizations",
+            "notation": "DG",
+            "description": "DG=D73+D74+D9N(requires counterparty)"
+        },
+        {
+            "label": "Grants in cash",
+            "notation": "DG1"
+        },
+        {
+            "label": "Grants in kind",
+            "notation": "DG2"
+        },
+        {
+            "label": "Taxes on property",
+            "notation": "DK",
+            "description": "DK=DK1+DK2+DK3+D91A+D91B"
+        },
+        {
+            "label": "Recurrent taxes on immovable property",
+            "notation": "DK1",
+            "description": "DK1=D29A+D59A1"
+        },
+        {
+            "label": "Recurrent taxes on net wealth",
+            "notation": "DK2",
+            "description": "DK2=D29H1+D59A2"
+        },
+        {
+            "label": "Other recurrent taxes on property",
+            "notation": "DK3",
+            "description": "DK3=D29H2+D59A3"
+        },
+        {
+            "label": "Taxes on use of goods and on permission to use goods and perform activities",
+            "notation": "DL",
+            "description": "DL=DL1+DL2"
+        },
+        {
+            "label": "Motor vehicles taxes [IMF GFSM definition]",
+            "notation": "DL1",
+            "description": "DL1=D214D+D29B1+D59A4+D59D1"
+        },
+        {
+            "label": "Other taxes on use of goods and on permission to use goods or perform activities",
+            "notation": "DL2",
+            "description": "DL2=D29E+D29F+D59D2+D59D3+D29B2"
+        },
+        {
+            "label": "Total employment",
+            "notation": "EMP"
+        },
+        {
+            "label": "European Union (EU) own resources and miscellaneous contributions",
+            "notation": "EUO"
+        },
+        {
+            "label": "Transactions in financial assets and liabilities",
+            "notation": "F"
+        },
+        {
+            "label": "Gross operating balance",
+            "notation": "GB8ZG",
+            "description": "GB8ZG=GOTRG-GOTEE"
+        },
+        {
+            "label": "Net operating balance",
+            "notation": "GB8ZN",
+            "description": "GB8ZN=GOTRG-GOTEE+P51M"
+        },
+        {
+            "label": "Net lending(+) / net borrowing (-) [IMF GFSM definition]",
+            "notation": "GB9",
+            "description": "GB9=GOTRG-GOTEG; B9G=GOTRG-GOTEE-P5L"
+        },
+        {
+            "label": "Primary net lending(+) / net borrowing (-) [IMF GFSM definition]",
+            "notation": "GB9P",
+            "description": "GB9P=GB9+D41G(debit)"
+        },
+        {
+            "label": "Implicit transfers resulting from concessional interest rates",
+            "notation": "GCL"
+        },
+        {
+            "label": "Net cash inflow from financial activities",
+            "notation": "GCNFB"
+        },
+        {
+            "label": "Compensation of employees, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD1",
+            "description": "GD1=D1-P5OA1"
+        },
+        {
+            "label": "Wages and salaries, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD11",
+            "description": "GD11=GD11A+GD11B\nGD11=D11-P5OA11-P5OA12"
+        },
+        {
+            "label": "Wages and salaries in cash, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD11A"
+        },
+        {
+            "label": "Wages and salaries in kind, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD11B"
+        },
+        {
+            "label": "Employers' social contributions, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD12",
+            "description": "GD12=GD121+GD122\nGD12=D12-P5OA13-P5OA14"
+        },
+        {
+            "label": "Employers' actual social contributions, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD121",
+            "description": "GD121=D121-P5OA13"
+        },
+        {
+            "label": "Employers' imputed social contributions, excluding for own-account capital formation [IMF GFSM definition]",
+            "notation": "GD122",
+            "description": "GD122=D122-P5OA14"
+        },
+        {
+            "label": "Subsidies, other than for own-account capital formation",
+            "notation": "GD3NOA",
+            "description": "GD3NOA=D3(credit)-P5OA42"
+        },
+        {
+            "label": "Property income before FISIM allocation, excluding investment income payable on pension entitlements [IMF GFSM definition]",
+            "notation": "GD4",
+            "description": "GD4=D41G+D421+D422+D44K+D45+D43"
+        },
+        {
+            "label": "Property income other than interest, excluding investment income payable on pension entitlements [IMF GFSM definition]",
+            "notation": "GD4N",
+            "description": "GD4N=D42+D43+D44K+D45"
+        },
+        {
+            "label": "Social contributions, excluding employment related schemes' pension contribution [IMF GFSM definition]",
+            "notation": "GD61",
+            "description": "GD61=GD61A+GD61B"
+        },
+        {
+            "label": "Social security contributions",
+            "notation": "GD61A",
+            "description": "GD61A=GD61A1+GD61A2+GD61A3+GD61A4"
+        },
+        {
+            "label": "Social security contributions, employee contributions",
+            "notation": "GD61A1",
+            "description": "GD61A1=D6131A1+D6132A1"
+        },
+        {
+            "label": "Social security contributions, employer contributions",
+            "notation": "GD61A2",
+            "description": "GD61A2=D6111A+D6112A"
+        },
+        {
+            "label": "Social security contributions, self-employed or nonemployed contributions",
+            "notation": "GD61A3",
+            "description": "GD61A3=D6131A2+D6132A2"
+        },
+        {
+            "label": "Social security contributions, unallocable contributions",
+            "notation": "GD61A4"
+        },
+        {
+            "label": "Other social contributions",
+            "notation": "GD61B",
+            "description": "GD61B=GD61B1+D6112B+D6122"
+        },
+        {
+            "label": "Other social contributions, employee contributions",
+            "notation": "GD61B1",
+            "description": "GD61B1=D6132B+D6142"
+        },
+        {
+            "label": "Social benefits in cash, excluding other social insurance pension benefits [IMF GFSM definition]",
+            "notation": "GD62",
+            "description": "GD62=D621+D6222+D623"
+        },
+        {
+            "label": "Social benefits, excluding other social insurance pension benefits and social transfers in kind - non-market production [IMF GFSM definition]",
+            "notation": "GD6M",
+            "description": "GD6M=D621+D6222+D623+D632; GD6M=GD6M1+GD6M2+GD6M3"
+        },
+        {
+            "label": "Social security benefits",
+            "notation": "GD6M1",
+            "description": "GD6M1=D621+D6321"
+        },
+        {
+            "label": "Employer social benefits, excluding pension benefits [IMF GFSM definition]",
+            "notation": "GD6M2",
+            "description": "GD6M2=D6222+D6322"
+        },
+        {
+            "label": "Social assistance benefits",
+            "notation": "GD6M3",
+            "description": "GD6M3=D623+D6323"
+        },
+        {
+            "label": "Premiums of nonlife insurance schemes other than standardized guarantees",
+            "notation": "GD71A",
+            "description": "GD71A(credit)=D71A(credit)+P118\nGD71A(debit)=D71A(debit)+P28"
+        },
+        {
+            "label": "Miscellaneous current transfers , other than fines, penalties, and forfeits",
+            "notation": "GD75",
+            "description": "GD75=D75-D759B"
+        },
+        {
+            "label": "Premiums, fees, and current claims",
+            "notation": "GD7P",
+            "description": "GD7P=GD71A+D71B+D72"
+        },
+        {
+            "label": "Premiums, fees, and claims related to nonlife insurance and standardized guarantee schemes",
+            "notation": "GD7Q",
+            "description": "GD7Q=GD7P+D99A"
+        },
+        {
+            "label": "Current transfers not elsewhere classified",
+            "notation": "GD7R",
+            "description": "GD7R(credit)=D3NOA+GD75\nGD7R(debit)=D2NOA+D5+D75"
+        },
+        {
+            "label": "Transfers not elsewhere classified",
+            "notation": "GD7Z",
+            "description": "GD7Z(credit)=GD7R(credit)+D9O\nGD7Z(debit)=GD7R(debit)+D9P"
+        },
+        {
+            "label": "Other taxes [IMF GFSM definition]",
+            "notation": "GDM",
+            "description": "GDM=GDM1+GDM2"
+        },
+        {
+            "label": "Other taxes, payable solely by business",
+            "notation": "GDM1",
+            "description": "GDM1=D214B+D29H4"
+        },
+        {
+            "label": "Other taxes, payable by other than business or unidentifiable",
+            "notation": "GDM2",
+            "description": "GDM2=D59B+D59C+D59F"
+        },
+        {
+            "label": "Deficit-debt adjustment",
+            "notation": "GDXB9"
+        },
+        {
+            "label": "Time of recording and other differences in DDA analysis (ECB concept)",
+            "notation": "GDXN",
+            "description": "GDXN=GDXB9 - FR6 - other flows"
+        },
+        {
+            "label": "Other expense [IMF GFSM definition]",
+            "notation": "GOOE",
+            "description": "GOOE=GD4N+GD7Z+GD7Q(debit)"
+        },
+        {
+            "label": "Other revenue [IMF GFSM definition]",
+            "notation": "GOOR",
+            "description": "GOOR=GD4+GP1+D759A+GD7Z+GD7Q(credit)"
+        },
+        {
+            "label": "Total government expenditure [IMF GFSM definition]",
+            "notation": "GOTE",
+            "description": "GOTEG=GOTEE+P5NP"
+        },
+        {
+            "label": "Total expense",
+            "notation": "GOTEE",
+            "description": "GOTEE=GD1+GP2+P51M+GD41+D3+DG+GD6M+GOOE"
+        },
+        {
+            "label": "Expense, excluding consumption of fixed capital",
+            "notation": "GOTEEG",
+            "description": "GOTEEG=GD1+GP2+GD41+D3+DG+GD6M+GOOE"
+        },
+        {
+            "label": "Total government revenue [IMF GFSM definition]",
+            "notation": "GOTR",
+            "description": "GOTR=ODA+GD61+DG+GOOR"
+        },
+        {
+            "label": "Sales of goods and services",
+            "notation": "GP1",
+            "description": "GP1=GP11+P131+P12B"
+        },
+        {
+            "label": "Sales by market establishments",
+            "notation": "GP11",
+            "description": "GP11=P11-P118-P119"
+        },
+        {
+            "label": "Use of goods and services",
+            "notation": "GP2",
+            "description": "GP2=P2-P28-P29-P5OA2"
+        },
+        {
+            "label": "Consumption of fixed capital (use of fixed assets) [IMF GFSM definition]",
+            "notation": "GP51C",
+            "description": "GP51C=P51C-P5OA3"
+        },
+        {
+            "label": "Primary and secondary income",
+            "notation": "IN",
+            "description": "IN=D1+D2+D3+D4+D5+D6+D7+D8;\nIN=IN1+IN2"
+        },
+        {
+            "label": "Primary income",
+            "notation": "IN1",
+            "description": "IN1=D1+D2+D3+D4"
+        },
+        {
+            "label": "Secondary income",
+            "notation": "IN2",
+            "description": "IN2=D5+D6+D7+D8"
+        },
+        {
+            "label": "Secondary income: current transfers",
+            "notation": "IN21",
+            "description": "IN21=D5+D6+D7"
+        },
+        {
+            "label": "Secondary income: Other current transfers excluding personal transfers",
+            "notation": "IN22",
+            "description": "IN22=IN2-D752"
+        },
+        {
+            "label": "Changes in positions other than transactions",
+            "notation": "K"
+        },
+        {
+            "label": "Economic appearance of assets",
+            "notation": "K1"
+        },
+        {
+            "label": "Economic disappearances of non-produced assets",
+            "notation": "K2"
+        },
+        {
+            "label": "Depletion of natural resources",
+            "notation": "K21"
+        },
+        {
+            "label": "Other economic disappearances of non-produced assets",
+            "notation": "K22"
+        },
+        {
+            "label": "Catastrophic losses",
+            "notation": "K3"
+        },
+        {
+            "label": "Uncompensated seizures",
+            "notation": "K4"
+        },
+        {
+            "label": "Other changes in volume not elsewhere classified",
+            "notation": "K5"
+        },
+        {
+            "label": "Changes in classification",
+            "notation": "K6"
+        },
+        {
+            "label": "Changes in sector classification and structure",
+            "notation": "K61"
+        },
+        {
+            "label": "Changes in classification of assets and liabilities",
+            "notation": "K62"
+        },
+        {
+            "label": "Revaluations / Nominal holding gains and losses",
+            "notation": "K7"
+        },
+        {
+            "label": "Neutral holding gains and losses",
+            "notation": "K71"
+        },
+        {
+            "label": "Real holding gains and losses",
+            "notation": "K72"
+        },
+        {
+            "label": "Revaluations due to exchange rate changes",
+            "notation": "K7A"
+        },
+        {
+            "label": "Revaluations due to other price changes",
+            "notation": "K7B"
+        },
+        {
+            "label": "Other valuation effects of which due to issuance and redemption value",
+            "notation": "K7B1"
+        },
+        {
+            "label": "Other changes excluding revaluations",
+            "notation": "KA"
+        },
+        {
+            "label": "Other volume changes in debt liabilities (K.3, K.4, K.5) (-)",
+            "notation": "KX"
+        },
+        {
+            "label": "Closing balance sheet/Positions/Stocks",
+            "notation": "LE"
+        },
+        {
+            "label": "Labour Productivity (per hours worked)",
+            "notation": "LPR_HW"
+        },
+        {
+            "label": "Labour Productivity (per persons)",
+            "notation": "LPR_PS"
+        },
+        {
+            "label": "Opening balance sheet/Positions/Stocks",
+            "notation": "LS"
+        },
+        {
+            "label": "Changes in balance sheet/Positions/Stocks",
+            "notation": "LX"
+        },
+        {
+            "label": "Acquisitions less disposals of non-produced assets",
+            "notation": "NP"
+        },
+        {
+            "label": "Adjustment product taxes less subsidies",
+            "notation": "O21X31"
+        },
+        {
+            "label": "Net lending/borrowing under EDP",
+            "notation": "OB9"
+        },
+        {
+            "label": "Total current expenditure",
+            "notation": "OCE",
+            "description": "OCE = OCT+D41 D+D1 D+P2 D"
+        },
+        {
+            "label": "Primary current expenditure",
+            "notation": "OCEXD41",
+            "description": "OCE - D41"
+        },
+        {
+            "label": "Total current revenue",
+            "notation": "OCR",
+            "description": "OCR= D5+D2+D61+OOCR+P11+P12+P131"
+        },
+        {
+            "label": "Social benefits other than social transfers in kind + social transfers in kind, purchased market production + subsidies payable + current taxes on income, wealth, etc. + other taxes on production + property income other than interest + other current transfers",
+            "notation": "OCT",
+            "description": "OCT = OSP-D3 C+OOCT"
+        },
+        {
+            "label": "Interest, including flows on swaps and FRA's",
+            "notation": "OD41"
+        },
+        {
+            "label": "Total tax receipts",
+            "notation": "ODA"
+        },
+        {
+            "label": "Total receipts from taxes and social contributions after deduction of amounts assessed but unlikely to be collected",
+            "notation": "ODB"
+        },
+        {
+            "label": "Total receipts from taxes and social contributions (including imputed social contributions) after deduction of amounts assessed but unlikely to be collected",
+            "notation": "ODC"
+        },
+        {
+            "label": "Tax burden = total receipts from taxes and compulsory social contributions after deduction of amounts assessed but unlikely to be collected",
+            "notation": "ODD"
+        },
+        {
+            "label": "Memo: Difference between deliveries and corresponding cash payment (EDP concept)",
+            "notation": "ODH"
+        },
+        {
+            "label": "Intermediate consumption, other taxes on production, current taxes on income and wealth, etc., and adjustment for the change in net equity of households in pension funds reserves",
+            "notation": "OEA"
+        },
+        {
+            "label": "Other taxes on production, current taxes on income and wealth, etc. and adjustment for the change in net equity of households in pension funds reserves",
+            "notation": "OEB"
+        },
+        {
+            "label": "Intermediate consumption + Other taxes on production + Current taxes on income, wealth, etc. + Adjustment for the change in pension entitlements",
+            "notation": "OEC",
+            "description": "OEC=P2+D29+D5+D8"
+        },
+        {
+            "label": "Other taxes on production + Current taxes on income, wealth, etc. + Adjustment for the change in pension entitlements",
+            "notation": "OED",
+            "description": "OED=D29+D5+D8"
+        },
+        {
+            "label": "Total impact of differences in definitions between ESA2010 and ESA95 on GNI",
+            "notation": "OESA95"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: R&D created by a market producer",
+            "notation": "OESA9501A"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: R&D created by a non-market producer",
+            "notation": "OESA9501B"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Valuation of output for own final use for market producers",
+            "notation": "OESA9502"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Non-life insurance - Output, claims due to catastrophes, and reinsurance",
+            "notation": "OESA9503"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Weapon systems in government recognised as capital assets",
+            "notation": "OESA9504"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Decommissioning costs for large capital assets",
+            "notation": "OESA9505"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Government, public and private sector classification",
+            "notation": "OESA9506"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Small tools",
+            "notation": "OESA9507"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: VAT-based third EU own resource",
+            "notation": "OESA9508"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Index-linked debt instruments",
+            "notation": "OESA9509"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Central Bank - allocation of output",
+            "notation": "OESA9510"
+        },
+        {
+            "label": "Impact of differences in definitions between ESA2010 and ESA95 on GNI: Land improvements recognised as a separate asset",
+            "notation": "OESA9511"
+        },
+        {
+            "label": "Guarantee fees receivable",
+            "notation": "OGF",
+            "description": "sum of guarantee fees recorded as P.131 and D.75"
+        },
+        {
+            "label": "Gross disposable income minus final consumption expenditure",
+            "notation": "OIN",
+            "description": "B6G-P3"
+        },
+        {
+            "label": "Total capital expenditure",
+            "notation": "OKE",
+            "description": "OKE = P51G+P52+P53+NP+D9 C"
+        },
+        {
+            "label": "Member State's net revenue from pre-acceding programmes",
+            "notation": "OM2"
+        },
+        {
+            "label": "Current taxes on income, wealth, etc., Other taxes on production, Property income other than interest, Other current transfers and Adjustment for the change in pension entitlements",
+            "notation": "OOCE",
+            "description": "OOCE = D29 + D4N + D5 + D7 + D8"
+        },
+        {
+            "label": "Other current revenue",
+            "notation": "OOCR",
+            "description": "OOCR = D39 + D4 + D7"
+        },
+        {
+            "label": "Current taxes on income, wealth, etc.  + other taxes on production  + property income other than interest + other current transfers  excluding current transfers to NPISH",
+            "notation": "OOCT",
+            "description": "OOCT=D29 + D4 - D41 + D5 +  D7 -D751 + D8"
+        },
+        {
+            "label": "Total government expenditure excluding: interest, calls on guarantees, capital injections recorded as capital transfers",
+            "notation": "OOE",
+            "description": "OOE=OTE-D41-D99CG-D99CI"
+        },
+        {
+            "label": "Total government expenditure excluding: interest, calls on guarantees, capital injections recorded as capital transfers, capital transfers recorded in the context of asset purchases",
+            "notation": "OOEE",
+            "description": "OOEE=OTE-D41-D99CG-D99CI-D99IMA"
+        },
+        {
+            "label": "Other revenue",
+            "notation": "OOR",
+            "description": "OOR=OTR-OGF-D41-D42"
+        },
+        {
+            "label": "Purchases",
+            "notation": "OP"
+        },
+        {
+            "label": "Gross disposable income - gross operating surplus and mixed income - compensation of employees - social contribution and social benefits, other than social transfer in kind - current taxes on income, wealth, etc.",
+            "notation": "OPI",
+            "description": "OPI=B6G-B2A3G-D1-D61-D62-D5"
+        },
+        {
+            "label": "Adjustments for scope and valuation of Maastricht debt",
+            "notation": "ORADJ"
+        },
+        {
+            "label": "Difference between interest paid (+) and accrued (EDP D.41)(-)",
+            "notation": "ORD41A"
+        },
+        {
+            "label": "Difference between interest (EDP D.41) accrued(-) and paid (+) of which: interest flows attributable to swaps and FRAs",
+            "notation": "ORD41FA"
+        },
+        {
+            "label": "Appreciation(+)/depreciation(-) of foreign-currency debt",
+            "notation": "ORFCD"
+        },
+        {
+            "label": "Issuances above(-)/below(+) nominal value",
+            "notation": "ORINV"
+        },
+        {
+            "label": "Non-financial transactions not included in the working balance",
+            "notation": "ORNF"
+        },
+        {
+            "label": "Other adjustments (+/-) in EDP Table 2",
+            "notation": "OROA"
+        },
+        {
+            "label": "Redemptions of debt above(+)/below(-) nominal  value",
+            "notation": "ORRNV"
+        },
+        {
+            "label": "Working balance",
+            "notation": "ORWB"
+        },
+        {
+            "label": "Working balance (+/-) of entities not part of the subsector",
+            "notation": "ORWB_E"
+        },
+        {
+            "label": "Savings, gross plus net capital transfers",
+            "notation": "OSA",
+            "description": "B8G+D9"
+        },
+        {
+            "label": "Social benefits other than social transfers in kind and social transfers in kind - purchased market production + current transfers to NPISHs",
+            "notation": "OSP",
+            "description": "OSP = D.62 D+ D.632 +D751= D6M+D751"
+        },
+        {
+            "label": "Total government expenditure",
+            "notation": "OTE"
+        },
+        {
+            "label": "Total expenditure other than Compensation of employees, Social benefits and social transfers in kind for products supplied to HH via market producers, Intermediate consumption and Gross fixed capital formation",
+            "notation": "OTEK",
+            "description": "OTEK=OTE-D1-D6O-P51-P2"
+        },
+        {
+            "label": "Primary expenditure",
+            "notation": "OTEXD41",
+            "description": "OTEXD41=OTE-D41"
+        },
+        {
+            "label": "Trading gain or loss",
+            "notation": "OTGL"
+        },
+        {
+            "label": "Total government revenue",
+            "notation": "OTR"
+        },
+        {
+            "label": "Net revenue / cost for general government (only including transactions as defined for EDP financial crisis tables and to be used with custom breakdown FC)",
+            "notation": "OTRE"
+        },
+        {
+            "label": "Total receipts from taxes and social contributions",
+            "notation": "OTSR"
+        },
+        {
+            "label": "Trade and transport margins",
+            "notation": "OTTM"
+        },
+        {
+            "label": "Trade margins",
+            "notation": "OTTM1"
+        },
+        {
+            "label": "Transport margins",
+            "notation": "OTTM2"
+        },
+        {
+            "label": "Transactions in products",
+            "notation": "P"
+        },
+        {
+            "label": "Output",
+            "notation": "P1"
+        },
+        {
+            "label": "Market output",
+            "notation": "P11"
+        },
+        {
+            "label": "Implicit service fees in nonlife insurance premiums and standardized guarantees",
+            "notation": "P118"
+        },
+        {
+            "label": "Financial Intermediation Services Indirectly Measured (FISIM)",
+            "notation": "P119"
+        },
+        {
+            "label": "Output for own final use",
+            "notation": "P12"
+        },
+        {
+            "label": "Output for own final use, cost attributable to compensation of employees (GFSM purpose)",
+            "notation": "P12_GFSM_D1"
+        },
+        {
+            "label": "Output for own final use, cost attributable to intermediate consumption (GFSM purpose)",
+            "notation": "P12_GFSM_P2"
+        },
+        {
+            "label": "Output for own final use, cost attributable to consumption of fixed capital (GFSM purpose)",
+            "notation": "P12_GFSM_P51C"
+        },
+        {
+            "label": "Own-account capital formation",
+            "notation": "P12A"
+        },
+        {
+            "label": "Production of goods and services used as compensation of employees in kind",
+            "notation": "P12B"
+        },
+        {
+            "label": "Non-market output",
+            "notation": "P13"
+        },
+        {
+            "label": "Payments for other non-market output",
+            "notation": "P131"
+        },
+        {
+            "label": "Administrative fees",
+            "notation": "P131A"
+        },
+        {
+            "label": "Incidental sales by nonmarket establishments",
+            "notation": "P131B"
+        },
+        {
+            "label": "Other non-market output, n.e.c.",
+            "notation": "P132"
+        },
+        {
+            "label": "Market output and output for own final use",
+            "notation": "P1M",
+            "description": "P1M=P1-P131"
+        },
+        {
+            "label": "Market output, output for own final use and payments for other non-market output",
+            "notation": "P1O",
+            "description": "P1O=P11+P12+P131"
+        },
+        {
+            "label": "Intermediate consumption",
+            "notation": "P2"
+        },
+        {
+            "label": "Service charges payable to providers of nonlife insurance",
+            "notation": "P28"
+        },
+        {
+            "label": "Intermediate consumption resulting from FISIM allocation",
+            "notation": "P29"
+        },
+        {
+            "label": "Final consumption expenditure",
+            "notation": "P3",
+            "description": "P3=P31+P32"
+        },
+        {
+            "label": "Final domestic demand\u00a0excluding inventories",
+            "notation": "P3_P51G",
+            "description": "P3_P51G=P3+P51G"
+        },
+        {
+            "label": "Individual consumption expenditure",
+            "notation": "P31"
+        },
+        {
+            "label": "Individual consumption expenditure of durable goods",
+            "notation": "P311"
+        },
+        {
+            "label": "Individual consumption expenditure of semi-durable goods",
+            "notation": "P312"
+        },
+        {
+            "label": "Individual consumption expenditure of non-durable goods",
+            "notation": "P313"
+        },
+        {
+            "label": "Individual consumption expenditure of services",
+            "notation": "P314"
+        },
+        {
+            "label": "Individual consumption expenditure of semi-durable and non-durable goods and services",
+            "notation": "P31K",
+            "description": "P31K=P312+P313+P314"
+        },
+        {
+            "label": "Collective consumption expenditure",
+            "notation": "P32"
+        },
+        {
+            "label": "Total final\u00a0domestic demand",
+            "notation": "P3T5",
+            "description": "P3T5=P3+P5"
+        },
+        {
+            "label": "Total demand",
+            "notation": "P3T6",
+            "description": "P3T6=P3+P5+P6"
+        },
+        {
+            "label": "Actual final consumption",
+            "notation": "P4"
+        },
+        {
+            "label": "Actual individual consumption",
+            "notation": "P41"
+        },
+        {
+            "label": "Actual collective consumption",
+            "notation": "P42"
+        },
+        {
+            "label": "Gross capital formation",
+            "notation": "P5"
+        },
+        {
+            "label": "Acquisitions less disposals of fixed assets",
+            "notation": "P511"
+        },
+        {
+            "label": "Acquisitions of new fixed assets",
+            "notation": "P5111"
+        },
+        {
+            "label": "Acquisitions of existing fixed assets",
+            "notation": "P5112"
+        },
+        {
+            "label": "Disposals of existing fixed assets",
+            "notation": "P5113"
+        },
+        {
+            "label": "Costs of ownership transfer on non-produced assets",
+            "notation": "P512"
+        },
+        {
+            "label": "Consumption of fixed capital",
+            "notation": "P51C"
+        },
+        {
+            "label": "Consumption of fixed capital on gross operating surplus",
+            "notation": "P51C1"
+        },
+        {
+            "label": "Consumption of fixed capital on gross mixed income",
+            "notation": "P51C2"
+        },
+        {
+            "label": "Gross fixed capital formation",
+            "notation": "P51G"
+        },
+        {
+            "label": "Net fixed capital formation",
+            "notation": "P51N"
+        },
+        {
+            "label": "Changes in inventories",
+            "notation": "P52"
+        },
+        {
+            "label": "Acquisitions less disposals of valuables",
+            "notation": "P53"
+        },
+        {
+            "label": "Changes in inventories (P52), acquisition less disposals of valuables (P53) and acquisition less disposals of non-financial non-produced assets (NP)",
+            "notation": "P5K",
+            "description": "P5K=P52+P53+NP"
+        },
+        {
+            "label": "Gross capital formation and acquisitions less disposals of non-produced assets",
+            "notation": "P5L",
+            "description": "P5+NP"
+        },
+        {
+            "label": "Net capital formation and acquisitions less disposals of non-produced assets",
+            "notation": "P5LN",
+            "description": "P5+NP-P51C"
+        },
+        {
+            "label": "Changes in inventories and acquisition less disposals of valuables",
+            "notation": "P5M",
+            "description": "P5M=P52+P53"
+        },
+        {
+            "label": "Net capital formation",
+            "notation": "P5N"
+        },
+        {
+            "label": "Own-account capital formation",
+            "notation": "P5OA",
+            "description": "P5OA=P5OA1+P5OA2+P5OA3+P5OA4"
+        },
+        {
+            "label": "Own-account capital formation, compensation of employees",
+            "notation": "P5OA1",
+            "description": "P5OA1=P5OA11+P5OA12+P5OA13+P5OA14"
+        },
+        {
+            "label": "Own-account capital formation, wages and salaries in cash",
+            "notation": "P5OA11",
+            "description": "Under GFS code  2111"
+        },
+        {
+            "label": "Own-account capital formation, wages and salaries in kind",
+            "notation": "P5OA12",
+            "description": "Under GFS code  2112"
+        },
+        {
+            "label": "Own-account capital formation, actual employers' social contributions",
+            "notation": "P5OA13",
+            "description": "Under GFS code  2121"
+        },
+        {
+            "label": "Own-account capital formation, imputed employers' social contributions",
+            "notation": "P5OA14",
+            "description": "Under GFS code  2122"
+        },
+        {
+            "label": "Own-account capital formation, intermediate consumption",
+            "notation": "P5OA2"
+        },
+        {
+            "label": "Own-account capital formation, consumption of fixed capital",
+            "notation": "P5OA3"
+        },
+        {
+            "label": "Own-account capital formation, other taxes on production minus other subsidies on production",
+            "notation": "P5OA4",
+            "description": "P5OA4=P5OA41-P5OA42"
+        },
+        {
+            "label": "Own-account capital formation, other taxes on production",
+            "notation": "P5OA41"
+        },
+        {
+            "label": "Own-account capital formation, other subsidies on production",
+            "notation": "P5OA42"
+        },
+        {
+            "label": "Exports of goods and services",
+            "notation": "P6"
+        },
+        {
+            "label": "Exports of goods",
+            "notation": "P61"
+        },
+        {
+            "label": "Re-export of goods",
+            "notation": "P61A"
+        },
+        {
+            "label": "Export on second hand goods",
+            "notation": "P61B"
+        },
+        {
+            "label": "Merchanting",
+            "notation": "P61C"
+        },
+        {
+            "label": "goods sent abroad before processing (outward processing, ie. your country is the principal)",
+            "notation": "P61D"
+        },
+        {
+            "label": "goods sent abroad after processing (inward processing, ie. your country processes)",
+            "notation": "P61E"
+        },
+        {
+            "label": "Exports of services",
+            "notation": "P62"
+        },
+        {
+            "label": "processing fees",
+            "notation": "P62D"
+        },
+        {
+            "label": "Exports of FISIM",
+            "notation": "P62F"
+        },
+        {
+            "label": "Re-exports",
+            "notation": "P6A"
+        },
+        {
+            "label": "Imports of goods and services",
+            "notation": "P7"
+        },
+        {
+            "label": "Imports of goods",
+            "notation": "P71"
+        },
+        {
+            "label": "Imports of services",
+            "notation": "P72"
+        },
+        {
+            "label": "Imports of FISIM",
+            "notation": "P72F"
+        },
+        {
+            "label": "Total population",
+            "notation": "POP"
+        },
+        {
+            "label": "Total payable tax credits",
+            "notation": "PTC"
+        },
+        {
+            "label": "Term of trade",
+            "notation": "PTOT",
+            "description": "(P6.V/P6.L)/(P7.V/P7.L)*100"
+        },
+        {
+            "label": "Depreciation rate (PIM)",
+            "notation": "RDEP"
+        },
+        {
+            "label": "Retirement rate (PIM)",
+            "notation": "RRET"
+        },
+        {
+            "label": "Revaluation rate (PIM)",
+            "notation": "RREV"
+        },
+        {
+            "label": "Total rate (PIM)",
+            "notation": "RTOT",
+            "description": "RTOT = RDEP + RRET + RREV"
+        },
+        {
+            "label": "Employees",
+            "notation": "SAL"
+        },
+        {
+            "label": "Self employed",
+            "notation": "SELF"
+        },
+        {
+            "label": "Transactions",
+            "notation": "T"
+        },
+        {
+            "label": "of which payable tax credits that exceed the taxpayer's liability",
+            "notation": "TC"
+        },
+        {
+            "label": "Total final use",
+            "notation": "TFU"
+        },
+        {
+            "label": "Total resources production account",
+            "notation": "TR1"
+        },
+        {
+            "label": "Total resources generation of income account",
+            "notation": "TR211"
+        },
+        {
+            "label": "Total resources allocation of primary income account",
+            "notation": "TR212"
+        },
+        {
+            "label": "Total resources secondary distribution of income account",
+            "notation": "TR22"
+        },
+        {
+            "label": "Total resources use of disposable income account",
+            "notation": "TR241"
+        },
+        {
+            "label": "Total change in liabilities and net worth, change in net worth due to:  saving and capital transfers account",
+            "notation": "TR311"
+        },
+        {
+            "label": "Total change in liabilities and net worth, acquisitions of non-financ:i al assets accounts",
+            "notation": "TR312"
+        },
+        {
+            "label": "Total supply",
+            "notation": "TS"
+        },
+        {
+            "label": "Total use",
+            "notation": "TU"
+        },
+        {
+            "label": "Total uses production account",
+            "notation": "TU1"
+        },
+        {
+            "label": "Total uses generation of income account",
+            "notation": "TU211"
+        },
+        {
+            "label": "Total uses allocation of primary income account",
+            "notation": "TU212"
+        },
+        {
+            "label": "Total uses secondary distribution of income account",
+            "notation": "TU22"
+        },
+        {
+            "label": "Total uses use of disposable income account",
+            "notation": "TU241"
+        },
+        {
+            "label": "Total change in assets, change in net worth due to saving and capital:  transfers account",
+            "notation": "TU311"
+        },
+        {
+            "label": "Total change in assets, acquisitions of non-financial assets accounts",
+            "notation": "TU312"
+        },
+        {
+            "label": "Total intermediate consumption/final use",
+            "notation": "TUADJ"
+        },
+        {
+            "label": "Domestic use",
+            "notation": "TUXP7"
+        },
+        {
+            "label": "Unit Labour Cost (based on hours worked)",
+            "notation": "ULC_HW"
+        },
+        {
+            "label": "Unit Labour Cost (based on persons)",
+            "notation": "ULC_PS"
+        },
+        {
+            "label": "Unemployed persons",
+            "notation": "UNE",
+            "description": "Registered unemployment"
+        },
+        {
+            "label": "Unit profits",
+            "notation": "UPR"
+        },
+        {
+            "label": "Statistical discrepancy (expenditure approach)",
+            "notation": "YA0"
+        },
+        {
+            "label": "Statistical discrepancy (production approach)",
+            "notation": "YA1"
+        },
+        {
+            "label": "Statistical discrepancy (income approach)",
+            "notation": "YA2"
+        },
+        {
+            "label": "Statistical discrepancies in Stock Flow Adjustment",
+            "notation": "YA3"
+        },
+        {
+            "label": "Other statistical discrepancies (+/-) in Stock Flow Adjustment",
+            "notation": "YA3O"
+        },
+        {
+            "label": "Transaction imbalance",
+            "notation": "YSD1"
+        },
+        {
+            "label": "Budget imbalance",
+            "notation": "YSD2"
+        }
+    ]
+}

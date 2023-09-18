@@ -1,0 +1,1855 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Instrument and Assets Classification",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Total financial assets/liabilities",
+            "notation": "F",
+            "description": "F= F1+F2+F3+F4+F5+F6+F7+F8; In some data flow definitions the integrity rules are shown in a different format in order to explain to users their practical implementation. However, in none of the cases double counting is allowed."
+        },
+        {
+            "label": "Liabilities and assets outside general government under guarantee",
+            "notation": "F_G"
+        },
+        {
+            "label": "Total assets/liabilities (financial and gross non-financial)",
+            "notation": "F_NG",
+            "description": "F_NG=F+NG"
+        },
+        {
+            "label": "Total assets/liabilities (financial and net non-financial)",
+            "notation": "F_NN",
+            "description": "F_NN=F+NN"
+        },
+        {
+            "label": "Liabilities related to special purpose entities (EDP-FC concept)",
+            "notation": "F_SPV"
+        },
+        {
+            "label": "Guarantees provided to special purpose vehicles (FAM concept)",
+            "notation": "F_SPVG"
+        },
+        {
+            "label": "Monetary gold and SDRs",
+            "notation": "F1"
+        },
+        {
+            "label": "Monetary gold",
+            "notation": "F11",
+            "description": "F11=F11A+F11B"
+        },
+        {
+            "label": "Gold bullion",
+            "notation": "F11A"
+        },
+        {
+            "label": "Unallocated gold accounts",
+            "notation": "F11B"
+        },
+        {
+            "label": "Monetary gold, of which gold under swap for cash collateral",
+            "notation": "F11Z"
+        },
+        {
+            "label": "SDRs",
+            "notation": "F12"
+        },
+        {
+            "label": "SDRs, fixed rate",
+            "notation": "F12FR"
+        },
+        {
+            "label": "SDRs, variable rate",
+            "notation": "F12VR"
+        },
+        {
+            "label": "Currency and deposits",
+            "notation": "F2",
+            "description": "F2=F21+F22+F29"
+        },
+        {
+            "label": "Loans, currency and deposits: Currency and deposits + Loans",
+            "notation": "F2_F4",
+            "description": "F2_F4 = F2+F4"
+        },
+        {
+            "label": "Currency",
+            "notation": "F21"
+        },
+        {
+            "label": "Transferable deposits",
+            "notation": "F22",
+            "description": "F22=F221+F229"
+        },
+        {
+            "label": "Inter-bank positions",
+            "notation": "F221"
+        },
+        {
+            "label": "Inter-bank positions, of which intra-Eurosystem Technical claims",
+            "notation": "F221C"
+        },
+        {
+            "label": "Inter-bank positions, of which TARGET accounts",
+            "notation": "F221T"
+        },
+        {
+            "label": "Other transferable deposits",
+            "notation": "F229"
+        },
+        {
+            "label": "Other transferable deposits, except overnight deposits",
+            "notation": "F2291"
+        },
+        {
+            "label": "Other deposits",
+            "notation": "F29",
+            "description": "F29=F29A+F29B+F29C+F29E"
+        },
+        {
+            "label": "Deposits with agreed maturity",
+            "notation": "F29A"
+        },
+        {
+            "label": "Deposits redeemable at notice",
+            "notation": "F29B"
+        },
+        {
+            "label": "Repurchase agreements",
+            "notation": "F29C"
+        },
+        {
+            "label": "Coins issuance, as liability of government",
+            "notation": "F29E"
+        },
+        {
+            "label": "Currency and overnight deposits",
+            "notation": "F2A"
+        },
+        {
+            "label": "Currency and monetary deposits",
+            "notation": "F2B"
+        },
+        {
+            "label": "Currency and deposits, fixed rate",
+            "notation": "F2FR"
+        },
+        {
+            "label": "Deposits",
+            "notation": "F2M",
+            "description": "F2M=F22+F29"
+        },
+        {
+            "label": "Non-monetary deposits",
+            "notation": "F2MF"
+        },
+        {
+            "label": "Monetary deposits",
+            "notation": "F2MM"
+        },
+        {
+            "label": "Currency and deposits, debt securities and loans",
+            "notation": "F2T4",
+            "description": "F2+F3+F4"
+        },
+        {
+            "label": "Numerator for financial sector leverage",
+            "notation": "F2T4_71",
+            "description": "F2T4_71=F2+F3+F4+F71"
+        },
+        {
+            "label": "Short-term liabilities",
+            "notation": "F2T4S",
+            "description": "F2T4S=F2+F31+F41"
+        },
+        {
+            "label": "Currency and deposits; debt securities; loans; equity and investment fund shares; insurance, pension and standardized guarantee schemes",
+            "notation": "F2T6",
+            "description": "F2+F3+F4+F5+F6"
+        },
+        {
+            "label": "Currency and deposits, variable rate",
+            "notation": "F2VR"
+        },
+        {
+            "label": "Debt securities",
+            "notation": "F3",
+            "description": "F3=F3A+F3VR+F3C, F3= F3ECAFX+ F3ECAF1+ F3ECAF2+ F3ECAF3+ F3ECAF4_5"
+        },
+        {
+            "label": "Debt securities, fixed rate issues",
+            "notation": "F3A"
+        },
+        {
+            "label": "Debt securities, floating rate issues (e.g. variable interest)",
+            "notation": "F3B",
+            "description": "deprecated, replaced by F3VR"
+        },
+        {
+            "label": "Debt securities, zero coupon bonds",
+            "notation": "F3C"
+        },
+        {
+            "label": "Debt securities issued with embedded options (puttable bonds)",
+            "notation": "F3D"
+        },
+        {
+            "label": "Debt securities, ECAF credit quality step 1",
+            "notation": "F3ECAF1"
+        },
+        {
+            "label": "Debt securities, ECAF credit quality step 2",
+            "notation": "F3ECAF2"
+        },
+        {
+            "label": "Debt securities, ECAF credit quality step 3",
+            "notation": "F3ECAF3"
+        },
+        {
+            "label": "Debt securities, ECAF credit quality step 4 and 5",
+            "notation": "F3ECAF4_5"
+        },
+        {
+            "label": "Debt securities, no ratings information",
+            "notation": "F3ECAFX"
+        },
+        {
+            "label": "Non-monetary securities",
+            "notation": "F3F"
+        },
+        {
+            "label": "Debt securities, fixed rate",
+            "notation": "F3FR",
+            "description": "F3FR=F3A+F3C"
+        },
+        {
+            "label": "High quality tradable securities",
+            "notation": "F3H"
+        },
+        {
+            "label": "Securities issued under liquidity schemes",
+            "notation": "F3LS"
+        },
+        {
+            "label": "Monetary securities",
+            "notation": "F3M"
+        },
+        {
+            "label": "Debt securities and loans",
+            "notation": "F3T4",
+            "description": "F3+F4"
+        },
+        {
+            "label": "Debt securities, variable rate",
+            "notation": "F3VR",
+            "description": "F3VR= F3VRA+F3VRB+F3VRC"
+        },
+        {
+            "label": "Inflation-linked variable rate",
+            "notation": "F3VRA"
+        },
+        {
+            "label": "Interest rate-linked variable rate",
+            "notation": "F3VRB"
+        },
+        {
+            "label": "Asset price-linked variable rate",
+            "notation": "F3VRC"
+        },
+        {
+            "label": "Loans",
+            "notation": "F4",
+            "description": "For OECD table 7HH: F4A=F4A1+F4A2 at short term; F4A=F4AK+F4A29 at long term"
+        },
+        {
+            "label": "Credit lines",
+            "notation": "F41"
+        },
+        {
+            "label": "Credit lines; unconditional, undrawn",
+            "notation": "F41A"
+        },
+        {
+            "label": "Consumer credit",
+            "notation": "F4A"
+        },
+        {
+            "label": "Revolving credit",
+            "notation": "F4A1"
+        },
+        {
+            "label": "Credit cards",
+            "notation": "F4A11"
+        },
+        {
+            "label": "Other lines of credit",
+            "notation": "F4A19"
+        },
+        {
+            "label": "Non-revolving credit",
+            "notation": "F4A2"
+        },
+        {
+            "label": "Automobile loans",
+            "notation": "F4A21"
+        },
+        {
+            "label": "Other loans for consumer durables",
+            "notation": "F4A22"
+        },
+        {
+            "label": "Other installment credit, including student loans",
+            "notation": "F4A29"
+        },
+        {
+            "label": "Student long-term loans",
+            "notation": "F4A291"
+        },
+        {
+            "label": "Other installment credit, excluding student loans",
+            "notation": "F4A299"
+        },
+        {
+            "label": "Loans for consumer durables",
+            "notation": "F4AK",
+            "description": "F4AK=F4A21+F4A22"
+        },
+        {
+            "label": "Loans for house purchasing",
+            "notation": "F4B",
+            "description": "F4B=F4B1+F4B2"
+        },
+        {
+            "label": "Mortgage guaranteed",
+            "notation": "F4B1"
+        },
+        {
+            "label": "Mortgage unguaranteed",
+            "notation": "F4B2"
+        },
+        {
+            "label": "Loans for other purpose",
+            "notation": "F4C"
+        },
+        {
+            "label": "Concessional loans",
+            "notation": "F4CL"
+        },
+        {
+            "label": "Repurchase agreements, securities lending and margin lending insofar as recorded as loans",
+            "notation": "F4D"
+        },
+        {
+            "label": "Loans, fixed rate",
+            "notation": "F4FR"
+        },
+        {
+            "label": "Non-performing loans",
+            "notation": "F4M2"
+        },
+        {
+            "label": "Nonperforming loans",
+            "notation": "F4NP"
+        },
+        {
+            "label": "Lending by RRF programme (pandemic recovery)",
+            "notation": "F4P"
+        },
+        {
+            "label": "Repo loans",
+            "notation": "F4R"
+        },
+        {
+            "label": "Other loans",
+            "notation": "F4RX"
+        },
+        {
+            "label": "Lending by SURE programme (pandemic recovery)",
+            "notation": "F4S"
+        },
+        {
+            "label": "Loans, variable rate",
+            "notation": "F4VR"
+        },
+        {
+            "label": "Equity and investment fund shares/units",
+            "notation": "F5",
+            "description": "F5=F51+F52; F5=F5A+F5B; F5=F5D+F5E"
+        },
+        {
+            "label": "Equity",
+            "notation": "F51",
+            "description": "F51=F511+F512+F519, F51=F51A+F51B"
+        },
+        {
+            "label": "Listed shares",
+            "notation": "F511"
+        },
+        {
+            "label": "Unlisted shares",
+            "notation": "F512"
+        },
+        {
+            "label": "Other equity",
+            "notation": "F519"
+        },
+        {
+            "label": "Equity: other than reinvestment of earnings",
+            "notation": "F51A"
+        },
+        {
+            "label": "Equity: reinvestment of earnings",
+            "notation": "F51B"
+        },
+        {
+            "label": "Shares",
+            "notation": "F51K",
+            "description": "F511+F512"
+        },
+        {
+            "label": "Unlisted shares and other equity",
+            "notation": "F51M",
+            "description": "F512+F519"
+        },
+        {
+            "label": "Investment fund shares/units",
+            "notation": "F52",
+            "description": "F52=F521+F522, F52=F52A+F52B"
+        },
+        {
+            "label": "Money market fund shares/units",
+            "notation": "F521"
+        },
+        {
+            "label": "Money market fund shares/units: reinvestment of earnings",
+            "notation": "F521B"
+        },
+        {
+            "label": "Non-MMF investment fund shares/units",
+            "notation": "F522"
+        },
+        {
+            "label": "Real Estate Fund Shares",
+            "notation": "F5221"
+        },
+        {
+            "label": "Bond  Fund Shares",
+            "notation": "F5222"
+        },
+        {
+            "label": "Mixed Fund Shares",
+            "notation": "F5223"
+        },
+        {
+            "label": "Equity Fund Shares",
+            "notation": "F5224"
+        },
+        {
+            "label": "Other Fund Shares",
+            "notation": "F5229"
+        },
+        {
+            "label": "Investment fund shares/units: other than reinvestment of earnings",
+            "notation": "F52A"
+        },
+        {
+            "label": "Investment fund shares/units: reinvestment of earnings",
+            "notation": "F52B"
+        },
+        {
+            "label": "Equity and investment fund shares/units: other than reinvestment of earnings",
+            "notation": "F5A"
+        },
+        {
+            "label": "Equity and investment fund shares/units: other than reinvestment of earnings: Extension of capital",
+            "notation": "F5AE"
+        },
+        {
+            "label": "Equity and investment fund shares/units: other than reinvestment of earnings: Financial restructuring",
+            "notation": "F5AF"
+        },
+        {
+            "label": "Equity and investment fund shares/units: other than reinvestment of earnings: Greenfield",
+            "notation": "F5AG"
+        },
+        {
+            "label": "Equity and investment fund shares/units: other than reinvestment of earnings: Merger & Acquisitions (M&A) type",
+            "notation": "F5AM"
+        },
+        {
+            "label": "Equity and investment fund shares/units: reinvestment of earnings",
+            "notation": "F5B"
+        },
+        {
+            "label": "Equity and investment fund shares/units: reinvestment of earnings: Extension of capital",
+            "notation": "F5BE"
+        },
+        {
+            "label": "Equity and investment fund shares/units: reinvestment of earnings: Greenfield",
+            "notation": "F5BG"
+        },
+        {
+            "label": "Equity and investment fund shares of which equity injection",
+            "notation": "F5I"
+        },
+        {
+            "label": "Equity and investment fund shares other than privatisations and equity injections",
+            "notation": "F5O",
+            "description": "F5O=F5-F5P-F5I"
+        },
+        {
+            "label": "Shares and other equity other than portfolio investments",
+            "notation": "F5OP"
+        },
+        {
+            "label": "Equity and investment fund shares of which privatisation",
+            "notation": "F5P"
+        },
+        {
+            "label": "Portfolio investments, net",
+            "notation": "F5PN"
+        },
+        {
+            "label": "Insurance, pension and standardized guarantee schemes",
+            "notation": "F6",
+            "description": "F6=F61+F62+F63+F64+F65+F66"
+        },
+        {
+            "label": "Non-life insurance technical reserves",
+            "notation": "F61"
+        },
+        {
+            "label": "Life insurance and annuity entitlements",
+            "notation": "F62"
+        },
+        {
+            "label": "Life insurance and annuity entitlements, of which unit linked",
+            "notation": "F62A"
+        },
+        {
+            "label": "Life insurance and annuity entitlements, of which non-unit-linked",
+            "notation": "F62B"
+        },
+        {
+            "label": "Pension entitlements",
+            "notation": "F63"
+        },
+        {
+            "label": "Pension entitlements and entitlements to non-pension benefits",
+            "notation": "F63_65",
+            "description": "F63_65=F63+F65"
+        },
+        {
+            "label": "Pension entitlements, of which defined contribution",
+            "notation": "F63A"
+        },
+        {
+            "label": "Pension entitlements, defined contribution, managed by Autonomous Pension Funds",
+            "notation": "F63A1"
+        },
+        {
+            "label": "Pension entitlements, defined contribution, managed by Non-autonomous Pension Funds",
+            "notation": "F63A2"
+        },
+        {
+            "label": "Pension entitlements, defined contribution, managed by Insurers",
+            "notation": "F63A3"
+        },
+        {
+            "label": "Pension entitlements, of which defined benefit",
+            "notation": "F63B"
+        },
+        {
+            "label": "Pension entitlements, defined benefit, managed by Autonomous Pension Funds",
+            "notation": "F63B1"
+        },
+        {
+            "label": "Pension entitlements, defined benefit, managed by Non-autonomous Pension Funds",
+            "notation": "F63B2"
+        },
+        {
+            "label": "Pension entitlements, defined benefit, managed by Insurers",
+            "notation": "F63B3"
+        },
+        {
+            "label": "Pension entitlements, of which hybrid schemes",
+            "notation": "F63C"
+        },
+        {
+            "label": "Pension entitlements, hybrid schemes, managed by Autonomous Pension Funds",
+            "notation": "F63C1"
+        },
+        {
+            "label": "Pension entitlements, hybrid schemes, managed by Non-autonomous Pension Funds",
+            "notation": "F63C2"
+        },
+        {
+            "label": "Pension entitlements, hybrid schemes, managed by Insurers",
+            "notation": "F63C3"
+        },
+        {
+            "label": "Pension entitlements, managed by Autonomous Pension Funds",
+            "notation": "F63F",
+            "description": "F63F=F63A1+F63B1+F63C1"
+        },
+        {
+            "label": "Pension entitlements, managed by Non-autonomous Pension Funds",
+            "notation": "F63H",
+            "description": "F63H=F63A2+F63B2+F63C2"
+        },
+        {
+            "label": "Pension entitlements, managed by Insurers",
+            "notation": "F63I",
+            "description": "F63I=F63A3+F63B3+F63C3"
+        },
+        {
+            "label": "Other Pension Plans, including Unfunded Pension Plans",
+            "notation": "F63O"
+        },
+        {
+            "label": "Unfunded Pension Plans",
+            "notation": "F63O1"
+        },
+        {
+            "label": "Other Pension Plans",
+            "notation": "F63O9"
+        },
+        {
+            "label": "Claims of pension funds on pension managers",
+            "notation": "F64"
+        },
+        {
+            "label": "Entitlements to non-pension benefits",
+            "notation": "F65"
+        },
+        {
+            "label": "Provisions for calls under standardized guarantees",
+            "notation": "F66"
+        },
+        {
+            "label": "Insurance, pension and standardized guarantee schemes, fixed rate",
+            "notation": "F6FR"
+        },
+        {
+            "label": "Pension entitlements, claims of pension funds on pension managers and entitlements to non-pension benefits",
+            "notation": "F6M",
+            "description": "F6M=F63+F64+F65"
+        },
+        {
+            "label": "Life insurance and annuity entitlements, pension entitlements, claims of pension funds on pension managers and entitlements to non-pension benefits",
+            "notation": "F6N",
+            "description": "F62+F63+F64+F65"
+        },
+        {
+            "label": "Non-life insurance technical provisions and provisions for calls under standardized guarantees",
+            "notation": "F6O",
+            "description": "F6O=F61+F66"
+        },
+        {
+            "label": "Claims of pension funds on pension managers and entitlements to non-pension benefits",
+            "notation": "F6P",
+            "description": "F6P=F64+F65"
+        },
+        {
+            "label": "Insurance, pension and standardized guarantee schemes, variable rate",
+            "notation": "F6VR"
+        },
+        {
+            "label": "Financial derivatives and employee stock options",
+            "notation": "F7",
+            "description": "F7=F71+F72"
+        },
+        {
+            "label": "Financial derivatives",
+            "notation": "F71",
+            "description": "F71=F711+F712"
+        },
+        {
+            "label": "Options type",
+            "notation": "F711"
+        },
+        {
+            "label": "Options",
+            "notation": "F711A"
+        },
+        {
+            "label": "Other option-type contracts",
+            "notation": "F711B"
+        },
+        {
+            "label": "Forward type",
+            "notation": "F712"
+        },
+        {
+            "label": "Forwards",
+            "notation": "F712A"
+        },
+        {
+            "label": "Futures",
+            "notation": "F712B"
+        },
+        {
+            "label": "Swaps",
+            "notation": "F712C"
+        },
+        {
+            "label": "Other forward-type contracts",
+            "notation": "F712D"
+        },
+        {
+            "label": "Forwards and futures",
+            "notation": "F71FF"
+        },
+        {
+            "label": "Forwards, futures and options",
+            "notation": "F71FO"
+        },
+        {
+            "label": "Interest relating to swaps and forward rate arrangements (FRAs) (+/-)",
+            "notation": "F71K"
+        },
+        {
+            "label": "Other derivatives",
+            "notation": "F71R"
+        },
+        {
+            "label": "Employee stock options",
+            "notation": "F72"
+        },
+        {
+            "label": "Financial derivatives and employee stock options; other accounts receivable/payable",
+            "notation": "F7T8",
+            "description": "F7T8=F7+F8"
+        },
+        {
+            "label": "Other accounts receivable/payable",
+            "notation": "F8",
+            "description": "F8=F81+F89"
+        },
+        {
+            "label": "Trade credits and advances",
+            "notation": "F81",
+            "description": "F81=F81A+F81B"
+        },
+        {
+            "label": "Trade credits",
+            "notation": "F81A"
+        },
+        {
+            "label": "Trade credits relating to P.2 intermediate consumption and other",
+            "notation": "F81A1"
+        },
+        {
+            "label": "Trade credits relating to D.7 current transfers",
+            "notation": "F81A2"
+        },
+        {
+            "label": "Trade credits relating to D.9 capital transfers",
+            "notation": "F81A3"
+        },
+        {
+            "label": "Trade credits relating to P.51 gross fixed capital formation",
+            "notation": "F81A4"
+        },
+        {
+            "label": "Trade credits relating to military equipment",
+            "notation": "F81AX"
+        },
+        {
+            "label": "Advances",
+            "notation": "F81B"
+        },
+        {
+            "label": "Other accounts receivable/payable, excluding trade credits and advances",
+            "notation": "F89"
+        },
+        {
+            "label": "Other accounts receivable/payable, other than trade credits, related to taxes",
+            "notation": "F89A"
+        },
+        {
+            "label": "Other accounts receivable/payable, other than trade credits, related to taxes and social contributions",
+            "notation": "F89A_B"
+        },
+        {
+            "label": "Other accounts receivable/payable, related to D.2 taxes on production and imports",
+            "notation": "F89A1"
+        },
+        {
+            "label": "Other accounts receivable/payable, related to D.5 taxes on income, wealth, etc.",
+            "notation": "F89A2"
+        },
+        {
+            "label": "Other accounts receivable/payable, related to D.91 capital taxes",
+            "notation": "F89A3"
+        },
+        {
+            "label": "Other accounts receivable/payable, other than trade credits, related to social contributions",
+            "notation": "F89B"
+        },
+        {
+            "label": "Other accounts receivable/payable, related to D.611 and D.613 actual social contributions",
+            "notation": "F89B1"
+        },
+        {
+            "label": "Other accounts receivable/payable, other than trade credits, related to EU flows",
+            "notation": "F89C"
+        },
+        {
+            "label": "Other accounts receivable/payable, other than trade credits, related to Military Expenditure",
+            "notation": "F89D"
+        },
+        {
+            "label": "Other accounts receivable/payable, fixed rate",
+            "notation": "F8FR"
+        },
+        {
+            "label": "Other accounts receivable/payable, variable rate",
+            "notation": "F8VR"
+        },
+        {
+            "label": "Other financial assets/liabilities, non elsewhere classified",
+            "notation": "F9"
+        },
+        {
+            "label": "Debt assumption/cancellation",
+            "notation": "FAC"
+        },
+        {
+            "label": "Asset swaps, securities lending without cash collateral and repurchase agreements",
+            "notation": "FCA"
+        },
+        {
+            "label": "Guarantees and asset swaps/lending (FAM concept)",
+            "notation": "FCGA",
+            "description": "FCGA=F_SPVG+FXSPVG+FCA"
+        },
+        {
+            "label": "Debt related to special purpose vehicles (FAM concept)",
+            "notation": "FCV"
+        },
+        {
+            "label": "Explicit contingent liabilities",
+            "notation": "FCY"
+        },
+        {
+            "label": "Publicly guaranteed debt",
+            "notation": "FCY1"
+        },
+        {
+            "label": "Other types of one-off guarantees",
+            "notation": "FCY2"
+        },
+        {
+            "label": "Net implicit obligations for social security benefits",
+            "notation": "FCZ"
+        },
+        {
+            "label": "Financing",
+            "notation": "FD"
+        },
+        {
+            "label": "SDRs, currency and deposits, debt securities and loans",
+            "notation": "FD2",
+            "description": "FD2=F12+F2+F3+F4"
+        },
+        {
+            "label": "SDRs, currency and deposits, debt securities, loans and other accounts payable",
+            "notation": "FD3",
+            "description": "FD3=F12+F2+F3+F4+F8"
+        },
+        {
+            "label": "Debt instruments (GFSM/PSDSG)",
+            "notation": "FD4",
+            "description": "FD4=F12+F2+F3+F4+F6+F8"
+        },
+        {
+            "label": "Total financial assets/liabilities (FDI): Extension of capital",
+            "notation": "FE",
+            "description": "FE=F5AE+F5BE+FLH"
+        },
+        {
+            "label": "Non-monetary financial assets",
+            "notation": "FF"
+        },
+        {
+            "label": "Total financial assets/liabilities (FDI): Greenfield",
+            "notation": "FG",
+            "description": "FG=F5AG+F5BG+FLG"
+        },
+        {
+            "label": "Total impact on gross debt",
+            "notation": "FGD",
+            "description": "FGD=FGDD+FGDI"
+        },
+        {
+            "label": "Direct impact on gross debt",
+            "notation": "FGDD"
+        },
+        {
+            "label": "Indirect impact on gross debt",
+            "notation": "FGDI"
+        },
+        {
+            "label": "Gross external debt",
+            "notation": "FGED",
+            "description": "FGED= F12+F2+F3+F4+F6+F8; In some data flow definitions the integrity rules are shown in a different format in order to explain to users their practical implementation. However, in none of the cases double counting is allowed."
+        },
+        {
+            "label": "Financial investment",
+            "notation": "FI"
+        },
+        {
+            "label": "Impaired assets",
+            "notation": "FIA"
+        },
+        {
+            "label": "Property - real state",
+            "notation": "FINM"
+        },
+        {
+            "label": "Arrears",
+            "notation": "FJ"
+        },
+        {
+            "label": "Reserve Position in the IMF",
+            "notation": "FK"
+        },
+        {
+            "label": "Debt instruments (FDI)",
+            "notation": "FL",
+            "description": "FL = F229 + F29 + F3 + F4 + F61 + F62 + F64 + F66 + F8"
+        },
+        {
+            "label": "Debt instruments other than insurance, pension, and standardised schemes",
+            "notation": "FLA",
+            "description": "FLA=F2+F3+F4+F8+F12"
+        },
+        {
+            "label": "Debt instruments other than SDRs, insurance, pension, and standardised schemes",
+            "notation": "FLA1"
+        },
+        {
+            "label": "Debt instrument other than intercompany lending",
+            "notation": "FLB",
+            "description": "FLB=F12+F2+F3+F4+F6+F8"
+        },
+        {
+            "label": "Debt instrument other than intercompany lending and SDRs",
+            "notation": "FLC",
+            "description": "FLC=F2+F3+F4+F6+F8"
+        },
+        {
+            "label": "Debt instruments, domestic creditors",
+            "notation": "FLD"
+        },
+        {
+            "label": "Debt instruments, external creditors",
+            "notation": "FLE"
+        },
+        {
+            "label": "Other FDI debt instruments",
+            "notation": "FLF",
+            "description": "FLF=FL-F4-F3-F81"
+        },
+        {
+            "label": "Debt instruments (FDI): Greenfield",
+            "notation": "FLG"
+        },
+        {
+            "label": "Debt instruments (FDI): Extension of capital",
+            "notation": "FLH"
+        },
+        {
+            "label": "Monetary financial assets",
+            "notation": "FM"
+        },
+        {
+            "label": "Other liabilities/assets (GFS concept)",
+            "notation": "FN",
+            "description": "FN=F1+F8 for assets; FN=F1+F5+F8 for liabilities"
+        },
+        {
+            "label": "Other financial transactions within EDP of which: transactions in debt liabilities (+/-)",
+            "notation": "FNDL"
+        },
+        {
+            "label": "Other financial transactions within EDP",
+            "notation": "FNDX"
+        },
+        {
+            "label": "Net external debt",
+            "notation": "FNED",
+            "description": "FNED= F11B+F12+F2+F3+F4+F6+F8; In some data flow definitions the integrity rules are shown in a different format in order to explain to users their practical implementation. However, in none of the cases double counting is allowed."
+        },
+        {
+            "label": "Equity and debt instruments (BPM6)",
+            "notation": "FO",
+            "description": "FO=F5+F6+FLA"
+        },
+        {
+            "label": "Investment fund shares/units, insurance, pension, and standardized guaranteed schemes",
+            "notation": "FO1",
+            "description": "FO1=F52+F6"
+        },
+        {
+            "label": "Investment fund shares/units, life insurance, and pension",
+            "notation": "FO2",
+            "description": "FO2=F52+F62+F6M"
+        },
+        {
+            "label": "Other assets and liabilities of general government entities (assets/liabilities as defined for EDP financial crisis tables and to be used with custom breakdown FC)",
+            "notation": "FOAL"
+        },
+        {
+            "label": "Debt (non-standard definition)",
+            "notation": "FP"
+        },
+        {
+            "label": "Debt securities; loans; pension entitlements, claims of pension funds on pension managers and entitlements to non-pension benefits; trade credits and advances",
+            "notation": "FPT",
+            "description": "FPT=F3+F4+F6M+F81"
+        },
+        {
+            "label": "Amount outstanding in the government debt from the financing of public undertakings deprecated",
+            "notation": "FPU"
+        },
+        {
+            "label": "Remaining net assets of non-financial corporations, insurance corporations and pension funds deprecated",
+            "notation": "FQ"
+        },
+        {
+            "label": "Assets in remaining net flows of households deprecated",
+            "notation": "FR"
+        },
+        {
+            "label": "Other instruments than insurance and technical reserves (F6); equity (F5); securities (F3); currency and deposits (F2)",
+            "notation": "FR0",
+            "description": "F-F6-F5-F3-F2"
+        },
+        {
+            "label": "Securities (Equity, investment fund shares/units and debt securities)",
+            "notation": "FR1",
+            "description": "FR1=F3+F5"
+        },
+        {
+            "label": "Securities under repo for cash collateral",
+            "notation": "FR1Z"
+        },
+        {
+            "label": "Other reserve assets (currency, deposits, securities, financial derivatives and other claims)",
+            "notation": "FR2",
+            "description": "FR2=FR3+FR4"
+        },
+        {
+            "label": "Securities; currency and deposits",
+            "notation": "FR3",
+            "description": "FR3=F5+F3+F2"
+        },
+        {
+            "label": "Securities, except investment fund shares; currency and deposits",
+            "notation": "FR3A",
+            "description": "FR3A=F2+F3+F51"
+        },
+        {
+            "label": "Other reserve assets (financial derivatives, loans to non-banks and other)",
+            "notation": "FR4",
+            "description": "FR4=F71+F4+FR411"
+        },
+        {
+            "label": "Other claims (other reserve assets than Currency, deposits, securities and financial derivatives)",
+            "notation": "FR41",
+            "description": "FR41=F4+FR411"
+        },
+        {
+            "label": "Reserve assets other than gold, SDRs, IMF reserve position, currency, deposits, securities, financial derivatives and loans (to non-banks)",
+            "notation": "FR411",
+            "description": "FR411=F6+F8"
+        },
+        {
+            "label": "Other foreign currency assets (securities, deposits, loans, financial derivatives and gold not included in reserve assets)",
+            "notation": "FR5",
+            "description": "FR5=F3+F5+F2+F4+F71+F11+FR51"
+        },
+        {
+            "label": "Other ( remaining part of other foreign currency assets (not included in reserve assets))",
+            "notation": "FR51"
+        },
+        {
+            "label": "Currency and deposits, loans and securities",
+            "notation": "FR6",
+            "description": "FR6=F3+F5+F2+F4"
+        },
+        {
+            "label": "Other (flows related to repos and reverse repos, trade credits and other accounts payable/receivable)",
+            "notation": "FR8",
+            "description": "FR8=F29C+F81A+F89"
+        },
+        {
+            "label": "Other instruments than forwards, futures and options",
+            "notation": "FR9",
+            "description": "FR9=F-F71FO"
+        },
+        {
+            "label": "Other accounts receivable/payable plus financial derivatives",
+            "notation": "FS",
+            "description": "F71+F8"
+        },
+        {
+            "label": "Other, mainly inter-company loans",
+            "notation": "FT"
+        },
+        {
+            "label": "Remaining net assets of households deprecated",
+            "notation": "FU"
+        },
+        {
+            "label": "Other liabilities (F.5, F.6 and F.8)",
+            "notation": "FV",
+            "description": "FV=F5+F6+F8"
+        },
+        {
+            "label": "Loans +Insurance, pension and standardized guarantee schemes + Trade credits and advances + Other Equity",
+            "notation": "FW1",
+            "description": "FW1= F4 + F6 + F81 + F519"
+        },
+        {
+            "label": "Loans + Insurance, pension and standardized guarantee schemes + SDRs + Trade credits and advances + Other Equity",
+            "notation": "FW2",
+            "description": "FW2 = F4 + F6 + F12 + F81 + F519"
+        },
+        {
+            "label": "Other Debt Liabilities: Insurance, pension and standardized guarantee schemes + SDRs + Other accounts receivable/payable, excluding trade credits and advances",
+            "notation": "FW3",
+            "description": "FW3 = F6 + F12+ F89"
+        },
+        {
+            "label": "Total financial assets/liabilities other than loans",
+            "notation": "FX4",
+            "description": "FX4=F-F4"
+        },
+        {
+            "label": "Financial instruments other than currency and deposits",
+            "notation": "FXF2",
+            "description": "FR10=F-F2"
+        },
+        {
+            "label": "Guarantees provided to other sectors than general government",
+            "notation": "FXGG"
+        },
+        {
+            "label": "Other guarantees provided (FAM concept)",
+            "notation": "FXSPVG"
+        },
+        {
+            "label": "Other debt assets/liabilities: insurance, pension and standardized guarantee schemes + other accounts receivable/payable, excluding trade credits and advances",
+            "notation": "FY",
+            "description": "FY=F6+F89"
+        },
+        {
+            "label": "Debt securities and financial derivatives",
+            "notation": "FZ",
+            "description": "F71+F3"
+        },
+        {
+            "label": "Maastricht debt",
+            "notation": "GD"
+        },
+        {
+            "label": "Maarstricht debt of which variable interest rate (GFS concept)",
+            "notation": "GDA"
+        },
+        {
+            "label": "Maastricht debt of which fixed interest rate (GFS concept)",
+            "notation": "GDB"
+        },
+        {
+            "label": "Memo: Privatisation proceeds allocated to redemption of debt (GFS concept)",
+            "notation": "GDM1"
+        },
+        {
+            "label": "Memo: Universal Mobile Telecommunications System proceeds allocated to redemption of debt  (GFS concept)",
+            "notation": "GDM2"
+        },
+        {
+            "label": "Government debt excluding government assistance to the financial corporations",
+            "notation": "GDXFAM",
+            "description": "government debt (GD) - impact on government debt related to government assistance to the financial corporations"
+        },
+        {
+            "label": "Dwellings (gross)",
+            "notation": "N111G"
+        },
+        {
+            "label": "Dwellings (net)",
+            "notation": "N111N"
+        },
+        {
+            "label": "Buildings other than dwellings (gross)",
+            "notation": "N1121G"
+        },
+        {
+            "label": "Buildings other than dwellings (net)",
+            "notation": "N1121N"
+        },
+        {
+            "label": "Other structures (gross)",
+            "notation": "N1122G"
+        },
+        {
+            "label": "Other structures (net)",
+            "notation": "N1122N"
+        },
+        {
+            "label": "Land improvements (gross)",
+            "notation": "N1123G"
+        },
+        {
+            "label": "Land improvements (net)",
+            "notation": "N1123N"
+        },
+        {
+            "label": "Other buildings and structures (gross)",
+            "notation": "N112G"
+        },
+        {
+            "label": "Other buildings and structures (net)",
+            "notation": "N112N"
+        },
+        {
+            "label": "Transport equipment (gross)",
+            "notation": "N1131G"
+        },
+        {
+            "label": "Transport equipment (net)",
+            "notation": "N1131N"
+        },
+        {
+            "label": "Computer hardware (gross)",
+            "notation": "N11321G"
+        },
+        {
+            "label": "Computer hardware (net)",
+            "notation": "N11321N"
+        },
+        {
+            "label": "Telecommunications equipment (gross)",
+            "notation": "N11322G"
+        },
+        {
+            "label": "Telecommunications equipment (net)",
+            "notation": "N11322N"
+        },
+        {
+            "label": "ICT equipment (gross)",
+            "notation": "N1132G"
+        },
+        {
+            "label": "ICT equipment (net)",
+            "notation": "N1132N"
+        },
+        {
+            "label": "Other machinery and equipment (gross)",
+            "notation": "N1139G"
+        },
+        {
+            "label": "Other machinery and equipment (net)",
+            "notation": "N1139N"
+        },
+        {
+            "label": "Machinery and equipment (gross)",
+            "notation": "N113G"
+        },
+        {
+            "label": "ICT equipment and other machinery and equipment (Machinery and equipment other than transport equipment) (gross)",
+            "notation": "N113KG",
+            "description": "N113KG=N1132G+N1139G"
+        },
+        {
+            "label": "ICT equipment and other machinery and equipment (Machinery and equipment other than transport equipment) (net)",
+            "notation": "N113KN",
+            "description": "N113KN=N1132N+N1139N"
+        },
+        {
+            "label": "Machinery and equipment (net)",
+            "notation": "N113N"
+        },
+        {
+            "label": "Weapons systems (gross)",
+            "notation": "N114G"
+        },
+        {
+            "label": "Weapons systems (net)",
+            "notation": "N114N"
+        },
+        {
+            "label": "Animal resources yielding repeat products (gross)",
+            "notation": "N1151G"
+        },
+        {
+            "label": "Animal resources yielding repeat products (net)",
+            "notation": "N1151N"
+        },
+        {
+            "label": "Tree, crop and plant resources yielding repeat products (gross)",
+            "notation": "N1152G"
+        },
+        {
+            "label": "Tree, crop and plant resources yielding repeat products (net)",
+            "notation": "N1152N"
+        },
+        {
+            "label": "Cultivated biological resources (gross)",
+            "notation": "N115G"
+        },
+        {
+            "label": "Cultivated biological resources (net)",
+            "notation": "N115N"
+        },
+        {
+            "label": "Costs of ownership transfer on non-produced assets (gross)",
+            "notation": "N116G"
+        },
+        {
+            "label": "Costs of ownership transfer on non-produced assets (net)",
+            "notation": "N116N"
+        },
+        {
+            "label": "Research and development (gross)",
+            "notation": "N1171G"
+        },
+        {
+            "label": "Research and development (net)",
+            "notation": "N1171N"
+        },
+        {
+            "label": "Mineral exploration and evaluation (gross)",
+            "notation": "N1172G"
+        },
+        {
+            "label": "Mineral exploration and evaluation (net)",
+            "notation": "N1172N"
+        },
+        {
+            "label": "Computer software (gross)",
+            "notation": "N11731G"
+        },
+        {
+            "label": "Computer software (net)",
+            "notation": "N11731N"
+        },
+        {
+            "label": "Databases (gross)",
+            "notation": "N11732G"
+        },
+        {
+            "label": "Databases (net)",
+            "notation": "N11732N"
+        },
+        {
+            "label": "Computer software and databases (gross)",
+            "notation": "N1173G"
+        },
+        {
+            "label": "Computer software and databases (net)",
+            "notation": "N1173N"
+        },
+        {
+            "label": "Entertainment, literary or artistic originals (gross)",
+            "notation": "N1174G"
+        },
+        {
+            "label": "Entertainment, literary or artistic originals (net)",
+            "notation": "N1174N"
+        },
+        {
+            "label": "Other intellectual property products (gross)",
+            "notation": "N1179G"
+        },
+        {
+            "label": "Other intellectual property products (net)",
+            "notation": "N1179N"
+        },
+        {
+            "label": "Intellectual property products (gross)",
+            "notation": "N117G"
+        },
+        {
+            "label": "Intellectual property products (net)",
+            "notation": "N117N"
+        },
+        {
+            "label": "Fixed assets by type of asset (gross)",
+            "notation": "N11G"
+        },
+        {
+            "label": "Total construction (Buildings and structures) (gross)",
+            "notation": "N11KG",
+            "description": "N11KG=N111G+N112G"
+        },
+        {
+            "label": "Total construction (Buildings and structures) (net)",
+            "notation": "N11KN",
+            "description": "N11KN=N111N+N112N"
+        },
+        {
+            "label": "Cultivated assets and intangible fixed assets (gross)",
+            "notation": "N11LG",
+            "description": "N115G+N117G"
+        },
+        {
+            "label": "Cultivated assets and intangible fixed assets (net)",
+            "notation": "N11LN",
+            "description": "N115N+N117N"
+        },
+        {
+            "label": "Machinery and equipment and weapons systems (gross)",
+            "notation": "N11MG",
+            "description": "N11MG=N113G+N114G"
+        },
+        {
+            "label": "Machinery and equipment and weapons systems (net)",
+            "notation": "N11MN",
+            "description": "N11MN=N113N+N114N"
+        },
+        {
+            "label": "Fixed assets by type of asset (net)",
+            "notation": "N11N"
+        },
+        {
+            "label": "Other machinery and equipment and weapons systems (gross)",
+            "notation": "N11OG",
+            "description": "N11OG=N1139G+N114G"
+        },
+        {
+            "label": "Other machinery and equipment and weapons systems (net)",
+            "notation": "N11ON",
+            "description": "N11ON=N1139N+N114N"
+        },
+        {
+            "label": "Other fixed assets (gross)",
+            "notation": "N11PG",
+            "description": "N11PG=N115G+N116G+N117G"
+        },
+        {
+            "label": "Other fixed assets (net)",
+            "notation": "N11PN",
+            "description": "N11PN=N115N+N116N+N117N"
+        },
+        {
+            "label": "Fixed assets other than dwellings (gross)",
+            "notation": "N11RG",
+            "description": "N11RG=N11G-N111G"
+        },
+        {
+            "label": "Fixed assets other than dwellings (net)",
+            "notation": "N11RN",
+            "description": "N11RN=N11N-N111N"
+        },
+        {
+            "label": "Materials and supplies (gross)",
+            "notation": "N121G"
+        },
+        {
+            "label": "Materials and supplies (net)",
+            "notation": "N121N"
+        },
+        {
+            "label": "Work-in-progress on cultivated biological assets (gross)",
+            "notation": "N1221G"
+        },
+        {
+            "label": "Work-in-progress on cultivated biological assets (net)",
+            "notation": "N1221N"
+        },
+        {
+            "label": "Other work-in-progress (gross)",
+            "notation": "N1222G"
+        },
+        {
+            "label": "Other work-in-progress (net)",
+            "notation": "N1222N"
+        },
+        {
+            "label": "Work-in-progress (gross)",
+            "notation": "N122G"
+        },
+        {
+            "label": "Work-in-progress (net)",
+            "notation": "N122N"
+        },
+        {
+            "label": "Finished goods (gross)",
+            "notation": "N123G"
+        },
+        {
+            "label": "Finished goods (net)",
+            "notation": "N123N"
+        },
+        {
+            "label": "Military inventories (gross)",
+            "notation": "N124G"
+        },
+        {
+            "label": "Military inventories (net)",
+            "notation": "N124N"
+        },
+        {
+            "label": "Goods for resale (gross)",
+            "notation": "N125G"
+        },
+        {
+            "label": "Goods for resale (net)",
+            "notation": "N125N"
+        },
+        {
+            "label": "Inventories by type of inventory (gross)",
+            "notation": "N12G"
+        },
+        {
+            "label": "Inventories by type of inventory (net)",
+            "notation": "N12N"
+        },
+        {
+            "label": "Precious metals and stones (gross)",
+            "notation": "N131G"
+        },
+        {
+            "label": "Precious metals and stones (net)",
+            "notation": "N131N"
+        },
+        {
+            "label": "Antiques and other art objects (gross)",
+            "notation": "N132G"
+        },
+        {
+            "label": "Antiques and other art objects (net)",
+            "notation": "N132N"
+        },
+        {
+            "label": "Other valuables (gross)",
+            "notation": "N133G"
+        },
+        {
+            "label": "Other valuables (net)",
+            "notation": "N133N"
+        },
+        {
+            "label": "Valuables (gross)",
+            "notation": "N13G"
+        },
+        {
+            "label": "Valuables (net)",
+            "notation": "N13N"
+        },
+        {
+            "label": "Produced non-financial assets (gross)",
+            "notation": "N1G"
+        },
+        {
+            "label": "Inventories by type of inventory and valuables (gross)",
+            "notation": "N1MG",
+            "description": "N12G+N13G"
+        },
+        {
+            "label": "Inventories by type of inventory and valuables (net)",
+            "notation": "N1MN",
+            "description": "N12N+N13N"
+        },
+        {
+            "label": "Produced non-financial assets (net)",
+            "notation": "N1N"
+        },
+        {
+            "label": "Fixed assets by type of assets and inventories (gross)",
+            "notation": "N1OG",
+            "description": "N1OG=N11G+N12G"
+        },
+        {
+            "label": "Fixed assets by type of assets and inventories (net)",
+            "notation": "N1ON",
+            "description": "N1ON=N11N+N12N"
+        },
+        {
+            "label": "Land underlying buildings and structures",
+            "notation": "N2111",
+            "description": "N2111=N21111+N21112"
+        },
+        {
+            "label": "Land underlying dwellings",
+            "notation": "N21111"
+        },
+        {
+            "label": "Land underlying other buildings and structures",
+            "notation": "N21112"
+        },
+        {
+            "label": "Land underlying buildings other than dwellings",
+            "notation": "N211121"
+        },
+        {
+            "label": "Land underlying dwellings [deprecated, replaced by N21111]",
+            "notation": "N2111A"
+        },
+        {
+            "label": "Land underlying dwellings (gross)",
+            "notation": "N2111AG"
+        },
+        {
+            "label": "Land underlying dwellings (net)",
+            "notation": "N2111AN"
+        },
+        {
+            "label": "Land underlying buildings and structures (gross)",
+            "notation": "N2111G"
+        },
+        {
+            "label": "Land underlying buildings and structures (net)",
+            "notation": "N2111N"
+        },
+        {
+            "label": "Agricultural land",
+            "notation": "N21121"
+        },
+        {
+            "label": "Forestry land",
+            "notation": "N21122"
+        },
+        {
+            "label": "Surface water used for aquaculture",
+            "notation": "N21123"
+        },
+        {
+            "label": "Land under cultivation (gross)",
+            "notation": "N2112G"
+        },
+        {
+            "label": "Land under cultivation (net)",
+            "notation": "N2112N"
+        },
+        {
+            "label": "Recreational land and associated surface water (gross)",
+            "notation": "N2113G"
+        },
+        {
+            "label": "Recreational land and associated surface water (net)",
+            "notation": "N2113N"
+        },
+        {
+            "label": "Other land and associated surface water (gross)",
+            "notation": "N2119G"
+        },
+        {
+            "label": "Other land and associated surface water (net)",
+            "notation": "N2119N"
+        },
+        {
+            "label": "Land (gross)",
+            "notation": "N211G"
+        },
+        {
+            "label": "Land (net)",
+            "notation": "N211N"
+        },
+        {
+            "label": "Mineral and energy reserves (gross)",
+            "notation": "N212G"
+        },
+        {
+            "label": "Mineral and energy reserves (net)",
+            "notation": "N212N"
+        },
+        {
+            "label": "Non-cultivated biological resources (gross)",
+            "notation": "N213G"
+        },
+        {
+            "label": "Non-cultivated biological resources (net)",
+            "notation": "N213N"
+        },
+        {
+            "label": "Water resources (gross)",
+            "notation": "N214G"
+        },
+        {
+            "label": "Water resources (net)",
+            "notation": "N214N"
+        },
+        {
+            "label": "Radio spectra (gross)",
+            "notation": "N2151G"
+        },
+        {
+            "label": "Radio spectra (net)",
+            "notation": "N2151N"
+        },
+        {
+            "label": "Other (gross)",
+            "notation": "N2159G"
+        },
+        {
+            "label": "Other (net)",
+            "notation": "N2159N"
+        },
+        {
+            "label": "Other natural resources (gross)",
+            "notation": "N215G"
+        },
+        {
+            "label": "Other natural resources (net)",
+            "notation": "N215N"
+        },
+        {
+            "label": "Universal Mobile Telecommunications System (net)",
+            "notation": "N215UN"
+        },
+        {
+            "label": "Natural resources (gross)",
+            "notation": "N21G"
+        },
+        {
+            "label": "Other naturally occurring assets (gross)",
+            "notation": "N21KG",
+            "description": "N21KG = N213G + N214G + N215G"
+        },
+        {
+            "label": "Other naturally occuRring assets (net)",
+            "notation": "N21KN",
+            "description": "N21KN = N213N + N214N + N215N"
+        },
+        {
+            "label": "Natural resources (net)",
+            "notation": "N21N"
+        },
+        {
+            "label": "Non-cultivated biological resources and water resources (gross)",
+            "notation": "N21OG",
+            "description": "N21OG=N213G+N214G"
+        },
+        {
+            "label": "Non-cultivated biological resources and water resources (net)",
+            "notation": "N21ON",
+            "description": "N21ON=N213N+N214N"
+        },
+        {
+            "label": "Marketable operating leases (gross)",
+            "notation": "N221G"
+        },
+        {
+            "label": "Marketable operating leases (net)",
+            "notation": "N221N"
+        },
+        {
+            "label": "Permissions to use natural resources (gross)",
+            "notation": "N222G"
+        },
+        {
+            "label": "Permissions to use natural resources (net)",
+            "notation": "N222N"
+        },
+        {
+            "label": "Permissions to undertake specific activities (gross)",
+            "notation": "N223G"
+        },
+        {
+            "label": "Permissions to undertake specific activities (net)",
+            "notation": "N223N"
+        },
+        {
+            "label": "Entitlement to future goods and services on an exclusive basis (gross)",
+            "notation": "N224G"
+        },
+        {
+            "label": "Entitlement to future goods and services on an exclusive basis (net)",
+            "notation": "N224N"
+        },
+        {
+            "label": "Contracts, leases and licences (gross)",
+            "notation": "N22G"
+        },
+        {
+            "label": "Contracts, leases and licences (net)",
+            "notation": "N22N"
+        },
+        {
+            "label": "Purchases less sales of goodwill and marketing assets (gross)",
+            "notation": "N23G"
+        },
+        {
+            "label": "Purchases less sales of goodwill and marketing assets (net)",
+            "notation": "N23N"
+        },
+        {
+            "label": "Non-produced non-financial assets (gross)",
+            "notation": "N2G"
+        },
+        {
+            "label": "Intangible nonproduced assets (gross)",
+            "notation": "N2KG",
+            "description": "N2KG = N22G + N23G"
+        },
+        {
+            "label": "Intangible nonproduced assets (net)",
+            "notation": "N2KN",
+            "description": "N2KN = N22N + N23N"
+        },
+        {
+            "label": "Non-produced non-financial assets (net)",
+            "notation": "N2N"
+        },
+        {
+            "label": "Net international investment position excluding non-defaultable instruments",
+            "notation": "NENDI"
+        },
+        {
+            "label": "All non-financial assets (gross)",
+            "notation": "NG"
+        },
+        {
+            "label": "Non-financial assets, other than dwellings and lands (gross)",
+            "notation": "NKG"
+        },
+        {
+            "label": "Non-financial assets, other than dwellings and lands (net)",
+            "notation": "NKN"
+        },
+        {
+            "label": "All non-financial assets, other than inventories (gross)",
+            "notation": "NLG",
+            "description": "NLG=N11G+N13G+N2G"
+        },
+        {
+            "label": "Dwellings and land underlying buildings and structures (net)",
+            "notation": "NM111N"
+        },
+        {
+            "label": "Consumer durable (net)",
+            "notation": "NMN"
+        },
+        {
+            "label": "All non-financial assets (net)",
+            "notation": "NN"
+        },
+        {
+            "label": "Housing wealth (net)",
+            "notation": "NUN"
+        },
+        {
+            "label": "Non-financial assets (includes total produced fixed assets and land underlying dwellings) (net)",
+            "notation": "NYN"
+        }
+    ]
+}

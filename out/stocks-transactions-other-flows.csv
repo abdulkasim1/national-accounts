@@ -1,0 +1,599 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+p511,Acquisitions less disposals of fixed assets,P511,,0,
+np,Acquisitions less disposals of non-produced assets,NP,,1,
+p53,Acquisitions less disposals of valuables,P53,,2,
+p5112,Acquisitions of existing fixed assets,P5112,,3,
+p5111,Acquisitions of new fixed assets,P5111,,4,
+p42,Actual collective consumption,P42,,5,
+p4,Actual final consumption,P4,,6,
+p41,Actual individual consumption,P41,,7,
+d995fn,Actual social contributions by non-employed persons assessed but unlikely to be collected,D995FN,,8,
+d995fs,Actual social contributions by self-employed persons assessed but unlikely to be collected,D995FS,,9,
+d61n,Actual social contributions from employers and households,D61N,,10,D61N=D611+D613
+b7g,"Adjusted disposable income, gross",B7G,,11,
+b7n,"Adjusted disposable income, net",B7N,,12,
+d8,Adjustment for the change in pension entitlements,D8,,13,
+o21x31,Adjustment product taxes less subsidies,O21X31,,14,
+oradj,Adjustments for scope and valuation of Maastricht debt,ORADJ,,15,
+p131a,Administrative fees,P131A,,16,
+orfcd,Appreciation(+)/depreciation(-) of foreign-currency debt,ORFCD,,17,
+b5g,"Balance of primary incomes, gross / National income, gross",B5G,,18,
+b5n,"Balance of primary incomes, net / National income, net",B5N,,19,
+b,Balancing and net worth items,B,,20,
+ysd2,Budget imbalance,YSD2,,21,
+d29e,Business and professional licences,D29E,,22,
+d99cg,Calls on guarantees,D99CG,,23,
+d99ci,Capital injections recorded as capital transfers,D99CI,,24,
+d91b,Capital levies,D91B,,25,
+d91,Capital taxes,D91,,26,
+d995g,Capital taxes assessed but unlikely to be collected,D995G,,27,
+d9,Capital transfers,D9,,28,
+d9np,Capital transfers financed by the Recovery and Resilience Facility (RRF),D9NP,,29,
+d995,Capital transfers from general government to relevant sectors representing taxes and social contributions assessed but unlikely to be collected,D995,,30,
+d9ima,Capital transfers recorded in the context of asset purchases,D9IMA,,31,
+d9p,"Capital transfers, excluding nonlife insurance capital claims",D9P,,32,D9P=D91+D92+D99B; D9P=D9-D99A
+d214d,Car registration taxes,D214D,,33,
+k3,Catastrophic losses,K3,,34,
+d82,Change in entitlements due to negotiated changes in scheme structure,D82,,35,
+lx,Changes in balance sheet/Positions/Stocks,LX,,36,
+k6,Changes in classification,K6,,37,
+k62,Changes in classification of assets and liabilities,K62,,38,
+p52,Changes in inventories,P52,,39,
+p5k,"Changes in inventories (P52), acquisition less disposals of valuables (P53) and acquisition less disposals of non-financial non-produced assets (NP)",P5K,,40,P5K=P52+P53+NP
+p5m,Changes in inventories and acquisition less disposals of valuables,P5M,,41,P5M=P52+P53
+b10,Changes in net worth,B10,,42,
+b1031,Changes in net worth due to neutral holding gains and losses,B1031,,43,
+b103,Changes in net worth due to nominal holding gains and losses,B103,,44,
+b10k,Changes in net worth due to other changes,B10K,,45,
+b102,Changes in net worth due to other changes in volume of assets,B102,,46,
+b10t,Changes in net worth due to other economic flows,B10T,,47,B10T=B102+B103
+b1032,Changes in net worth due to real holding gains and losses,B1032,,48,
+b101,Changes in net worth due to saving and capital transfers,B101,,49,
+k,Changes in positions other than transactions,K,,50,
+k61,Changes in sector classification and structure,K61,,51,
+ciffob,Cif/ fob adjustments,CIFFOB,,52,
+le,Closing balance sheet/Positions/Stocks,LE,,53,
+p32,Collective consumption expenditure,P32,,54,
+d1,Compensation of employees,D1,,55,
+d1_d29x39,Compensation of employees and other taxes excluding other subsidies on products,D1_D29X39,,56,D1_D29X39=D1+D29-D39
+gd1,"Compensation of employees, excluding for own-account capital formation [IMF GFSM definition]",GD1,,57,GD1=D1-P5OA1
+com_ps,Compensation per employee,COM_PS,,58,
+d613cn,Compulsory actual social contributions by the non-employed,D613CN,,59,
+d613cs,Compulsory actual social contributions by the self-employed,D613CS,,60,
+d613ce,Compulsory employees' actual social contributions,D613CE,,61,
+d611c,Compulsory employers' actual social contributions,D611C,,62,
+d613c,Compulsory households' actual social contributions,D613C,,63,
+p51c,Consumption of fixed capital,P51C,,64,
+gp51c,Consumption of fixed capital (use of fixed assets) [IMF GFSM definition],GP51C,,65,GP51C=P51C-P5OA3
+p51c2,Consumption of fixed capital on gross mixed income,P51C2,,66,
+p51c1,Consumption of fixed capital on gross operating surplus,P51C1,,67,
+p512,Costs of ownership transfer on non-produced assets,P512,,68,
+b12,Current external balance,B12,,69,
+d73_74,Current grants to/from governments and international organizations,D73_74,,70,D73_74=D73+D74
+d74,Current international cooperation,D74,,71,
+d7n,"Current international cooperation, miscellaneous current transfers and VAT and GNI-based EU own resources",D7N,,72,D7N=D74+D75+D76
+d59a,Current taxes on capital,D59A,,73,
+d5,"Current taxes on income, wealth, etc.",D5,,74,
+ooct,"Current taxes on income, wealth, etc.  + other taxes on production  + property income other than interest + other current transfers  excluding current transfers to NPISH",OOCT,,75,OOCT=D29 + D4 - D41 + D5 +  D7 -D751 + D8
+ooce,"Current taxes on income, wealth, etc., Other taxes on production, Property income other than interest, Other current transfers and Adjustment for the change in pension entitlements",OOCE,,76,OOCE = D29 + D4N + D5 + D7 + D8
+d59a1,"Current taxes on land, buildings and other structures",D59A1,,77,
+d59a4,Current taxes on ownership of motor vehicles,D59A4,,78,
+d752,Current transfers between resident and non-resident households,D752,,79,
+d7np,Current transfers financed by the Recovery and Resilience Facility (RRF),D7NP,,80,
+gd7r,Current transfers not elsewhere classified,GD7R,,81,"GD7R(credit)=D3NOA+GD75
+GD7R(debit)=D2NOA+D5+D75"
+d762k,Current transfers of which UK rebate,D762K,,82,
+d751,Current transfers to NPISHs,D751,,83,
+d73,Current transfers within general government,D73,,84,
+d7l,"Current transfers within general government, current international cooperation and miscellaneous current transfers",D7L,,85,D7L=D73+D74+D75
+d212k,Customs and other import duties,D212K,,86,D212K=D2121+D2122A+D2122B
+gdxb9,Deficit-debt adjustment,GDXB9,,87,
+k21,Depletion of natural resources,K21,,88,
+rdep,Depreciation rate (PIM),RDEP,,89,
+ord41fa,Difference between interest (EDP D.41) accrued(-) and paid (+) of which: interest flows attributable to swaps and FRAs,ORD41FA,,90,
+ord41a,Difference between interest paid (+) and accrued (EDP D.41)(-),ORD41A,,91,
+b9fx9,Discrepancy between the financial (B9F) and non-financial (B9) net lending/borrowing,B9FX9,,92,
+b6g,"Disposable income, gross",B6G,,93,
+b6ga,"Disposable income, gross, adjusted for the net change in pension entitlements",B6GA,,94,B6G + D8(credit) - D8(debit)
+b6n,"Disposable income, net",B6N,,95,
+p5113,Disposals of existing fixed assets,P5113,,96,
+d42,Distributed income of corporations,D42,,97,
+d,Distributive transactions,D,,98,
+d421,Dividends,D421,,99,
+d4431,Dividends distributed to collective investment fund shareholders (IF),D4431,,100,
+tuxp7,Domestic use,TUXP7,,101,
+k1,Economic appearance of assets,K1,,102,
+k2,Economic disappearances of non-produced assets,K2,,103,
+act,Economically active population,ACT,,104,ACT=EPEA
+sal,Employees,SAL,,105,
+d995fe,Employees' actual social contributions assessed but unlikely to be collected,D995FE,,106,
+gd6m2,"Employer social benefits, excluding pension benefits [IMF GFSM definition]",GD6M2,,107,GD6M2=D6222+D6322
+d995e,Employers actual social contributions assessed but unlikely to be collected,D995E,,108,
+d6112,Employers' actual non-pension contributions,D6112,,109,D6112 = D1212
+d1212,Employers' actual non-pension contributions (primary income),D1212,,110,
+d6111,Employers' actual pension contributions,D6111,,111,D6111= D1211
+d1211,Employers' actual pension contributions (primary income),D1211,,112,
+d611,Employers' actual social contributions,D611,,113,D611= D121
+d121,Employers' actual social contributions (primary income),D121,,114,
+gd121,"Employers' actual social contributions, excluding for own-account capital formation [IMF GFSM definition]",GD121,,115,GD121=D121-P5OA13
+d6122,Employers' imputed non-pension contributions,D6122,,116,D6122 = D1222
+d1222,Employers' imputed non-pension contributions (primary income),D1222,,117,
+d6121,Employers' imputed pension contributions,D6121,,118,D6121 = D1221
+d1221,Employers' imputed pension contributions (primary income),D1221,,119,
+d612,Employers' imputed social contributions,D612,,120,D612 = D122
+d122,Employers' imputed social contributions (primary income),D122,,121,
+gd122,"Employers' imputed social contributions, excluding for own-account capital formation [IMF GFSM definition]",GD122,,122,GD122=D122-P5OA14
+d12,Employers' social contributions,D12,,123,
+gd12,"Employers' social contributions, excluding for own-account capital formation [IMF GFSM definition]",GD12,,124,"GD12=GD121+GD122
+GD12=D12-P5OA13-P5OA14"
+d6132b,Employment related schemes actual nonpension contributions by employees,D6132B,,125,
+d6112b,Employment related schemes actual nonpension contributions by employers,D6112B,,126,
+d6131b,Employment related schemes actual pension contributions by employees,D6131B,,127,
+d6111b,Employment related schemes actual pension contributions by employers,D6111B,,128,
+b4g,Entrepreneurial income (gross),B4G,,129,
+b4n,Entrepreneurial income (net),B4N,,130,
+euo,European Union (EU) own resources and miscellaneous contributions,EUO,,131,
+d2122c,Excise duties,D2122C,,132,
+d214a,Excise duties and consumption taxes,D214A,,133,
+d59c,Expenditure taxes,D59C,,134,
+goteeg,"Expense, excluding consumption of fixed capital",GOTEEG,,135,GOTEEG=GD1+GP2+GD41+D3+DG+GD6M+GOOE
+d214k,Export duties and monetary comp. amounts on exports,D214K,,136,
+p61b,Export on second hand goods,P61B,,137,
+d312,Export subsidies,D312,,138,
+d213,Export taxes,D213,,139,
+d213d,"Export taxes, exchange taxes",D213D,,140,
+p62f,Exports of FISIM,P62F,,141,
+p61,Exports of goods,P61,,142,
+p6,Exports of goods and services,P6,,143,
+p62,Exports of services,P62,,144,
+b111,External balance of goods,B111,,145,
+b11,External balance of goods and services,B11,,146,
+b112,External balance of services,B112,,147,
+d71b,Fees for standardized guarantee schemes,D71B,,148,
+p3,Final consumption expenditure,P3,,149,P3=P31+P32
+p3_p51g,Final domestic demand excluding inventories,P3_P51G,,150,P3_P51G=P3+P51G
+p119,Financial Intermediation Services Indirectly Measured (FISIM),P119,,151,
+bf90,Financial net worth,BF90,,152,
+bf90a,Financial net worth adjusted for pension liabilities,BF90A,,153,BF90A=BF90+F6M
+d759a,"Fines, penalties, and forfeits",D759A,,154,
+d762,GNI-based fourth EU own resource,D762,,155,
+d214i,General sales or turnover taxes,D214I,,156,
+d2122d,General sales taxes,D2122D,,157,
+d214i1,General sales taxes,D214I1,,158,
+d21m,General taxes on goods and services,D21M,,159,D21M=D211+D21K+D214I2+D214C
+dg1,Grants in cash,DG1,,160,
+dg2,Grants in kind,DG2,,161,
+dg,Grants to/from governments and international organizations,DG,,162,DG=D73+D74+D9N(requires counterparty)
+p5,Gross capital formation,P5,,163,
+p5l,Gross capital formation and acquisitions less disposals of non-produced assets,P5L,,164,P5+NP
+opi,"Gross disposable income - gross operating surplus and mixed income - compensation of employees - social contribution and social benefits, other than social transfer in kind - current taxes on income, wealth, etc.",OPI,,165,OPI=B6G-B2A3G-D1-D61-D62-D5
+oin,Gross disposable income minus final consumption expenditure,OIN,,166,B6G-P3
+b1gq,Gross domestic product at market prices,B1GQ,,167,
+p51g,Gross fixed capital formation,P51G,,168,
+b5gq95,Gross national income (SNA93/ESA95),B5GQ95,,169,
+b5gq95xf,Gross national income (SNA93/ESA95) excluding FISIM allocation,B5GQ95XF,,170,
+b5gq,Gross national income in market prices [deprecated],B5GQ,,171,"deprecated, replaced by B5G"
+gb8zg,Gross operating balance,GB8ZG,,172,GB8ZG=GOTRG-GOTEE
+ogf,Guarantee fees receivable,OGF,,173,sum of guarantee fees recorded as P.131 and D.75
+com_hw,Hourly compensation,COM_HW,,174,
+d6132,Households' actual non-pension contributions,D6132,,175,
+d6131,Households' actual pension contributions,D6131,,176,
+d613,Households' actual social contributions,D613,,177,
+d995f,Households' actual social contributions assessed but unlikely to be collected,D995F,,178,
+d6142,Households' non-pension contribution supplements,D6142,,179,
+d6141,Households' pension contribution supplements,D6141,,180,
+d614,Households' social contribution supplements,D614,,181,
+oesa9510,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Central Bank - allocation of output,OESA9510,,182,
+oesa9505,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Decommissioning costs for large capital assets,OESA9505,,183,
+oesa9506,"Impact of differences in definitions between ESA2010 and ESA95 on GNI: Government, public and private sector classification",OESA9506,,184,
+oesa9509,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Index-linked debt instruments,OESA9509,,185,
+oesa9511,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Land improvements recognised as a separate asset,OESA9511,,186,
+oesa9503,"Impact of differences in definitions between ESA2010 and ESA95 on GNI: Non-life insurance - Output, claims due to catastrophes, and reinsurance",OESA9503,,187,
+oesa9501a,Impact of differences in definitions between ESA2010 and ESA95 on GNI: R&D created by a market producer,OESA9501A,,188,
+oesa9501b,Impact of differences in definitions between ESA2010 and ESA95 on GNI: R&D created by a non-market producer,OESA9501B,,189,
+oesa9507,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Small tools,OESA9507,,190,
+oesa9508,Impact of differences in definitions between ESA2010 and ESA95 on GNI: VAT-based third EU own resource,OESA9508,,191,
+oesa9502,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Valuation of output for own final use for market producers,OESA9502,,192,
+oesa9504,Impact of differences in definitions between ESA2010 and ESA95 on GNI: Weapon systems in government recognised as capital assets,OESA9504,,193,
+p118,Implicit service fees in nonlife insurance premiums and standardized guarantees,P118,,194,
+gcl,Implicit transfers resulting from concessional interest rates,GCL,,195,
+d2121,Import duties,D2121,,196,
+d311,Import subsidies,D311,,197,
+p72f,Imports of FISIM,P72F,,198,
+p71,Imports of goods,P71,,199,
+p7,Imports of goods and services,P7,,200,
+p72,Imports of services,P72,,201,
+p131b,Incidental sales by nonmarket establishments,P131B,,202,
+d2n,Indirect taxes excluding VAT and indirect taxes on energy,D2N,,203,D2N=D2-D211-D2M
+d2m,Indirect taxes on energy,D2M,,204,
+p31,Individual consumption expenditure,P31,,205,
+p311,Individual consumption expenditure of durable goods,P311,,206,
+p313,Individual consumption expenditure of non-durable goods,P313,,207,
+p31k,Individual consumption expenditure of semi-durable and non-durable goods and services,P31K,,208,P31K=P312+P313+P314
+p312,Individual consumption expenditure of semi-durable goods,P312,,209,
+p314,Individual consumption expenditure of services,P314,,210,
+d41,Interest,D41,,211,
+d41a,Interest accrued (not yet paid),D41A,,212,
+d4m,Interest and rents,D4M,,213,
+d41g,Interest before FISIM allocation,D41G,,214,
+d41sp,Interest from the European instrument for temporary Support to mitigate Unemployment Risks in an Emergency (SURE) and the Recovery and Resilience Facility (RRF) loans,D41SP,,215,
+od41,"Interest, including flows on swaps and FRA's",OD41,,216,
+p2,Intermediate consumption,P2,,217,
+oec,"Intermediate consumption + Other taxes on production + Current taxes on income, wealth, etc. + Adjustment for the change in pension entitlements",OEC,,218,OEC=P2+D29+D5+D8
+p29,Intermediate consumption resulting from FISIM allocation,P29,,219,
+oea,"Intermediate consumption, other taxes on production, current taxes on income and wealth, etc., and adjustment for the change in net equity of households in pension funds reserves",OEA,,220,
+d92,Investment grants,D92,,221,
+d4r,Investment income,D4R,,222,D4R=D4-D41-D45=D4-D4K
+d4p,Investment income (D4 less D45) (BOP),D4P,,223,D4P=D4-D45
+d443,Investment income attributable to collective investment fund share holders,D443,,224,
+d441,Investment income attributable to insurance policyholders,D441,,225,
+d442,Investment income payable on pension entitlements,D442,,226,
+orinv,Issuances above(-)/below(+) nominal value,ORINV,,227,
+lpr_hw,Labour Productivity (per hours worked),LPR_HW,,228,
+lpr_ps,Labour Productivity (per persons),LPR_PS,,229,
+d213a,"Levies on exported goods and services, other than export duties and monetary comp. amounts on exports",D213A,,230,
+d2122a,Levies on imported agricultural products,D2122A,,231,
+p11,Market output,P11,,232,
+p1m,Market output and output for own final use,P1M,,233,P1M=P1-P131
+p1o,"Market output, output for own final use and payments for other non-market output",P1O,,234,P1O=P11+P12+P131
+om2,Member State's net revenue from pre-acceding programmes,OM2,,235,
+odh,Memo: Difference between deliveries and corresponding cash payment (EDP concept),ODH,,236,
+p61c,Merchanting,P61C,,237,
+d75,Miscellaneous current transfers,D75,,238,
+gd75,"Miscellaneous current transfers , other than fines, penalties, and forfeits",GD75,,239,GD75=D75-D759B
+d7k,Miscellaneous current transfers and VAT- and GNI-based own resources [deprecated],D7K,,240,D7K=D75+D76
+d763,Miscellaneous non-tax contribution of the government to the institutions of the EU,D763,,241,
+d763a,Miscellaneous non-tax contribution of the government to the institutions of the European Union (EU): of which plastics contribution - EU own resource,D763A,,242,
+b3g,"Mixed income, gross",B3G,,243,
+b3n,"Mixed income, net",B3N,,244,
+d2122b,Monetary compensatory amounts on imports,D2122B,,245,
+dl1,Motor vehicles taxes [IMF GFSM definition],DL1,,246,DL1=D214D+D29B1+D59A4+D59D1
+p5n,Net capital formation,P5N,,247,
+p5ln,Net capital formation and acquisitions less disposals of non-produced assets,P5LN,,248,P5+NP-P51C
+gcnfb,Net cash inflow from financial activities,GCNFB,,249,
+b1nq,Net domestic product at market prices,B1NQ,,250,
+b9f,Net financial transactions,B9F,,251,
+p51n,Net fixed capital formation,P51N,,252,
+b9xfam,Net lending (+) / net borrowing (-) excluding government assistance to the financial corporations,B9XFAM,,253,net lending/borrowing (B9) of general government – impact on net lending/borrowing (B9) related to government assistance to the financial corporations
+b9,Net lending(+) / net borrowing (-),B9,,254,
+gb9,Net lending(+) / net borrowing (-) [IMF GFSM definition],GB9,,255,GB9=GOTRG-GOTEG; B9G=GOTRG-GOTEE-P5L
+ob9,Net lending/borrowing under EDP,OB9,,256,
+b9p,Net lending/net borrowing excluding interest payable (primary deficit or surplus),B9P,,257,B9P = B9 + D41 D
+b5nq,Net national income in market prices [deprecated],B5NQ,,258,"deprecated, replaced by B5N"
+d711,Net non-life direct insurance premiums,D711,,259,
+d71,Net non-life insurance premiums,D71,,260,
+d712,Net non-life reinsurance premiums,D712,,261,
+gb8zn,Net operating balance,GB8ZN,,262,GB8ZN=GOTRG-GOTEE+P51M
+d71a,Net premiums of nonlife insurance schemes other than standardized guarantee,D71A,,263,
+otre,Net revenue / cost for general government (only including transactions as defined for EDP financial crisis tables and to be used with custom breakdown FC),OTRE,,264,
+d61,Net social contributions,D61,,265,
+b101a,Net transactions in assets and liabilities,B101A,,266,
+b90,Net worth,B90,,267,
+k71,Neutral holding gains and losses,K71,,268,
+ornf,Non-financial transactions not included in the working balance,ORNF,,269,
+d721,Non-life direct insurance claims,D721,,270,
+d72,Non-life insurance claims,D72,,271,
+d722,Non-life reinsurance claims,D722,,272,
+p13,Non-market output,P13,,273,
+d99a,Nonlife insurance capital claims,D99A,,274,
+_z,Not applicable,_Z,,275,
+ls,Opening balance sheet/Positions/Stocks,LS,,276,
+b2a3g,"Operating surplus and mixed income, gross",B2A3G,,277,
+b2a3n,"Operating surplus and mixed income, net",B2A3N,,278,
+b2g,"Operating surplus, gross",B2G,,279,
+b2ad4,"Operating surplus, mixed and net property income",B2AD4,,280,B2AD4=B2A3G+D4 = B2G+B3G+D4
+b2n,"Operating surplus, net",B2N,,281,
+d619,Other (actuarial) change of pension entitlements in social security pension schemes,D619,,282,
+oroa,Other adjustments (+/-) in EDP Table 2,OROA,,283,
+d91c,Other capital taxes n.e.c.,D91C,,284,
+d99,Other capital transfers,D99,,285,
+d9n,Other capital transfers and investment grants,D9N,,286,D9N=D92+D99
+d9o,"Other capital transfers and investment grants, excluding nonlife insurance capital claims",D9O,,287,D9O=D92+D99B; D9O=D9N-D99A
+d99b,Other capital transfers not elsewhere classified,D99B,,288,
+ka,Other changes excluding revaluations,KA,,289,
+k5,Other changes in volume not elsewhere classified,K5,,290,
+oocr,Other current revenue,OOCR,,291,OOCR = D39 + D4 + D7
+d59,Other current taxes,D59,,292,
+d995d,Other current taxes assessed but unlikely to be collected,D995D,,293,
+d59f,Other current taxes n.e.c.,D59F,,294,
+d59e,Other current taxes on international transactions,D59E,,295,
+d59e1,Other current taxes on international transactions; exchange taxes,D59E1,,296,
+d59e2,Other current taxes on international transactions; other,D59E2,,297,
+d7,Other current transfers,D7,,298,
+k22,Other economic disappearances of non-produced assets,K22,,299,
+gooe,Other expense [IMF GFSM definition],GOOE,,300,GOOE=GD4N+GD7Z+GD7Q(debit)
+d44,Other investment income,D44,,301,
+d759,Other miscellaneous current transfers,D759,,302,
+d759b,"Other miscellaneous current transfers , other than fines, penalties, and forfeits",D759B,,303,
+p132,"Other non-market output, n.e.c.",P132,,304,
+d59a3,Other recurrent taxes on property,D59A3,,305,
+dk3,Other recurrent taxes on property,DK3,,306,DK3=D29H2+D59A3
+oor,Other revenue,OOR,,307,OOR=OTR-OGF-D41-D42
+goor,Other revenue [IMF GFSM definition],GOOR,,308,GOOR=GD4+GP1+D759A+GD7Z+GD7Q(credit)
+d62o,"Other social allowances (payments of family, education, medical services and other allowances)",D62O,,309,
+gd61b,Other social contributions,GD61B,,310,GD61B=GD61B1+D6112B+D6122
+gd61b1,"Other social contributions, employee contributions",GD61B1,,311,GD61B1=D6132B+D6142
+d622,Other social insurance benefits,D622,,312,
+d6222,Other social insurance non-pension benefits,D6222,,313,
+d6221,Other social insurance pension benefits,D6221,,314,
+ya3o,Other statistical discrepancies (+/-) in Stock Flow Adjustment,YA3O,,315,
+d39,Other subsidies on production,D39,,316,
+d39p,"Other subsidies on production, payable (positive sign, for reporting in GFS presentation)",D39P,,317,
+d39r,"Other subsidies on production, receivable (positive sign, for reporting in GFS presentation)",D39R,,318,
+d319,Other subsidies on products,D319,,319,
+gdm,Other taxes [IMF GFSM definition],GDM,,320,GDM=GDM1+GDM2
+d2r,Other taxes on goods and services,D2R,,321,D2R=D214L+D29G+D29H3
+d51c3,Other taxes on holding gains n.e.c,D51C3,,322,
+d51e,Other taxes on income n.e.c.,D51E,,323,
+d51g3,"Other taxes on income, profits, and capital gains",D51G3,,324,D51G3=D51C3+D51D3+D51E
+d2t,Other taxes on international trade and transactions,D2T,,325,D2T=D2122E+D29D+D59E2
+d29,Other taxes on production,D29,,326,
+oed,"Other taxes on production + Current taxes on income, wealth, etc. + Adjustment for the change in pension entitlements",OED,,327,OED=D29+D5+D8
+d995b,Other taxes on production assessed but unlikely to be collected,D995B,,328,
+d29x39,Other taxes on production minus other subsidies on production,D29X39,,329,
+d29h,Other taxes on production n. e. c.,D29H,,330,
+d29h2,Other taxes on production n. e. c.; other recurrent taxes on property,D29H2,,331,
+d29h3,Other taxes on production n. e. c.; other taxes on goods and services,D29H3,,332,
+d29h4,Other taxes on production n. e. c.; other taxes on production,D29H4,,333,
+d29h1,Other taxes on production n. e. c.; recurrent taxes on net wealth,D29H1,,334,
+oeb,"Other taxes on production, current taxes on income and wealth, etc. and adjustment for the change in net equity of households in pension funds reserves",OEB,,335,
+d214l,Other taxes on products n. e. c.,D214L,,336,
+d214h,Other taxes on specific services,D214H,,337,
+dl2,Other taxes on use of goods and on permission to use goods or perform activities,DL2,,338,DL2=D29E+D29F+D59D2+D59D3+D29B2
+d51d3,Other taxes on winnings from lottery or gambling n.e.c.,D51D3,,339,
+gdm2,"Other taxes, payable by other than business or unidentifiable",GDM2,,340,GDM2=D59B+D59C+D59F
+gdm1,"Other taxes, payable solely by business",GDM1,,341,GDM1=D214B+D29H4
+k7b1,Other valuation effects of which due to issuance and redemption value,K7B1,,342,
+kx,"Other volume changes in debt liabilities (K.3, K.4, K.5) (-)",KX,,343,
+p1,Output,P1,,344,
+p12,Output for own final use,P12,,345,
+p12_gfsm_d1,"Output for own final use, cost attributable to compensation of employees (GFSM purpose)",P12_GFSM_D1,,346,
+p12_gfsm_p51c,"Output for own final use, cost attributable to consumption of fixed capital (GFSM purpose)",P12_GFSM_P51C,,347,
+p12_gfsm_p2,"Output for own final use, cost attributable to intermediate consumption (GFSM purpose)",P12_GFSM_P2,,348,
+p12a,Own-account capital formation,P12A,,349,
+p5oa,Own-account capital formation,P5OA,,350,P5OA=P5OA1+P5OA2+P5OA3+P5OA4
+p5oa13,"Own-account capital formation, actual employers' social contributions",P5OA13,,351,Under GFS code  2121
+p5oa1,"Own-account capital formation, compensation of employees",P5OA1,,352,P5OA1=P5OA11+P5OA12+P5OA13+P5OA14
+p5oa3,"Own-account capital formation, consumption of fixed capital",P5OA3,,353,
+p5oa14,"Own-account capital formation, imputed employers' social contributions",P5OA14,,354,Under GFS code  2122
+p5oa2,"Own-account capital formation, intermediate consumption",P5OA2,,355,
+p5oa42,"Own-account capital formation, other subsidies on production",P5OA42,,356,
+p5oa41,"Own-account capital formation, other taxes on production",P5OA41,,357,
+p5oa4,"Own-account capital formation, other taxes on production minus other subsidies on production",P5OA4,,358,P5OA4=P5OA41-P5OA42
+p5oa11,"Own-account capital formation, wages and salaries in cash",P5OA11,,359,Under GFS code  2111
+p5oa12,"Own-account capital formation, wages and salaries in kind",P5OA12,,360,Under GFS code  2112
+d59d,Payments by households for licences,D59D,,361,
+d59d1,Payments by households for licenses to use motor vehicle taxes,D59D1,,362,
+d59d3,Payments by households for other licenses and permits,D59D3,,363,
+d59d2,Payments by households for radio and television licenses,D59D2,,364,
+p131,Payments for other non-market output,P131,,365,
+d59b,Poll taxes,D59B,,366,
+gd71a,Premiums of nonlife insurance schemes other than standardized guarantees,GD71A,,367,"GD71A(credit)=D71A(credit)+P118
+GD71A(debit)=D71A(debit)+P28"
+gd7q,"Premiums, fees, and claims related to nonlife insurance and standardized guarantee schemes",GD7Q,,368,GD7Q=GD7P+D99A
+gd7p,"Premiums, fees, and current claims",GD7P,,369,GD7P=GD71A+D71B+D72
+in,Primary and secondary income,IN,,370,"IN=D1+D2+D3+D4+D5+D6+D7+D8;
+IN=IN1+IN2"
+ocexd41,Primary current expenditure,OCEXD41,,371,OCE - D41
+otexd41,Primary expenditure,OTEXD41,,372,OTEXD41=OTE-D41
+in1,Primary income,IN1,,373,IN1=D1+D2+D3+D4
+gb9p,Primary net lending(+) / net borrowing (-) [IMF GFSM definition],GB9P,,374,GB9P=GB9+D41G(debit)
+p12b,Production of goods and services used as compensation of employees in kind,P12B,,375,
+d213b,Profits of export monopolies,D213B,,376,
+d21p,Profits of export or import monopolies,D21P,,377,D21P=D213B+D2122F
+d214j,Profits of fiscal monopolies,D214J,,378,
+d2122f,Profits of import monopolies,D2122F,,379,
+d4,Property income,D4,,380,
+d4_7,Property income and other current transfers,D4_7,,381,D4_7=D4+D7
+d4k,Property income attributed to insurance policy holders and rent,D4K,,382,D4K=D441+D45
+gd4,"Property income before FISIM allocation, excluding investment income payable on pension entitlements [IMF GFSM definition]",GD4,,383,GD4=D41G+D421+D422+D44K+D45+D43
+d44k,Property income from investment income disbursements,D44K,,384,D44K=D441+D443
+d4n,Property income other than interest,D4N,,385,D4N=D42+D43+D44+D45
+gd4n,"Property income other than interest, excluding investment income payable on pension entitlements [IMF GFSM definition]",GD4N,,386,GD4N=D42+D43+D44K+D45
+op,Purchases,OP,,387,
+p61a,Re-export of goods,P61A,,388,
+p6a,Re-exports,P6A,,389,
+k72,Real holding gains and losses,K72,,390,
+dk1,Recurrent taxes on immovable property,DK1,,391,DK1=D29A+D59A1
+d59a2,Recurrent taxes on net wealth,D59A2,,392,
+dk2,Recurrent taxes on net wealth,DK2,,393,DK2=D29H1+D59A2
+orrnv,Redemptions of debt above(+)/below(-) nominal  value,ORRNV,,394,
+d4432,Reinvested earnings attributable to collective investment fund shareholders (IF),D4432,,395,
+d43,Reinvested earnings on FDI (Excluding IF),D43,,396,
+d43s,Reinvested earnings on FDI (Including IF),D43S,,397,
+b10r,Remaining changes in net worth,B10R,,398,B10R=B10-(P5-NP-P51C+F.FM+F.FF-F.F4+B10K.NYN+K.F)
+d45,Rent,D45,,399,
+d62p,Retirement and survivors' Pensions,D62P,,400,
+rret,Retirement rate (PIM),RRET,,401,
+rrev,Revaluation rate (PIM),RREV,,402,
+k7,Revaluations / Nominal holding gains and losses,K7,,403,
+k7a,Revaluations due to exchange rate changes,K7A,,404,
+k7b,Revaluations due to other price changes,K7B,,405,
+gp11,Sales by market establishments,GP11,,406,GP11=P11-P118-P119
+gp1,Sales of goods and services,GP1,,407,GP1=GP11+P131+P12B
+b8g,"Saving, gross",B8G,,408,
+b8n,"Saving, net",B8N,,409,
+osa,"Savings, gross plus net capital transfers",OSA,,410,B8G+D9
+in2,Secondary income,IN2,,411,IN2=D5+D6+D7+D8
+d7o,Secondary income: All miscellaneous current transfers,D7O,,412,D7O=D75+D76
+in22,Secondary income: Other current transfers excluding personal transfers,IN22,,413,IN22=IN2-D752
+in21,Secondary income: current transfers,IN21,,414,IN21=D5+D6+D7
+self,Self employed,SELF,,415,
+p28,Service charges payable to providers of nonlife insurance,P28,,416,
+gd6m3,Social assistance benefits,GD6M3,,417,GD6M3=D623+D6323
+d623,Social assistance benefits in cash,D623,,418,
+d62_63,Social benefits and social transfers in kind,D62_63,,419,D62_63=D62+D63
+gd62,"Social benefits in cash, excluding other social insurance pension benefits [IMF GFSM definition]",GD62,,420,GD62=D621+D6222+D623
+d62,Social benefits other than social transfers in kind,D62,,421,
+oct,"Social benefits other than social transfers in kind + social transfers in kind, purchased market production + subsidies payable + current taxes on income, wealth, etc. + other taxes on production + property income other than interest + other current transfers",OCT,,422,OCT = OSP-D3 C+OOCT
+d6m,Social benefits other than social transfers in kind and social transfers in kind - purchased market production,D6M,,423,D6M=D62+D632
+osp,Social benefits other than social transfers in kind and social transfers in kind - purchased market production + current transfers to NPISHs,OSP,,424,OSP = D.62 D+ D.632 +D751= D6M+D751
+gd6m,"Social benefits, excluding other social insurance pension benefits and social transfers in kind - non-market production [IMF GFSM definition]",GD6M,,425,GD6M=D621+D6222+D623+D632; GD6M=GD6M1+GD6M2+GD6M3
+d6l,"Social contribution and social benefits, other than social transfer in kind",D6L,,426,D6L=D61+D62
+d6,Social contributions and social benefits,D6,,427,
+gd61,"Social contributions, excluding employment related schemes' pension contribution [IMF GFSM definition]",GD61,,428,GD61=GD61A+GD61B
+d61sc,Social insurance scheme service charges (-),D61SC,,429,
+d6132a1,Social security actual nonpension contributions by employees,D6132A1,,430,
+d6112a,Social security actual nonpension contributions by employers,D6112A,,431,
+d6132a2,Social security actual nonpension contributions by self-employed or nonemployed,D6132A2,,432,
+d6131a1,Social security actual pension contributions by employees,D6131A1,,433,
+d6111a,Social security actual pension contributions by employers,D6111A,,434,
+d6131a2,Social security actual pension contributions by self-employed or nonemployed,D6131A2,,435,
+gd6m1,Social security benefits,GD6M1,,436,GD6M1=D621+D6321
+d621,Social security benefits in cash,D621,,437,
+gd61a,Social security contributions,GD61A,,438,GD61A=GD61A1+GD61A2+GD61A3+GD61A4
+gd61a1,"Social security contributions, employee contributions",GD61A1,,439,GD61A1=D6131A1+D6132A1
+gd61a2,"Social security contributions, employer contributions",GD61A2,,440,GD61A2=D6111A+D6112A
+gd61a3,"Social security contributions, self-employed or nonemployed contributions",GD61A3,,441,GD61A3=D6131A2+D6132A2
+gd61a4,"Social security contributions, unallocable contributions",GD61A4,,442,
+d6212,Social security non-pension benefits in cash,D6212,,443,
+d6211,Social security pension benefits,D6211,,444,
+d63,Social transfers in kind,D63,,445,
+d631,Social transfers in kind - non-market production,D631,,446,
+d632,Social transfers in kind - purchased market production,D632,,447,
+d6322,"Social transfers in kind - purchased market production, employment-related schemes",D6322,,448,
+d6323,"Social transfers in kind - purchased market production, social assistance",D6323,,449,
+d6321,"Social transfers in kind - purchased market production, social security",D6321,,450,
+d6k,"Social transfers, other than social transfers in kind minus net social contributions",D6K,,451,D62(credit)-D61(debit)
+d214b,Stamp taxes,D214B,,452,
+ya3,Statistical discrepancies in Stock Flow Adjustment,YA3,,453,
+ya0,Statistical discrepancy (expenditure approach),YA0,,454,
+ya2,Statistical discrepancy (income approach),YA2,,455,
+ya1,Statistical discrepancy (production approach),YA1,,456,
+d3,Subsidies,D3,,457,
+d31,Subsidies on products,D31,,458,
+d31p,"Subsidies on products, payable (positive sign, for reporting in GFS presentation)",D31P,,459,
+gd3noa,"Subsidies, other than for own-account capital formation",GD3NOA,,460,GD3NOA=D3(credit)-P5OA42
+d3p,"Subsidies, payable (positive sign, for reporting in GFS presentation)",D3P,,461,
+odd,Tax burden = total receipts from taxes and compulsory social contributions after deduction of amounts assessed but unlikely to be collected,ODD,,462,
+d212,Taxes and duties on imports excluding Value Added Tax,D212,,463,
+d21x31,Taxes less subsidies on products,D21X31,,464,
+d21x31x211,Taxes less subsidies on products  excluding VAT,D21X31X211,,465,
+d91a,Taxes on capital transfers,D91A,,466,
+d51d2,Taxes on corporations' winnings from lottery or gambling,D51D2,,467,
+d214e,Taxes on entertainment,D214E,,468,
+d214c,Taxes on financial and capital transactions,D214C,,469,
+d2s,Taxes on goods and services,D2S,,470,D2S=D21M+D2122T4B+D214J+D21O+D2Q+D2R
+d51c,Taxes on holding gains,D51C,,471,
+d51c2,Taxes on holding gains of corporations,D51C2,,472,
+d2122,Taxes on imports excluding Value Added Tax and duties,D2122,,473,
+d51,Taxes on income,D51,,474,
+d995c,Taxes on income assessed but unlikely to be collected,D995C,,475,
+d51g2,"Taxes on income, payable by corporations and other enterprises",D51G2,,476,D51G2=D51O+D51D2
+d51g1,"Taxes on income, payable by individuals",D51G1,,477,D51G1=D51M+D51D1
+d51c1,Taxes on individual or household holding gains,D51C1,,478,
+d51a,Taxes on individual or household income excluding holding gains,D51A,,479,
+d51m,Taxes on individual or household income including holding gains,D51M,,480,D51M=D51A+D51C1
+d51d1,Taxes on individuals' winnings from lottery or gambling,D51D1,,481,
+d214g,Taxes on insurance premiums,D214G,,482,
+d2u,Taxes on international trade and transactions,D2U,,483,D2U=D212K+D21O+D21P+D213C+D213D+D2T
+d29d,Taxes on international transactions,D29D,,484,
+d29a,"Taxes on land, buildings or other structures",D29A,,485,
+d214f,"Taxes on lotteries, gambling and betting",D214F,,486,
+d29f,Taxes on pollution,D29F,,487,
+d2,Taxes on production and imports,D2,,488,
+d2x3,Taxes on production and imports less subsidies,D2X3,,489,
+d2noa,"Taxes on production and imports, other than for own-account capital formation",D2NOA,,490,D2NOA=D2(debit)-P5OA41
+d21,Taxes on products,D21,,491,
+d995a,Taxes on products assessed but unlikely to be collected,D995A,,492,
+d214,"Taxes on products except Value Added Tax, import and export taxes",D214,,493,
+d21eu,"Taxes on products involving EU Institutions, traditional EU own resources (custom and agricultural duties)",D21EU,,494,
+dk,Taxes on property,DK,,495,DK=DK1+DK2+DK3+D91A+D91B
+d2122e,Taxes on specific services,D2122E,,496,
+d21n,Taxes on specific services,D21N,,497,D21N=D214E+D214F+D214G+D214H
+d51b,Taxes on the income or profits of corporations excluding holding gains,D51B,,498,
+d51o,Taxes on the income or profits of corporations including holding gains,D51O,,499,D51O=D51B+D51C2
+d29b,Taxes on the use of fixed assets,D29B,,500,
+d29b1,Taxes on the use of motor vehicles,D29B1,,501,
+d29b2,Taxes on the use of other machinery or equipment,D29B2,,502,
+dl,Taxes on use of goods and on permission to use goods and perform activities,DL,,503,DL=DL1+DL2
+d51d,Taxes on winnings from lottery or gambling,D51D,,504,
+d213c,Taxes resulting from multiple exchange rate regimes,D213C,,505,
+ptot,Term of trade,PTOT,,506,(P6.V/P6.L)/(P7.V/P7.L)*100
+gdxn,Time of recording and other differences in DDA analysis (ECB concept),GDXN,,507,GDXN=GDXB9 - FR6 - other flows
+oke,Total capital expenditure,OKE,,508,OKE = P51G+P52+P53+NP+D9 C
+tu312,"Total change in assets, acquisitions of non-financial assets accounts",TU312,,509,
+tu311,"Total change in assets, change in net worth due to saving and capital:  transfers account",TU311,,510,
+tr312,"Total change in liabilities and net worth, acquisitions of non-financ:i al assets accounts",TR312,,511,
+tr311,"Total change in liabilities and net worth, change in net worth due to:  saving and capital transfers account",TR311,,512,
+oce,Total current expenditure,OCE,,513,OCE = OCT+D41 D+D1 D+P2 D
+ocr,Total current revenue,OCR,,514,OCR= D5+D2+D61+OOCR+P11+P12+P131
+p3t6,Total demand,P3T6,,515,P3T6=P3+P5+P6
+emp,Total employment,EMP,,516,
+d21q,Total exchange taxes,D21Q,,517,D21Q=D213D+D59E1
+d21l,Total excises,D21L,,518,D21L=D2122C+D214A
+otek,"Total expenditure other than Compensation of employees, Social benefits and social transfers in kind for products supplied to HH via market producers, Intermediate consumption and Gross fixed capital formation",OTEK,,519,OTEK=OTE-D1-D6O-P51-P2
+gotee,Total expense,GOTEE,,520,GOTEE=GD1+GP2+P51M+GD41+D3+DG+GD6M+GOOE
+tfu,Total final use,TFU,,521,
+p3t5,Total final domestic demand,P3T5,,522,P3T5=P3+P5
+ote,Total government expenditure,OTE,,523,
+gote,Total government expenditure [IMF GFSM definition],GOTE,,524,GOTEG=GOTEE+P5NP
+ooe,"Total government expenditure excluding: interest, calls on guarantees, capital injections recorded as capital transfers",OOE,,525,OOE=OTE-D41-D99CG-D99CI
+ooee,"Total government expenditure excluding: interest, calls on guarantees, capital injections recorded as capital transfers, capital transfers recorded in the context of asset purchases",OOEE,,526,OOEE=OTE-D41-D99CG-D99CI-D99IMA
+otr,Total government revenue,OTR,,527,
+gotr,Total government revenue [IMF GFSM definition],GOTR,,528,GOTR=ODA+GD61+DG+GOOR
+oesa95,Total impact of differences in definitions between ESA2010 and ESA95 on GNI,OESA95,,529,
+tuadj,Total intermediate consumption/final use,TUADJ,,530,
+ptc,Total payable tax credits,PTC,,531,
+pop,Total population,POP,,532,
+rtot,Total rate (PIM),RTOT,,533,RTOT = RDEP + RRET + RREV
+otsr,Total receipts from taxes and social contributions,OTSR,,534,
+odc,Total receipts from taxes and social contributions (including imputed social contributions) after deduction of amounts assessed but unlikely to be collected,ODC,,535,
+odb,Total receipts from taxes and social contributions after deduction of amounts assessed but unlikely to be collected,ODB,,536,
+tr212,Total resources allocation of primary income account,TR212,,537,
+tr211,Total resources generation of income account,TR211,,538,
+tr1,Total resources production account,TR1,,539,
+tr22,Total resources secondary distribution of income account,TR22,,540,
+tr241,Total resources use of disposable income account,TR241,,541,
+d21k,Total sales taxes,D21K,,542,D21K=D2122D+D214I1
+ts,Total supply,TS,,543,
+oda,Total tax receipts,ODA,,544,
+d21o,Total taxes on exports,D21O,,545,D21O=D213A+D214K
+tu,Total use,TU,,546,
+tu212,Total uses allocation of primary income account,TU212,,547,
+tu211,Total uses generation of income account,TU211,,548,
+tu1,Total uses production account,TU1,,549,
+tu22,Total uses secondary distribution of income account,TU22,,550,
+tu241,Total uses use of disposable income account,TU241,,551,
+d29c,Total wage bill and payroll taxes,D29C,,552,
+ottm,Trade and transport margins,OTTM,,553,
+ottm1,Trade margins,OTTM1,,554,
+otgl,Trading gain or loss,OTGL,,555,
+ysd1,Transaction imbalance,YSD1,,556,
+t,Transactions,T,,557,
+f,Transactions in financial assets and liabilities,F,,558,
+p,Transactions in products,P,,559,
+d81,Transfer of pension entitlements between schemes,D81,,560,
+gd7z,Transfers not elsewhere classified,GD7Z,,561,"GD7Z(credit)=GD7R(credit)+D9O
+GD7Z(debit)=GD7R(debit)+D9P"
+ottm2,Transport margins,OTTM2,,562,
+d214i2,Turnover and other general taxes on goods and services,D214I2,,563,
+k4,Uncompensated seizures,K4,,564,
+d29g,Under-compensation of Value Added Tax (flat rate system),D29G,,565,
+une,Unemployed persons,UNE,,566,Registered unemployment
+ulc_hw,Unit Labour Cost (based on hours worked),ULC_HW,,567,
+ulc_ps,Unit Labour Cost (based on persons),ULC_PS,,568,
+upr,Unit profits,UPR,,569,
+_x,Unspecified,_X,,570,
+gp2,Use of goods and services,GP2,,571,GP2=P2-P28-P29-P5OA2
+d761,VAT-based third EU own resource,D761,,572,
+d76,Value Added Tax and GNI - based EU own resources,D76,,573,D76 = D761+D762+D763
+d211e,Value Added Tax paid to the EU (deprecated),D211E,,574,
+b1gxp119,Value added excluding FISIM,B1GXP119,,575,only required if FISIM are not allocated
+d211,Value added type taxes,D211,,576,
+b1g,"Value added, gross",B1G,,577,
+b1n,"Value added, net",B1N,,578,
+d611v,Voluntary employers' actual social contributions,D611V,,579,
+d613v,Voluntary households' actual social contributions,D613V,,580,
+d11,Wages and salaries,D11,,581,
+gd11a,"Wages and salaries in cash, excluding for own-account capital formation [IMF GFSM definition]",GD11A,,582,
+gd11b,"Wages and salaries in kind, excluding for own-account capital formation [IMF GFSM definition]",GD11B,,583,
+gd11,"Wages and salaries, excluding for own-account capital formation [IMF GFSM definition]",GD11,,584,"GD11=GD11A+GD11B
+GD11=D11-P5OA11-P5OA12"
+d422,Withdrawals from income of quasi-corporations,D422,,585,
+orwb,Working balance,ORWB,,586,
+orwb_e,Working balance (+/-) of entities not part of the subsector,ORWB_E,,587,
+p61e,"goods sent abroad after processing (inward processing, ie. your country processes)",P61E,,588,
+p61d,"goods sent abroad before processing (outward processing, ie. your country is the principal)",P61D,,589,
+tc,of which payable tax credits that exceed the taxpayer's liability,TC,,590,
+p62d,processing fees,P62D,,591,

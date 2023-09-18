@@ -1,0 +1,106 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Final Consumption Expenditure by Purpose",
+    "summary": "National accounts main aggregates",
+    "description": "National accounts main aggregates, final consumption expenditure by purpose",
+    "columns": {
+        "EXPENDITURE": {
+            "type": "dimension",
+            "code_list": "codelists/coicop.json"
+        },
+        "STO": {
+            "type": "dimension",
+            "code_list": "codelists/stocks_transactions_other_flows.json"
+        },
+        "PRICES": {
+            "type": "dimension",
+            "code_list": "codelists/price_codes.json"
+        },
+        "FREQ": {
+            "type": "dimension",
+            "code_list": "codelists/frequency.json"
+        },
+        "ADJUSTMENT": {
+            "type": "dimension",
+            "code_list": "codelists/adjustment_indicator.json"
+        },
+        "REF_AREA": {
+            "type": "dimension",
+            "code_list": "codelists/area_code_list.json" 
+        },
+        "COUNTERPART_AREA": {
+            "type": "dimension",
+            "code_list": "codelists/area_code_list.json" 
+        },
+        "REF_SECTOR": {
+            "type": "dimension",
+            "code_list": "codelists/sector_codes.json" 
+        },
+        "COUNTERPART_SECTOR": {
+            "type": "dimension",
+            "code_list": "codelists/sector_codes.json" 
+        },
+        "ACCOUNTING_ENTRY": {
+            "type": "dimension",
+            "code_list": "codelists/accounting_entry_code_list.json" 
+        },
+        "INSTR_ASSET": {
+            "type": "dimension",
+            "code_list": "codelists/instrument_and_assets_classification.json" 
+        },
+        "ACTIVITY": {
+            "type": "dimension",
+            "code_list": "codelists/industrial_activity_code_list.json" 
+        },
+        "UNIT_MEASURE": {
+            "type": "dimension",
+            "code_list": "codelists/unit_of_measure_code_list.json" 
+        },
+        "TRANSFORMATION": {
+            "type": "dimension",
+            "code_list": "codelists/transformation_codes.json" 
+        },
+        "TIME_FORMAT": {
+            "type": "dimension",
+            "code_list": "codelists/time_format.json" 
+        },
+        "REF_YEAR_PRICE": false,
+        "DECIMALS": {
+            "type": "dimension",
+            "code_list": "codelists/decimals.json" 
+        },
+        "TABLE_IDENTIFIER": {
+            "type": "dimension",
+            "code_list": "codelists/na_table_ids.json" 
+        },
+        "UNIT_MULT": {
+            "type": "dimension",
+            "code_list": "codelists/unit_multiplier.json" 
+        },
+        "COMPILING_ORG": {
+            "type": "dimension",
+            "code_list": "codelists/compiling_organisation_code_list.json" 
+        },
+        "TIME_PERIOD": {
+            "type": "dimension",
+            "from_template": "year"
+        },
+        "OBS_VALUE": {
+            "type": "observations",
+            "data_type": "integer",
+            "unit": {
+                "label": "Domestic currency (incl. conversion to current currency made using a fixed parity)",
+                "scaling_factor": 6
+            },
+            "measure": {
+                "label": "Consumption Expenditure",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+            }
+        },
+        "OBS_STATUS": {
+            "type": "attribute",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+        },
+        "CONF_STATUS": false
+    }
+}

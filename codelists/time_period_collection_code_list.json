@@ -1,0 +1,55 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Time period collection code list",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Average of observations through period",
+            "notation": "A"
+        },
+        {
+            "label": "Beginning of period",
+            "notation": "B"
+        },
+        {
+            "label": "End of period",
+            "notation": "E"
+        },
+        {
+            "label": "Highest in period",
+            "notation": "H"
+        },
+        {
+            "label": "Lowest in period",
+            "notation": "L"
+        },
+        {
+            "label": "Middle of period",
+            "notation": "M"
+        },
+        {
+            "label": "Summed through period",
+            "notation": "S"
+        },
+        {
+            "label": "Unknown",
+            "notation": "U"
+        },
+        {
+            "label": "Other",
+            "notation": "V"
+        },
+        {
+            "label": "Annualised summed",
+            "notation": "Y"
+        }
+    ]
+}

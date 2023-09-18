@@ -1,0 +1,63 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "GFS economic function",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Consumption tax",
+            "notation": "C"
+        },
+        {
+            "label": "Labour taxes on Employers",
+            "notation": "LEYRS"
+        },
+        {
+            "label": "Labour taxes on Employees",
+            "notation": "LEES"
+        },
+        {
+            "label": "Labour tax on the non-employed (pensioners/ unemployed)",
+            "notation": "LNON"
+        },
+        {
+            "label": "Capital tax on the income of corporations",
+            "notation": "KIC"
+        },
+        {
+            "label": "Capital tax on the income of households",
+            "notation": "KIH"
+        },
+        {
+            "label": "Capital tax on the income of self-employed",
+            "notation": "KISE"
+        },
+        {
+            "label": "Capital tax on Stocks of Wealth",
+            "notation": "KS"
+        },
+        {
+            "label": "PIT Split between Lees, Lnon, KIH, KISe",
+            "notation": "SPLIT1"
+        },
+        {
+            "label": "Split between Lnon and KISe",
+            "notation": "SPLIT2"
+        },
+        {
+            "label": "Total",
+            "notation": "_T"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        }
+    ]
+}

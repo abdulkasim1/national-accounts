@@ -1,0 +1,491 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "NA Table IDs",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "ECB GFS Guideline, Table 1A: Government revenue and expenditure",
+            "notation": "ECB_GFS_1A"
+        },
+        {
+            "label": "ECB GFS Guideline, Table 1B: EU budget transactions",
+            "notation": "ECB_GFS_1B"
+        },
+        {
+            "label": "ECB GFS Guideline, Table 1C: Government final consumption expenditure and other non-financial transactions",
+            "notation": "ECB_GFS_1C"
+        },
+        {
+            "label": "ECB GFS Guideline, Table 2A: Government deficit and its financing",
+            "notation": "ECB_GFS_2A"
+        },
+        {
+            "label": "ECB GFS Guideline, Table 2B: Transactions in Maastricht debt - consolidation",
+            "notation": "ECB_GFS_2B"
+        },
+        {
+            "label": "ECB GFS Guideline, Table 3A: Government gross debt",
+            "notation": "ECB_GFS_3A"
+        },
+        {
+            "label": "ECB GFS Guideline, Table 3B: Government gross debt - consolidating elements",
+            "notation": "ECB_GFS_3B"
+        },
+        {
+            "label": "Supplementary tables for the financial crisis",
+            "notation": "EDP_FC"
+        },
+        {
+            "label": "EDP Table 1 - Reporting of government deficit/surplus and debt levels",
+            "notation": "EDP1"
+        },
+        {
+            "label": "EDP Table 2 - Transition between the public accounts budget balance and the central government deficit/surplus",
+            "notation": "EDP2"
+        },
+        {
+            "label": "EDP Table 3 - Contributions of the deficit/surplus and the other relevant factors to the variation in the debt level and the consolidation of debt",
+            "notation": "EDP3"
+        },
+        {
+            "label": "EDP Table 4 - Other data in accordance with the statements contained in the Council minutes of 22/11/1993",
+            "notation": "EDP4"
+        },
+        {
+            "label": "Questionnaire related to the EDP notification tables",
+            "notation": "EDPQ"
+        },
+        {
+            "label": "ECB GFS Guideline, all GFS tables",
+            "notation": "GFS_ALL"
+        },
+        {
+            "label": "IMF IFS GFS, Balance sheet",
+            "notation": "IMF_GFS_BS"
+        },
+        {
+            "label": "IMF GFS Yearbook, Statement II: Statement of sources and uses of cash",
+            "notation": "IMF_GFS_S2"
+        },
+        {
+            "label": "IMF IFS GFS, Statement of operations",
+            "notation": "IMF_GFS_SO"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 1 - Revenue",
+            "notation": "IMF_GFS_T1"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 2 - Expense",
+            "notation": "IMF_GFS_T2"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 3 - Transactions in assets and liabilities",
+            "notation": "IMF_GFS_T3"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 4 - Revaluations in assets and liabilities",
+            "notation": "IMF_GFS_T4"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 5 - Other volume changes in assets and liabilities",
+            "notation": "IMF_GFS_T5"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 6 - Stock Positions in assets and liabilities",
+            "notation": "IMF_GFS_T6"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 6A - Debt Liabilities at Nominal/Market Value",
+            "notation": "IMF_GFS_T6A"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 6B - Debt Liabilities at Face Value",
+            "notation": "IMF_GFS_T6B"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 7 - Expenditure by Functions of Government (COFOG)",
+            "notation": "IMF_GFS_T7"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 8A - Transactions in financial assets and liabilities by counterpart sector",
+            "notation": "IMF_GFS_T8A"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 8B - Stock positions in financial assets and liabilities by counterpart sector",
+            "notation": "IMF_GFS_T8B"
+        },
+        {
+            "label": "IMF GFS Yearbook, Table 9 - Other economic flows in assets and liabilities",
+            "notation": "IMF_GFS_T9"
+        },
+        {
+            "label": "ECB MUFA Guideline, all MUFA tables",
+            "notation": "MUFA_ALL"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 1: Non-consolidated financial assets",
+            "notation": "MUFA1"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 1: Consolidated financial assets",
+            "notation": "MUFA10"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 2: Consolidated financial liabilities",
+            "notation": "MUFA11"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 2: Non-consolidated financial liabilities",
+            "notation": "MUFA2"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 3: Deposits",
+            "notation": "MUFA3"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 4: Short-term loans",
+            "notation": "MUFA4"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 5: Long-term loans",
+            "notation": "MUFA5"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 6: Shot-term debt securities",
+            "notation": "MUFA6"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 7: Long-term debt securities",
+            "notation": "MUFA7"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 8: Listed shares",
+            "notation": "MUFA8"
+        },
+        {
+            "label": "ECB MUFA Guideline, Table 9: Investment fund shares",
+            "notation": "MUFA9"
+        },
+        {
+            "label": "Table PSD - Public sector debt",
+            "notation": "PSD"
+        },
+        {
+            "label": "G-20 recommendation 15 framework - financial stocks and flows",
+            "notation": "R15_FIN_SF"
+        },
+        {
+            "label": "G-20 recommendation 15 framework - stocks of non-financial assets",
+            "notation": "R15_NONFIN_S"
+        },
+        {
+            "label": "G-20 recommendation 15 framework - non-financial transactions",
+            "notation": "R15_NONFIN_T"
+        },
+        {
+            "label": "Table 0101 - Gross value added at basic prices and gross domestic product at market prices",
+            "notation": "T0101"
+        },
+        {
+            "label": "Tables 0101, 0102 and 0103",
+            "notation": "T0101T0103"
+        },
+        {
+            "label": "Table 0102 - GDP identity from the expenditure side",
+            "notation": "T0102"
+        },
+        {
+            "label": "Table 0103 - GDP identity from the income side",
+            "notation": "T0103"
+        },
+        {
+            "label": "Table 0107 - Disposable income, saving, net lending / borrowing",
+            "notation": "T0107"
+        },
+        {
+            "label": "Table 0110 - Population and employment",
+            "notation": "T0110"
+        },
+        {
+            "label": "Table 0111 - Employment by industry",
+            "notation": "T0111"
+        },
+        {
+            "label": "Table 0117 - Final consumption expenditure of households by durability",
+            "notation": "T0117"
+        },
+        {
+            "label": "Tables 0117, 0501 and 0502",
+            "notation": "T0117_0501_0502"
+        },
+        {
+            "label": "Table 0119 - Simplified non-financial accounts by institutional sector",
+            "notation": "T0119"
+        },
+        {
+            "label": "Table 0120 - Exports of goods (fob) and services by Member States of the EU / third countries.",
+            "notation": "T0120"
+        },
+        {
+            "label": "Table 0121 - Imports of goods (fob) and services by Member States of the EU/third countries",
+            "notation": "T0121"
+        },
+        {
+            "label": "Table 01xx - Source from various table 01 sub-tables",
+            "notation": "T0199"
+        },
+        {
+            "label": "Table 01EMP - Employment and breakdown by industry and population",
+            "notation": "T01EMP"
+        },
+        {
+            "label": "Table 01GDP - GDP, components and breakdowns",
+            "notation": "T01GDP"
+        },
+        {
+            "label": "Table 0200 - Main aggregates of general government",
+            "notation": "T0200"
+        },
+        {
+            "label": "Table 0301- Output and income",
+            "notation": "T0301"
+        },
+        {
+            "label": "Table 0302 - Capital formation",
+            "notation": "T0302"
+        },
+        {
+            "label": "Tables 0302 and 2200",
+            "notation": "T0302_2200"
+        },
+        {
+            "label": "Table 0303 - Employment",
+            "notation": "T0303"
+        },
+        {
+            "label": "Table 0501 - Final consumption expenditure of households by purpose",
+            "notation": "T0501"
+        },
+        {
+            "label": "Table 0502 - Final consumption expenditure of households",
+            "notation": "T0502"
+        },
+        {
+            "label": "Table 0610 - Financial accounts by sector (transactions), consolidated",
+            "notation": "T0610"
+        },
+        {
+            "label": "Table 0611 - Other change in volume accounts, consolidated",
+            "notation": "T0611"
+        },
+        {
+            "label": "Table 0612 - Revaluation of financial instruments accounts, consolidated",
+            "notation": "T0612"
+        },
+        {
+            "label": "Table 0620 - Financial accounts by sector (transactions), non-consolidated",
+            "notation": "T0620"
+        },
+        {
+            "label": "Table 0621 - Other change in volume accounts, non-consolidated",
+            "notation": "T0621"
+        },
+        {
+            "label": "Table 0622 - Revaluation of financial instruments accounts, non-consolidated",
+            "notation": "T0622"
+        },
+        {
+            "label": "Table 0625 - Financial accounts by sector (transactions), counterpart information, non-consolidated",
+            "notation": "T0625"
+        },
+        {
+            "label": "Table 0710 - Balance sheets for financial assets and liabilities (stocks), consolidated",
+            "notation": "T0710"
+        },
+        {
+            "label": "Table 0720 - Balance sheets for financial assets and liabilities (stocks), non-consolidated",
+            "notation": "T0720"
+        },
+        {
+            "label": "Table 0725 - Balance sheets for financial assets and liabilities (stocks), counterpart information, non-consolidated",
+            "notation": "T0725"
+        },
+        {
+            "label": "Table 0800 - Non-financial accounts by sector - annual",
+            "notation": "T0800"
+        },
+        {
+            "label": "Table 0801 - Non-financial accounts by sector - quarterly",
+            "notation": "T0801"
+        },
+        {
+            "label": "Table 0801SA - QSA Quarterly sector accounts: seasonally adjusted and volume data",
+            "notation": "T0801SA"
+        },
+        {
+            "label": "Table 0900 - Detailed tax and social contribution receipts by type of tax or social contribution and receiving sub-sector including the list of taxes and social contributions according to national classification",
+            "notation": "T0900"
+        },
+        {
+            "label": "Table 0999 - Questionnaire NTL - Detailed list of taxes and social contributions according to national classification",
+            "notation": "T0999"
+        },
+        {
+            "label": "Table 1001 - Tables by region (NUTS II)",
+            "notation": "T1001"
+        },
+        {
+            "label": "Table 1002 - Tables by industry and by region (NUTS II)",
+            "notation": "T1002"
+        },
+        {
+            "label": "Table 1100 - General Government expenditure by function",
+            "notation": "T1100"
+        },
+        {
+            "label": "Table 1200 - Tables by industry, A6 and by region (NUTS III)",
+            "notation": "T1200"
+        },
+        {
+            "label": "Table 1300 - Households accounts by region (NUTS II)",
+            "notation": "T1300"
+        },
+        {
+            "label": "Table 1500 - Supply table at basic prices, including a transformation into purchasers' prices",
+            "notation": "T1500"
+        },
+        {
+            "label": "Table 1600 - Use Table at purchasers' prices",
+            "notation": "T1600"
+        },
+        {
+            "label": "Table 1601 - Use table for domestic input at purchasers' prices",
+            "notation": "T1601"
+        },
+        {
+            "label": "Table 1602 - Use table for imports at purchasers' prices",
+            "notation": "T1602"
+        },
+        {
+            "label": "Table 1610 - Use table at basic prices",
+            "notation": "T1610"
+        },
+        {
+            "label": "Table 1611 - Use table for domestic input at basic prices",
+            "notation": "T1611"
+        },
+        {
+            "label": "Table 1612 - Use table for imports at basic prices",
+            "notation": "T1612"
+        },
+        {
+            "label": "Table 1620 - Trade and transport margins",
+            "notation": "T1620"
+        },
+        {
+            "label": "Table 1630 - Taxes less subsidies on products",
+            "notation": "T1630"
+        },
+        {
+            "label": "Table 1631 - Taxes less subsidies on products - excluding VAT",
+            "notation": "T1631"
+        },
+        {
+            "label": "Table 1632 - Value added tax",
+            "notation": "T1632"
+        },
+        {
+            "label": "Table 1633 - Taxes on products",
+            "notation": "T1633"
+        },
+        {
+            "label": "Table 1634 - Subsidies on products",
+            "notation": "T1634"
+        },
+        {
+            "label": "Table 1700 - Symmetric Input-output table (product*product)",
+            "notation": "T1700"
+        },
+        {
+            "label": "Table 1700 - Symmetric Input-output table (industry*industry)",
+            "notation": "T1750"
+        },
+        {
+            "label": "Table 1800 - Symmetric Input-output table for domestic production (product*product)",
+            "notation": "T1800"
+        },
+        {
+            "label": "Table 1850 - Symmetric Input-output table for domestic production (industry*industry)",
+            "notation": "T1850"
+        },
+        {
+            "label": "Table 1900 - Symmetric Input-output table for imports (product*product)",
+            "notation": "T1900"
+        },
+        {
+            "label": "Table 1950 - Symmetric Input-output table for imports (industry*industry)",
+            "notation": "T1950"
+        },
+        {
+            "label": "Table 2000 - Cross-classification of fixed assets by industry and by asset",
+            "notation": "T2000"
+        },
+        {
+            "label": "Table 2200 - Cross-classification of gross fixed capital formation by industry and by asset",
+            "notation": "T2200"
+        },
+        {
+            "label": "Table 2500 - Quarterly non-financial accounts for general government",
+            "notation": "T2500"
+        },
+        {
+            "label": "Table 2600 - Balance sheets for non-financial assets",
+            "notation": "T2600"
+        },
+        {
+            "label": "Table 2700 - Quarterly financial accounts of general government",
+            "notation": "T2700"
+        },
+        {
+            "label": "Table 2800 - Quarterly government debt (Maastricht debt)",
+            "notation": "T2800"
+        },
+        {
+            "label": "Table 2899 - Quarterly intergovernmental lending by counter-party government",
+            "notation": "T2899"
+        },
+        {
+            "label": "Table 2900 - Pension schemes in social insurance: base case",
+            "notation": "T2900"
+        },
+        {
+            "label": "Table 2901 - Pension schemes in social insurance: sensitivity analysis 1",
+            "notation": "T2901"
+        },
+        {
+            "label": "Table 2902 - Pension schemes in social insurance: sensitivity analysis 2",
+            "notation": "T2902"
+        },
+        {
+            "label": "Table 7HH - Households' assets and liabilities",
+            "notation": "T7HH"
+        },
+        {
+            "label": "Table 7II - Institutional investors",
+            "notation": "T7II"
+        },
+        {
+            "label": "Table SB720\u00a0-\u00a0Non-bank financial intermediation (financial stocks), non-consolidated",
+            "notation": "TSB720"
+        }
+    ]
+}

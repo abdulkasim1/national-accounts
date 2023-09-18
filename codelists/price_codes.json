@@ -1,0 +1,71 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Price codes",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Deflator (index)",
+            "notation": "D"
+        },
+        {
+            "label": "Deflator (rebased)",
+            "notation": "DR"
+        },
+        {
+            "label": "Chain linked volume",
+            "notation": "L"
+        },
+        {
+            "label": "Chain linked volume (rebased)",
+            "notation": "LR"
+        },
+        {
+            "label": "Previous year's replacement costs",
+            "notation": "O"
+        },
+        {
+            "label": "Constant prices",
+            "notation": "Q"
+        },
+        {
+            "label": "Constant prices (rebased)",
+            "notation": "QR"
+        },
+        {
+            "label": "Real terms",
+            "notation": "R"
+        },
+        {
+            "label": "Real terms (rebased)",
+            "notation": "RR"
+        },
+        {
+            "label": "Current replacement cost",
+            "notation": "U"
+        },
+        {
+            "label": "Current prices",
+            "notation": "V"
+        },
+        {
+            "label": "Current prices (constant converter)",
+            "notation": "VQ"
+        },
+        {
+            "label": "Previous year prices",
+            "notation": "Y"
+        }
+    ]
+}

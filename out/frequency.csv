@@ -1,0 +1,10 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+a,Annual,A,,0,To be used for data collected or disseminated every year.
+d,Daily,D,,1,To be used for data collected or disseminated every day.
+b,Daily – businessweek,B,,2,"Similar to ""daily"", however there are no observations for Saturdays and Sundays (so, neither ""missing values"" nor ""numeric values"" should be provided for Saturday and Sunday). This treatment  (""business"") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily (""D""), thus, with missing values in the weekend."
+s,"Half-yearly, semester",S,,3,To be used for data collected or disseminated every semester.
+h,Hourly,H,,4,To be used for data collected or disseminated every hour.
+n,Minutely,N,,5,"While N denotes ""minutely"", usually, there may be no observations every minute (for several series the frequency is usually ""irregular"" within a day/days). And though observations may be sparse (not collected or disseminated every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed."
+m,Monthly,M,,6,To be used for data collected or disseminated every month.
+q,Quarterly,Q,,7,To be used for data collected or disseminated every quarter.
+w,Weekly,W,,8,To be used for data collected or disseminated every week.

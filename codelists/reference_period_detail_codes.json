@@ -1,0 +1,67 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Reference period detail codes",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Calendar year",
+            "notation": "C"
+        },
+        {
+            "label": "Fiscal year starting in February",
+            "notation": "F02"
+        },
+        {
+            "label": "Fiscal year starting in March",
+            "notation": "F03"
+        },
+        {
+            "label": "Fiscal year starting in April",
+            "notation": "F04"
+        },
+        {
+            "label": "Fiscal year starting in May",
+            "notation": "F05"
+        },
+        {
+            "label": "Fiscal year starting in June",
+            "notation": "F06"
+        },
+        {
+            "label": "Fiscal year starting in July",
+            "notation": "F07"
+        },
+        {
+            "label": "Fiscal year starting in August",
+            "notation": "F08"
+        },
+        {
+            "label": "Fiscal year starting in September",
+            "notation": "F09"
+        },
+        {
+            "label": "Fiscal year starting in October",
+            "notation": "F10"
+        },
+        {
+            "label": "Fiscal year starting in November",
+            "notation": "F11"
+        },
+        {
+            "label": "Fiscal year starting in December",
+            "notation": "F12"
+        },
+        {
+            "label": "Fiscal year (other definition)",
+            "notation": "F_O"
+        }
+    ]
+}

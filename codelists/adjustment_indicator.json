@@ -1,0 +1,68 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Adjustment indicator",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Trend",
+            "notation": "T"
+        },
+        {
+            "label": "Trend-cycle data, calendar adjusted",
+            "notation": "C"
+        },
+        {
+            "label": "Trend-cycle data, not calendar adjusted",
+            "notation": "R"
+        },
+        {
+            "label": "Calendar component",
+            "notation": "K",
+            "description": "Synonyms: Calendar effects; calendar factors"
+        },
+        {
+            "label": "Seasonal component",
+            "notation": "X",
+            "description": "Synonyms: Seasonal effects; seasonal factors"
+        },
+        {
+            "label": "Seasonal and calendar components",
+            "notation": "M",
+            "description": "Synonyms: Seasonal and calendar effects; seasonal and calendar factors"
+        },
+        {
+            "label": "Irregular component",
+            "notation": "I",
+            "description": "Synonym: Irregular effects"
+        },
+        {
+            "label": "Neither seasonally adjusted nor calendar adjusted data",
+            "notation": "N",
+            "description": "Synonyms: Raw data; unadjusted data"
+        },
+        {
+            "label": "Seasonally adjusted data, not calendar adjusted",
+            "notation": "S"
+        },
+        {
+            "label": "Calendar adjusted data, not seasonally adjusted",
+            "notation": "W"
+        },
+        {
+            "label": "Calendar and seasonally adjusted data",
+            "notation": "Y"
+        }
+    ]
+}

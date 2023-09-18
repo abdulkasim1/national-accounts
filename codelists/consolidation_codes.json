@@ -1,0 +1,43 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Consolidation codes",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Unspecified consolidation status",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Consolidated",
+            "notation": "C"
+        },
+        {
+            "label": "Consolidating item",
+            "notation": "CI"
+        },
+        {
+            "label": "Non-consolidated",
+            "notation": "N"
+        },
+        {
+            "label": "Non-consolidated between sub-sectors but consolidated within sub-sector",
+            "notation": "NC"
+        },
+        {
+            "label": "Partially consolidated or aggregate containing both consolidated and non-consolidated items",
+            "notation": "P"
+        }
+    ]
+}

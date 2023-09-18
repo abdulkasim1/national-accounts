@@ -1,0 +1,170 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Unit Multiplier",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Units",
+            "notation": "0",
+            "description": "In scientific notation, expressed as ten raised to the power of zero (10^0)"
+        },
+        {
+            "label": "Tens",
+            "notation": "1",
+            "description": "In scientific notation, expressed as ten raised to the power of one (10^1)"
+        },
+        {
+            "label": "Hundreds",
+            "notation": "2",
+            "description": "In scientific notation, expressed as ten raised to the power of two (10^2)"
+        },
+        {
+            "label": "Thousands",
+            "notation": "3",
+            "description": "In scientific notation, expressed as ten raised to the power of three (10^3)"
+        },
+        {
+            "label": "Tens of thousands",
+            "notation": "4",
+            "description": "In scientific notation, expressed as ten raised to the power of four (10^4)"
+        },
+        {
+            "label": "Hundreds of thousands",
+            "notation": "5",
+            "description": "In scientific notation, expressed as ten raised to the power of five(10^5)"
+        },
+        {
+            "label": "Millions",
+            "notation": "6",
+            "description": "In scientific notation, expressed as ten raised to the power of six (10^6)"
+        },
+        {
+            "label": "Tens of millions",
+            "notation": "7",
+            "description": "In scientific notation, expressed as ten raised to the power of seven (10^7)"
+        },
+        {
+            "label": "Hundreds of millions",
+            "notation": "8",
+            "description": "In scientific notation, expressed as ten raised to the power of eight (10^8)"
+        },
+        {
+            "label": "Billions",
+            "notation": "9",
+            "description": "In scientific notation, expressed as ten raised to the power of nine (10^9)"
+        },
+        {
+            "label": "Tens of billions",
+            "notation": "10",
+            "description": "In scientific notation, expressed as ten raised to the power of ten (10^10)"
+        },
+        {
+            "label": "Hundreds of billions",
+            "notation": "11",
+            "description": "In scientific notation, expressed as ten raised to the power of eleven (10^11)"
+        },
+        {
+            "label": "Trillions",
+            "notation": "12",
+            "description": "In scientific notation, expressed as ten raised to the power of twelve (10^12)"
+        },
+        {
+            "label": "Tens of trillions",
+            "notation": "13",
+            "description": "In scientific notation, expressed as ten raised to the power of thirteen (10^13)"
+        },
+        {
+            "label": "Hundreds of trillions",
+            "notation": "14",
+            "description": "In scientific notation, expressed as ten raised to the power of fourteen (10^14)"
+        },
+        {
+            "label": "Quadrillions",
+            "notation": "15",
+            "description": "In scientific notation, expressed as ten raised to the power of fifteen (10^15)"
+        },
+        {
+            "label": "Tenths",
+            "notation": "-1",
+            "description": "In scientific notation, expressed as ten raised to the power of minus one (10^-1)"
+        },
+        {
+            "label": "Hundredths",
+            "notation": "-2",
+            "description": "In scientific notation, expressed as ten raised to the power of minus two (10^-2)"
+        },
+        {
+            "label": "Thousandths",
+            "notation": "-3",
+            "description": "In scientific notation, expressed as ten raised to the power of minus three (10^-3)"
+        },
+        {
+            "label": "Ten-thousandths",
+            "notation": "-4",
+            "description": "In scientific notation, expressed as ten raised to the power of minus four (10^-4)"
+        },
+        {
+            "label": "Hundred-thousandths",
+            "notation": "-5",
+            "description": "In scientific notation, expressed as ten raised to the power of minus five (10^-5)"
+        },
+        {
+            "label": "Millionths",
+            "notation": "-6",
+            "description": "In scientific notation, expressed as ten raised to the power of minus six (10^-6)"
+        },
+        {
+            "label": "Ten-millionths",
+            "notation": "-7",
+            "description": "In scientific notation, expressed as ten raised to the power of minus seven (10^-7)"
+        },
+        {
+            "label": "Hundred-millionths",
+            "notation": "-8",
+            "description": "In scientific notation, expressed as ten raised to the power of minus eight (10^-8)"
+        },
+        {
+            "label": "Billionths",
+            "notation": "-9",
+            "description": "In scientific notation, expressed as ten raised to the power of minus nine (10^-9)"
+        },
+        {
+            "label": "Ten-billionths",
+            "notation": "-10",
+            "description": "In scientific notation, expressed as ten raised to the power of minus ten (10^-10)"
+        },
+        {
+            "label": "Hundred-billionths",
+            "notation": "-11",
+            "description": "In scientific notation, expressed as ten raised to the power of minus eleven (10^-11)"
+        },
+        {
+            "label": "Trillionths",
+            "notation": "-12",
+            "description": "In scientific notation, expressed as ten raised to the power of minus twelve (10^-12)"
+        },
+        {
+            "label": "Ten-trillionths",
+            "notation": "-13",
+            "description": "In scientific notation, expressed as ten raised to the power of minus thirteen (10^-13)"
+        },
+        {
+            "label": "Hundred-trillionths",
+            "notation": "-14",
+            "description": "In scientific notation, expressed as ten raised to the power of minus fourteen (10^-14)"
+        },
+        {
+            "label": "Quadrillionths",
+            "notation": "-15",
+            "description": "In scientific notation, expressed as ten raised to the power of minus fifteen (10^-15)"
+        }
+    ]
+}

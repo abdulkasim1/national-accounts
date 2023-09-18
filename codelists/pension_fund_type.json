@@ -1,0 +1,87 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Pension Fund Type",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Total",
+            "notation": "_T"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "All pension schemes, pension fund S12 - manager is not general government",
+            "notation": "S12P"
+        },
+        {
+            "label": "Defined benefit schemes, pension fund S12 - manager is not general government",
+            "notation": "S12PB"
+        },
+        {
+            "label": "Defined benefit schemes, entitlements included in the core accounts, pension fund S12 - manager is general government",
+            "notation": "S12PBI"
+        },
+        {
+            "label": "Defined contributions schemes, pension fund S12 - manager is not general government",
+            "notation": "S12PC"
+        },
+        {
+            "label": "All pension schemes, pension fund S13 - manager is general government",
+            "notation": "S13P"
+        },
+        {
+            "label": "Defined benefit schemes, pension fund S13 - manager is general government",
+            "notation": "S13PB"
+        },
+        {
+            "label": "Defined benefit schemes, entitlements included in the core accounts, pension fund S13 - manager is general government",
+            "notation": "S13PBI"
+        },
+        {
+            "label": "Defined benefit schemes, entitlements included in the core accounts and classified in general government S13, pension manager S13 [deprecated]",
+            "notation": "S13PBJ"
+        },
+        {
+            "label": "Defined benefit schemes, entitlements excluded from the core accounts, pension fund S13 - manager is general government",
+            "notation": "S13PBX"
+        },
+        {
+            "label": "Defined contributions schemes, pension fund S13",
+            "notation": "S13PC"
+        },
+        {
+            "label": "Social security pension schemes, excluded from the core accounts, pension fund S13",
+            "notation": "S13PS"
+        },
+        {
+            "label": "All pension schemes [deprecated]: Total (_T) to be used instead",
+            "notation": "S1P"
+        },
+        {
+            "label": "All defined benefit schemes",
+            "notation": "S1PB"
+        },
+        {
+            "label": "All defined contribution schemes",
+            "notation": "S1PC"
+        },
+        {
+            "label": "Social insurance pension entitlements of resident households in the rest of the world",
+            "notation": "S1R"
+        },
+        {
+            "label": "Total (domestic + abroad) social insurance pension entitlements of resident households",
+            "notation": "S1T"
+        }
+    ]
+}

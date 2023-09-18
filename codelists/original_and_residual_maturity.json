@@ -1,0 +1,495 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Original and Residual Maturity",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not allocated / unspecified",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year or no stated maturity)",
+            "notation": "L"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with long-term residual maturity (over 1 year)",
+            "notation": "LL"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity up to 1 month",
+            "notation": "LM_1"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 1 month and up to 3 months",
+            "notation": "LM13"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 3 months and up to 12 months",
+            "notation": "LM3C"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with short-term residual maturity (up to 1 year)",
+            "notation": "LS"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 1 year and up to 2 years",
+            "notation": "LY12"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 1 year and up to 3 years",
+            "notation": "LY13"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 1 year and up to 5 years",
+            "notation": "LY15"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 2 years",
+            "notation": "LY2_"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 2 years and up to 3 years",
+            "notation": "LY23"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 2 years and up to 5 years",
+            "notation": "LY25"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 3 years and up to 4 years",
+            "notation": "LY34"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 3 years and up to 5 years",
+            "notation": "LY35"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 4 years and up to 5 years",
+            "notation": "LY45"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 5 years",
+            "notation": "LY5_"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 5 years and up to 6 years",
+            "notation": "LY56"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 5 years and up to 10 years",
+            "notation": "LY5A"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 6 years and up to 7 years",
+            "notation": "LY67"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 7 years and up to 8 years",
+            "notation": "LY78"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 8 years and up to 9 years",
+            "notation": "LY89"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 9 years and up to 10 years",
+            "notation": "LY9A"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 10 years",
+            "notation": "LYA_"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 10 years and up to 15 years",
+            "notation": "LYAF"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 10 years and up to 30 years",
+            "notation": "LYAI"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 15 years and up to 20 years",
+            "notation": "LYFG"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 20 years and up to 25 years",
+            "notation": "LYGH"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 25 years and up to 30 years",
+            "notation": "LYHI"
+        },
+        {
+            "label": "Long-term original maturity (over 1 year) with residual maturity over 30 years",
+            "notation": "LYI_"
+        },
+        {
+            "label": "Original maturity up to 1 month",
+            "notation": "M_1"
+        },
+        {
+            "label": "Original maturity up to 1 month with residual maturity up to 1 month",
+            "notation": "M_1M_1"
+        },
+        {
+            "label": "Original maturity up to 3 months",
+            "notation": "M_3"
+        },
+        {
+            "label": "Original maturity over 1 month and up to 3 months",
+            "notation": "M13"
+        },
+        {
+            "label": "Original maturity over 3 months and up to 12 months",
+            "notation": "M3C"
+        },
+        {
+            "label": "Short-term original maturity (up to 1 year)",
+            "notation": "S"
+        },
+        {
+            "label": "Short-term original maturity (up to 1 year) with residual maturity up to 1 month",
+            "notation": "SM_1"
+        },
+        {
+            "label": "Short-term original maturity (up to 1 year) with residual maturity up to 3 months",
+            "notation": "SM_3"
+        },
+        {
+            "label": "Short-term original maturity (up to 1 year) with residual maturity over 1 month and up to 3 months",
+            "notation": "SM13"
+        },
+        {
+            "label": "Short-term original maturity (up to 1 year) with residual maturity over 3 months and up to 12 months",
+            "notation": "SM3C"
+        },
+        {
+            "label": "All original maturities",
+            "notation": "T"
+        },
+        {
+            "label": "All original maturities with long-term residual maturity (over 1 year)",
+            "notation": "TL"
+        },
+        {
+            "label": "All original maturities with residual maturity up to 1 month",
+            "notation": "TM_1"
+        },
+        {
+            "label": "All original maturities with residual maturity up to 3 months",
+            "notation": "TM_3"
+        },
+        {
+            "label": "All original maturities with residual maturity over 1 month and up to 3 months",
+            "notation": "TM13"
+        },
+        {
+            "label": "All original maturities with residual maturity over 3 months and up to 6 months",
+            "notation": "TM36"
+        },
+        {
+            "label": "All original maturities with residual maturity over 3 months and up to 12 months",
+            "notation": "TM3C"
+        },
+        {
+            "label": "All original maturities with residual maturity over 6 months and up to 9 months",
+            "notation": "TM69"
+        },
+        {
+            "label": "All original maturities with residual maturity over 9 months and up to 12 months",
+            "notation": "TM9C"
+        },
+        {
+            "label": "All original maturities with short-term residual maturity (up to 1 year)",
+            "notation": "TS"
+        },
+        {
+            "label": "Total residual maturity",
+            "notation": "TT"
+        },
+        {
+            "label": "All original maturities with residual maturity over 1 year and up to 2 years",
+            "notation": "TY12"
+        },
+        {
+            "label": "All original maturities with residual maturity over 1 year and up to 3 years",
+            "notation": "TY13"
+        },
+        {
+            "label": "All original maturities with residual maturity over 1 year and up to 5 years",
+            "notation": "TY15"
+        },
+        {
+            "label": "All original maturities with residual maturity over 2 years and up to 3 years",
+            "notation": "TY23"
+        },
+        {
+            "label": "All original maturities with residual maturity over 2 years and up to 5 years",
+            "notation": "TY25"
+        },
+        {
+            "label": "All original maturities with residual maturity over 3 years and up to 4 years",
+            "notation": "TY34"
+        },
+        {
+            "label": "All original maturities with residual maturity over 3 years and up to 5 years",
+            "notation": "TY35"
+        },
+        {
+            "label": "All original maturities with residual maturity over 4 years and up to 5 years",
+            "notation": "TY45"
+        },
+        {
+            "label": "All original maturities with residual maturity over 5 years",
+            "notation": "TY5_"
+        },
+        {
+            "label": "All original maturities with residual maturity over 5 years and up to 6 years",
+            "notation": "TY56"
+        },
+        {
+            "label": "All original maturities with residual maturity over 5 years and up to 7 years",
+            "notation": "TY57"
+        },
+        {
+            "label": "All original maturities with residual maturity over 5 years and up to 10 years",
+            "notation": "TY5A"
+        },
+        {
+            "label": "All original maturities with residual maturity over 6 years and up to 7 years",
+            "notation": "TY67"
+        },
+        {
+            "label": "All original maturities with residual maturity over 7 years and up to 8 years",
+            "notation": "TY78"
+        },
+        {
+            "label": "All original maturities with residual maturity over 7 years and up to 10 years",
+            "notation": "TY7A"
+        },
+        {
+            "label": "All original maturities with residual maturity over 8 years and up to 9 years",
+            "notation": "TY89"
+        },
+        {
+            "label": "All original maturities with residual maturity over 9 years and up to 10 years",
+            "notation": "TY9A"
+        },
+        {
+            "label": "All original maturities with residual maturity over 10 years",
+            "notation": "TYA_"
+        },
+        {
+            "label": "All original maturities with residual maturity over 10 years and up to 15 years",
+            "notation": "TYAF"
+        },
+        {
+            "label": "All original maturities with residual maturity over 10 years and up to 30 years",
+            "notation": "TYAI"
+        },
+        {
+            "label": "All original maturities with residual maturity over 15 years and up to 20 years",
+            "notation": "TYFG"
+        },
+        {
+            "label": "All original maturities with residual maturity over 15 years and up to 30 years",
+            "notation": "TYFI"
+        },
+        {
+            "label": "All original maturities with residual maturity over 20 years and up to 25 years",
+            "notation": "TYGH"
+        },
+        {
+            "label": "All original maturities with residual maturity over 25 years and up to 30 years",
+            "notation": "TYHI"
+        },
+        {
+            "label": "All original maturities with residual maturity over 30 years",
+            "notation": "TYI_"
+        },
+        {
+            "label": "Long-term original maturity with short-term embedded put option",
+            "notation": "XLS"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity up to 2 years",
+            "notation": "XY_2"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 1 year and up to 2 years",
+            "notation": "XY12"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 2 years and up to 3 years",
+            "notation": "XY23"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 3 years and up to 4 years",
+            "notation": "XY34"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 4 years and up to 5 years",
+            "notation": "XY45"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 5 years and up to 6 years",
+            "notation": "XY56"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 6 years and up to 7 years",
+            "notation": "XY67"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 7 years and up to 8 years",
+            "notation": "XY78"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 8 years and up to 9 years",
+            "notation": "XY89"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 9 years and up to 10 years",
+            "notation": "XY9A"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 10 years and up to 15 years",
+            "notation": "XYAF"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 15 years and up to 20 years",
+            "notation": "XYFG"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 20 years and up to 25 years",
+            "notation": "XYGH"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 25 years and up to 30 years",
+            "notation": "XYHI"
+        },
+        {
+            "label": "Unspecified original maturities with residual maturity over 30 years",
+            "notation": "XYI_"
+        },
+        {
+            "label": "Original maturity up to 2 years and residual maturity between 3 months and 6 months",
+            "notation": "Y_2M36"
+        },
+        {
+            "label": "Original maturity over 1 year and up to 2 years",
+            "notation": "Y12"
+        },
+        {
+            "label": "Original maturity over 1 year and up to 3 years",
+            "notation": "Y13"
+        },
+        {
+            "label": "Original maturity over 1 year and up to 5 years",
+            "notation": "Y15"
+        },
+        {
+            "label": "Original maturity over 2 years",
+            "notation": "Y2_"
+        },
+        {
+            "label": "Original maturity over 2 years and up to 3 years",
+            "notation": "Y23"
+        },
+        {
+            "label": "Original maturity over 2 years and up to 5 years",
+            "notation": "Y25"
+        },
+        {
+            "label": "Original maturity over 3 years and up to 4 years",
+            "notation": "Y34"
+        },
+        {
+            "label": "Original maturity over 3 years and up to 5 years",
+            "notation": "Y35"
+        },
+        {
+            "label": "Original maturity over 4 years and up to 5 years",
+            "notation": "Y45"
+        },
+        {
+            "label": "Original maturity over 5 years",
+            "notation": "Y5_"
+        },
+        {
+            "label": "Original maturity over 5 years and up to 6 years",
+            "notation": "Y56"
+        },
+        {
+            "label": "Original maturity over 5 years and up to 7 years",
+            "notation": "Y57"
+        },
+        {
+            "label": "Original maturity over 5 years and up to 10 years",
+            "notation": "Y5A"
+        },
+        {
+            "label": "Original maturity over 6 years and up to 7 years",
+            "notation": "Y67"
+        },
+        {
+            "label": "Original maturity over 7 years and up to 8 years",
+            "notation": "Y78"
+        },
+        {
+            "label": "Original maturity over 7 years and up to 10 years",
+            "notation": "Y7A"
+        },
+        {
+            "label": "Original maturity over 8 years and up to 9 years",
+            "notation": "Y89"
+        },
+        {
+            "label": "Original maturity over 9 years and up to 10 years",
+            "notation": "Y9A"
+        },
+        {
+            "label": "Original maturity over 10 years",
+            "notation": "YA_"
+        },
+        {
+            "label": "Original maturity over 10 years and up to 15 years",
+            "notation": "YAF"
+        },
+        {
+            "label": "Original maturity over 10 years and up to 30 years",
+            "notation": "YAI"
+        },
+        {
+            "label": "Original maturity over 15 years and up to 20 years",
+            "notation": "YFG"
+        },
+        {
+            "label": "Original maturity over 15 years and up to 30 years",
+            "notation": "YFI"
+        },
+        {
+            "label": "Original maturity over 20 years and up to 25 years",
+            "notation": "YGH"
+        },
+        {
+            "label": "Original maturity over 25 years and up to 30 years",
+            "notation": "YHI"
+        },
+        {
+            "label": "Original maturity over 30 years",
+            "notation": "YI_"
+        }
+    ]
+}

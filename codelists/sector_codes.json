@@ -1,0 +1,1022 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Sector codes",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Total economy",
+            "notation": "S1",
+            "description": "S1=S11+S12+S13+S14+S15+S1N"
+        },
+        {
+            "label": "Non financial corporations",
+            "notation": "S11"
+        },
+        {
+            "label": "Public non financial corporations",
+            "notation": "S11001"
+        },
+        {
+            "label": "Public non financial corporations, which are part of domestic multinationals",
+            "notation": "S110011"
+        },
+        {
+            "label": "Public non financial corporations controlled by central government",
+            "notation": "S11001C"
+        },
+        {
+            "label": "National private non financial corporations",
+            "notation": "S11002"
+        },
+        {
+            "label": "National private non financial corporations, which are part of domestic multinationals",
+            "notation": "S110021"
+        },
+        {
+            "label": "Foreign controlled non financial corporations",
+            "notation": "S11003"
+        },
+        {
+            "label": "Private nonfinancial corporations",
+            "notation": "S1100P",
+            "description": "S1100P=S11002+S11003"
+        },
+        {
+            "label": "Post office giro",
+            "notation": "S11A"
+        },
+        {
+            "label": "Head offices of non financial corporations",
+            "notation": "S11B"
+        },
+        {
+            "label": "Domestically controlled non-financial corporations",
+            "notation": "S11DO",
+            "description": "S11DO=S11001+S11002"
+        },
+        {
+            "label": "Electronic money non-financial corporations",
+            "notation": "S11E"
+        },
+        {
+            "label": "Non-financial corporations (sub-sector not identified)",
+            "notation": "S11U"
+        },
+        {
+            "label": "Financial corporations",
+            "notation": "S12",
+            "description": "S12=S12K+S12M"
+        },
+        {
+            "label": "Public financial corporations",
+            "notation": "S12001"
+        },
+        {
+            "label": "Public financial corporations, which are part of domestic multinationals",
+            "notation": "S120011"
+        },
+        {
+            "label": "Public financial corporations controlled by central government",
+            "notation": "S12001C"
+        },
+        {
+            "label": "National private financial corporations",
+            "notation": "S12002"
+        },
+        {
+            "label": "National private financial corporations which are part of domestic multinationals",
+            "notation": "S120021"
+        },
+        {
+            "label": "Foreign controlled financial corporations",
+            "notation": "S12003"
+        },
+        {
+            "label": "Private financial corporations",
+            "notation": "S1200P",
+            "description": "S1200P=S12002+S12003"
+        },
+        {
+            "label": "Central bank",
+            "notation": "S121"
+        },
+        {
+            "label": "Deposit taking corporations, except the Central Bank",
+            "notation": "S122"
+        },
+        {
+            "label": "Public deposit taking corporations, except the Central Bank",
+            "notation": "S12201"
+        },
+        {
+            "label": "National private deposit taking corporations, except the Central Bank",
+            "notation": "S12202"
+        },
+        {
+            "label": "Foreign controlled deposit taking corporations, except the Central Bank",
+            "notation": "S12203"
+        },
+        {
+            "label": "Private deposit-taking corporations",
+            "notation": "S1220P",
+            "description": "S1220P=S12202+S12203"
+        },
+        {
+            "label": "Banks headquartered in the reporting country or currency area",
+            "notation": "S122A"
+        },
+        {
+            "label": "Banks headquartered outside the reporting country or currency area",
+            "notation": "S122B"
+        },
+        {
+            "label": "Credit institutions",
+            "notation": "S122C"
+        },
+        {
+            "label": "Deposit taking corporations, except the Central Bank (sub-sector not identified)",
+            "notation": "S122U"
+        },
+        {
+            "label": "Deposit-taking corporations except the central bank and excluding electronic money institutions principally engaged in financial intermediation",
+            "notation": "S122Z"
+        },
+        {
+            "label": "Money market funds",
+            "notation": "S123"
+        },
+        {
+            "label": "Public money market funds",
+            "notation": "S12301"
+        },
+        {
+            "label": "National private money market funds",
+            "notation": "S12302"
+        },
+        {
+            "label": "Foreign controlled money market funds",
+            "notation": "S12303"
+        },
+        {
+            "label": "Constant Net Asset Value (NAV) MMFs",
+            "notation": "S123A"
+        },
+        {
+            "label": "Variable NAV MMFs",
+            "notation": "S123B"
+        },
+        {
+            "label": "Money market funds (sub-sector not identified)",
+            "notation": "S123U"
+        },
+        {
+            "label": "Non MMF investment funds",
+            "notation": "S124",
+            "description": "S124=S124A+S124B"
+        },
+        {
+            "label": "Public non MMF investment funds",
+            "notation": "S12401"
+        },
+        {
+            "label": "National private non MMF investment funds",
+            "notation": "S12402"
+        },
+        {
+            "label": "Foreign controlled non MMF investment funds",
+            "notation": "S12403"
+        },
+        {
+            "label": "Open-end Non MMFs",
+            "notation": "S124A",
+            "description": "S124=S124A+S124B;\nS124=S12401+S12402+S12403"
+        },
+        {
+            "label": "Non-MMFs Open end funds - Real estate funds",
+            "notation": "S124A1"
+        },
+        {
+            "label": "Non-MMFs Open end funds - Equity funds",
+            "notation": "S124A2"
+        },
+        {
+            "label": "Non-MMFs Open end funds - Bond funds",
+            "notation": "S124A3"
+        },
+        {
+            "label": "Non-MMFs Open end funds - Mixed or balanced funds",
+            "notation": "S124A4"
+        },
+        {
+            "label": "Non-MMFs Open end funds - Hedge funds",
+            "notation": "S124A5"
+        },
+        {
+            "label": "Other Non-MMFs Open end funds",
+            "notation": "S124A9",
+            "description": "S124A9 = S124A - S124A1 - S124A2 \u2013S 124A3 - S124A4 \u2013 S124A5"
+        },
+        {
+            "label": "Closed-end Non MMFs",
+            "notation": "S124B",
+            "description": "S124B=S124B1+S124B2+S124B3+S124B4+S124B5+S124B9"
+        },
+        {
+            "label": "Closed-end Real Estate Funds",
+            "notation": "S124B1"
+        },
+        {
+            "label": "Closed-end Equity funds",
+            "notation": "S124B2"
+        },
+        {
+            "label": "Closed-end Bond funds",
+            "notation": "S124B3"
+        },
+        {
+            "label": "Closed-end Mixed funds",
+            "notation": "S124B4"
+        },
+        {
+            "label": "Closed-end Hedge funds",
+            "notation": "S124B5"
+        },
+        {
+            "label": "Other closed-end Non MMFs",
+            "notation": "S124B9",
+            "description": "S124B9=S124B-S124B1-S124B2-S124B3-S124B4-S124B5"
+        },
+        {
+            "label": "Non MMF investment funds (sub-sector not identified)",
+            "notation": "S124U"
+        },
+        {
+            "label": "Other financial intermediaries, except insurance corporations and pension funds",
+            "notation": "S125"
+        },
+        {
+            "label": "Public other financial intermediaries, except insurance corporations and pension funds",
+            "notation": "S12501"
+        },
+        {
+            "label": "National private other financial intermediaries, except insurance corporations and pension funds",
+            "notation": "S12502"
+        },
+        {
+            "label": "Foreign controlled other financial intermediaries, except insurance corporations and pension funds",
+            "notation": "S12503"
+        },
+        {
+            "label": "Financial vehicle corporations engaged in securitisation",
+            "notation": "S125A",
+            "description": "(part of S125)"
+        },
+        {
+            "label": "Financial corporations engaged in lending",
+            "notation": "S125B"
+        },
+        {
+            "label": "Security and derivative dealers",
+            "notation": "S125C"
+        },
+        {
+            "label": "Specialised financial corporations",
+            "notation": "S125D"
+        },
+        {
+            "label": "Clearing houses, which are part of specialised financial corporations (deprecated)",
+            "notation": "S125D1"
+        },
+        {
+            "label": "Other OFIs",
+            "notation": "S125E",
+            "description": "S125E = S125 \u2013 S125A \u2013 S125B \u2013 S125C \u2013 S125D"
+        },
+        {
+            "label": "Central clearing counterparties, which are part of other OFIs",
+            "notation": "S125E1"
+        },
+        {
+            "label": "Other financial intermediaries, except insurance corporations and pension funds (sub-sector not identified)",
+            "notation": "S125U"
+        },
+        {
+            "label": "Other financial\u00a0intermediaries, excluding financial vehicle corporations\u00a0engaged in securitizations",
+            "notation": "S125W",
+            "description": "S125W = S125 - S125A"
+        },
+        {
+            "label": "Financial auxiliaries",
+            "notation": "S126"
+        },
+        {
+            "label": "Public financial auxiliaries",
+            "notation": "S12601"
+        },
+        {
+            "label": "National private financial auxiliaries",
+            "notation": "S12602"
+        },
+        {
+            "label": "Foreign controlled financial auxiliaries",
+            "notation": "S12603"
+        },
+        {
+            "label": "Head offices of financial corporations",
+            "notation": "S126B"
+        },
+        {
+            "label": "Payment institutions",
+            "notation": "S126C"
+        },
+        {
+            "label": "Financial auxiliaries (sub-sector not identified)",
+            "notation": "S126U"
+        },
+        {
+            "label": "Captive financial institutions and money lenders",
+            "notation": "S127"
+        },
+        {
+            "label": "Public captive financial institutions and money lenders",
+            "notation": "S12701"
+        },
+        {
+            "label": "National private captive financial institutions and money lenders",
+            "notation": "S12702"
+        },
+        {
+            "label": "Foreign controlled captive financial institutions and money lenders",
+            "notation": "S12703"
+        },
+        {
+            "label": "Trusts, estate and agency accounts",
+            "notation": "S1271"
+        },
+        {
+            "label": "Corporate groups\u2019 captive financial entities",
+            "notation": "S1272"
+        },
+        {
+            "label": "Of which: Foreign owned SPE-type captives",
+            "notation": "S1272A"
+        },
+        {
+            "label": "Other captive finance companies and money lenders",
+            "notation": "S1273",
+            "description": "S1273 = S127 \u2013 S1271 \u2013 S1272"
+        },
+        {
+            "label": "Other captive finance companies and money lenders (deprecated)",
+            "notation": "S1274"
+        },
+        {
+            "label": "Holding companies",
+            "notation": "S127A"
+        },
+        {
+            "label": "Captive financial institutions and money lenders (sub-sector not identified)",
+            "notation": "S127U"
+        },
+        {
+            "label": "Insurance corporations",
+            "notation": "S128",
+            "description": "S128=S1281+S1282"
+        },
+        {
+            "label": "Public insurance corporations",
+            "notation": "S12801"
+        },
+        {
+            "label": "National private insurance corporations",
+            "notation": "S12802"
+        },
+        {
+            "label": "Foreign controlled insurance corporations",
+            "notation": "S12803"
+        },
+        {
+            "label": "Life Insurance Corporations",
+            "notation": "S1281"
+        },
+        {
+            "label": "Non-life Insurance Corporations",
+            "notation": "S1282"
+        },
+        {
+            "label": "Reinsurance corporations",
+            "notation": "S128A"
+        },
+        {
+            "label": "Life insurance corporations excluding reinsurance corporations",
+            "notation": "S128B"
+        },
+        {
+            "label": "Non-life insurance corporations excluding reinsurance corporations",
+            "notation": "S128C"
+        },
+        {
+            "label": "Composite life and non-life insurance corporations excluding reinsurance corporations",
+            "notation": "S128D"
+        },
+        {
+            "label": "Insurance corporations (sub-sector not identified)",
+            "notation": "S128U"
+        },
+        {
+            "label": "Pension funds",
+            "notation": "S129"
+        },
+        {
+            "label": "Public pension funds",
+            "notation": "S12901"
+        },
+        {
+            "label": "National private pension funds",
+            "notation": "S12902"
+        },
+        {
+            "label": "Foreign controlled pension funds",
+            "notation": "S12903"
+        },
+        {
+            "label": "Defined benefit funds",
+            "notation": "S129A"
+        },
+        {
+            "label": "Defined contribution funds",
+            "notation": "S129B"
+        },
+        {
+            "label": "Pension funds (sub-sector not identified)",
+            "notation": "S129U"
+        },
+        {
+            "label": "Banks and other financial institutions headquartered in the reporting country or currency area",
+            "notation": "S12A"
+        },
+        {
+            "label": "Banks and other financial institutions headquartered outside the reporting country or currency area",
+            "notation": "S12B"
+        },
+        {
+            "label": "Deposit taking corporations",
+            "notation": "S12C",
+            "description": "S12C=S121+S122"
+        },
+        {
+            "label": "Financial corporations other than central banks",
+            "notation": "S12D",
+            "description": "S12D=S12-S121"
+        },
+        {
+            "label": "Domestically controlled financial corporations",
+            "notation": "S12DO"
+        },
+        {
+            "label": "Electronic money institutions",
+            "notation": "S12E"
+        },
+        {
+            "label": "Monetary financial institutions (MFI)",
+            "notation": "S12K",
+            "description": "S12K=S121+S122+S123"
+        },
+        {
+            "label": "Monetary financial institutions (sub-sector not identified)",
+            "notation": "S12KU"
+        },
+        {
+            "label": "Investment Funds (MMFs and non-MMFs)",
+            "notation": "S12L",
+            "description": "S12L=S123+S124\nS12L=S12L1+S12L2+S12L3+S12L4+S12L5+S12L9\nS12L=S12LO+S124B"
+        },
+        {
+            "label": "Real estate funds",
+            "notation": "S12L1",
+            "description": "S12L1=S12LO1+S124B1"
+        },
+        {
+            "label": "Equity funds",
+            "notation": "S12L2",
+            "description": "S12L2=S12LO2+S124B2"
+        },
+        {
+            "label": "Bond funds",
+            "notation": "S12L3",
+            "description": "S12L3=S12LO3+S124B3"
+        },
+        {
+            "label": "Mixed funds",
+            "notation": "S12L4",
+            "description": "S12L4=S12LO4+S124B4"
+        },
+        {
+            "label": "Hedge funds",
+            "notation": "S12L5",
+            "description": "S12L5=S12LO5+S124B5"
+        },
+        {
+            "label": "Other funds (other than equity, bond, mixed, real estate and hedge funds)",
+            "notation": "S12L9",
+            "description": "S12L9=S12LO9+S124B9"
+        },
+        {
+            "label": "Open-end Investment Funds",
+            "notation": "S12LO",
+            "description": "S12LO=S123+S124A\nS12LO=S12LO1+S12LO2+S12LO3+S12LO4+S12LO5+S12LO9"
+        },
+        {
+            "label": "Open-end Real Estate Funds",
+            "notation": "S12LO1"
+        },
+        {
+            "label": "Open-end Equity funds",
+            "notation": "S12LO2"
+        },
+        {
+            "label": "Open-end Bond funds",
+            "notation": "S12LO3"
+        },
+        {
+            "label": "Open-end Mixed funds",
+            "notation": "S12LO4"
+        },
+        {
+            "label": "Open-end Hedge funds",
+            "notation": "S12LO5"
+        },
+        {
+            "label": "Other open-end funds",
+            "notation": "S12LO9",
+            "description": "S12LO9=S12LO-S12LO1-S12LO2-S12LO3-S12LO4-S12LO5"
+        },
+        {
+            "label": "Financial corporations other than MFIs",
+            "notation": "S12M",
+            "description": "S124+S125+S126+S127+S128+S129"
+        },
+        {
+            "label": "Other financial institutions (Financial corporations other than MFIs, insurance corporations, pension funds and financial auxiliaries)",
+            "notation": "S12N",
+            "description": "S12N=S124+S125+S127"
+        },
+        {
+            "label": "Other financial institutions (Financial corporations other than MFIs, insurance corporations, pension funds and non MMFs Investment Funds)",
+            "notation": "S12O",
+            "description": "S12O=S125+S126+S127"
+        },
+        {
+            "label": "Other financial institutions (Financial corporations other than MFIs, insurance corporations and pension funds)",
+            "notation": "S12P",
+            "description": "S12P=S124+S125+S126+S127"
+        },
+        {
+            "label": "Other Financial Institutions  (sub-sector not identified)",
+            "notation": "S12PU"
+        },
+        {
+            "label": "Insurance corporations and Pension Funds",
+            "notation": "S12Q",
+            "description": "S12Q=S128+S129"
+        },
+        {
+            "label": "Other insurance corporations and pension funds (sub-sector not identified)",
+            "notation": "S12QU"
+        },
+        {
+            "label": "Other financial corporations",
+            "notation": "S12R",
+            "description": "S12R=S123+S124+S125+S126+S127+S128+S129"
+        },
+        {
+            "label": "Other public financial corporations",
+            "notation": "S12R01",
+            "description": "S12R=S12301+S12401+S12501+S12601+S12701+S12801+S12901"
+        },
+        {
+            "label": "Other private financial corporations",
+            "notation": "S12R0P",
+            "description": "S12R=S12302+S12303+S12402+S12403+S12502+S12503+S12602+S12603+S12702+S12703+S12802+S12803+S12902+S12903"
+        },
+        {
+            "label": "Other Forms of Institutional Savings",
+            "notation": "S12S"
+        },
+        {
+            "label": "Financial corporations, SPEs",
+            "notation": "S12SP"
+        },
+        {
+            "label": "Monetary financial institutions other than central bank",
+            "notation": "S12T",
+            "description": "S12T=S122+S123"
+        },
+        {
+            "label": "Financial corporations other than the central bank",
+            "notation": "S12U"
+        },
+        {
+            "label": "Financial corporations other than central banks and credit institutions",
+            "notation": "S12V"
+        },
+        {
+            "label": "General government",
+            "notation": "S13",
+            "description": "S13=S1311+S1312+S1313+S1314;\nS13=S1321+S1322+S1323"
+        },
+        {
+            "label": "General government excluding social security",
+            "notation": "S131"
+        },
+        {
+            "label": "Central government excluding social security",
+            "notation": "S1311"
+        },
+        {
+            "label": "Central government, budgetary units",
+            "notation": "S13111"
+        },
+        {
+            "label": "Central government, extra-budgetary units",
+            "notation": "S13112"
+        },
+        {
+            "label": "Budgetary Central Government",
+            "notation": "S1311B"
+        },
+        {
+            "label": "State government excluding social security",
+            "notation": "S1312"
+        },
+        {
+            "label": "State government, budgetary units",
+            "notation": "S13121"
+        },
+        {
+            "label": "State government, extra-budgetary units",
+            "notation": "S13122"
+        },
+        {
+            "label": "Local government excluding social security",
+            "notation": "S1313"
+        },
+        {
+            "label": "Local government, budgetary units",
+            "notation": "S13131"
+        },
+        {
+            "label": "Local government, extra-budgetary units",
+            "notation": "S13132"
+        },
+        {
+            "label": "Social security funds",
+            "notation": "S1314"
+        },
+        {
+            "label": "Social security funds, budgetary units",
+            "notation": "S13141"
+        },
+        {
+            "label": "Social security funds, extra-budgetary units",
+            "notation": "S13142"
+        },
+        {
+            "label": "European institutions and bodies (EU accounts)",
+            "notation": "S1315"
+        },
+        {
+            "label": "Central government including social security",
+            "notation": "S1321"
+        },
+        {
+            "label": "State government including social security",
+            "notation": "S1322"
+        },
+        {
+            "label": "Local government including social security",
+            "notation": "S1323"
+        },
+        {
+            "label": "General government non profit institutions",
+            "notation": "S133"
+        },
+        {
+            "label": "Central government non profit institutions",
+            "notation": "S1331"
+        },
+        {
+            "label": "State government non profit institutions",
+            "notation": "S1332"
+        },
+        {
+            "label": "Local government non profit institutions",
+            "notation": "S1333"
+        },
+        {
+            "label": "General government involved in monetary policy operations",
+            "notation": "S134"
+        },
+        {
+            "label": "Central and state government excluding social security",
+            "notation": "S13L",
+            "description": "S13L=S1311+S1312"
+        },
+        {
+            "label": "State and local government excluding social security",
+            "notation": "S13M",
+            "description": "S13M=S1312+S1313"
+        },
+        {
+            "label": "General government, except central government",
+            "notation": "S13O",
+            "description": "S13O=S13-S1311"
+        },
+        {
+            "label": "General government, except state government",
+            "notation": "S13P",
+            "description": "S13P=S13-S1312"
+        },
+        {
+            "label": "General government, except local government",
+            "notation": "S13R",
+            "description": "S13R=S13-S1313"
+        },
+        {
+            "label": "General government, except social security funds",
+            "notation": "S13T",
+            "description": "S13T=S13-S1314"
+        },
+        {
+            "label": "Other General Government (sub-sector not identified)",
+            "notation": "S13U"
+        },
+        {
+            "label": "Households",
+            "notation": "S14"
+        },
+        {
+            "label": "Employers",
+            "notation": "S141"
+        },
+        {
+            "label": "Own account workers",
+            "notation": "S142"
+        },
+        {
+            "label": "Employees",
+            "notation": "S143"
+        },
+        {
+            "label": "Recipients of property and transfer income",
+            "notation": "S144"
+        },
+        {
+            "label": "Recipients of property income",
+            "notation": "S1441"
+        },
+        {
+            "label": "Recipients of pensions",
+            "notation": "S1442"
+        },
+        {
+            "label": "Recipients of other transfers",
+            "notation": "S1443"
+        },
+        {
+            "label": "Non profit institutions serving households",
+            "notation": "S15"
+        },
+        {
+            "label": "National private",
+            "notation": "S15002"
+        },
+        {
+            "label": "Foreign controlled",
+            "notation": "S15003"
+        },
+        {
+            "label": "Affiliates",
+            "notation": "S1A"
+        },
+        {
+            "label": "Not affiliates",
+            "notation": "S1B",
+            "description": "S1B=S1-S1A"
+        },
+        {
+            "label": "Financial intermediaries (CDIS)",
+            "notation": "S1F"
+        },
+        {
+            "label": "All resident sectors excluding financial intermediaries (CDIS)",
+            "notation": "S1G"
+        },
+        {
+            "label": "Issuer headquartered in the reporting country or currency area",
+            "notation": "S1H"
+        },
+        {
+            "label": "Corporations",
+            "notation": "S1K",
+            "description": "S1K=S11+S12"
+        },
+        {
+            "label": "Public corporations",
+            "notation": "S1K1",
+            "description": "S1K1=S11001+S12001"
+        },
+        {
+            "label": "Central banks and general government",
+            "notation": "S1KK"
+        },
+        {
+            "label": "Private corporations",
+            "notation": "S1KP",
+            "description": "S1KP=S1100P+S1200P"
+        },
+        {
+            "label": "General government, households and non profit institutions serving households",
+            "notation": "S1L",
+            "description": "S1L=S13+S14+S15"
+        },
+        {
+            "label": "Households and non profit institutions serving households (NPISH)",
+            "notation": "S1M",
+            "description": "S1M=S14+S15"
+        },
+        {
+            "label": "Other households and non-profit institutions serving households (sub-sector not identified)",
+            "notation": "S1MU"
+        },
+        {
+            "label": "Not sectorised",
+            "notation": "S1N"
+        },
+        {
+            "label": "Other sectors than MFIs and central government",
+            "notation": "S1O",
+            "description": "S1O=S1V+S12M+S13O;\nS1O=S11+S14+S15+S124+S125+S126+S127+S128+S129+S1312+S1313+S1314"
+        },
+        {
+            "label": "Other sectors than MFIs and general government",
+            "notation": "S1P",
+            "description": "S1P=S1V+S12M;\nS1P=S11+S14+S15+S124+S125+S126+S127+S128+S129"
+        },
+        {
+            "label": "Other sectors than MFIs",
+            "notation": "S1Q",
+            "description": "S1Q=S1S+S12M;\nS1Q=S11+S13+S14+S15+S124+S125+S126+S127+S128+S129"
+        },
+        {
+            "label": "Non financial sectors, except households",
+            "notation": "S1R",
+            "description": "S1R=S11+S13+S15"
+        },
+        {
+            "label": "Non-financial corporations, general government and households and NPISH",
+            "notation": "S1S",
+            "description": "S1S=S11+S13+S14+S15"
+        },
+        {
+            "label": "Total economy, SPEs",
+            "notation": "S1SP",
+            "description": "S1SP=S12SP+S1SSP"
+        },
+        {
+            "label": "Non-financial corporations, SPEs",
+            "notation": "S1SSP"
+        },
+        {
+            "label": "Non-financial corporations and general government",
+            "notation": "S1T",
+            "description": "S1T=S11+S13"
+        },
+        {
+            "label": "Non financial sectors, except central government",
+            "notation": "S1U",
+            "description": "S1U=S1V+S13O;\nS1U=S11+S14+S15+S1312+S1313+S1314"
+        },
+        {
+            "label": "Non financial corporations, households and NPISH",
+            "notation": "S1V",
+            "description": "S1V=S11+S14+S15"
+        },
+        {
+            "label": "Other sectors than general government",
+            "notation": "S1W",
+            "description": "S1W=S11+S12+S14+S15+S1N"
+        },
+        {
+            "label": "Monetary authorities",
+            "notation": "S1X",
+            "description": "S1X=S121+ S134"
+        },
+        {
+            "label": "Monetary authorities and international organizations",
+            "notation": "S1XA"
+        },
+        {
+            "label": "Other sectors than monetary authorities",
+            "notation": "S1Y",
+            "description": "S1Y=S1-S1X-S1N"
+        },
+        {
+            "label": "Sectors other than deposit-taking corporations and general government (Other Sectors - BPM6)",
+            "notation": "S1Z",
+            "description": "S1Z=S11+S14+S15+S123+S124\n+S125+S126+S127+S128+S129"
+        },
+        {
+            "label": "Other sectors than central bank",
+            "notation": "S1ZK",
+            "description": "S1ZK=S1-S121-S1N"
+        },
+        {
+            "label": "Other sectors than central bank and general government",
+            "notation": "S1ZL",
+            "description": "S1ZL=S1-S121-S13-S1N"
+        },
+        {
+            "label": "Other sectors than central government",
+            "notation": "S1ZM",
+            "description": "S1ZM=S1-S1311-S1N"
+        },
+        {
+            "label": "Other sectors than state government",
+            "notation": "S1ZN",
+            "description": "S1ZN=S1-S1312-S1N"
+        },
+        {
+            "label": "Other sectors including non-financial corporations, money market funds, non-MMF investment funds, OFIs, insurance corporations, pension funds, general government or a central bank",
+            "notation": "S1ZO",
+            "description": "S1ZO=S1-S1M-S122= S11+S13+S121+S123+S124+S125+S128+S129"
+        },
+        {
+            "label": "Other sectors than local government",
+            "notation": "S1ZP",
+            "description": "S1ZP=S1-S1313-S1N"
+        },
+        {
+            "label": "Other sectors than social security funds",
+            "notation": "S1ZQ",
+            "description": "S1ZQ=S1-S1314-S1N"
+        },
+        {
+            "label": "Other sectors than financial corporations and general government",
+            "notation": "S1ZR",
+            "description": "S1ZR=S1-S12-S13-S1N"
+        },
+        {
+            "label": "Public sector",
+            "notation": "S1ZS",
+            "description": "S1ZS=S11001+S12001+S13"
+        },
+        {
+            "label": "National private financial and non financial corporations",
+            "notation": "S1ZT",
+            "description": "S1ZT=S11002+S12002+S15002"
+        },
+        {
+            "label": "Sectors other than central bank, credit institutions and general government",
+            "notation": "S1ZU"
+        },
+        {
+            "label": "All sectors other than households and NPISH",
+            "notation": "S1ZV",
+            "description": "S1ZV=S1-S1M;S1ZV=S11+S13+S121+S122+S123+S124+S125+S128+S129"
+        },
+        {
+            "label": "Other than general government, clearing and settlement organisations and other financial institutions",
+            "notation": "SZP"
+        },
+        {
+            "label": "Institutions of the European Union (ESA GFS concept)",
+            "notation": "SZU"
+        },
+        {
+            "label": "General government and institutions of the European Union (ESA GFS concept)",
+            "notation": "SZV",
+            "description": "SZV=SZU+S13"
+        },
+        {
+            "label": "Institutions financed by the European Union (EU) budget (including the European Development Fund (EDF))",
+            "notation": "SZX"
+        },
+        {
+            "label": "General government and institutions financed by the European Union (EU) budget (including the European Development Fund (EDF))",
+            "notation": "SZY"
+        }
+    ]
+}

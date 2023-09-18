@@ -1,0 +1,1983 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "COICOP",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Total",
+            "notation": "_T"
+        },
+        {
+            "label": "Total except actual rents",
+            "notation": "_TXCP041_042"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "All-items HICP",
+            "notation": "CP00"
+        },
+        {
+            "label": "Food and non-alcoholic beverages",
+            "notation": "CP01"
+        },
+        {
+            "label": "Food",
+            "notation": "CP011"
+        },
+        {
+            "label": "Bread and cereals",
+            "notation": "CP0111"
+        },
+        {
+            "label": "Rice",
+            "notation": "CP01111"
+        },
+        {
+            "label": "Flours and other cereals",
+            "notation": "CP01112"
+        },
+        {
+            "label": "Bread",
+            "notation": "CP01113"
+        },
+        {
+            "label": "Other bakery products",
+            "notation": "CP01114"
+        },
+        {
+            "label": "Pizza and quiche",
+            "notation": "CP01115"
+        },
+        {
+            "label": "Pasta products and couscous",
+            "notation": "CP01116"
+        },
+        {
+            "label": "Breakfast cereals",
+            "notation": "CP01117"
+        },
+        {
+            "label": "Other cereal products",
+            "notation": "CP01118"
+        },
+        {
+            "label": "Meat",
+            "notation": "CP0112"
+        },
+        {
+            "label": "Beef and veal",
+            "notation": "CP01121"
+        },
+        {
+            "label": "Pork",
+            "notation": "CP01122"
+        },
+        {
+            "label": "Lamb and goat",
+            "notation": "CP01123"
+        },
+        {
+            "label": "Poultry",
+            "notation": "CP01124"
+        },
+        {
+            "label": "Other meats",
+            "notation": "CP01125"
+        },
+        {
+            "label": "Edible offal",
+            "notation": "CP01126"
+        },
+        {
+            "label": "Dried, salted or smoked meat",
+            "notation": "CP01127"
+        },
+        {
+            "label": "Other meat preparations",
+            "notation": "CP01128"
+        },
+        {
+            "label": "Fish and seafood",
+            "notation": "CP0113"
+        },
+        {
+            "label": "Fresh or chilled fish",
+            "notation": "CP01131"
+        },
+        {
+            "label": "Frozen fish",
+            "notation": "CP01132"
+        },
+        {
+            "label": "Fresh or chilled seafood",
+            "notation": "CP01133"
+        },
+        {
+            "label": "Frozen seafood",
+            "notation": "CP01134"
+        },
+        {
+            "label": "Dried, smoked or salted fish and seafood",
+            "notation": "CP01135"
+        },
+        {
+            "label": "Other preserved or processed fish and seafood and fish and seafood preparations",
+            "notation": "CP01136"
+        },
+        {
+            "label": "Milk, cheese and eggs",
+            "notation": "CP0114"
+        },
+        {
+            "label": "Whole milk",
+            "notation": "CP01141"
+        },
+        {
+            "label": "Low fat milk",
+            "notation": "CP01142"
+        },
+        {
+            "label": "Preserved milk",
+            "notation": "CP01143"
+        },
+        {
+            "label": "Yoghurt",
+            "notation": "CP01144"
+        },
+        {
+            "label": "Cheese and curd",
+            "notation": "CP01145"
+        },
+        {
+            "label": "Other milk products",
+            "notation": "CP01146"
+        },
+        {
+            "label": "Eggs",
+            "notation": "CP01147"
+        },
+        {
+            "label": "Oils and fats",
+            "notation": "CP0115"
+        },
+        {
+            "label": "Butter",
+            "notation": "CP01151"
+        },
+        {
+            "label": "Margarine and other vegetable fats",
+            "notation": "CP01152"
+        },
+        {
+            "label": "Olive oil",
+            "notation": "CP01153"
+        },
+        {
+            "label": "Other edible oils",
+            "notation": "CP01154"
+        },
+        {
+            "label": "Other edible animal fats",
+            "notation": "CP01155"
+        },
+        {
+            "label": "Fruit",
+            "notation": "CP0116"
+        },
+        {
+            "label": "Fresh or chilled fruit",
+            "notation": "CP01161"
+        },
+        {
+            "label": "Frozen fruit",
+            "notation": "CP01162"
+        },
+        {
+            "label": "Dried fruit and nuts",
+            "notation": "CP01163"
+        },
+        {
+            "label": "Preserved fruit and fruit-based products",
+            "notation": "CP01164"
+        },
+        {
+            "label": "Vegetables",
+            "notation": "CP0117"
+        },
+        {
+            "label": "Fresh or chilled vegetables other than potatoes and other tubers",
+            "notation": "CP01171"
+        },
+        {
+            "label": "Frozen vegetables other than potatoes and other tubers",
+            "notation": "CP01172"
+        },
+        {
+            "label": "Dried vegetables, other preserved or processed vegetables",
+            "notation": "CP01173"
+        },
+        {
+            "label": "Potatoes",
+            "notation": "CP01174"
+        },
+        {
+            "label": "Crisps",
+            "notation": "CP01175"
+        },
+        {
+            "label": "Other tubers and products of tuber vegetables",
+            "notation": "CP01176"
+        },
+        {
+            "label": "Sugar, jam, honey, chocolate and confectionery",
+            "notation": "CP0118"
+        },
+        {
+            "label": "Sugar",
+            "notation": "CP01181"
+        },
+        {
+            "label": "Jams, marmalades and honey",
+            "notation": "CP01182"
+        },
+        {
+            "label": "Chocolate",
+            "notation": "CP01183"
+        },
+        {
+            "label": "Confectionery products",
+            "notation": "CP01184"
+        },
+        {
+            "label": "Edible ices and ice cream",
+            "notation": "CP01185"
+        },
+        {
+            "label": "Artificial sugar substitutes",
+            "notation": "CP01186"
+        },
+        {
+            "label": "Food products n.e.c.",
+            "notation": "CP0119"
+        },
+        {
+            "label": "Sauces, condiments",
+            "notation": "CP01191"
+        },
+        {
+            "label": "Salt, spices and culinary herbs",
+            "notation": "CP01192"
+        },
+        {
+            "label": "Baby food",
+            "notation": "CP01193"
+        },
+        {
+            "label": "Ready-made meals",
+            "notation": "CP01194"
+        },
+        {
+            "label": "Other food products n.e.c.",
+            "notation": "CP01199"
+        },
+        {
+            "label": "Non-alcoholic beverages",
+            "notation": "CP012"
+        },
+        {
+            "label": "Coffee, tea and cocoa",
+            "notation": "CP0121"
+        },
+        {
+            "label": "Coffee",
+            "notation": "CP01211"
+        },
+        {
+            "label": "Tea",
+            "notation": "CP01212"
+        },
+        {
+            "label": "Cocoa and powdered chocolate",
+            "notation": "CP01213"
+        },
+        {
+            "label": "Mineral waters, soft drinks, fruit and vegetable juices",
+            "notation": "CP0122"
+        },
+        {
+            "label": "Mineral or spring waters",
+            "notation": "CP01221"
+        },
+        {
+            "label": "Soft drinks",
+            "notation": "CP01222"
+        },
+        {
+            "label": "Fruit and vegetables juices",
+            "notation": "CP01223"
+        },
+        {
+            "label": "Alcoholic beverages, tobacco and narcotics",
+            "notation": "CP02"
+        },
+        {
+            "label": "Alcoholic beverages",
+            "notation": "CP021"
+        },
+        {
+            "label": "Spirits",
+            "notation": "CP0211"
+        },
+        {
+            "label": "Spirits and liqueurs",
+            "notation": "CP02111"
+        },
+        {
+            "label": "Alcoholic soft drinks",
+            "notation": "CP02112"
+        },
+        {
+            "label": "Wine",
+            "notation": "CP0212"
+        },
+        {
+            "label": "Wine from grapes",
+            "notation": "CP02121"
+        },
+        {
+            "label": "Wine from other fruits",
+            "notation": "CP02122"
+        },
+        {
+            "label": "Fortified wines",
+            "notation": "CP02123"
+        },
+        {
+            "label": "Wine-based drinks",
+            "notation": "CP02124"
+        },
+        {
+            "label": "Beer",
+            "notation": "CP0213"
+        },
+        {
+            "label": "Lager beer",
+            "notation": "CP02131"
+        },
+        {
+            "label": "Other alcoholic beer",
+            "notation": "CP02132"
+        },
+        {
+            "label": "Low and non-alcoholic beer",
+            "notation": "CP02133"
+        },
+        {
+            "label": "Beer-based drinks",
+            "notation": "CP02134"
+        },
+        {
+            "label": "Tobacco",
+            "notation": "CP022"
+        },
+        {
+            "label": "Tobacco",
+            "notation": "CP0220"
+        },
+        {
+            "label": "Cigarettes",
+            "notation": "CP02201"
+        },
+        {
+            "label": "Cigars",
+            "notation": "CP02202"
+        },
+        {
+            "label": "Other tobacco products",
+            "notation": "CP02203"
+        },
+        {
+            "label": "Narcotics",
+            "notation": "CP023"
+        },
+        {
+            "label": "Narcotics",
+            "notation": "CP0230"
+        },
+        {
+            "label": "Narcotics",
+            "notation": "CP02300"
+        },
+        {
+            "label": "Clothing and footwear",
+            "notation": "CP03"
+        },
+        {
+            "label": "Clothing",
+            "notation": "CP031"
+        },
+        {
+            "label": "Clothing materials",
+            "notation": "CP0311"
+        },
+        {
+            "label": "Clothing materials",
+            "notation": "CP03110"
+        },
+        {
+            "label": "Garments",
+            "notation": "CP0312"
+        },
+        {
+            "label": "Garments for men",
+            "notation": "CP03121"
+        },
+        {
+            "label": "Garments for women",
+            "notation": "CP03122"
+        },
+        {
+            "label": "Garments for infants (0 to 2 years) and children (3 to 13 years)",
+            "notation": "CP03123"
+        },
+        {
+            "label": "Other articles of clothing and clothing accessories",
+            "notation": "CP0313"
+        },
+        {
+            "label": "Other articles of clothing",
+            "notation": "CP03131"
+        },
+        {
+            "label": "Clothing accessories",
+            "notation": "CP03132"
+        },
+        {
+            "label": "Cleaning, repair and hire of clothing",
+            "notation": "CP0314"
+        },
+        {
+            "label": "Cleaning of clothing",
+            "notation": "CP03141"
+        },
+        {
+            "label": "Repair and hire of clothing",
+            "notation": "CP03142"
+        },
+        {
+            "label": "Footwear",
+            "notation": "CP032"
+        },
+        {
+            "label": "Shoes and other footwear",
+            "notation": "CP0321"
+        },
+        {
+            "label": "Footwear for men",
+            "notation": "CP03211"
+        },
+        {
+            "label": "Footwear for women",
+            "notation": "CP03212"
+        },
+        {
+            "label": "Footwear for infants and children",
+            "notation": "CP03213"
+        },
+        {
+            "label": "Repair and hire of footwear",
+            "notation": "CP0322"
+        },
+        {
+            "label": "Repair and hire of footwear",
+            "notation": "CP03220"
+        },
+        {
+            "label": "Housing, water, electricity, gas and other fuels",
+            "notation": "CP04"
+        },
+        {
+            "label": "Actual rentals for housing",
+            "notation": "CP041"
+        },
+        {
+            "label": "Actual rentals paid by tenants",
+            "notation": "CP0411"
+        },
+        {
+            "label": "Actual rentals paid by tenants",
+            "notation": "CP04110"
+        },
+        {
+            "label": "Other actual rentals",
+            "notation": "CP0412"
+        },
+        {
+            "label": "Actual rentals paid by tenants for secondary residences",
+            "notation": "CP04121"
+        },
+        {
+            "label": "Garage rentals and other rentals paid by tenants",
+            "notation": "CP04122"
+        },
+        {
+            "label": "Imputed rentals for housing",
+            "notation": "CP042"
+        },
+        {
+            "label": "Imputed rentals of owner-occupiers",
+            "notation": "CP0421"
+        },
+        {
+            "label": "Imputed rentals of owner-occupiers",
+            "notation": "CP04210"
+        },
+        {
+            "label": "Other imputed rentals",
+            "notation": "CP0422"
+        },
+        {
+            "label": "Other imputed rentals",
+            "notation": "CP04220"
+        },
+        {
+            "label": "Maintenance and repair of the dwelling",
+            "notation": "CP043"
+        },
+        {
+            "label": "Materials for the maintenance and repair of the dwelling",
+            "notation": "CP0431"
+        },
+        {
+            "label": "Materials for the maintenance and repair of the dwelling",
+            "notation": "CP04310"
+        },
+        {
+            "label": "Services for the maintenance and repair of the dwelling",
+            "notation": "CP0432"
+        },
+        {
+            "label": "Services of plumbers",
+            "notation": "CP04321"
+        },
+        {
+            "label": "Services of electricians",
+            "notation": "CP04322"
+        },
+        {
+            "label": "Maintenance services for heating systems",
+            "notation": "CP04323"
+        },
+        {
+            "label": "Services of painters",
+            "notation": "CP04324"
+        },
+        {
+            "label": "Services of carpenters",
+            "notation": "CP04325"
+        },
+        {
+            "label": "Other services for maintenance and repair of the dwelling",
+            "notation": "CP04329"
+        },
+        {
+            "label": "Water supply and miscellaneous services relating to the dwelling",
+            "notation": "CP044"
+        },
+        {
+            "label": "Water supply",
+            "notation": "CP0441"
+        },
+        {
+            "label": "Water supply",
+            "notation": "CP04410"
+        },
+        {
+            "label": "Refuse collection",
+            "notation": "CP0442"
+        },
+        {
+            "label": "Refuse collection",
+            "notation": "CP04420"
+        },
+        {
+            "label": "Sewerage collection",
+            "notation": "CP0443"
+        },
+        {
+            "label": "Sewerage collection",
+            "notation": "CP04430"
+        },
+        {
+            "label": "Other services relating to the dwelling n.e.c.",
+            "notation": "CP0444"
+        },
+        {
+            "label": "Maintenance charges in multi-occupied buildings",
+            "notation": "CP04441"
+        },
+        {
+            "label": "Security services",
+            "notation": "CP04442"
+        },
+        {
+            "label": "Other services related to dwelling",
+            "notation": "CP04449"
+        },
+        {
+            "label": "Electricity, gas and other fuels",
+            "notation": "CP045"
+        },
+        {
+            "label": "Electricity",
+            "notation": "CP0451"
+        },
+        {
+            "label": "Electricity",
+            "notation": "CP04510"
+        },
+        {
+            "label": "Gas",
+            "notation": "CP0452"
+        },
+        {
+            "label": "Natural gas and town gas",
+            "notation": "CP04521"
+        },
+        {
+            "label": "Liquefied hydrocarbons (butane, propane, etc.)",
+            "notation": "CP04522"
+        },
+        {
+            "label": "Liquid fuels",
+            "notation": "CP0453"
+        },
+        {
+            "label": "Liquid fuels",
+            "notation": "CP04530"
+        },
+        {
+            "label": "Solid fuels",
+            "notation": "CP0454"
+        },
+        {
+            "label": "Coal",
+            "notation": "CP04541"
+        },
+        {
+            "label": "Other solid fuels",
+            "notation": "CP04549"
+        },
+        {
+            "label": "Heat energy",
+            "notation": "CP0455"
+        },
+        {
+            "label": "Heat energy",
+            "notation": "CP04550"
+        },
+        {
+            "label": "Furnishings, household equipment and routine household maintenance",
+            "notation": "CP05"
+        },
+        {
+            "label": "Furniture and furnishings, carpets and other floor coverings",
+            "notation": "CP051"
+        },
+        {
+            "label": "Furniture and furnishings",
+            "notation": "CP0511"
+        },
+        {
+            "label": "Household furniture",
+            "notation": "CP05111"
+        },
+        {
+            "label": "Garden furniture",
+            "notation": "CP05112"
+        },
+        {
+            "label": "Lighting equipment",
+            "notation": "CP05113"
+        },
+        {
+            "label": "Other furniture and furnishings",
+            "notation": "CP05119"
+        },
+        {
+            "label": "Carpets and other floor coverings",
+            "notation": "CP0512"
+        },
+        {
+            "label": "Carpet and rugs",
+            "notation": "CP05121"
+        },
+        {
+            "label": "Other floor coverings",
+            "notation": "CP05122"
+        },
+        {
+            "label": "Services of laying of fitted carpets and floor coverings",
+            "notation": "CP05123"
+        },
+        {
+            "label": "Repair of furniture, furnishings and floor coverings",
+            "notation": "CP0513"
+        },
+        {
+            "label": "Repair of furniture, furnishings and floor coverings",
+            "notation": "CP05130"
+        },
+        {
+            "label": "Household textiles",
+            "notation": "CP052"
+        },
+        {
+            "label": "Household textiles",
+            "notation": "CP0520"
+        },
+        {
+            "label": "Furnishings fabrics and curtains",
+            "notation": "CP05201"
+        },
+        {
+            "label": "Bed linen",
+            "notation": "CP05202"
+        },
+        {
+            "label": "Table linen and bathroom linen",
+            "notation": "CP05203"
+        },
+        {
+            "label": "Other household textiles",
+            "notation": "CP05209"
+        },
+        {
+            "label": "Household appliances",
+            "notation": "CP053"
+        },
+        {
+            "label": "Major household appliances whether electric or not",
+            "notation": "CP0531"
+        },
+        {
+            "label": "Major household appliances whether electric or not and small electric household appliances",
+            "notation": "CP0531_0532"
+        },
+        {
+            "label": "Refrigerators, freezers and fridge-freezers",
+            "notation": "CP05311"
+        },
+        {
+            "label": "Clothes washing machines, clothes drying machines and dish washing machines",
+            "notation": "CP05312"
+        },
+        {
+            "label": "Cookers",
+            "notation": "CP05313"
+        },
+        {
+            "label": "Heaters, air conditioners",
+            "notation": "CP05314"
+        },
+        {
+            "label": "Cleaning equipment",
+            "notation": "CP05315"
+        },
+        {
+            "label": "Sewing and knitting machines",
+            "notation": "CP05316"
+        },
+        {
+            "label": "Other major household appliances",
+            "notation": "CP05319"
+        },
+        {
+            "label": "Small electric household appliances",
+            "notation": "CP0532"
+        },
+        {
+            "label": "Food processing appliances",
+            "notation": "CP05321"
+        },
+        {
+            "label": "Coffee machines, tea-makers and similar appliances",
+            "notation": "CP05322"
+        },
+        {
+            "label": "Irons",
+            "notation": "CP05323"
+        },
+        {
+            "label": "Toasters and grills",
+            "notation": "CP05324"
+        },
+        {
+            "label": "Other small electric household appliances",
+            "notation": "CP05329"
+        },
+        {
+            "label": "Repair of household appliances",
+            "notation": "CP0533"
+        },
+        {
+            "label": "Repair of household appliances",
+            "notation": "CP05330"
+        },
+        {
+            "label": "Glassware, tableware and household utensils",
+            "notation": "CP054"
+        },
+        {
+            "label": "Glassware, tableware and household utensils",
+            "notation": "CP0540"
+        },
+        {
+            "label": "Glassware, crystal-ware, ceramic ware and chinaware",
+            "notation": "CP05401"
+        },
+        {
+            "label": "Cutlery, flatware and silverware",
+            "notation": "CP05402"
+        },
+        {
+            "label": "Non-electric kitchen utensils and articles",
+            "notation": "CP05403"
+        },
+        {
+            "label": "Repair of glasseware, tableware and household ustensils",
+            "notation": "CP05404"
+        },
+        {
+            "label": "Tools and equipment for house and garden",
+            "notation": "CP055"
+        },
+        {
+            "label": "Major tools and equipment",
+            "notation": "CP0551"
+        },
+        {
+            "label": "Motorized major tools and equipment",
+            "notation": "CP05511"
+        },
+        {
+            "label": "Repair, leasing and rental of major tools and equipment",
+            "notation": "CP05512"
+        },
+        {
+            "label": "Small tools and miscellaneous accessories",
+            "notation": "CP0552"
+        },
+        {
+            "label": "Non-motorised small tools",
+            "notation": "CP05521"
+        },
+        {
+            "label": "Miscellaneous small tool accessories",
+            "notation": "CP05522"
+        },
+        {
+            "label": "Repair of non-motorised small tools and miscellaneous accessories",
+            "notation": "CP05523"
+        },
+        {
+            "label": "Goods and services for routine household maintenance",
+            "notation": "CP056"
+        },
+        {
+            "label": "Non-durable household goods",
+            "notation": "CP0561"
+        },
+        {
+            "label": "Cleaning and maintenance products",
+            "notation": "CP05611"
+        },
+        {
+            "label": "Other non-durable small household articles",
+            "notation": "CP05612"
+        },
+        {
+            "label": "Domestic services and household services",
+            "notation": "CP0562"
+        },
+        {
+            "label": "Domestic services by paid staff",
+            "notation": "CP05621"
+        },
+        {
+            "label": "Cleaning services",
+            "notation": "CP05622"
+        },
+        {
+            "label": "Hire of furniture and furnishings",
+            "notation": "CP05623"
+        },
+        {
+            "label": "Other domestic services and household services",
+            "notation": "CP05629"
+        },
+        {
+            "label": "Health",
+            "notation": "CP06"
+        },
+        {
+            "label": "Medical products, appliances and equipment",
+            "notation": "CP061"
+        },
+        {
+            "label": "Pharmaceutical products",
+            "notation": "CP0611"
+        },
+        {
+            "label": "Pharmaceutical products",
+            "notation": "CP06110"
+        },
+        {
+            "label": "Other medical products",
+            "notation": "CP0612"
+        },
+        {
+            "label": "Other medical products, therapeutic appliances and equipment",
+            "notation": "CP0612_0613"
+        },
+        {
+            "label": "Therapeutic appliances and equipment",
+            "notation": "CP0613"
+        },
+        {
+            "label": "Corrective eye-glasses and contact lenses",
+            "notation": "CP06131"
+        },
+        {
+            "label": "Hearing aids",
+            "notation": "CP06132"
+        },
+        {
+            "label": "Repair of therapeutic appliances and equipment",
+            "notation": "CP06133"
+        },
+        {
+            "label": "Other therapeutic appliances and equipment",
+            "notation": "CP06139"
+        },
+        {
+            "label": "Out-patient services",
+            "notation": "CP062"
+        },
+        {
+            "label": "Medical services",
+            "notation": "CP0621"
+        },
+        {
+            "label": "Medical services; paramedical services",
+            "notation": "CP0621_0623"
+        },
+        {
+            "label": "General practice",
+            "notation": "CP06211"
+        },
+        {
+            "label": "Specialist practice",
+            "notation": "CP06212"
+        },
+        {
+            "label": "Dental services",
+            "notation": "CP0622"
+        },
+        {
+            "label": "Dental services",
+            "notation": "CP06220"
+        },
+        {
+            "label": "Paramedical services",
+            "notation": "CP0623"
+        },
+        {
+            "label": "Services of medical analysis laboratories and X-ray centres",
+            "notation": "CP06231"
+        },
+        {
+            "label": "Thermal-baths, corrective-gymnastic therapy, ambulance and hire of therapeutic equipment",
+            "notation": "CP06232"
+        },
+        {
+            "label": "Other paramedical services",
+            "notation": "CP06233"
+        },
+        {
+            "label": "Hospital services",
+            "notation": "CP063"
+        },
+        {
+            "label": "Hospital services",
+            "notation": "CP0630"
+        },
+        {
+            "label": "Hospital services",
+            "notation": "CP06300"
+        },
+        {
+            "label": "Transport",
+            "notation": "CP07"
+        },
+        {
+            "label": "Purchase of vehicles",
+            "notation": "CP071"
+        },
+        {
+            "label": "Motor cars",
+            "notation": "CP0711"
+        },
+        {
+            "label": "New motor cars",
+            "notation": "CP07111"
+        },
+        {
+            "label": "Second-hand motor cars",
+            "notation": "CP07112"
+        },
+        {
+            "label": "Motor cycles",
+            "notation": "CP0712"
+        },
+        {
+            "label": "Motor cycles and bicycles",
+            "notation": "CP0712_713"
+        },
+        {
+            "label": "Motor cycles",
+            "notation": "CP07120"
+        },
+        {
+            "label": "Motor cycles, bicycles and animal drawn vehicles",
+            "notation": "CP0712T0714"
+        },
+        {
+            "label": "Bicycles",
+            "notation": "CP0713"
+        },
+        {
+            "label": "Bicycles",
+            "notation": "CP07130"
+        },
+        {
+            "label": "Animal drawn vehicles",
+            "notation": "CP0714"
+        },
+        {
+            "label": "Animal drawn vehicles",
+            "notation": "CP07140"
+        },
+        {
+            "label": "Operation of personal transport equipment",
+            "notation": "CP072"
+        },
+        {
+            "label": "Spares parts and accessories for personal transport equipment",
+            "notation": "CP0721"
+        },
+        {
+            "label": "Tyres",
+            "notation": "CP07211"
+        },
+        {
+            "label": "Spare parts for personal transport equipment",
+            "notation": "CP07212"
+        },
+        {
+            "label": "Accessories for personal transport equipment",
+            "notation": "CP07213"
+        },
+        {
+            "label": "Fuels and lubricants for personal transport equipment",
+            "notation": "CP0722"
+        },
+        {
+            "label": "Diesel",
+            "notation": "CP07221"
+        },
+        {
+            "label": "Petrol",
+            "notation": "CP07222"
+        },
+        {
+            "label": "Other fuels for personal transport equipment",
+            "notation": "CP07223"
+        },
+        {
+            "label": "Lubricants",
+            "notation": "CP07224"
+        },
+        {
+            "label": "Maintenance and repair of personal transport equipment",
+            "notation": "CP0723"
+        },
+        {
+            "label": "Maintenance and repair of personal transport equipment",
+            "notation": "CP07230"
+        },
+        {
+            "label": "Other services in respect of personal transport equipment",
+            "notation": "CP0724"
+        },
+        {
+            "label": "Hire of garages, parking spaces and personal transport equipment",
+            "notation": "CP07241"
+        },
+        {
+            "label": "Toll facilities and parking meters",
+            "notation": "CP07242"
+        },
+        {
+            "label": "Driving lessons, tests, licences and road worthiness tests",
+            "notation": "CP07243"
+        },
+        {
+            "label": "Transport services",
+            "notation": "CP073"
+        },
+        {
+            "label": "Passenger transport by railway",
+            "notation": "CP0731"
+        },
+        {
+            "label": "Passenger transport by train",
+            "notation": "CP07311"
+        },
+        {
+            "label": "Passenger transport by underground and tram",
+            "notation": "CP07312"
+        },
+        {
+            "label": "Passenger transport by road",
+            "notation": "CP0732"
+        },
+        {
+            "label": "Passenger transport by bus and coach",
+            "notation": "CP07321"
+        },
+        {
+            "label": "Passenger transport by taxi and hired car with driver",
+            "notation": "CP07322"
+        },
+        {
+            "label": "Passenger transport by air",
+            "notation": "CP0733"
+        },
+        {
+            "label": "Domestic flights",
+            "notation": "CP07331"
+        },
+        {
+            "label": "International flights",
+            "notation": "CP07332"
+        },
+        {
+            "label": "Passenger transport by sea and inland waterway",
+            "notation": "CP0734"
+        },
+        {
+            "label": "Passenger transport by sea",
+            "notation": "CP07341"
+        },
+        {
+            "label": "Passenger transport by inland waterway",
+            "notation": "CP07342"
+        },
+        {
+            "label": "Combined passenger transport",
+            "notation": "CP0735"
+        },
+        {
+            "label": "Combined passenger transport",
+            "notation": "CP07350"
+        },
+        {
+            "label": "Other purchased transport services",
+            "notation": "CP0736"
+        },
+        {
+            "label": "Funicular, cable-car and chair-lift transport",
+            "notation": "CP07361"
+        },
+        {
+            "label": "Removal and storage services",
+            "notation": "CP07362"
+        },
+        {
+            "label": "Other purchased transport services n.e.c.",
+            "notation": "CP07369"
+        },
+        {
+            "label": "Communications",
+            "notation": "CP08"
+        },
+        {
+            "label": "Postal services",
+            "notation": "CP081"
+        },
+        {
+            "label": "Postal services",
+            "notation": "CP0810"
+        },
+        {
+            "label": "Letter handling services",
+            "notation": "CP08101"
+        },
+        {
+            "label": "Other postal services",
+            "notation": "CP08109"
+        },
+        {
+            "label": "Telephone and telefax equipment",
+            "notation": "CP082"
+        },
+        {
+            "label": "Telephone and telefax equipment and services",
+            "notation": "CP082_083"
+        },
+        {
+            "label": "Telephone and telefax equipment",
+            "notation": "CP0820"
+        },
+        {
+            "label": "Fixed telephone equipment",
+            "notation": "CP08201"
+        },
+        {
+            "label": "Mobile telephone equipment",
+            "notation": "CP08202"
+        },
+        {
+            "label": "Other equipment of telephone and telefax equipment",
+            "notation": "CP08203"
+        },
+        {
+            "label": "Repair of telephone or telefax equipment",
+            "notation": "CP08204"
+        },
+        {
+            "label": "Telephone and telefax services",
+            "notation": "CP083"
+        },
+        {
+            "label": "Telephone and telefax services",
+            "notation": "CP0830"
+        },
+        {
+            "label": "Wired telephone services",
+            "notation": "CP08301"
+        },
+        {
+            "label": "Wireless telephone services",
+            "notation": "CP08302"
+        },
+        {
+            "label": "Internet access provision services",
+            "notation": "CP08303"
+        },
+        {
+            "label": "Bundled telecommunication services",
+            "notation": "CP08304"
+        },
+        {
+            "label": "Other information transmission services",
+            "notation": "CP08305"
+        },
+        {
+            "label": "Recreation and culture",
+            "notation": "CP09"
+        },
+        {
+            "label": "Audio-visual, photographic and information processing equipment",
+            "notation": "CP091"
+        },
+        {
+            "label": "Equipment for the reception, recording and reproduction of sound and picture",
+            "notation": "CP0911"
+        },
+        {
+            "label": "Equipment for the reception, recording and reproduction of sound",
+            "notation": "CP09111"
+        },
+        {
+            "label": "Equipment for the reception, recording and reproduction of sound and vision",
+            "notation": "CP09112"
+        },
+        {
+            "label": "Portable sound and vision devices",
+            "notation": "CP09113"
+        },
+        {
+            "label": "Other equipment for the reception, recording and reproduction of sound and picture",
+            "notation": "CP09119"
+        },
+        {
+            "label": "Photographic and cinematographic equipment and optical instruments",
+            "notation": "CP0912"
+        },
+        {
+            "label": "Cameras",
+            "notation": "CP09121"
+        },
+        {
+            "label": "Accessories for photographic and cinematographic equipment",
+            "notation": "CP09122"
+        },
+        {
+            "label": "Optical instruments",
+            "notation": "CP09123"
+        },
+        {
+            "label": "Information processing equipment",
+            "notation": "CP0913"
+        },
+        {
+            "label": "Personal computers",
+            "notation": "CP09131"
+        },
+        {
+            "label": "Accessories for information processing equipment",
+            "notation": "CP09132"
+        },
+        {
+            "label": "Software",
+            "notation": "CP09133"
+        },
+        {
+            "label": "Calculators and other information processing equipment",
+            "notation": "CP09134"
+        },
+        {
+            "label": "Recording media",
+            "notation": "CP0914"
+        },
+        {
+            "label": "Pre-recorded recording media",
+            "notation": "CP09141"
+        },
+        {
+            "label": "Unrecorded recording media",
+            "notation": "CP09142"
+        },
+        {
+            "label": "Other recording media",
+            "notation": "CP09149"
+        },
+        {
+            "label": "Repair of audio-visual, photographic and information processing equipment",
+            "notation": "CP0915"
+        },
+        {
+            "label": "Repair of audio-visual, photographic and information processing equipment",
+            "notation": "CP09150"
+        },
+        {
+            "label": "Other major durables for recreation and culture",
+            "notation": "CP092"
+        },
+        {
+            "label": "Major durables for outdoor recreation",
+            "notation": "CP0921"
+        },
+        {
+            "label": "Major durables for indoor and outdoor recreation including musical instruments",
+            "notation": "CP0921_0922"
+        },
+        {
+            "label": "Camper vans, caravans and trailers",
+            "notation": "CP09211"
+        },
+        {
+            "label": "Aeroplanes, microlight aircraft, gliders, hang-gliders and hot-air balloons",
+            "notation": "CP09212"
+        },
+        {
+            "label": "Boats, outboard motors and fitting out of boats",
+            "notation": "CP09213"
+        },
+        {
+            "label": "Horses, ponies and accessories",
+            "notation": "CP09214"
+        },
+        {
+            "label": "Major items for games and sport",
+            "notation": "CP09215"
+        },
+        {
+            "label": "Musical instruments and major durables for indoor recreation",
+            "notation": "CP0922"
+        },
+        {
+            "label": "Musical instruments",
+            "notation": "CP09221"
+        },
+        {
+            "label": "Major durables for indoor recreation",
+            "notation": "CP09222"
+        },
+        {
+            "label": "Maintenance and repair of other major durables for recreation and culture",
+            "notation": "CP0923"
+        },
+        {
+            "label": "Maintenance and repair of other major durables for recreation and culture",
+            "notation": "CP09230"
+        },
+        {
+            "label": "Other recreational items and equipment, gardens and pets",
+            "notation": "CP093"
+        },
+        {
+            "label": "Games, toys and hobbies",
+            "notation": "CP0931"
+        },
+        {
+            "label": "Games and hobbies",
+            "notation": "CP09311"
+        },
+        {
+            "label": "Toys and celebration articles",
+            "notation": "CP09312"
+        },
+        {
+            "label": "Equipment for sport, camping and open-air recreation",
+            "notation": "CP0932"
+        },
+        {
+            "label": "Equipment for sport",
+            "notation": "CP09321"
+        },
+        {
+            "label": "Equipment for camping and open-air recreation",
+            "notation": "CP09322"
+        },
+        {
+            "label": "Repair of equipment for sport, camping and open-air recreation",
+            "notation": "CP09323"
+        },
+        {
+            "label": "Gardens, plants and flowers",
+            "notation": "CP0933"
+        },
+        {
+            "label": "Garden products",
+            "notation": "CP09331"
+        },
+        {
+            "label": "Plants and flowers",
+            "notation": "CP09332"
+        },
+        {
+            "label": "Pets and related products",
+            "notation": "CP0934"
+        },
+        {
+            "label": "Pets and related products; veterinary and other services for pets",
+            "notation": "CP0934_0935"
+        },
+        {
+            "label": "Purchase of pets",
+            "notation": "CP09341"
+        },
+        {
+            "label": "Products for pets",
+            "notation": "CP09342"
+        },
+        {
+            "label": "Veterinary and other services for pets",
+            "notation": "CP0935"
+        },
+        {
+            "label": "Veterinary and other services for pets",
+            "notation": "CP09350"
+        },
+        {
+            "label": "Recreational and cultural services",
+            "notation": "CP094"
+        },
+        {
+            "label": "Recreational and sporting services",
+            "notation": "CP0941"
+        },
+        {
+            "label": "Recreational and sporting services - Attendance",
+            "notation": "CP09411"
+        },
+        {
+            "label": "Recreational and sporting services - Participation",
+            "notation": "CP09412"
+        },
+        {
+            "label": "Cultural services",
+            "notation": "CP0942"
+        },
+        {
+            "label": "Cinemas, theatres, concerts",
+            "notation": "CP09421"
+        },
+        {
+            "label": "Museums, libraries, zoological gardens",
+            "notation": "CP09422"
+        },
+        {
+            "label": "Television and radio licence fees, subscriptions",
+            "notation": "CP09423"
+        },
+        {
+            "label": "Hire of equipment and accessories for culture",
+            "notation": "CP09424"
+        },
+        {
+            "label": "Photographic services",
+            "notation": "CP09425"
+        },
+        {
+            "label": "Other cultural services",
+            "notation": "CP09429"
+        },
+        {
+            "label": "Games of chance",
+            "notation": "CP0943"
+        },
+        {
+            "label": "Games of chance",
+            "notation": "CP09430"
+        },
+        {
+            "label": "Newspapers, books and stationery",
+            "notation": "CP095"
+        },
+        {
+            "label": "Books",
+            "notation": "CP0951"
+        },
+        {
+            "label": "Fiction books",
+            "notation": "CP09511"
+        },
+        {
+            "label": "Educational text books",
+            "notation": "CP09512"
+        },
+        {
+            "label": "Other non-fiction books",
+            "notation": "CP09513"
+        },
+        {
+            "label": "Binding services and E-book downloads",
+            "notation": "CP09514"
+        },
+        {
+            "label": "Newspapers and periodicals",
+            "notation": "CP0952"
+        },
+        {
+            "label": "Newspapers",
+            "notation": "CP09521"
+        },
+        {
+            "label": "Magazines and periodicals",
+            "notation": "CP09522"
+        },
+        {
+            "label": "Miscellaneous printed matter",
+            "notation": "CP0953"
+        },
+        {
+            "label": "Miscellaneous printed matter; stationery and drawing materials",
+            "notation": "CP0953_954"
+        },
+        {
+            "label": "Miscellaneous printed matter",
+            "notation": "CP09530"
+        },
+        {
+            "label": "Stationery and drawing materials",
+            "notation": "CP0954"
+        },
+        {
+            "label": "Paper products",
+            "notation": "CP09541"
+        },
+        {
+            "label": "Other stationery and drawing materials",
+            "notation": "CP09549"
+        },
+        {
+            "label": "Package holidays",
+            "notation": "CP096"
+        },
+        {
+            "label": "Package holidays",
+            "notation": "CP0960"
+        },
+        {
+            "label": "Package domestic holidays",
+            "notation": "CP09601"
+        },
+        {
+            "label": "Package international holidays",
+            "notation": "CP09602"
+        },
+        {
+            "label": "Education",
+            "notation": "CP10"
+        },
+        {
+            "label": "Pre-primary and primary education",
+            "notation": "CP101"
+        },
+        {
+            "label": "Pre-primary and primary education",
+            "notation": "CP1010"
+        },
+        {
+            "label": "Pre-primary education",
+            "notation": "CP10101"
+        },
+        {
+            "label": "Primary education",
+            "notation": "CP10102"
+        },
+        {
+            "label": "Secondary education",
+            "notation": "CP102"
+        },
+        {
+            "label": "Secondary education",
+            "notation": "CP1020"
+        },
+        {
+            "label": "Secondary education",
+            "notation": "CP10200"
+        },
+        {
+            "label": "Post-secondary non-tertiary education",
+            "notation": "CP103"
+        },
+        {
+            "label": "Post-secondary non-tertiary education",
+            "notation": "CP1030"
+        },
+        {
+            "label": "Post-secondary non-tertiary education",
+            "notation": "CP10300"
+        },
+        {
+            "label": "Tertiary education",
+            "notation": "CP104"
+        },
+        {
+            "label": "Tertiary education",
+            "notation": "CP1040"
+        },
+        {
+            "label": "Tertiary education",
+            "notation": "CP10400"
+        },
+        {
+            "label": "Education not definable by level",
+            "notation": "CP105"
+        },
+        {
+            "label": "Education not definable by level",
+            "notation": "CP1050"
+        },
+        {
+            "label": "Education not definable by level",
+            "notation": "CP10500"
+        },
+        {
+            "label": "Restaurants and hotels",
+            "notation": "CP11"
+        },
+        {
+            "label": "Catering services",
+            "notation": "CP111"
+        },
+        {
+            "label": "Restaurants, caf\u201as and the like",
+            "notation": "CP1111"
+        },
+        {
+            "label": "Restaurants, caf\u201as and dancing establishments",
+            "notation": "CP11111"
+        },
+        {
+            "label": "Fast food and take away food services",
+            "notation": "CP11112"
+        },
+        {
+            "label": "Canteens",
+            "notation": "CP1112"
+        },
+        {
+            "label": "Canteens",
+            "notation": "CP11120"
+        },
+        {
+            "label": "Accommodation services",
+            "notation": "CP112"
+        },
+        {
+            "label": "Accommodation services",
+            "notation": "CP1120"
+        },
+        {
+            "label": "Hotels, motels, inns and similar accommodation services",
+            "notation": "CP11201"
+        },
+        {
+            "label": "Holiday centres, camping sites, youth hostels and similar accommodation services",
+            "notation": "CP11202"
+        },
+        {
+            "label": "Accommodation services of other establishments",
+            "notation": "CP11203"
+        },
+        {
+            "label": "Miscellaneous goods and services",
+            "notation": "CP12"
+        },
+        {
+            "label": "Personal care",
+            "notation": "CP121"
+        },
+        {
+            "label": "Hairdressing salons and personal grooming establishments",
+            "notation": "CP1211"
+        },
+        {
+            "label": "Hairdressing for men and children",
+            "notation": "CP12111"
+        },
+        {
+            "label": "Hairdressing for women",
+            "notation": "CP12112"
+        },
+        {
+            "label": "Personal grooming treatments",
+            "notation": "CP12113"
+        },
+        {
+            "label": "Electrical appliances for personal care",
+            "notation": "CP1212"
+        },
+        {
+            "label": "Electrical appliances for personal care; other appliances, articles and products for personal care",
+            "notation": "CP1212_1213"
+        },
+        {
+            "label": "Electric appliances for personal care",
+            "notation": "CP12121"
+        },
+        {
+            "label": "Repair of electric appliances for personal care",
+            "notation": "CP12122"
+        },
+        {
+            "label": "Other appliances, articles and products for personal care",
+            "notation": "CP1213"
+        },
+        {
+            "label": "Non-electrical appliances",
+            "notation": "CP12131"
+        },
+        {
+            "label": "Articles for personal hygiene and wellness, esoteric products and beauty products",
+            "notation": "CP12132"
+        },
+        {
+            "label": "Prostitution",
+            "notation": "CP122"
+        },
+        {
+            "label": "Prostitution; other services n.e.c.",
+            "notation": "CP122_127"
+        },
+        {
+            "label": "Prostitution",
+            "notation": "CP1220"
+        },
+        {
+            "label": "Prostitution",
+            "notation": "CP12200"
+        },
+        {
+            "label": "Personal effects n.e.c.",
+            "notation": "CP123"
+        },
+        {
+            "label": "Jewellery, clocks and watches",
+            "notation": "CP1231"
+        },
+        {
+            "label": "Jewellery",
+            "notation": "CP12311"
+        },
+        {
+            "label": "Clocks and watches",
+            "notation": "CP12312"
+        },
+        {
+            "label": "Repair of jewellery, clocks and watches",
+            "notation": "CP12313"
+        },
+        {
+            "label": "Other personal effects",
+            "notation": "CP1232"
+        },
+        {
+            "label": "Travel goods",
+            "notation": "CP12321"
+        },
+        {
+            "label": "Articles for babies",
+            "notation": "CP12322"
+        },
+        {
+            "label": "Repair of other personal effects",
+            "notation": "CP12323"
+        },
+        {
+            "label": "Other personal effects n.e.c.",
+            "notation": "CP12329"
+        },
+        {
+            "label": "Social protection",
+            "notation": "CP124"
+        },
+        {
+            "label": "Social protection",
+            "notation": "CP1240"
+        },
+        {
+            "label": "Child care services",
+            "notation": "CP12401"
+        },
+        {
+            "label": "Retirement homes for elderly persons and residences for disabled persons",
+            "notation": "CP12402"
+        },
+        {
+            "label": "Services to maintain people in their private homes",
+            "notation": "CP12403"
+        },
+        {
+            "label": "Counselling",
+            "notation": "CP12404"
+        },
+        {
+            "label": "Insurance",
+            "notation": "CP125"
+        },
+        {
+            "label": "Life insurance",
+            "notation": "CP1251"
+        },
+        {
+            "label": "Life insurance",
+            "notation": "CP12510"
+        },
+        {
+            "label": "Insurance connected with the dwelling",
+            "notation": "CP1252"
+        },
+        {
+            "label": "Insurance connected with the dwelling",
+            "notation": "CP12520"
+        },
+        {
+            "label": "Insurance connected with health",
+            "notation": "CP1253"
+        },
+        {
+            "label": "Public insurance connected with health",
+            "notation": "CP12531"
+        },
+        {
+            "label": "Private insurance connected with health",
+            "notation": "CP12532"
+        },
+        {
+            "label": "Insurance connected with transport",
+            "notation": "CP1254"
+        },
+        {
+            "label": "Motor vehicle insurance",
+            "notation": "CP12541"
+        },
+        {
+            "label": "Travel insurance",
+            "notation": "CP12542"
+        },
+        {
+            "label": "Other insurance",
+            "notation": "CP1255"
+        },
+        {
+            "label": "Other insurance",
+            "notation": "CP12550"
+        },
+        {
+            "label": "Financial services n.e.c.",
+            "notation": "CP126"
+        },
+        {
+            "label": "FISIM",
+            "notation": "CP1261"
+        },
+        {
+            "label": "FISIM",
+            "notation": "CP12610"
+        },
+        {
+            "label": "Other financial services n.e.c.",
+            "notation": "CP1262"
+        },
+        {
+            "label": "Charges by banks and post offices",
+            "notation": "CP12621"
+        },
+        {
+            "label": "Fees and service charges of brokers, investment counsellors",
+            "notation": "CP12622"
+        },
+        {
+            "label": "Other services n.e.c.",
+            "notation": "CP127"
+        },
+        {
+            "label": "Other services n.e.c.",
+            "notation": "CP1270"
+        },
+        {
+            "label": "Administrative fees",
+            "notation": "CP12701"
+        },
+        {
+            "label": "Legal services and accountancy",
+            "notation": "CP12702"
+        },
+        {
+            "label": "Funeral services",
+            "notation": "CP12703"
+        },
+        {
+            "label": "Other fees and services",
+            "notation": "CP12704"
+        }
+    ]
+}

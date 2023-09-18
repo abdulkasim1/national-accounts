@@ -1,0 +1,120 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Time Format",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "CCYYMMDDhhmm",
+            "notation": "203",
+            "description": "(Used in SDMX-EDI for series with freq. higher than daily) year/month/day/hours/minutes"
+        },
+        {
+            "label": "CCYYMMDD",
+            "notation": "102",
+            "description": "(Used in SDMX-EDI for daily and business series) year/month/day"
+        },
+        {
+            "label": "CCYYWW",
+            "notation": "616",
+            "description": "(Used in SDMX-EDI for weekly series) year/week"
+        },
+        {
+            "label": "CCYYMM",
+            "notation": "610",
+            "description": "(Used in SDMX-EDI for monthly series) year/month"
+        },
+        {
+            "label": "CCYYQ",
+            "notation": "608",
+            "description": "(Used in SDMX-EDI for quarterly series) year/quarter"
+        },
+        {
+            "label": "CCYYS",
+            "notation": "604",
+            "description": "(Used in SDMX-EDI for half yearly series) year/semester"
+        },
+        {
+            "label": "CCYY",
+            "notation": "602",
+            "description": "(Used in SDMX-EDI for annual series) year"
+        },
+        {
+            "label": "CCYYMMDDhhmmCCYYMMDDhhmm",
+            "notation": "719",
+            "description": "(Used in SDMX-EDI for series with freq. higher than daily) year/month/day/hours/minutes to year/month/day/hours/minutes"
+        },
+        {
+            "label": "CCYYMMDDCCYYMMDD",
+            "notation": "711",
+            "description": "(Used in SDMX-EDI for daily and business series) from year/month/day to year/month/day"
+        },
+        {
+            "label": "CCYYWWCCYYWW",
+            "notation": "716",
+            "description": "(Used in SDMX-EDI for weekly series) from year/week to year/week"
+        },
+        {
+            "label": "CCYYMMCCYYMM",
+            "notation": "710",
+            "description": "(Used in SDMX-EDI for monthly series) from year/month to year/month"
+        },
+        {
+            "label": "CCYYQCCYYQ",
+            "notation": "708",
+            "description": "(Used in SDMX-EDI for quarterly series) from year/quarter to year/quarter"
+        },
+        {
+            "label": "CCYYSCCYYS",
+            "notation": "704",
+            "description": "(Used in SDMX-EDI for half yearly series) from half-year to half-year"
+        },
+        {
+            "label": "CCYYCCYY",
+            "notation": "702",
+            "description": "(Used in SDMX-EDI for annual series) from year to year"
+        },
+        {
+            "label": "Daily (or Business)",
+            "notation": "P1D",
+            "description": "Used only in SDMX-ML messages"
+        },
+        {
+            "label": "Monthly",
+            "notation": "P1M",
+            "description": "Used only in SDMX-ML messages"
+        },
+        {
+            "label": "Annual",
+            "notation": "P1Y",
+            "description": "Used only in SDMX-ML messages"
+        },
+        {
+            "label": "Quarterly",
+            "notation": "P3M",
+            "description": "Used only in SDMX-ML messages"
+        },
+        {
+            "label": "Half-yearly, semester",
+            "notation": "P6M",
+            "description": "Used only in SDMX-ML messages"
+        },
+        {
+            "label": "Weekly",
+            "notation": "P7D",
+            "description": "Used only in SDMX-ML messages"
+        },
+        {
+            "label": "Minutely",
+            "notation": "PT1M",
+            "description": "Used only in SDMX-ML messages"
+        }
+    ]
+}

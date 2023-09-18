@@ -1,0 +1,22 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+p1y,Annual,P1Y,,0,Used only in SDMX-ML messages
+602,CCYY,602,,1,(Used in SDMX-EDI for annual series) year
+702,CCYYCCYY,702,,2,(Used in SDMX-EDI for annual series) from year to year
+610,CCYYMM,610,,3,(Used in SDMX-EDI for monthly series) year/month
+710,CCYYMMCCYYMM,710,,4,(Used in SDMX-EDI for monthly series) from year/month to year/month
+102,CCYYMMDD,102,,5,(Used in SDMX-EDI for daily and business series) year/month/day
+711,CCYYMMDDCCYYMMDD,711,,6,(Used in SDMX-EDI for daily and business series) from year/month/day to year/month/day
+203,CCYYMMDDhhmm,203,,7,(Used in SDMX-EDI for series with freq. higher than daily) year/month/day/hours/minutes
+719,CCYYMMDDhhmmCCYYMMDDhhmm,719,,8,(Used in SDMX-EDI for series with freq. higher than daily) year/month/day/hours/minutes to year/month/day/hours/minutes
+608,CCYYQ,608,,9,(Used in SDMX-EDI for quarterly series) year/quarter
+708,CCYYQCCYYQ,708,,10,(Used in SDMX-EDI for quarterly series) from year/quarter to year/quarter
+604,CCYYS,604,,11,(Used in SDMX-EDI for half yearly series) year/semester
+704,CCYYSCCYYS,704,,12,(Used in SDMX-EDI for half yearly series) from half-year to half-year
+616,CCYYWW,616,,13,(Used in SDMX-EDI for weekly series) year/week
+716,CCYYWWCCYYWW,716,,14,(Used in SDMX-EDI for weekly series) from year/week to year/week
+p1d,Daily (or Business),P1D,,15,Used only in SDMX-ML messages
+p6m,"Half-yearly, semester",P6M,,16,Used only in SDMX-ML messages
+pt1m,Minutely,PT1M,,17,Used only in SDMX-ML messages
+p1m,Monthly,P1M,,18,Used only in SDMX-ML messages
+p3m,Quarterly,P3M,,19,Used only in SDMX-ML messages
+p7d,Weekly,P7D,,20,Used only in SDMX-ML messages

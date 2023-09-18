@@ -1,0 +1,139 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Accounting entry code list",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Unspecified",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Assets (Net Acquisition of)",
+            "notation": "A"
+        },
+        {
+            "label": "Gross sales of assets (decrease)",
+            "notation": "AD"
+        },
+        {
+            "label": "Gross acquisition of assets (increase)",
+            "notation": "AI"
+        },
+        {
+            "label": "Assets - short position",
+            "notation": "AS"
+        },
+        {
+            "label": "Balance (Credits minus Debits)",
+            "notation": "B"
+        },
+        {
+            "label": "Credit (Resources)",
+            "notation": "C"
+        },
+        {
+            "label": "Contingent liabilities (EDP and GFS)",
+            "notation": "CL"
+        },
+        {
+            "label": "Debit (Uses)",
+            "notation": "D"
+        },
+        {
+            "label": "Inflows (reserves template)",
+            "notation": "FI"
+        },
+        {
+            "label": "Net flows (reserves template)",
+            "notation": "FN"
+        },
+        {
+            "label": "Outflows (reserves template)",
+            "notation": "FO"
+        },
+        {
+            "label": "Net income on inward FDI",
+            "notation": "II"
+        },
+        {
+            "label": "Net income on outward FDI",
+            "notation": "IO"
+        },
+        {
+            "label": "Liabilities (Net Incurrence of)",
+            "notation": "L"
+        },
+        {
+            "label": "Gross decrease in liabilities",
+            "notation": "LD"
+        },
+        {
+            "label": "Gross incurrence of liabilities",
+            "notation": "LI"
+        },
+        {
+            "label": "Net (Assets minus Liabilities)",
+            "notation": "N"
+        },
+        {
+            "label": "Net Liabilities (Liabilities minus Assets)",
+            "notation": "NE"
+        },
+        {
+            "label": "Net FDI Inward",
+            "notation": "NI"
+        },
+        {
+            "label": "Net FDI Outward",
+            "notation": "NO"
+        },
+        {
+            "label": "Transformation use",
+            "notation": "DT"
+        },
+        {
+            "label": "End use",
+            "notation": "DE"
+        },
+        {
+            "label": "End use, of which emissions relevant",
+            "notation": "DER"
+        },
+        {
+            "label": "Economy to environment",
+            "notation": "EC"
+        },
+        {
+            "label": "Environment to economy",
+            "notation": "EN"
+        },
+        {
+            "label": "Credit (Environment + Economy)",
+            "notation": "C_EN"
+        },
+        {
+            "label": "Debit (Environment + Economy)",
+            "notation": "D_EN"
+        },
+        {
+            "label": "Transformation use\u00a0(Environment + Economy)",
+            "notation": "DT_EN"
+        },
+        {
+            "label": "End use (Environment + Economy)",
+            "notation": "DE_EN"
+        }
+    ]
+}

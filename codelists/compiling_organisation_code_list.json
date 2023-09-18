@@ -1,0 +1,3939 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Compiling organisation code list",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "International organisations",
+            "notation": "1A0"
+        },
+        {
+            "label": "UN organisations",
+            "notation": "1B0"
+        },
+        {
+            "label": "IMF (International Monetary Fund)",
+            "notation": "1C0"
+        },
+        {
+            "label": "World Trade Organisation",
+            "notation": "1D0"
+        },
+        {
+            "label": "International Bank for Reconstruction and Development",
+            "notation": "1E0"
+        },
+        {
+            "label": "International Development Association",
+            "notation": "1F0"
+        },
+        {
+            "label": "ICSID (International Centre for Settlement of Investment Disputes)",
+            "notation": "1G0"
+        },
+        {
+            "label": "UNESCO (United Nations Educational, Scientific and Cultural Organisation)",
+            "notation": "1H0"
+        },
+        {
+            "label": "FAO (Food and Agriculture Organisation)",
+            "notation": "1J0"
+        },
+        {
+            "label": "WHO (World Health Organisation)",
+            "notation": "1K0"
+        },
+        {
+            "label": "IFAD (International Fund for Agricultural Development)",
+            "notation": "1L0"
+        },
+        {
+            "label": "IFC (International Finance Corporation)",
+            "notation": "1M0"
+        },
+        {
+            "label": "MIGA (Multilateral Investment Guarantee Agency)",
+            "notation": "1N0"
+        },
+        {
+            "label": "UNICEF (United Nations Children Fund)",
+            "notation": "1O0"
+        },
+        {
+            "label": "UNHCR (United Nations High Commissioner for Refugees)",
+            "notation": "1P0"
+        },
+        {
+            "label": "UNRWA (United Nations Relief and Works Agency for Palestine)",
+            "notation": "1Q0"
+        },
+        {
+            "label": "IAEA (International Atomic Energy Agency)",
+            "notation": "1R0"
+        },
+        {
+            "label": "ILO (International Labour Organisation)",
+            "notation": "1S0"
+        },
+        {
+            "label": "ITU (International Telecommunication Union)",
+            "notation": "1T0"
+        },
+        {
+            "label": "Rest of\u00a0UN Organisations\u00a0n.i.e.",
+            "notation": "1U0"
+        },
+        {
+            "label": "Universal Postal Union",
+            "notation": "1V0"
+        },
+        {
+            "label": "United Nations Office on Drugs and Crimes(UNODC)",
+            "notation": "1X0"
+        },
+        {
+            "label": "The United Nations World Food Programme",
+            "notation": "1Y0"
+        },
+        {
+            "label": "All the European Union Institutions excluding the ECB and ESM  deprecated",
+            "notation": "4A0"
+        },
+        {
+            "label": "EIB (European Investment Bank)",
+            "notation": "4C0"
+        },
+        {
+            "label": "European Commission (including Eurostat)",
+            "notation": "4D0"
+        },
+        {
+            "label": "Statistical Office of the European Commission (Eurostat)",
+            "notation": "4D1"
+        },
+        {
+            "label": "EDF (European Development Fund)",
+            "notation": "4E0"
+        },
+        {
+            "label": "ECB (European Central Bank)",
+            "notation": "4F0"
+        },
+        {
+            "label": "EIF (European Investment Fund)",
+            "notation": "4G0"
+        },
+        {
+            "label": "European Community of Steel and Coal deprecated",
+            "notation": "4H0"
+        },
+        {
+            "label": "Other EC Institutions, Organs and Organisms covered by General budget deprecated",
+            "notation": "4J0"
+        },
+        {
+            "label": "European Parliament",
+            "notation": "4J10"
+        },
+        {
+            "label": "Council of the European Union",
+            "notation": "4J20"
+        },
+        {
+            "label": "Court of Justice",
+            "notation": "4J30"
+        },
+        {
+            "label": "Court of Auditors",
+            "notation": "4J40"
+        },
+        {
+            "label": "European Council",
+            "notation": "4J50"
+        },
+        {
+            "label": "Economic and Social Committee",
+            "notation": "4J60"
+        },
+        {
+            "label": "Committee of Regions",
+            "notation": "4J70"
+        },
+        {
+            "label": "Other European Community Institutions, Organs and Organisms deprecated",
+            "notation": "4J80"
+        },
+        {
+            "label": "Agency for the Cooperation of Energy Regulators",
+            "notation": "4J810"
+        },
+        {
+            "label": "European Centre for Disease Prevention and Control",
+            "notation": "4J8100"
+        },
+        {
+            "label": "European Centre for the Development of Vocational Training",
+            "notation": "4J8110"
+        },
+        {
+            "label": "European Chemicals Agency",
+            "notation": "4J8120"
+        },
+        {
+            "label": "European Data Protection Supervisor",
+            "notation": "4J8130"
+        },
+        {
+            "label": "European Defence Agency",
+            "notation": "4J8140"
+        },
+        {
+            "label": "European Environment Agency",
+            "notation": "4J8150"
+        },
+        {
+            "label": "European External Action Service",
+            "notation": "4J8160"
+        },
+        {
+            "label": "European Fisheries Control Agency",
+            "notation": "4J8170"
+        },
+        {
+            "label": "European Food Safety Authority",
+            "notation": "4J8180"
+        },
+        {
+            "label": "European Foundation for the Improvement of Living and Working Conditions",
+            "notation": "4J8190"
+        },
+        {
+            "label": "Body of European Regulators for Electronic Communications",
+            "notation": "4J820"
+        },
+        {
+            "label": "European GNSS Agency",
+            "notation": "4J8200"
+        },
+        {
+            "label": "European Institute for Gender Equality",
+            "notation": "4J8210"
+        },
+        {
+            "label": "European Institute of Innovation and Technology",
+            "notation": "4J8220"
+        },
+        {
+            "label": "European Maritime Safety Agency",
+            "notation": "4J8230"
+        },
+        {
+            "label": "European Medicines Agency",
+            "notation": "4J8240"
+        },
+        {
+            "label": "European Monitoring Centre for Drugs and Drug Addiction",
+            "notation": "4J8250"
+        },
+        {
+            "label": "European Network and Information Security Agency",
+            "notation": "4J8260"
+        },
+        {
+            "label": "European Ombudsman",
+            "notation": "4J8270"
+        },
+        {
+            "label": "European Personnel Selection Office",
+            "notation": "4J8280"
+        },
+        {
+            "label": "European Police College",
+            "notation": "4J8290"
+        },
+        {
+            "label": "Community Plant Variety Office",
+            "notation": "4J830"
+        },
+        {
+            "label": "European Police Office",
+            "notation": "4J8300"
+        },
+        {
+            "label": "European Public Prosecutor's Office",
+            "notation": "4J8310"
+        },
+        {
+            "label": "European Railway Agency",
+            "notation": "4J8320"
+        },
+        {
+            "label": "European School of Administration",
+            "notation": "4J8330"
+        },
+        {
+            "label": "European Training Foundation",
+            "notation": "4J8340"
+        },
+        {
+            "label": "European Union Agency for Fundamental Rights",
+            "notation": "4J8350"
+        },
+        {
+            "label": "European Union Institute for Security Studies",
+            "notation": "4J8360"
+        },
+        {
+            "label": "European Union Intellectual Property Office",
+            "notation": "4J8370"
+        },
+        {
+            "label": "European Union Satellite Centre",
+            "notation": "4J8380"
+        },
+        {
+            "label": "Publications Office of the European Union",
+            "notation": "4J8390"
+        },
+        {
+            "label": "Computer Emergency Response Team",
+            "notation": "4J840"
+        },
+        {
+            "label": "The European Union\u2019s Judicial Cooperation Unit",
+            "notation": "4J8400"
+        },
+        {
+            "label": "Translation Centre for the Bodies of the European Union",
+            "notation": "4J8410"
+        },
+        {
+            "label": "ATHENA Mechanism",
+            "notation": "4J8420"
+        },
+        {
+            "label": "European Agency for Safety and Health at Work",
+            "notation": "4J850"
+        },
+        {
+            "label": "European Agency for the Management of Operational Cooperation at the External Borders",
+            "notation": "4J860"
+        },
+        {
+            "label": "European Agency for the operational management of large-scale IT systems in the area of freedom, security and justice",
+            "notation": "4J870"
+        },
+        {
+            "label": "European Asylum Support Office",
+            "notation": "4J880"
+        },
+        {
+            "label": "European Aviation Safety Agency",
+            "notation": "4J890"
+        },
+        {
+            "label": "SRB (Single Resolution Board)",
+            "notation": "4M0"
+        },
+        {
+            "label": "ESM (European Stability Mechanism)",
+            "notation": "4S0"
+        },
+        {
+            "label": "Joint Committee of the European Supervisory Authorities (ESAs)",
+            "notation": "4T0"
+        },
+        {
+            "label": "EBA (European Banking Authority)",
+            "notation": "4T10"
+        },
+        {
+            "label": "ESMA (European Securities and Markets Authority)",
+            "notation": "4T20"
+        },
+        {
+            "label": "EIOPA (European Insurance and Occupational Pensions Authority)",
+            "notation": "4T30"
+        },
+        {
+            "label": "Fusion for Energy",
+            "notation": "4U10"
+        },
+        {
+            "label": "EURATOM Supply Agency",
+            "notation": "4U20"
+        },
+        {
+            "label": "EFSF (European Financial Stability Facility)",
+            "notation": "4W0"
+        },
+        {
+            "label": "All the European Union Institutions including the ECB and ESM deprecated",
+            "notation": "4Y0"
+        },
+        {
+            "label": "BIS (Bank for International Settlements)",
+            "notation": "5B0"
+        },
+        {
+            "label": "IADB (Inter-American Development Bank)",
+            "notation": "5C0"
+        },
+        {
+            "label": "AfDB (African Development Bank)",
+            "notation": "5D0"
+        },
+        {
+            "label": "AsDB (Asian Development Bank)",
+            "notation": "5E0"
+        },
+        {
+            "label": "EBRD (European Bank for Reconstruction and Development)",
+            "notation": "5F0"
+        },
+        {
+            "label": "IIC (Inter-American Investment Corporation)",
+            "notation": "5G0"
+        },
+        {
+            "label": "NIB (Nordic Investment Bank)",
+            "notation": "5H0"
+        },
+        {
+            "label": "ECCB (Eastern Caribbean Central Bank)",
+            "notation": "5I0"
+        },
+        {
+            "label": "IBEC (International Bank for Economic Co-operation)",
+            "notation": "5J0"
+        },
+        {
+            "label": "IIB (International Investment Bank)",
+            "notation": "5K0"
+        },
+        {
+            "label": "CDB (Caribbean Development Bank)",
+            "notation": "5L0"
+        },
+        {
+            "label": "AMF (Arab Monetary Fund)",
+            "notation": "5M0"
+        },
+        {
+            "label": "BADEA (Banque arabe pour le d\u00e9veloppement \u00e9conomique en Afrique)",
+            "notation": "5N0"
+        },
+        {
+            "label": "BCEAO (Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest)",
+            "notation": "5O0"
+        },
+        {
+            "label": "CASDB (Central African States Development Bank)",
+            "notation": "5P0"
+        },
+        {
+            "label": "African Development Fund",
+            "notation": "5Q0"
+        },
+        {
+            "label": "Asian Development Fund",
+            "notation": "5R0"
+        },
+        {
+            "label": "Fonds sp\u00e9cial unifi\u00e9 de d\u00e9veloppement",
+            "notation": "5S0"
+        },
+        {
+            "label": "CABEI (Central American Bank for Economic Integration)",
+            "notation": "5T0"
+        },
+        {
+            "label": "ADC (Andean Development Corporation)",
+            "notation": "5U0"
+        },
+        {
+            "label": "BEAC (Banque des Etats de l`Afrique Centrale)",
+            "notation": "5W0"
+        },
+        {
+            "label": "CEMAC (Communaut\u00e9 \u00c9conomique et Mon\u00e9taire de l\u2019Afrique Centrale)",
+            "notation": "5X0"
+        },
+        {
+            "label": "ECCU (Eastern Caribbean Currency Union)",
+            "notation": "5Y0"
+        },
+        {
+            "label": "Other International Financial Organisations n.i.e.",
+            "notation": "5Z0"
+        },
+        {
+            "label": "Africa Finance Corporation",
+            "notation": "5Z10"
+        },
+        {
+            "label": "International Civil Aviation Organization",
+            "notation": "5Z100"
+        },
+        {
+            "label": "International Cocoa Organization",
+            "notation": "5Z110"
+        },
+        {
+            "label": "International Coffee Organization",
+            "notation": "5Z120"
+        },
+        {
+            "label": "International Copper Study Group",
+            "notation": "5Z130"
+        },
+        {
+            "label": "International Cotton Advisory Committee",
+            "notation": "5Z140"
+        },
+        {
+            "label": "International Grains Council",
+            "notation": "5Z150"
+        },
+        {
+            "label": "International Jute Study Group",
+            "notation": "5Z160"
+        },
+        {
+            "label": "International Lead and Zinc Study Group",
+            "notation": "5Z170"
+        },
+        {
+            "label": "International Maritime Organization",
+            "notation": "5Z180"
+        },
+        {
+            "label": "International Maritime Satellite Organization",
+            "notation": "5Z190"
+        },
+        {
+            "label": "African Development Bank Group",
+            "notation": "5Z20"
+        },
+        {
+            "label": "International Olive Oil Council",
+            "notation": "5Z200"
+        },
+        {
+            "label": "International Rubber Study Group",
+            "notation": "5Z210"
+        },
+        {
+            "label": "International Sugar Organization",
+            "notation": "5Z220"
+        },
+        {
+            "label": "Latin American and the Caribbean Economic System",
+            "notation": "5Z230"
+        },
+        {
+            "label": "Latin American Energy Organization",
+            "notation": "5Z240"
+        },
+        {
+            "label": "Latin American Integration Association",
+            "notation": "5Z250"
+        },
+        {
+            "label": "League of Arab States",
+            "notation": "5Z260"
+        },
+        {
+            "label": "Organisation of Eastern Caribbean States",
+            "notation": "5Z270"
+        },
+        {
+            "label": "Organization of American States",
+            "notation": "5Z280"
+        },
+        {
+            "label": "Organization of Arab Petroleum Exporting Countries",
+            "notation": "5Z290"
+        },
+        {
+            "label": "Arab Fund for Economic and Social Development",
+            "notation": "5Z30"
+        },
+        {
+            "label": "Organization of Central American States",
+            "notation": "5Z300"
+        },
+        {
+            "label": "Organization of the Petroleum Exporting Countries",
+            "notation": "5Z310"
+        },
+        {
+            "label": "South Asian Association for Regional Cooperation",
+            "notation": "5Z330"
+        },
+        {
+            "label": "United Nations Conference on Trade and Development",
+            "notation": "5Z340"
+        },
+        {
+            "label": "West African Economic Community",
+            "notation": "5Z350"
+        },
+        {
+            "label": "West African Health Organisation",
+            "notation": "5Z360"
+        },
+        {
+            "label": "West African Monetary Agency",
+            "notation": "5Z370"
+        },
+        {
+            "label": "West African Monetary Institute",
+            "notation": "5Z380"
+        },
+        {
+            "label": "World Council of Churches",
+            "notation": "5Z390"
+        },
+        {
+            "label": "Asian Clearing Union",
+            "notation": "5Z40"
+        },
+        {
+            "label": "World Intellectual Property Organization",
+            "notation": "5Z400"
+        },
+        {
+            "label": "World Meteorological Organization",
+            "notation": "5Z410"
+        },
+        {
+            "label": "World Tourism Organization",
+            "notation": "5Z420"
+        },
+        {
+            "label": "Colombo Plan",
+            "notation": "5Z50"
+        },
+        {
+            "label": "Economic Community of West African States",
+            "notation": "5Z60"
+        },
+        {
+            "label": "European Free Trade Association",
+            "notation": "5Z70"
+        },
+        {
+            "label": "Fusion for Energy deprecated",
+            "notation": "5Z80"
+        },
+        {
+            "label": "Intergovernmental Council of Copper Exporting Countries",
+            "notation": "5Z90"
+        },
+        {
+            "label": "Other International Organisations (non-financial institutions)",
+            "notation": "6A0"
+        },
+        {
+            "label": "African Union",
+            "notation": "6A10"
+        },
+        {
+            "label": "Association of Southeast Asian Nations",
+            "notation": "6A20"
+        },
+        {
+            "label": "Caribbean Community and Common Market",
+            "notation": "6A30"
+        },
+        {
+            "label": "Central American Common Market",
+            "notation": "6A40"
+        },
+        {
+            "label": "East African Development Bank",
+            "notation": "6A50"
+        },
+        {
+            "label": "ECOWAS Bank for Investment and Development",
+            "notation": "6A60"
+        },
+        {
+            "label": "Latin American Association of Development Financing Institutions",
+            "notation": "6A70"
+        },
+        {
+            "label": "OPEC Fund for International Development",
+            "notation": "6A80"
+        },
+        {
+            "label": "NATO (North Atlantic Treaty Organisation)",
+            "notation": "6B0"
+        },
+        {
+            "label": "Council of Europe",
+            "notation": "6C0"
+        },
+        {
+            "label": "ICRC (International Committee of the Red Cross)",
+            "notation": "6D0"
+        },
+        {
+            "label": "ESA (European Space Agency)",
+            "notation": "6E0"
+        },
+        {
+            "label": "EPO (European Patent Office)",
+            "notation": "6F0"
+        },
+        {
+            "label": "EUROCONTROL (European Organisation for the Safety of Air Navigation)",
+            "notation": "6G0"
+        },
+        {
+            "label": "EUTELSAT (European Telecommunications Satellite Organisation)",
+            "notation": "6H0"
+        },
+        {
+            "label": "EMBL (European Molecular Biology Laboratory)",
+            "notation": "6I0"
+        },
+        {
+            "label": "INTELSAT (International Telecommunications Satellite Organisation)",
+            "notation": "6J0"
+        },
+        {
+            "label": "EBU/UER (European Broadcasting Union/Union europ\u00e9enne de radio-t\u00e9l\u00e9vision)",
+            "notation": "6K0"
+        },
+        {
+            "label": "EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)",
+            "notation": "6L0"
+        },
+        {
+            "label": "ESO (European Southern Observatory)",
+            "notation": "6M0"
+        },
+        {
+            "label": "ECMWF (European Centre for Medium-Range Weather Forecasts)",
+            "notation": "6N0"
+        },
+        {
+            "label": "OECD (Organisation for Economic Co-operation and Development)",
+            "notation": "6O0"
+        },
+        {
+            "label": "CERN (European Organisation for Nuclear Research)",
+            "notation": "6P0"
+        },
+        {
+            "label": "IOM (International Organisation for Migration)",
+            "notation": "6Q0"
+        },
+        {
+            "label": "Other International Non-Financial Organisations n.i.e.",
+            "notation": "6Z0"
+        },
+        {
+            "label": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+            "notation": "6Z10"
+        },
+        {
+            "label": "International Centre for Migration Policy Development",
+            "notation": "6Z20"
+        },
+        {
+            "label": "WAEMU (West African Economic and Monetary Union)",
+            "notation": "7A0"
+        },
+        {
+            "label": "IDB (Islamic Development Bank)",
+            "notation": "7B0"
+        },
+        {
+            "label": "EDB (Eurasian Development Bank )",
+            "notation": "7C0"
+        },
+        {
+            "label": "Paris Club Creditor Institutions",
+            "notation": "7D0"
+        },
+        {
+            "label": "CEB (Council of Europe Development Bank)",
+            "notation": "7E0"
+        },
+        {
+            "label": "International Union of Credit and Investment Insurers",
+            "notation": "7F0"
+        },
+        {
+            "label": "Black Sea Trade and Development Banks",
+            "notation": "7G0"
+        },
+        {
+            "label": "AFREXIMBANK (African Export-Import Bank)",
+            "notation": "7H0"
+        },
+        {
+            "label": "BLADEX (Banco Latino Americano De Comercio Exterior)",
+            "notation": "7I0"
+        },
+        {
+            "label": "FLAR (Fondo Latino Americano de Reservas)",
+            "notation": "7J0"
+        },
+        {
+            "label": "Fonds Belgo-Congolais d'Amortissement et de Gestion",
+            "notation": "7K0"
+        },
+        {
+            "label": "IFFIm (International finance Facility for Immunisation)",
+            "notation": "7L0"
+        },
+        {
+            "label": "EUROFIMA (European Company for the Financing of Railroad Rolling Stock)",
+            "notation": "7M0"
+        },
+        {
+            "label": "Development Bank of Latin America (Banco de Desarrollo de America Latina)",
+            "notation": "7N0"
+        },
+        {
+            "label": "The Eastern and Southern African Trade and Development Bank",
+            "notation": "7O0"
+        },
+        {
+            "label": "International Organisations excl. European Community Institutions (4Y)",
+            "notation": "9A0"
+        },
+        {
+            "label": "Andorra Finance institute",
+            "notation": "AD2"
+        },
+        {
+            "label": "Dubai Financial Services Authority",
+            "notation": "AE_DU6"
+        },
+        {
+            "label": "Central Statistical Organization, part of the Ministry of Economy and Planning (United Arab Emirates)",
+            "notation": "AE1"
+        },
+        {
+            "label": "Central Bank of the United Arab Emirates",
+            "notation": "AE2"
+        },
+        {
+            "label": "Ministry of Finance and Industry (United Arab Emirates)",
+            "notation": "AE4"
+        },
+        {
+            "label": "Da Afghanistan Bank",
+            "notation": "AF2"
+        },
+        {
+            "label": "Ministry of Finance (Afghanistan, Islamic State of)",
+            "notation": "AF4"
+        },
+        {
+            "label": "Eastern Caribbean Central Bank (ECCB) (Antigua and Barbuda)",
+            "notation": "AG2"
+        },
+        {
+            "label": "Ministry of Finance (Antigua and Barbuda)",
+            "notation": "AG4"
+        },
+        {
+            "label": "Central Statistical Office (Anguilla)",
+            "notation": "AI1"
+        },
+        {
+            "label": "Ministry of Finance (Anguilla)",
+            "notation": "AI4"
+        },
+        {
+            "label": "Other competent National Authority (Anguilla)",
+            "notation": "AI99"
+        },
+        {
+            "label": "Institute of Statistics (Albania)",
+            "notation": "AL1"
+        },
+        {
+            "label": "Bank of Albania",
+            "notation": "AL2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances (Albania)",
+            "notation": "AL4"
+        },
+        {
+            "label": "National Statistics Service (Armenia)",
+            "notation": "AM1"
+        },
+        {
+            "label": "Central Bank of Armenia",
+            "notation": "AM2"
+        },
+        {
+            "label": "Ministry of Finance and Economy (Armenia)",
+            "notation": "AM4"
+        },
+        {
+            "label": "Other competent National Authority (Armenia, Republic of)",
+            "notation": "AM99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Netherlands Antilles)",
+            "notation": "AN1"
+        },
+        {
+            "label": "Bank of the Netherlands Antilles",
+            "notation": "AN2"
+        },
+        {
+            "label": "Other competent National Authority (Netherlands Antilles)",
+            "notation": "AN99"
+        },
+        {
+            "label": "National Institute of Statistics (Angola)",
+            "notation": "AO1"
+        },
+        {
+            "label": "Banco Nacional de Angola",
+            "notation": "AO2"
+        },
+        {
+            "label": "Minist\u00e9rio das Finan\u00e7as (Angola)",
+            "notation": "AO4"
+        },
+        {
+            "label": "Instituto Nacional de Estadistica y Censos (Argentina)",
+            "notation": "AR1"
+        },
+        {
+            "label": "Banco Central de la Republica Argentina",
+            "notation": "AR2"
+        },
+        {
+            "label": "Ministerio de Econom\u00eda (Argentina)",
+            "notation": "AR4"
+        },
+        {
+            "label": "Other competent National Authority (Argentina)",
+            "notation": "AR99"
+        },
+        {
+            "label": "Statistik \u00d6sterreich (Austria)",
+            "notation": "AT1"
+        },
+        {
+            "label": "Oesterreichische Nationalbank (Austria)",
+            "notation": "AT2"
+        },
+        {
+            "label": "FMA (Austria Financial Market Authority)",
+            "notation": "AT6"
+        },
+        {
+            "label": "Other competent National Authority (Austria)",
+            "notation": "AT99"
+        },
+        {
+            "label": "Australian Bureau of Statistics",
+            "notation": "AU1"
+        },
+        {
+            "label": "Reserve Bank of Australia",
+            "notation": "AU2"
+        },
+        {
+            "label": "Department of the Treasury (Australia)",
+            "notation": "AU5"
+        },
+        {
+            "label": "Other competent National Authority (Australia)",
+            "notation": "AU99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Aruba)",
+            "notation": "AW1"
+        },
+        {
+            "label": "Centrale Bank van Aruba",
+            "notation": "AW2"
+        },
+        {
+            "label": "Other competent National Authority (Aruba)",
+            "notation": "AW99"
+        },
+        {
+            "label": "State Statistical Committee of the Republic of Azerbaijan",
+            "notation": "AZ1"
+        },
+        {
+            "label": "National Bank of Azerbaijan",
+            "notation": "AZ2"
+        },
+        {
+            "label": "Ministry of Finance (Azerbaijan)",
+            "notation": "AZ4"
+        },
+        {
+            "label": "Other competent National Authority (Azerbaijan, Republic of)",
+            "notation": "AZ99"
+        },
+        {
+            "label": "EU 15 central banks",
+            "notation": "B22"
+        },
+        {
+            "label": "EU 25 central banks",
+            "notation": "B32"
+        },
+        {
+            "label": "EU 27 central banks",
+            "notation": "B42"
+        },
+        {
+            "label": "EU 28 central banks",
+            "notation": "B52"
+        },
+        {
+            "label": "EU27 central banks (fixed composition) as of 31 January 2020 (brexit)",
+            "notation": "B62"
+        },
+        {
+            "label": "Institute of Statistics (Bosnia and Herzegovina)",
+            "notation": "BA1"
+        },
+        {
+            "label": "Central Bank of Bosnia and Herzegovina",
+            "notation": "BA2"
+        },
+        {
+            "label": "Bosnia and Herzegovina Ministry of Finance and Treasury",
+            "notation": "BA4"
+        },
+        {
+            "label": "Other competent National Authority (Bosnia and Herzegovina)",
+            "notation": "BA99"
+        },
+        {
+            "label": "Barbados Statistical Service",
+            "notation": "BB1"
+        },
+        {
+            "label": "Central Bank of Barbados",
+            "notation": "BB2"
+        },
+        {
+            "label": "Ministry of Finance and  Economic Affairs (Barbados)",
+            "notation": "BB4"
+        },
+        {
+            "label": "Other competent National Authority (Barbados)",
+            "notation": "BB99"
+        },
+        {
+            "label": "Bangladesh Bureau of Statistics",
+            "notation": "BD1"
+        },
+        {
+            "label": "Bangladesh Bank",
+            "notation": "BD2"
+        },
+        {
+            "label": "Ministry of Finance (Bangladesh)",
+            "notation": "BD4"
+        },
+        {
+            "label": "Institut National de Statistiques de Belgique",
+            "notation": "BE1"
+        },
+        {
+            "label": "Banque Nationale de Belgique (Belgium)",
+            "notation": "BE2"
+        },
+        {
+            "label": "Federal Public Service Finance (Belgium)",
+            "notation": "BE3"
+        },
+        {
+            "label": "Federal Planning Bureau",
+            "notation": "BE40"
+        },
+        {
+            "label": "Bureau van Dijk (Belgium)",
+            "notation": "BE9"
+        },
+        {
+            "label": "Other competent National Authority (Belgium)",
+            "notation": "BE99"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest (BCEAO) (Burkina Faso)",
+            "notation": "BF2"
+        },
+        {
+            "label": "Ministere de l'Economie et des Finances  (Burkina Faso)",
+            "notation": "BF4"
+        },
+        {
+            "label": "National Statistical Institute of Bulgaria",
+            "notation": "BG1"
+        },
+        {
+            "label": "Bulgarian National Bank",
+            "notation": "BG2"
+        },
+        {
+            "label": "Prime Minister's Office (Bulgaria)",
+            "notation": "BG3"
+        },
+        {
+            "label": "Ministry of Finance (Bulgaria)",
+            "notation": "BG4"
+        },
+        {
+            "label": "Other competent National Authority (Bulgaria)",
+            "notation": "BG99"
+        },
+        {
+            "label": "Directorate of Statistics (Bahrain)",
+            "notation": "BH1"
+        },
+        {
+            "label": "Bahrain Monetary Authority",
+            "notation": "BH2"
+        },
+        {
+            "label": "Ministry of Finance and  National Economy (Bahrain)",
+            "notation": "BH4"
+        },
+        {
+            "label": "Other competent National Authority (Bahrain, Kingdom of)",
+            "notation": "BH99"
+        },
+        {
+            "label": "Banque de la Republique du Burundi",
+            "notation": "BI2"
+        },
+        {
+            "label": "Minist\u00e8re du Plan (Burundi)",
+            "notation": "BI3"
+        },
+        {
+            "label": "Minist\u00e8re des finances (Burundi)",
+            "notation": "BI4"
+        },
+        {
+            "label": "Institut National de la Statistique et de l\u2019Analyse Economique (Benin)",
+            "notation": "BJ1"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest (BCEAO) (Benin)",
+            "notation": "BJ2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances (Benin)",
+            "notation": "BJ4"
+        },
+        {
+            "label": "Other competent National Authority (Benin)",
+            "notation": "BJ99"
+        },
+        {
+            "label": "Bermuda Government - Department of Statistics",
+            "notation": "BM1"
+        },
+        {
+            "label": "Bermuda Monetary Authority",
+            "notation": "BM2"
+        },
+        {
+            "label": "Other competent National Authority (Bermuda)",
+            "notation": "BM99"
+        },
+        {
+            "label": "Department of Statistics (Brunei Darussalam)",
+            "notation": "BN1"
+        },
+        {
+            "label": "Brunei Currency and Monetary Board (BCMB)",
+            "notation": "BN2"
+        },
+        {
+            "label": "Department of Economic Planning and Development (DEPD) (Brunei Darussalam)",
+            "notation": "BN3"
+        },
+        {
+            "label": "Ministry of Finance (Brunei Darussalam)",
+            "notation": "BN4"
+        },
+        {
+            "label": "Other competent National Authority (Brunei Darussalam)",
+            "notation": "BN99"
+        },
+        {
+            "label": "Instituto Nacional de Estadistica (Bolivia)",
+            "notation": "BO1"
+        },
+        {
+            "label": "Banco Central de Bolivia",
+            "notation": "BO2"
+        },
+        {
+            "label": "Secretar\u00eda Nacional de Hacienda (Bolivia)",
+            "notation": "BO3"
+        },
+        {
+            "label": "Ministerio de Hacienda (Bolivia)",
+            "notation": "BO4"
+        },
+        {
+            "label": "Other competent National Authority (Bolivia)",
+            "notation": "BO99"
+        },
+        {
+            "label": "Brazilian Institute of Statistics and Geography (IBGE) (Brazil)",
+            "notation": "BR1"
+        },
+        {
+            "label": "Banco Central do Brasil",
+            "notation": "BR2"
+        },
+        {
+            "label": "Ministry of Industry, Commerce and Tourism, Secretariat of Foreign Commerce (SECEX) (Brazil)",
+            "notation": "BR3"
+        },
+        {
+            "label": "Ministerio da Fazenda (Brazil)",
+            "notation": "BR4"
+        },
+        {
+            "label": "Department of Statistics (Bahamas)",
+            "notation": "BS1"
+        },
+        {
+            "label": "The Central Bank of the Bahamas",
+            "notation": "BS2"
+        },
+        {
+            "label": "Ministry of Finance (Bahamas)",
+            "notation": "BS4"
+        },
+        {
+            "label": "Other competent National Authority (Bahamas, The)",
+            "notation": "BS99"
+        },
+        {
+            "label": "Central Statistical Office (Bhutan)",
+            "notation": "BT1"
+        },
+        {
+            "label": "Royal Monetary Authority of Bhutan",
+            "notation": "BT2"
+        },
+        {
+            "label": "Ministry of Finance (Bhutan)",
+            "notation": "BT4"
+        },
+        {
+            "label": "Central Statistics Office (Botswana)",
+            "notation": "BW1"
+        },
+        {
+            "label": "Bank of Botswana",
+            "notation": "BW2"
+        },
+        {
+            "label": "Department of Customs and Excise (Botswana)",
+            "notation": "BW3"
+        },
+        {
+            "label": "Ministry of Finance and Development Planning (Botswana)",
+            "notation": "BW4"
+        },
+        {
+            "label": "Ministry of Statistics and Analysis of the Republic of Belarus",
+            "notation": "BY1"
+        },
+        {
+            "label": "National Bank of Belarus",
+            "notation": "BY2"
+        },
+        {
+            "label": "Ministry of Finance of the Republic of Belarus",
+            "notation": "BY4"
+        },
+        {
+            "label": "Other competent National Authority (Belarus)",
+            "notation": "BY99"
+        },
+        {
+            "label": "Central Statistical Office (Belize)",
+            "notation": "BZ1"
+        },
+        {
+            "label": "Central Bank of Belize",
+            "notation": "BZ2"
+        },
+        {
+            "label": "Ministry of Foreign Affairs (Belize)",
+            "notation": "BZ3"
+        },
+        {
+            "label": "Ministry of Finance (Belize)",
+            "notation": "BZ4"
+        },
+        {
+            "label": "Other competent National Authority (Belize)",
+            "notation": "BZ99"
+        },
+        {
+            "label": "Central banks of the new EU Member States 2004 (CY,CZ,EE,HU,LV,LT,MT,PL,SK,SI",
+            "notation": "C992"
+        },
+        {
+            "label": "Statistics Canada",
+            "notation": "CA1"
+        },
+        {
+            "label": "Bank of Canada",
+            "notation": "CA2"
+        },
+        {
+            "label": "Other competent National Authority (Canada)",
+            "notation": "CA99"
+        },
+        {
+            "label": "Institute National de la Statistique (Congo, Dem. Rep. of)",
+            "notation": "CD1"
+        },
+        {
+            "label": "Banque Centrale du Congo (Congo, Dem. Rep. of)",
+            "notation": "CD2"
+        },
+        {
+            "label": "Ministry of Finance and Budget (Congo, Dem. Rep. of)",
+            "notation": "CD4"
+        },
+        {
+            "label": "National Office of Research and Development (Congo, Dem. Rep. of)",
+            "notation": "CD5"
+        },
+        {
+            "label": "Other competent National Authority (Congo, Democratic Republic of)",
+            "notation": "CD99"
+        },
+        {
+            "label": "Banque des \u00c9tats de l\u2019Afrique Centrale (BEAC) (Central African Republic)",
+            "notation": "CF2"
+        },
+        {
+            "label": "Presidence de la Republique (Central African Republic)",
+            "notation": "CF3"
+        },
+        {
+            "label": "Ministere des Finances, du Plan et de la Cooperation Internationale (Central African Republic)",
+            "notation": "CF4"
+        },
+        {
+            "label": "Centre National de la Statistique et des Edudes Economiques (CNSEE)   (Congo, Rep of)",
+            "notation": "CG1"
+        },
+        {
+            "label": "Banque des \u00c9tats de l\u2019Afrique Centrale (BEAC) (Congo, Rep. of)",
+            "notation": "CG2"
+        },
+        {
+            "label": "Minist\u00e8re de l'\u00e9conomie, des finances et du budget (Congo, Rep of)",
+            "notation": "CG4"
+        },
+        {
+            "label": "Other competent National Authority (Congo, Republic of)",
+            "notation": "CG99"
+        },
+        {
+            "label": "Swiss Federal Statistical Office",
+            "notation": "CH1"
+        },
+        {
+            "label": "Swiss National Bank",
+            "notation": "CH2"
+        },
+        {
+            "label": "Direction gen\u00e9rale des douanes (Switzerland)",
+            "notation": "CH3"
+        },
+        {
+            "label": "Swiss Federal Finance Administration (Switzerland)",
+            "notation": "CH4"
+        },
+        {
+            "label": "Other competent National Authority (Switzerland)",
+            "notation": "CH99"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest (BCEAO) (C\u00f4te d'Ivoire)",
+            "notation": "CI2"
+        },
+        {
+            "label": "Minist\u00e8re de l'Economie et des Finances (C\u00f4te d'Ivoire)",
+            "notation": "CI4"
+        },
+        {
+            "label": "Cook Islands Statistics Office",
+            "notation": "CK1"
+        },
+        {
+            "label": "Cook Islands Ministry of Finance",
+            "notation": "CK4"
+        },
+        {
+            "label": "Banco Central de Chile",
+            "notation": "CL2"
+        },
+        {
+            "label": "Ministerio de Hacienda (Chile)",
+            "notation": "CL4"
+        },
+        {
+            "label": "Banque des \u00c9tats de l\u2019Afrique Centrale (BEAC) (Cameroon)",
+            "notation": "CM2"
+        },
+        {
+            "label": "Minist\u00e8re du Plan et de l'Amenagement du Territoire (Cameroon)",
+            "notation": "CM3"
+        },
+        {
+            "label": "Minist\u00e8re de l'\u00e9conomie et des finances (Cameroon)",
+            "notation": "CM4"
+        },
+        {
+            "label": "National Bureau of Statistics (China, P.R.: Mainland)",
+            "notation": "CN1"
+        },
+        {
+            "label": "The People's Bank of China",
+            "notation": "CN2"
+        },
+        {
+            "label": "State Administration of Foreign Exchange (China, P.R.: Mainland)",
+            "notation": "CN3"
+        },
+        {
+            "label": "Ministry of Finance (China, P.R.: Mainland)",
+            "notation": "CN4"
+        },
+        {
+            "label": "General Administration of Customs (China, P.R.: Mainland)",
+            "notation": "CN5"
+        },
+        {
+            "label": "Other competent National Authority (China, P.R.: Mainland)",
+            "notation": "CN99"
+        },
+        {
+            "label": "Departamento Administrativo Nacional  de Estad\u00edsticas (Colombia)",
+            "notation": "CO1"
+        },
+        {
+            "label": "Banco de la Rep\u00fablica (Colombia)",
+            "notation": "CO2"
+        },
+        {
+            "label": "Ministerio de Hacienda y Cr\u00e9dito P\u00fablico (Colombia)",
+            "notation": "CO4"
+        },
+        {
+            "label": "Other competent National Authority (Colombia)",
+            "notation": "CO99"
+        },
+        {
+            "label": "Statistical office of Costa Rica",
+            "notation": "CR1"
+        },
+        {
+            "label": "Banco Central de Costa Rica",
+            "notation": "CR2"
+        },
+        {
+            "label": "Ministerio de Hacienda (Costa Rica)",
+            "notation": "CR4"
+        },
+        {
+            "label": "Federal Statistical Office (Serbia and Montenegro)",
+            "notation": "CS1"
+        },
+        {
+            "label": "National Bank of Serbia",
+            "notation": "CS2"
+        },
+        {
+            "label": "Federal Ministry of Finance (Serbia and Montenegro)",
+            "notation": "CS4"
+        },
+        {
+            "label": "Other competent National Authority (Serbia and Montenegro)",
+            "notation": "CS99"
+        },
+        {
+            "label": "Oficina National de Estadisticas (Cuba)",
+            "notation": "CU1"
+        },
+        {
+            "label": "Banco Central de Cuba",
+            "notation": "CU2"
+        },
+        {
+            "label": "Other competent National Authority (Cuba)",
+            "notation": "CU99"
+        },
+        {
+            "label": "Instituto Nacional de Estatistica (Cape Verde)",
+            "notation": "CV1"
+        },
+        {
+            "label": "Banco de Cabo Verde (Cape Verde)",
+            "notation": "CV2"
+        },
+        {
+            "label": "Minist\u00e8re de la coordination \u00e9conomique (Cape Verde)",
+            "notation": "CV3"
+        },
+        {
+            "label": "Ministerio das Financas (Cape Verde)",
+            "notation": "CV4"
+        },
+        {
+            "label": "Other competent National Authority (Cape Verde)",
+            "notation": "CV99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Curacao)",
+            "notation": "CW1"
+        },
+        {
+            "label": "Central Bank of Curacao and Sint Maarten",
+            "notation": "CW2"
+        },
+        {
+            "label": "Other competent National Authority (Curacao)",
+            "notation": "CW99"
+        },
+        {
+            "label": "Department of Statistics and Research (Ministry of Finance) (Cyprus)",
+            "notation": "CY1"
+        },
+        {
+            "label": "Central Bank of Cyprus",
+            "notation": "CY2"
+        },
+        {
+            "label": "Ministry of Finance (Cyprus)",
+            "notation": "CY4"
+        },
+        {
+            "label": "Other competent National Authority (Cyprus)",
+            "notation": "CY99"
+        },
+        {
+            "label": "Czech Statistical Office",
+            "notation": "CZ1"
+        },
+        {
+            "label": "Czech National Bank",
+            "notation": "CZ2"
+        },
+        {
+            "label": "Ministry of Transport and Communications/Transport Policy (Czech Republic)",
+            "notation": "CZ3"
+        },
+        {
+            "label": "Ministry of Finance of the Czech Republic",
+            "notation": "CZ4"
+        },
+        {
+            "label": "Other competent National Authority (Czech Republic)",
+            "notation": "CZ99"
+        },
+        {
+            "label": "Statistisches Bundesamt (Germany)",
+            "notation": "DE1"
+        },
+        {
+            "label": "Deutsche Bundesbank (Germany)",
+            "notation": "DE2"
+        },
+        {
+            "label": "Kraftfahrt-Bundesamt (Germany)",
+            "notation": "DE3"
+        },
+        {
+            "label": "Bundesministerium der Finanzen (Germany)",
+            "notation": "DE4"
+        },
+        {
+            "label": "BAFIN (Bundesanstalt fuer Finanzdienstleistungsaufsicht)",
+            "notation": "DE6"
+        },
+        {
+            "label": "IFO Institut f\u00fcr Wirtschaftsforschung (Germany)",
+            "notation": "DE8"
+        },
+        {
+            "label": "Zentrum fur Europaische Wirtschaftsforschnung (ZEW, Germany)",
+            "notation": "DE9"
+        },
+        {
+            "label": "Other competent National Authority (Germany)",
+            "notation": "DE99"
+        },
+        {
+            "label": "Direction Nationale de la Statistique (National Department of Statistics) (Djibouti)",
+            "notation": "DJ1"
+        },
+        {
+            "label": "Banque Nationale de Djibouti",
+            "notation": "DJ2"
+        },
+        {
+            "label": "Tr\u00e9sor National (Djibouti)",
+            "notation": "DJ3"
+        },
+        {
+            "label": "Ministere de l'Economie et des Finances (Djibouti)",
+            "notation": "DJ4"
+        },
+        {
+            "label": "Danmarks Statistik (Denmark)",
+            "notation": "DK1"
+        },
+        {
+            "label": "Danmarks Nationalbank (Denmark)",
+            "notation": "DK2"
+        },
+        {
+            "label": "Danish Civil Aviation Administration",
+            "notation": "DK98"
+        },
+        {
+            "label": "Other competent National Authority (Denmark)",
+            "notation": "DK99"
+        },
+        {
+            "label": "Central Statistical Office (Dominica)",
+            "notation": "DM1"
+        },
+        {
+            "label": "Eastern Caribbean Central Bank (ECCB) (Dominica)",
+            "notation": "DM2"
+        },
+        {
+            "label": "Ministry of Finance (Dominica)",
+            "notation": "DM4"
+        },
+        {
+            "label": "Other competent National Authority (Dominica)",
+            "notation": "DM99"
+        },
+        {
+            "label": "Banco Central de la Rep\u00fablica Dominicana",
+            "notation": "DO2"
+        },
+        {
+            "label": "Office National des Statistiques (Algeria)",
+            "notation": "DZ1"
+        },
+        {
+            "label": "Banque d\u2019Alg\u00e9rie",
+            "notation": "DZ2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances (Algeria)",
+            "notation": "DZ4"
+        },
+        {
+            "label": "Other competent National Authority (Algeria)",
+            "notation": "DZ99"
+        },
+        {
+            "label": "Instituto Nacional de Estadistica y Censos (Ecuador)",
+            "notation": "EC1"
+        },
+        {
+            "label": "Banco Central del Ecuador",
+            "notation": "EC2"
+        },
+        {
+            "label": "Ministerio de Finanzas y Cr\u00e9dito P\u00fablico (Ecuador)",
+            "notation": "EC4"
+        },
+        {
+            "label": "Other competent National Authority (Ecuador)",
+            "notation": "EC99"
+        },
+        {
+            "label": "Estonia, State Statistical Office",
+            "notation": "EE1"
+        },
+        {
+            "label": "Bank of Estonia",
+            "notation": "EE2"
+        },
+        {
+            "label": "Ministry of Finance (Estonia)",
+            "notation": "EE4"
+        },
+        {
+            "label": "Other competent National Authority (Estonia)",
+            "notation": "EE99"
+        },
+        {
+            "label": "Central Agency for Public Mobilization and Stats. (Egypt)",
+            "notation": "EG1"
+        },
+        {
+            "label": "Central Bank of Egypt",
+            "notation": "EG2"
+        },
+        {
+            "label": "Ministry of Finance (Egypt)",
+            "notation": "EG4"
+        },
+        {
+            "label": "Other competent National Authority (Egypt)",
+            "notation": "EG99"
+        },
+        {
+            "label": "Bank of Eritrea",
+            "notation": "ER2"
+        },
+        {
+            "label": "Ministry of Finance (Eritrea)",
+            "notation": "ER4"
+        },
+        {
+            "label": "Instituto Nacional de Estad\u00edstica (Spain)",
+            "notation": "ES1"
+        },
+        {
+            "label": "Banco de Espana (Spain)",
+            "notation": "ES2"
+        },
+        {
+            "label": "Departamento de Aduanas (Spain)",
+            "notation": "ES3"
+        },
+        {
+            "label": "Ministerio de Econom\u00eda y Hacienda (Spain)",
+            "notation": "ES4"
+        },
+        {
+            "label": "Ministerio de Industria, Tourismo y Comerco (Spain)",
+            "notation": "ES5"
+        },
+        {
+            "label": "Puertos del Estado/Portel Spain",
+            "notation": "ES97"
+        },
+        {
+            "label": "Ministerio de Fomento - AENA",
+            "notation": "ES98"
+        },
+        {
+            "label": "Other competent National Authority (Spain)",
+            "notation": "ES99"
+        },
+        {
+            "label": "National Bank of Ethiopia",
+            "notation": "ET2"
+        },
+        {
+            "label": "Customs and Excise Administration (Ethiopia)",
+            "notation": "ET3"
+        },
+        {
+            "label": "Ministry of Finance (Ethiopia)",
+            "notation": "ET4"
+        },
+        {
+            "label": "Statistics Finland (Finland)",
+            "notation": "FI1"
+        },
+        {
+            "label": "Bank of Finland (Finland)",
+            "notation": "FI2"
+        },
+        {
+            "label": "National Board of Customs (Finland)",
+            "notation": "FI3"
+        },
+        {
+            "label": "Ministry of Finance ((Finland)",
+            "notation": "FI4"
+        },
+        {
+            "label": "Finnish Maritime Administration",
+            "notation": "FI97"
+        },
+        {
+            "label": "Finavia(Civil Aviation Administration)",
+            "notation": "FI98"
+        },
+        {
+            "label": "Other competent National Authority (Finland)",
+            "notation": "FI99"
+        },
+        {
+            "label": "Bureau of Statistics (Fiji)",
+            "notation": "FJ1"
+        },
+        {
+            "label": "Reserve Bank of Fiji",
+            "notation": "FJ2"
+        },
+        {
+            "label": "Ministry of Finance and National Planning (Fiji)",
+            "notation": "FJ4"
+        },
+        {
+            "label": "Other competent National Authority (Fiji)",
+            "notation": "FJ99"
+        },
+        {
+            "label": "Office of Planning and Statistics (Micronesia, Federated States of)",
+            "notation": "FM1"
+        },
+        {
+            "label": "Federal States of Micronesia Banking Board (Micronesia, Federated States of)",
+            "notation": "FM2"
+        },
+        {
+            "label": "Other competent National Authority (Micronesia, Federated States of)",
+            "notation": "FM99"
+        },
+        {
+            "label": "Institut National de la Statistique et des Etudes Economiques - INSEE (France)",
+            "notation": "FR1"
+        },
+        {
+            "label": "Banque de France (France)",
+            "notation": "FR2"
+        },
+        {
+            "label": "Ministere de l Equipement, des Transports et du Logement (France)",
+            "notation": "FR3"
+        },
+        {
+            "label": "Minist\u00e8re de l'Economie et des Finance (France)",
+            "notation": "FR4"
+        },
+        {
+            "label": "Direction generale des douanes (France)",
+            "notation": "FR5"
+        },
+        {
+            "label": "National Council of Credit (France)",
+            "notation": "FR6"
+        },
+        {
+            "label": "DTMPL France",
+            "notation": "FR97"
+        },
+        {
+            "label": "DGAC(Direction General de l`Aviation Civil)",
+            "notation": "FR98"
+        },
+        {
+            "label": "Other competent National Authority (France)",
+            "notation": "FR99"
+        },
+        {
+            "label": "Banque des \u00c9tats de l\u2019Afrique Centrale (BEAC) (Gabon)",
+            "notation": "GA2"
+        },
+        {
+            "label": "Ministere du Plan (Gabon)",
+            "notation": "GA3"
+        },
+        {
+            "label": "Ministry of Economy, Finance and Privatization (Gabon)",
+            "notation": "GA4"
+        },
+        {
+            "label": "Tr\u00e9sorier-Payeur G\u00e9n\u00e9ral  du Gabon",
+            "notation": "GA5"
+        },
+        {
+            "label": "Office for National Statistics (United Kingdom)",
+            "notation": "GB1"
+        },
+        {
+            "label": "Bank of England (United Kingdom)",
+            "notation": "GB2"
+        },
+        {
+            "label": "Department of Environment, Transport and the Regions (United Kingdom)",
+            "notation": "GB3"
+        },
+        {
+            "label": "Department of Trade and Industry (United Kingdom)",
+            "notation": "GB4"
+        },
+        {
+            "label": "NTC Economics (United Kingdom)",
+            "notation": "GB9"
+        },
+        {
+            "label": "CAA (Civil Aviation Authority)",
+            "notation": "GB98"
+        },
+        {
+            "label": "Other competent National Authority (United Kingdom)",
+            "notation": "GB99"
+        },
+        {
+            "label": "Eastern Caribbean Central Bank (ECCB) (Grenada)",
+            "notation": "GD2"
+        },
+        {
+            "label": "Ministry of Finance (Grenada)",
+            "notation": "GD4"
+        },
+        {
+            "label": "State Department for Statistics of Georgia",
+            "notation": "GE1"
+        },
+        {
+            "label": "National Bank of Georgia",
+            "notation": "GE2"
+        },
+        {
+            "label": "Ministry of Finance (Georgia)",
+            "notation": "GE4"
+        },
+        {
+            "label": "Other competent National Authority (Georgia)",
+            "notation": "GE99"
+        },
+        {
+            "label": "Institut National de la Statistique et des Etudes Economiques - INSEE - Service regional (Guiana, French)",
+            "notation": "GF1"
+        },
+        {
+            "label": "Other competent National Authority (Guiana, French)",
+            "notation": "GF99"
+        },
+        {
+            "label": "Financial Services Commission, Guernsey (GG)",
+            "notation": "GG6"
+        },
+        {
+            "label": "Ghana Statistical Service",
+            "notation": "GH1"
+        },
+        {
+            "label": "Bank of Ghana",
+            "notation": "GH2"
+        },
+        {
+            "label": "Ministry of Finance (Ghana)",
+            "notation": "GH4"
+        },
+        {
+            "label": "Other competent National Authority (Ghana)",
+            "notation": "GH99"
+        },
+        {
+            "label": "Central Statistics Division (Gambia)",
+            "notation": "GM1"
+        },
+        {
+            "label": "Central Bank of the Gambia",
+            "notation": "GM2"
+        },
+        {
+            "label": "Ministry of Finance and Economic Affairs (Gambia)",
+            "notation": "GM4"
+        },
+        {
+            "label": "Service de la Statistique generale et de la Mecanographie (Guinea)",
+            "notation": "GN1"
+        },
+        {
+            "label": "Banque Centrale de la Republique de Guinee",
+            "notation": "GN2"
+        },
+        {
+            "label": "Ministere de l'Economie et des Finances (Guinea)",
+            "notation": "GN4"
+        },
+        {
+            "label": "Other competent National Authority (Guinea)",
+            "notation": "GN99"
+        },
+        {
+            "label": "Institut National de la Statistique et des Etudes Economiques - INSEE -Service regional (Guadeloupe)",
+            "notation": "GP1"
+        },
+        {
+            "label": "Other competent National Authority (Guadeloupe)",
+            "notation": "GP99"
+        },
+        {
+            "label": "Banque des \u00c9tats de l\u2019Afrique Centrale (BEAC) (Equatorial Guinea)",
+            "notation": "GQ2"
+        },
+        {
+            "label": "Ministerio de  Econom\u00eda y Hacienda (Equatorial Guinea)",
+            "notation": "GQ4"
+        },
+        {
+            "label": "National Statistical Service of Greece (Greece)",
+            "notation": "GR1"
+        },
+        {
+            "label": "Bank of Greece (Greece)",
+            "notation": "GR2"
+        },
+        {
+            "label": "Ministry of Economy and Finance (Greece)",
+            "notation": "GR4"
+        },
+        {
+            "label": "Civil Aviation Authority",
+            "notation": "GR98"
+        },
+        {
+            "label": "Other competent National Authority (Greece)",
+            "notation": "GR99"
+        },
+        {
+            "label": "Instituto Nacional de Estadistica (Guatemala)",
+            "notation": "GT1"
+        },
+        {
+            "label": "Banco de Guatemala",
+            "notation": "GT2"
+        },
+        {
+            "label": "Ministerio de Finanzas P\u00fablicas (Guatemala)",
+            "notation": "GT4"
+        },
+        {
+            "label": "Other competent National Authority (Guatemala)",
+            "notation": "GT99"
+        },
+        {
+            "label": "Guam Bureau of Statistics",
+            "notation": "GU1"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest (BCEAO) (Guinea-Bissau)",
+            "notation": "GW2"
+        },
+        {
+            "label": "Ministere de l'Economie et des Finances (Guinea-Bissau)",
+            "notation": "GW4"
+        },
+        {
+            "label": "Statistical Bureau / Ministry of Planning (Guyana)",
+            "notation": "GY1"
+        },
+        {
+            "label": "Bank of Guyana",
+            "notation": "GY2"
+        },
+        {
+            "label": "Ministry of Finance (Guyana)",
+            "notation": "GY4"
+        },
+        {
+            "label": "Other competent National Authority (Guyana)",
+            "notation": "GY99"
+        },
+        {
+            "label": "Census and Statistics Department (China, P.R.: Hong Kong)",
+            "notation": "HK1"
+        },
+        {
+            "label": "Hong Kong Monetary Authority",
+            "notation": "HK2"
+        },
+        {
+            "label": "Financial Services and the Treasury Bureau (Treasury) (China, P.R.: Hong Kong)",
+            "notation": "HK4"
+        },
+        {
+            "label": "Other competent National Authority (Hong Kong)",
+            "notation": "HK99"
+        },
+        {
+            "label": "Direccion General de Censos y Estadisticas (Honduras)",
+            "notation": "HN1"
+        },
+        {
+            "label": "Banco Central de Honduras",
+            "notation": "HN2"
+        },
+        {
+            "label": "Ministerio de Hacienda y Cr\u00e9dito P\u00fablico (Honduras)",
+            "notation": "HN4"
+        },
+        {
+            "label": "Other competent National Authority (Honduras)",
+            "notation": "HN99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Croatia)",
+            "notation": "HR1"
+        },
+        {
+            "label": "Croatian National Bank",
+            "notation": "HR2"
+        },
+        {
+            "label": "Ministry of Finance (Croatia)",
+            "notation": "HR4"
+        },
+        {
+            "label": "Other competent National Authority (Croatia)",
+            "notation": "HR99"
+        },
+        {
+            "label": "Institut Haitien de Statistique et d' Informatique (Haiti)",
+            "notation": "HT1"
+        },
+        {
+            "label": "Banque de la Republique d'Haiti",
+            "notation": "HT2"
+        },
+        {
+            "label": "Ministere de l'Economie et des Finances (Haiti)",
+            "notation": "HT4"
+        },
+        {
+            "label": "Other competent National Authority (Haiti)",
+            "notation": "HT99"
+        },
+        {
+            "label": "Hungarian Central Statistical Office",
+            "notation": "HU1"
+        },
+        {
+            "label": "National Bank of Hungary",
+            "notation": "HU2"
+        },
+        {
+            "label": "Ministry of Finance (Hungary)",
+            "notation": "HU4"
+        },
+        {
+            "label": "Other competent National Authority (Hungary)",
+            "notation": "HU99"
+        },
+        {
+            "label": "Euro area 12 central banks",
+            "notation": "I22"
+        },
+        {
+            "label": "Euro area 13 central banks",
+            "notation": "I32"
+        },
+        {
+            "label": "Euro area 15 central banks",
+            "notation": "I42"
+        },
+        {
+            "label": "Euro area 16 central banks",
+            "notation": "I52"
+        },
+        {
+            "label": "Euro area 17 central banks",
+            "notation": "I62"
+        },
+        {
+            "label": "Euro area 18 central banks",
+            "notation": "I72"
+        },
+        {
+            "label": "Euro area 19 central banks",
+            "notation": "I82"
+        },
+        {
+            "label": "BPS-Statistics Indonesia",
+            "notation": "ID1"
+        },
+        {
+            "label": "Bank Indonesia",
+            "notation": "ID2"
+        },
+        {
+            "label": "Ministry of Finance (Indonesia)",
+            "notation": "ID4"
+        },
+        {
+            "label": "Other competent National Authority (Indonesia)",
+            "notation": "ID99"
+        },
+        {
+            "label": "Central Statistical Office (Ireland)",
+            "notation": "IE1"
+        },
+        {
+            "label": "Central Bank of Ireland (Ireland)",
+            "notation": "IE2"
+        },
+        {
+            "label": "The Office of the Revenue Commissioners (Ireland)",
+            "notation": "IE3"
+        },
+        {
+            "label": "Department of Finance (Ireland)",
+            "notation": "IE4"
+        },
+        {
+            "label": "Other competent National Authority (Ireland)",
+            "notation": "IE99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Israel)",
+            "notation": "IL1"
+        },
+        {
+            "label": "Bank of Israel",
+            "notation": "IL2"
+        },
+        {
+            "label": "Other competent National Authority (Israel)",
+            "notation": "IL99"
+        },
+        {
+            "label": "Financial Supervision Commission, Isle of Man (IM)",
+            "notation": "IM6"
+        },
+        {
+            "label": "Ministry of Statistics and Programme Implementation, CSO (India)",
+            "notation": "IN1"
+        },
+        {
+            "label": "Reserve Bank of India",
+            "notation": "IN2"
+        },
+        {
+            "label": "Ministry of Finance (India)",
+            "notation": "IN4"
+        },
+        {
+            "label": "Other competent National Authority (India)",
+            "notation": "IN99"
+        },
+        {
+            "label": "Central Bank of Iraq",
+            "notation": "IQ2"
+        },
+        {
+            "label": "Ministry of Finance (Iraq)",
+            "notation": "IQ4"
+        },
+        {
+            "label": "The Central Bank of the Islamic Republic of Iran",
+            "notation": "IR2"
+        },
+        {
+            "label": "Statistics Iceland",
+            "notation": "IS1"
+        },
+        {
+            "label": "Central Bank of Iceland",
+            "notation": "IS2"
+        },
+        {
+            "label": "Civil Aviation Administration",
+            "notation": "IS98"
+        },
+        {
+            "label": "Other competent National Authority (Iceland)",
+            "notation": "IS99"
+        },
+        {
+            "label": "Istituto Nazionale di Statistica (ISTAT) (Italy)",
+            "notation": "IT1"
+        },
+        {
+            "label": "Banca d\u2019Italia (Italy)",
+            "notation": "IT2"
+        },
+        {
+            "label": "Ufficio Italiano dei Cambi (Italy)",
+            "notation": "IT3"
+        },
+        {
+            "label": "Ministero del Tesoro (Italy)",
+            "notation": "IT4"
+        },
+        {
+            "label": "Istituto di Studi e Analisi Economica (Italy)",
+            "notation": "IT9"
+        },
+        {
+            "label": "Other competent National Authority (Italy)",
+            "notation": "IT99"
+        },
+        {
+            "label": "Financial Services Commission, Jersey (JE)",
+            "notation": "JE6"
+        },
+        {
+            "label": "Statistical Institute of Jamaica",
+            "notation": "JM1"
+        },
+        {
+            "label": "Bank of Jamaica",
+            "notation": "JM2"
+        },
+        {
+            "label": "Ministry of Finance and Planning (Jamaica)",
+            "notation": "JM4"
+        },
+        {
+            "label": "Other competent National Authority (Jamaica)",
+            "notation": "JM99"
+        },
+        {
+            "label": "Department of Statistics (Jordan)",
+            "notation": "JO1"
+        },
+        {
+            "label": "Central Bank of Jordan",
+            "notation": "JO2"
+        },
+        {
+            "label": "Ministry of Finance (Jordan)",
+            "notation": "JO4"
+        },
+        {
+            "label": "Other competent National Authority (Jordan)",
+            "notation": "JO99"
+        },
+        {
+            "label": "Bureau of Statistics (Japan)",
+            "notation": "JP1"
+        },
+        {
+            "label": "Bank of Japan",
+            "notation": "JP2"
+        },
+        {
+            "label": "Ministry of Finance (Japan)",
+            "notation": "JP4"
+        },
+        {
+            "label": "Financial Services Agency (Japan)",
+            "notation": "JP6"
+        },
+        {
+            "label": "Central Bureau of Statistics (Kenya)",
+            "notation": "KE1"
+        },
+        {
+            "label": "Central Bank of Kenya",
+            "notation": "KE2"
+        },
+        {
+            "label": "Ministry of Planning and National Development (Kenya)",
+            "notation": "KE3"
+        },
+        {
+            "label": "Office of the Vice President and Ministry of Finance (Kenya)",
+            "notation": "KE4"
+        },
+        {
+            "label": "Other competent National Authority (Kenya)",
+            "notation": "KE99"
+        },
+        {
+            "label": "National Statistical Committee of Kyrgyz Republic",
+            "notation": "KG1"
+        },
+        {
+            "label": "National Bank of the Kyrgyz Republic",
+            "notation": "KG2"
+        },
+        {
+            "label": "Ministry of Finance (Kyrgyz Republic)",
+            "notation": "KG4"
+        },
+        {
+            "label": "Other competent National Authority (Kyrgyz Republic)",
+            "notation": "KG99"
+        },
+        {
+            "label": "National Institute of Statistics (Cambodia)",
+            "notation": "KH1"
+        },
+        {
+            "label": "National Bank of Cambodia",
+            "notation": "KH2"
+        },
+        {
+            "label": "Minist\u00e8re de l'\u00e9conomie et des finances (Cambodia)",
+            "notation": "KH4"
+        },
+        {
+            "label": "Bank of Kiribati, Ltd",
+            "notation": "KI2"
+        },
+        {
+            "label": "Ministry of Finance and Economic Planning (Kiribati)",
+            "notation": "KI4"
+        },
+        {
+            "label": "Banque Centrale des Comoros",
+            "notation": "KM2"
+        },
+        {
+            "label": "Ministere des Finances, du budget et du plan (Comoros)",
+            "notation": "KM4"
+        },
+        {
+            "label": "Statistical Office (St. Kitts and Nevis)",
+            "notation": "KN1"
+        },
+        {
+            "label": "Eastern Caribbean Central Bank (ECCB) (St. Kitts and Nevis)",
+            "notation": "KN2"
+        },
+        {
+            "label": "Ministry of Finance (St. Kitts and Nevis)",
+            "notation": "KN4"
+        },
+        {
+            "label": "Korea National Statistical Office (KNSO)",
+            "notation": "KR1"
+        },
+        {
+            "label": "The Bank of Korea",
+            "notation": "KR2"
+        },
+        {
+            "label": "Economic Planning Board (Korea, Republic of)",
+            "notation": "KR3"
+        },
+        {
+            "label": "Ministry of Finance and Economy (Korea, Republic of)",
+            "notation": "KR4"
+        },
+        {
+            "label": "The Korea Financial Services Commission",
+            "notation": "KR6"
+        },
+        {
+            "label": "Statistics and Information Technology Sector (Kuwait)",
+            "notation": "KW1"
+        },
+        {
+            "label": "Central Bank of Kuwait",
+            "notation": "KW2"
+        },
+        {
+            "label": "Ministry of Finance (Kuwait)",
+            "notation": "KW4"
+        },
+        {
+            "label": "Other competent National Authority (Kuwait)",
+            "notation": "KW99"
+        },
+        {
+            "label": "Department of Finance & Development / Statistical Office (Cayman Islands)",
+            "notation": "KY1"
+        },
+        {
+            "label": "Cayman Islands Monetary Authority",
+            "notation": "KY2"
+        },
+        {
+            "label": "Other competent National Authority (Cayman Islands)",
+            "notation": "KY99"
+        },
+        {
+            "label": "National Statistical Agency of the Republic of Kazakhstan",
+            "notation": "KZ1"
+        },
+        {
+            "label": "National Bank of the Republic of Kazakhstan",
+            "notation": "KZ2"
+        },
+        {
+            "label": "Ministry of Finance (Kazakhstan)",
+            "notation": "KZ4"
+        },
+        {
+            "label": "Other competent National Authority (Kazakhstan)",
+            "notation": "KZ99"
+        },
+        {
+            "label": "Bank of the Lao P.D.R.",
+            "notation": "LA2"
+        },
+        {
+            "label": "Ministry of Finance (Lao People's Democratic Republic)",
+            "notation": "LA4"
+        },
+        {
+            "label": "Central Administration of Statistics (Lebanon)",
+            "notation": "LB1"
+        },
+        {
+            "label": "Banque du Liban (Lebanon)",
+            "notation": "LB2"
+        },
+        {
+            "label": "Ministere des finances (Lebanon)",
+            "notation": "LB4"
+        },
+        {
+            "label": "Other competent National Authority (Lebanon)",
+            "notation": "LB99"
+        },
+        {
+            "label": "Statistical Office (St. Lucia)",
+            "notation": "LC1"
+        },
+        {
+            "label": "Eastern Caribbean Central Bank (ECCB) (St. Lucia)",
+            "notation": "LC2"
+        },
+        {
+            "label": "Ministry of Finance, International Financial Services and Economic Affairs (St. Lucia)",
+            "notation": "LC4"
+        },
+        {
+            "label": "Amt fur Volkswirtschaft",
+            "notation": "LI1"
+        },
+        {
+            "label": "Other competent National Authority (Liechtenstein)",
+            "notation": "LI99"
+        },
+        {
+            "label": "Central Bank of Sri Lanka",
+            "notation": "LK2"
+        },
+        {
+            "label": "Ministry of Planning and Economic Affairs (Liberia)",
+            "notation": "LR1"
+        },
+        {
+            "label": "Central Bank of Liberia",
+            "notation": "LR2"
+        },
+        {
+            "label": "Ministry of Finance (Liberia)",
+            "notation": "LR4"
+        },
+        {
+            "label": "Other competent National Authority (Liberia)",
+            "notation": "LR99"
+        },
+        {
+            "label": "Bureau of Statistics (Lesotho)",
+            "notation": "LS1"
+        },
+        {
+            "label": "Central Bank of Lesotho",
+            "notation": "LS2"
+        },
+        {
+            "label": "Ministry of Finance (Lesotho)",
+            "notation": "LS4"
+        },
+        {
+            "label": "Lithuania, Department of Statistics",
+            "notation": "LT1"
+        },
+        {
+            "label": "Bank of Lithuania",
+            "notation": "LT2"
+        },
+        {
+            "label": "Ministry of Finance (Lithuania)",
+            "notation": "LT4"
+        },
+        {
+            "label": "Other competent National Authority (Lithuania)",
+            "notation": "LT99"
+        },
+        {
+            "label": "STATEC - Service central de la statistique et des \u00e9tudes \u00e9conomiques du Luxembourg",
+            "notation": "LU1"
+        },
+        {
+            "label": "Central Bank of Luxembourg",
+            "notation": "LU2"
+        },
+        {
+            "label": "CSSF (Luxembourg Financial Sector Surveillance Commission)",
+            "notation": "LU6"
+        },
+        {
+            "label": "Other competent National Authority (Luxembourg)",
+            "notation": "LU99"
+        },
+        {
+            "label": "Central Statistical Bureau of Latvia",
+            "notation": "LV1"
+        },
+        {
+            "label": "Bank of Latvia",
+            "notation": "LV2"
+        },
+        {
+            "label": "The Treasury of the Republic of Latvia",
+            "notation": "LV3"
+        },
+        {
+            "label": "FCMC (Latvia Financial and Capital Market Commission)",
+            "notation": "LV6"
+        },
+        {
+            "label": "Other competent National Authority (Latvia)",
+            "notation": "LV99"
+        },
+        {
+            "label": "Census and Statistics Directorate (Libya)",
+            "notation": "LY1"
+        },
+        {
+            "label": "Central Bank of Libya",
+            "notation": "LY2"
+        },
+        {
+            "label": "General People's Secretariat  of the Treasury (Libya)",
+            "notation": "LY3"
+        },
+        {
+            "label": "General Directorate for Economic and Social Planning (Libya)",
+            "notation": "LY4"
+        },
+        {
+            "label": "The National Corporation for Information and Documentation (Libya)",
+            "notation": "LY5"
+        },
+        {
+            "label": "Other competent National Authority (Libya)",
+            "notation": "LY99"
+        },
+        {
+            "label": "Ministere de la Prevision Economique et du Plan (Morocco)",
+            "notation": "MA1"
+        },
+        {
+            "label": "Bank Al-Maghrib (Morocco)",
+            "notation": "MA2"
+        },
+        {
+            "label": "Minist\u00e8re de l'Economie, des Finances, de la Privatisation et du Tourisme (Morocco)",
+            "notation": "MA4"
+        },
+        {
+            "label": "Office des Changes (Morocco)",
+            "notation": "MA5"
+        },
+        {
+            "label": "Other competent National Authority (Morocco)",
+            "notation": "MA99"
+        },
+        {
+            "label": "Statistical Office (Monaco)",
+            "notation": "MC1"
+        },
+        {
+            "label": "Monaco National Central Bank",
+            "notation": "MC2"
+        },
+        {
+            "label": "Other competent National Authority (Monaco)",
+            "notation": "MC99"
+        },
+        {
+            "label": "National Bureau for Statistics (Moldova)",
+            "notation": "MD1"
+        },
+        {
+            "label": "National Bank of Moldova",
+            "notation": "MD2"
+        },
+        {
+            "label": "Ministry of Finance (Moldova)",
+            "notation": "MD4"
+        },
+        {
+            "label": "Other competent National Authority (Moldova)",
+            "notation": "MD99"
+        },
+        {
+            "label": "Statistical Office (Montenegro)",
+            "notation": "ME1"
+        },
+        {
+            "label": "Central Bank of Montenegro",
+            "notation": "ME2"
+        },
+        {
+            "label": "INSTAT/Exchanges Commerciaux et des Services (Madagascar)",
+            "notation": "MG1"
+        },
+        {
+            "label": "Banque Centrale de Madagascar",
+            "notation": "MG2"
+        },
+        {
+            "label": "Minist\u00e8re des finances de l'Economie (Madagascar)",
+            "notation": "MG4"
+        },
+        {
+            "label": "Other competent National Authority (Madagascar)",
+            "notation": "MG99"
+        },
+        {
+            "label": "Ministry of Finance (Marshall Islands, Rep)",
+            "notation": "MH4"
+        },
+        {
+            "label": "State Statistical Office (Macedonia)",
+            "notation": "MK1"
+        },
+        {
+            "label": "National Bank of the Republic of Macedonia",
+            "notation": "MK2"
+        },
+        {
+            "label": "Ministry of Finance (Macedonia)",
+            "notation": "MK4"
+        },
+        {
+            "label": "Other competent National Authority (Macedonia, FYR)",
+            "notation": "MK99"
+        },
+        {
+            "label": "Direction Nationale de la Statistique et de  l\u2019Informatique (DNSI) (Mali)",
+            "notation": "ML1"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest (BCEAO) (Mali)",
+            "notation": "ML2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances et du Commerce (Mali)",
+            "notation": "ML4"
+        },
+        {
+            "label": "Other competent National Authority (Mali)",
+            "notation": "ML99"
+        },
+        {
+            "label": "Central Statistical Organization (Myanmar)",
+            "notation": "MM1"
+        },
+        {
+            "label": "Central Bank of Myanmar",
+            "notation": "MM2"
+        },
+        {
+            "label": "Ministry of  Finance and Revenue (Myanmar)",
+            "notation": "MM4"
+        },
+        {
+            "label": "Other competent National Authority (Myanmar)",
+            "notation": "MM99"
+        },
+        {
+            "label": "National Statistical Office (Mongolia)",
+            "notation": "MN1"
+        },
+        {
+            "label": "Bank of Mongolia",
+            "notation": "MN2"
+        },
+        {
+            "label": "Ministry of Finance and Economy (Mongolia)",
+            "notation": "MN4"
+        },
+        {
+            "label": "Other competent National Authority (Mongolia)",
+            "notation": "MN99"
+        },
+        {
+            "label": "Statistics and Census Department (China,P.R.:Macao)",
+            "notation": "MO1"
+        },
+        {
+            "label": "Monetary Authority of Macau (China,P.R.:Macao)",
+            "notation": "MO2"
+        },
+        {
+            "label": "Revenue Bureau of Macao",
+            "notation": "MO3"
+        },
+        {
+            "label": "Departamento de Estudos e Planeamento Financeiro (China,P.R.:Macao)",
+            "notation": "MO4"
+        },
+        {
+            "label": "Other competent National Authority (China,P.R.:Macao)",
+            "notation": "MO99"
+        },
+        {
+            "label": "Department of Statistics (Martinique)",
+            "notation": "MQ1"
+        },
+        {
+            "label": "Other competent National Authority (Martinique)",
+            "notation": "MQ99"
+        },
+        {
+            "label": "Department of Statistics and Economic Studies (Mauritania)",
+            "notation": "MR1"
+        },
+        {
+            "label": "Banque Centrale de Mauritanie",
+            "notation": "MR2"
+        },
+        {
+            "label": "Ministere du Plan (Mauritania)",
+            "notation": "MR3"
+        },
+        {
+            "label": "Minist\u00e8re des Finances (Mauritania)",
+            "notation": "MR4"
+        },
+        {
+            "label": "National Statistics Office (Malta)",
+            "notation": "MT1"
+        },
+        {
+            "label": "Central Bank of Malta",
+            "notation": "MT2"
+        },
+        {
+            "label": "Ministry of Finance (Malta)",
+            "notation": "MT4"
+        },
+        {
+            "label": "MFSA (Malta Financial Services Authority)",
+            "notation": "MT6"
+        },
+        {
+            "label": "Malta Maritime Authority",
+            "notation": "MT97"
+        },
+        {
+            "label": "Malta International Airport",
+            "notation": "MT98"
+        },
+        {
+            "label": "Other competent National Authority (Malta)",
+            "notation": "MT99"
+        },
+        {
+            "label": "Central Statistical Office (Mauritius)",
+            "notation": "MU1"
+        },
+        {
+            "label": "Bank of Mauritius",
+            "notation": "MU2"
+        },
+        {
+            "label": "Other competent National Authority (Mauritius)",
+            "notation": "MU99"
+        },
+        {
+            "label": "Maldives Monetary Authority (Maldives)",
+            "notation": "MV2"
+        },
+        {
+            "label": "Ministry of Planning and Development (Maldives)",
+            "notation": "MV3"
+        },
+        {
+            "label": "Ministry of Finance and Treasury (Maldives)",
+            "notation": "MV4"
+        },
+        {
+            "label": "National Statistical Office (Malawi)",
+            "notation": "MW1"
+        },
+        {
+            "label": "Reserve Bank of Malawi",
+            "notation": "MW2"
+        },
+        {
+            "label": "Ministry of Finance (Malawi)",
+            "notation": "MW4"
+        },
+        {
+            "label": "Other competent National Authority (Malawi)",
+            "notation": "MW99"
+        },
+        {
+            "label": "Instituto Nacional de Estad\u00edstica Geografia e Informatica (INEGI) (Mexico)",
+            "notation": "MX1"
+        },
+        {
+            "label": "Banco de Mexico",
+            "notation": "MX2"
+        },
+        {
+            "label": "Secretaria de Hacienda y Cr\u00e9dito P\u00fablico (Mexico)",
+            "notation": "MX4"
+        },
+        {
+            "label": "Other competent National Authority (Mexico)",
+            "notation": "MX99"
+        },
+        {
+            "label": "Department of Statistics Malaysia",
+            "notation": "MY1"
+        },
+        {
+            "label": "Bank Negara Malaysia",
+            "notation": "MY2"
+        },
+        {
+            "label": "Other competent National Authority (Malaysia)",
+            "notation": "MY99"
+        },
+        {
+            "label": "Direc\u00e7\u00e3o Nacional de Estat\u00edstica (Mozambique)",
+            "notation": "MZ1"
+        },
+        {
+            "label": "Banco de Mo\u00e7ambique",
+            "notation": "MZ2"
+        },
+        {
+            "label": "Ministry of Planning and Finance (Mozambique)",
+            "notation": "MZ4"
+        },
+        {
+            "label": "Other competent National Authority (Mozambique)",
+            "notation": "MZ99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Namibia)",
+            "notation": "NA1"
+        },
+        {
+            "label": "Bank of Namibia",
+            "notation": "NA2"
+        },
+        {
+            "label": "Ministry of Finance (Namibia)",
+            "notation": "NA4"
+        },
+        {
+            "label": "Institut Territorial de la Statistique et des Etudes Economiques (New Caledonia)",
+            "notation": "NC1"
+        },
+        {
+            "label": "Other competent National Authority (French Territories, New Caledonia)",
+            "notation": "NC99"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l\u2019Afrique de l\u2019Ouest (BCEAO) (Niger)",
+            "notation": "NE2"
+        },
+        {
+            "label": "Ministere du Plan (Niger)",
+            "notation": "NE3"
+        },
+        {
+            "label": "Minist\u00e8re des Finances (Niger)",
+            "notation": "NE4"
+        },
+        {
+            "label": "Federal Office of Statistics (Nigeria)",
+            "notation": "NG1"
+        },
+        {
+            "label": "Central Bank of Nigeria",
+            "notation": "NG2"
+        },
+        {
+            "label": "Federal Ministry of Finance (Nigeria)",
+            "notation": "NG4"
+        },
+        {
+            "label": "Other competent National Authority (Nigeria)",
+            "notation": "NG99"
+        },
+        {
+            "label": "Banco Central de Nicaragua",
+            "notation": "NI2"
+        },
+        {
+            "label": "Ministerio de Hacienda y Cr\u00e9dito P\u00fablico (Nicaragua)",
+            "notation": "NI4"
+        },
+        {
+            "label": "Central Bureau voor de Statistiek (Netherlands)",
+            "notation": "NL1"
+        },
+        {
+            "label": "Nederlandse Bank (Netherlands)",
+            "notation": "NL2"
+        },
+        {
+            "label": "Ministry of Finance (Netherlands)",
+            "notation": "NL4"
+        },
+        {
+            "label": "Other competent National Authority (Netherlands)",
+            "notation": "NL99"
+        },
+        {
+            "label": "Statistics Norway",
+            "notation": "NO1"
+        },
+        {
+            "label": "Norges Bank (Norway)",
+            "notation": "NO2"
+        },
+        {
+            "label": "Avinor (Civil Aviation Administration)",
+            "notation": "NO98"
+        },
+        {
+            "label": "Other competent National Authority (Norway)",
+            "notation": "NO99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Nepal)",
+            "notation": "NP1"
+        },
+        {
+            "label": "Nepal Rastra Bank",
+            "notation": "NP2"
+        },
+        {
+            "label": "Ministry of Finance (Nepal)",
+            "notation": "NP4"
+        },
+        {
+            "label": "Nauru Bureau of Statistics (Nauru)",
+            "notation": "NR1"
+        },
+        {
+            "label": "Ministry of Finance (Nauru)",
+            "notation": "NR4"
+        },
+        {
+            "label": "Other competent National Authority (Nauru)",
+            "notation": "NR99"
+        },
+        {
+            "label": "Statistics Offie Niue",
+            "notation": "NU1"
+        },
+        {
+            "label": "Statistics New Zealand",
+            "notation": "NZ1"
+        },
+        {
+            "label": "Reserve Bank of New Zealand",
+            "notation": "NZ2"
+        },
+        {
+            "label": "Other competent National Authority (New Zealand)",
+            "notation": "NZ99"
+        },
+        {
+            "label": "Central Bank of Oman",
+            "notation": "OM2"
+        },
+        {
+            "label": "Ministry of Finance (Oman)",
+            "notation": "OM4"
+        },
+        {
+            "label": "Directorate of Statistics and Census (Panama)",
+            "notation": "PA1"
+        },
+        {
+            "label": "Banco Nacional de Panama",
+            "notation": "PA2"
+        },
+        {
+            "label": "Office of the Controller General (Panama)",
+            "notation": "PA3"
+        },
+        {
+            "label": "Superintendencia de Bancos (Panama)",
+            "notation": "PA6"
+        },
+        {
+            "label": "Banco Central de Reserva del Per\u00fa",
+            "notation": "PE2"
+        },
+        {
+            "label": "Ministerio de Econom\u00eda y Finanzas (Peru)",
+            "notation": "PE4"
+        },
+        {
+            "label": "National Statistical Office (Papua New Guinea)",
+            "notation": "PG1"
+        },
+        {
+            "label": "Bank of Papua New Guinea",
+            "notation": "PG2"
+        },
+        {
+            "label": "Other competent National Authority (Papua New Guinea)",
+            "notation": "PG99"
+        },
+        {
+            "label": "Central Bank of the Philippines",
+            "notation": "PH2"
+        },
+        {
+            "label": "Bureau of the Treasury (Philippines)",
+            "notation": "PH3"
+        },
+        {
+            "label": "Pakistan Bureau of Statistics (Pakistan)",
+            "notation": "PK1"
+        },
+        {
+            "label": "State Bank of Pakistan",
+            "notation": "PK2"
+        },
+        {
+            "label": "Ministry of Finance (Pakistan)",
+            "notation": "PK4"
+        },
+        {
+            "label": "Other competent National Authority (Pakistan)",
+            "notation": "PK99"
+        },
+        {
+            "label": "Central Statistical Office of Poland",
+            "notation": "PL1"
+        },
+        {
+            "label": "Narodowy Bank Polski (Poland)",
+            "notation": "PL2"
+        },
+        {
+            "label": "Ministry of Finance (Poland)",
+            "notation": "PL4"
+        },
+        {
+            "label": "Other competent National Authority (Poland)",
+            "notation": "PL99"
+        },
+        {
+            "label": "Palestinian Central Bureau of Statistics",
+            "notation": "PS1"
+        },
+        {
+            "label": "Palestine Monetary Authority",
+            "notation": "PS2"
+        },
+        {
+            "label": "Other competent National Authority (West Bank and Gaza)",
+            "notation": "PS99"
+        },
+        {
+            "label": "Instituto Nacional de Estat\u00edstica (Portugal)",
+            "notation": "PT1"
+        },
+        {
+            "label": "Banco de Portugal (Portugal)",
+            "notation": "PT2"
+        },
+        {
+            "label": "Direccao Geral do Or\u00e7amento (DGO) (Portugal)",
+            "notation": "PT3"
+        },
+        {
+            "label": "Ministerio Das Financas (Portugal)",
+            "notation": "PT4"
+        },
+        {
+            "label": "Other competent National Authority (Portugal)",
+            "notation": "PT99"
+        },
+        {
+            "label": "Statistical office (Palau)",
+            "notation": "PW1"
+        },
+        {
+            "label": "Other competent National Authority (Palau)",
+            "notation": "PW99"
+        },
+        {
+            "label": "Banco Central del Paraguay",
+            "notation": "PY2"
+        },
+        {
+            "label": "Ministerio de Hacienda (Paraguay)",
+            "notation": "PY4"
+        },
+        {
+            "label": "Qatar Central Bank",
+            "notation": "QA2"
+        },
+        {
+            "label": "Customs Department (Qatar)",
+            "notation": "QA3"
+        },
+        {
+            "label": "Ministry of Finance, Economy and Commerce (Qatar)",
+            "notation": "QA4"
+        },
+        {
+            "label": "Romania, National Commission for Statistics",
+            "notation": "RO1"
+        },
+        {
+            "label": "National Bank of Romania",
+            "notation": "RO2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances Public (Romania)",
+            "notation": "RO4"
+        },
+        {
+            "label": "Other competent National Authority (Romania)",
+            "notation": "RO99"
+        },
+        {
+            "label": "Statistical Office of the Republic of Serbia",
+            "notation": "RS1"
+        },
+        {
+            "label": "National Bank of Serbia (NBS) (Serbia, Rep. of)",
+            "notation": "RS2"
+        },
+        {
+            "label": "Federal State Statistics Service (Russian Federation)",
+            "notation": "RU1"
+        },
+        {
+            "label": "Central Bank of Russian Federation",
+            "notation": "RU2"
+        },
+        {
+            "label": "State Customs Committee of the Russian Federation",
+            "notation": "RU3"
+        },
+        {
+            "label": "Ministry of Finance (Russian Federation)",
+            "notation": "RU4"
+        },
+        {
+            "label": "Other competent National Authority (Russian Federation)",
+            "notation": "RU99"
+        },
+        {
+            "label": "General Office of Statistics (Rwanda)",
+            "notation": "RW1"
+        },
+        {
+            "label": "Banque Nationale Du Rwanda",
+            "notation": "RW2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances et Planification Economie (Rwanda)",
+            "notation": "RW4"
+        },
+        {
+            "label": "Central Department of Statistics (Saudi Arabia)",
+            "notation": "SA1"
+        },
+        {
+            "label": "Saudi Arabian Monetary Agency",
+            "notation": "SA2"
+        },
+        {
+            "label": "Ministry of Finance (Saudi Arabia)",
+            "notation": "SA4"
+        },
+        {
+            "label": "Other competent National Authority (Saudi Arabia)",
+            "notation": "SA99"
+        },
+        {
+            "label": "Statistical Office (Solomon Islands)",
+            "notation": "SB1"
+        },
+        {
+            "label": "Central Bank of Solomon Islands",
+            "notation": "SB2"
+        },
+        {
+            "label": "Ministry of Finance and Treasury (Solomon Islands)",
+            "notation": "SB4"
+        },
+        {
+            "label": "Central Bank of Seychelles",
+            "notation": "SC2"
+        },
+        {
+            "label": "Ministry of Finance (Seychelles)",
+            "notation": "SC4"
+        },
+        {
+            "label": "Ministry of Administration and Manpower, Management and Information Systems Division  (Seychelles)",
+            "notation": "SC6"
+        },
+        {
+            "label": "Central Bureau of Statistics (Sudan)",
+            "notation": "SD1"
+        },
+        {
+            "label": "Bank of Sudan",
+            "notation": "SD2"
+        },
+        {
+            "label": "Ministry of Finance and National Economy (Sudan)",
+            "notation": "SD4"
+        },
+        {
+            "label": "Other competent National Authority (Sudan)",
+            "notation": "SD99"
+        },
+        {
+            "label": "Statistics Sweden (Sweden)",
+            "notation": "SE1"
+        },
+        {
+            "label": "Sveriges Riksbank (Sweden)",
+            "notation": "SE2"
+        },
+        {
+            "label": "National Institute of Economic Research (Sweden)",
+            "notation": "SE5"
+        },
+        {
+            "label": "Other competent National Authority (Sweden)",
+            "notation": "SE99"
+        },
+        {
+            "label": "Ministry of Trade and Industry / Department of Statistics (Singapore)",
+            "notation": "SG1"
+        },
+        {
+            "label": "Monetary Authority of Singapore",
+            "notation": "SG2"
+        },
+        {
+            "label": "International Enterprise Singapore",
+            "notation": "SG3"
+        },
+        {
+            "label": "Ministry of Finance (Singapore)",
+            "notation": "SG4"
+        },
+        {
+            "label": "Other competent National Authority (Singapore)",
+            "notation": "SG99"
+        },
+        {
+            "label": "Saint Helena Statistical Office",
+            "notation": "SH1"
+        },
+        {
+            "label": "Statistical Office of the Republic of Slovenia",
+            "notation": "SI1"
+        },
+        {
+            "label": "Bank of Slovenia",
+            "notation": "SI2"
+        },
+        {
+            "label": "Ministry of Finance (Slovenia)",
+            "notation": "SI4"
+        },
+        {
+            "label": "Other competent National Authority (Slovenia)",
+            "notation": "SI99"
+        },
+        {
+            "label": "Statistical Office of the Slovak Republic",
+            "notation": "SK1"
+        },
+        {
+            "label": "National Bank of Slovakia",
+            "notation": "SK2"
+        },
+        {
+            "label": "Ministry of Finance of the Slovak Republic",
+            "notation": "SK4"
+        },
+        {
+            "label": "Other competent National Authority (Slovak Republic)",
+            "notation": "SK99"
+        },
+        {
+            "label": "Bank of Sierra Leone",
+            "notation": "SL2"
+        },
+        {
+            "label": "Office of Economic Planning and Data Processing Center and Statistics (San Marino)",
+            "notation": "SM1"
+        },
+        {
+            "label": "Instituto di Credito Sammarinese / Central Bank (San Marino)",
+            "notation": "SM2"
+        },
+        {
+            "label": "Ministry of Finance and Budget (San Marino)",
+            "notation": "SM4"
+        },
+        {
+            "label": "Direction de la Prevision et de la Statistique (Senegal)",
+            "notation": "SN1"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l'Afrique de l'Ouest (BCEAO) (Senegal)",
+            "notation": "SN2"
+        },
+        {
+            "label": "Minist\u00e8re de l'Economie et des Finance (Senegal)",
+            "notation": "SN4"
+        },
+        {
+            "label": "Other competent National Authority (Senegal)",
+            "notation": "SN99"
+        },
+        {
+            "label": "Central Bank of Somalia",
+            "notation": "SO2"
+        },
+        {
+            "label": "General Bureau of Statistics (Suriname)",
+            "notation": "SR1"
+        },
+        {
+            "label": "Centrale Bank van Suriname",
+            "notation": "SR2"
+        },
+        {
+            "label": "Ministry of Finance (Suriname)",
+            "notation": "SR4"
+        },
+        {
+            "label": "Other competent National Authority (Suriname)",
+            "notation": "SR99"
+        },
+        {
+            "label": "National Bureau of Statistics (South Sudan)",
+            "notation": "SS1"
+        },
+        {
+            "label": "Bank of South Sudan",
+            "notation": "SS2"
+        },
+        {
+            "label": "Other competent National Authority (South Sudan)",
+            "notation": "SS99"
+        },
+        {
+            "label": "Banco Central de Sao Tome e Principe",
+            "notation": "ST2"
+        },
+        {
+            "label": "Ministry of Planning and Financing (S\u00e3o Tom\u00e9 and Pr\u00edncipe)",
+            "notation": "ST4"
+        },
+        {
+            "label": "Banco Central de Reserva de El Salvador",
+            "notation": "SV2"
+        },
+        {
+            "label": "Ministerio de Hacienda (El Salvador)",
+            "notation": "SV4"
+        },
+        {
+            "label": "Bureau for Statistics Sint Maarten",
+            "notation": "SX1"
+        },
+        {
+            "label": "Other competent National Authority (Sint Maarten)",
+            "notation": "SX99"
+        },
+        {
+            "label": "Central Bureau of Statistics (Syria Arab Rep.)",
+            "notation": "SY1"
+        },
+        {
+            "label": "Central Bank of Syria",
+            "notation": "SY2"
+        },
+        {
+            "label": "Ministry of Finance (Syrian Arab Rep.)",
+            "notation": "SY4"
+        },
+        {
+            "label": "Other competent National Authority (Syrian Arab Republic)",
+            "notation": "SY99"
+        },
+        {
+            "label": "Central Statistical Office (Swaziland)",
+            "notation": "SZ1"
+        },
+        {
+            "label": "Central Bank of Swaziland",
+            "notation": "SZ2"
+        },
+        {
+            "label": "Ministry of Finance (Swaziland)",
+            "notation": "SZ4"
+        },
+        {
+            "label": "Ministry of Finance (Turks and Caicos)",
+            "notation": "TC4"
+        },
+        {
+            "label": "Other competent National Authority (Turks and Caicos)",
+            "notation": "TC99"
+        },
+        {
+            "label": "Institut de la Statistique (INSDEE) (Chad)",
+            "notation": "TD1"
+        },
+        {
+            "label": "Banque des \u00c9tats de l\u2019Afrique Centrale (BEAC) (Chad)",
+            "notation": "TD2"
+        },
+        {
+            "label": "Ministere des finances (Chad)",
+            "notation": "TD4"
+        },
+        {
+            "label": "Other competent National Authority (Chad)",
+            "notation": "TD99"
+        },
+        {
+            "label": "Banque Centrale des \u00c9tats de l'Afrique de l'Ouest (BCEAO) (Togo)",
+            "notation": "TG2"
+        },
+        {
+            "label": "Ministere du Plan (Togo)",
+            "notation": "TG3"
+        },
+        {
+            "label": "Minist\u00e8re de l\u2019Economie des Finances (Togo)",
+            "notation": "TG4"
+        },
+        {
+            "label": "Bank of Thailand",
+            "notation": "TH2"
+        },
+        {
+            "label": "Ministry of Finance (Thailand)",
+            "notation": "TH4"
+        },
+        {
+            "label": "National Economic and Social Development Board (Thailand)",
+            "notation": "TH5"
+        },
+        {
+            "label": "State Statistical Agency of Tajikistan",
+            "notation": "TJ1"
+        },
+        {
+            "label": "National Bank of Tajikistan",
+            "notation": "TJ2"
+        },
+        {
+            "label": "Ministry of Finance (Tajikistan)",
+            "notation": "TJ4"
+        },
+        {
+            "label": "Other competent National Authority (Tajikistan)",
+            "notation": "TJ99"
+        },
+        {
+            "label": "Statistical Office (Timor Leste)",
+            "notation": "TL1"
+        },
+        {
+            "label": "Banco Central de Timor-Leste",
+            "notation": "TL2"
+        },
+        {
+            "label": "Ministry of Finance (Timor-Leste)",
+            "notation": "TL4"
+        },
+        {
+            "label": "Other competent National Authority (Timor-Leste)",
+            "notation": "TL99"
+        },
+        {
+            "label": "National Institute of State Statistics and Information (Turkmenistan)",
+            "notation": "TM1"
+        },
+        {
+            "label": "Central Bank of Turkmenistan",
+            "notation": "TM2"
+        },
+        {
+            "label": "Ministry of Economy and Finance (Turkmenistan)",
+            "notation": "TM4"
+        },
+        {
+            "label": "Other competent National Authority (Turkmenistan)",
+            "notation": "TM99"
+        },
+        {
+            "label": "National Institute of Statistics (Tunisia)",
+            "notation": "TN1"
+        },
+        {
+            "label": "Banque centrale de Tunisie",
+            "notation": "TN2"
+        },
+        {
+            "label": "Minist\u00e8re des Finances (Tunisia)",
+            "notation": "TN4"
+        },
+        {
+            "label": "Statistics Department (Tonga)",
+            "notation": "TO1"
+        },
+        {
+            "label": "National Reserve Bank of Tonga",
+            "notation": "TO2"
+        },
+        {
+            "label": "Ministry of Finance (Tonga)",
+            "notation": "TO4"
+        },
+        {
+            "label": "Other competent National Authority (Tonga)",
+            "notation": "TO99"
+        },
+        {
+            "label": "State Institute of Statistics (Turkey)",
+            "notation": "TR1"
+        },
+        {
+            "label": "Central Bank of the Republic of Turkey",
+            "notation": "TR2"
+        },
+        {
+            "label": "Hazine M\u00fcstesarligi (Turkish Treasury)",
+            "notation": "TR3"
+        },
+        {
+            "label": "State Airports Authority",
+            "notation": "TR98"
+        },
+        {
+            "label": "Other competent National Authority (Turkey)",
+            "notation": "TR99"
+        },
+        {
+            "label": "Central Statistical Office (Trinidad and Tobago)",
+            "notation": "TT1"
+        },
+        {
+            "label": "Central Bank of Trinidad and Tobago",
+            "notation": "TT2"
+        },
+        {
+            "label": "Ministry of Finance (Trinidad and Tobago)",
+            "notation": "TT4"
+        },
+        {
+            "label": "Tuvalu Statistics",
+            "notation": "TV1"
+        },
+        {
+            "label": "Central Bank of the Republic of China (Taiwan)",
+            "notation": "TW2"
+        },
+        {
+            "label": "National Bureau of Statistics (Tanzania)",
+            "notation": "TZ1"
+        },
+        {
+            "label": "Bank of Tanzania",
+            "notation": "TZ2"
+        },
+        {
+            "label": "Ministry of Finance (Tanzania)",
+            "notation": "TZ4"
+        },
+        {
+            "label": "Other competent National Authority (Tanzania)",
+            "notation": "TZ99"
+        },
+        {
+            "label": "Euro area central banks",
+            "notation": "U22"
+        },
+        {
+            "label": "EU central banks not belonging to the Euro area",
+            "notation": "U32"
+        },
+        {
+            "label": "State Statistics Committee of Ukraine",
+            "notation": "UA1"
+        },
+        {
+            "label": "National Bank of Ukraine",
+            "notation": "UA2"
+        },
+        {
+            "label": "Ministry of Finance (Ukraine)",
+            "notation": "UA4"
+        },
+        {
+            "label": "Other competent National Authority (Ukraine)",
+            "notation": "UA99"
+        },
+        {
+            "label": "Uganda Bureau of Statistics",
+            "notation": "UG1"
+        },
+        {
+            "label": "Bank of Uganda",
+            "notation": "UG2"
+        },
+        {
+            "label": "Ministry of Finance, Planning and Economic Development (Uganda)",
+            "notation": "UG4"
+        },
+        {
+            "label": "Other competent National Authority (Uganda)",
+            "notation": "UG99"
+        },
+        {
+            "label": "Federal Reserve Bank of New York (USA)",
+            "notation": "US2"
+        },
+        {
+            "label": "Board of Governors of the Federal Reserve System (USA)",
+            "notation": "US3"
+        },
+        {
+            "label": "U.S. Department of Treasury (USA)",
+            "notation": "US4"
+        },
+        {
+            "label": "The Office of Financial Research (OFR)",
+            "notation": "US4_1"
+        },
+        {
+            "label": "U.S. Department of Commerce (USA)",
+            "notation": "US5"
+        },
+        {
+            "label": "Bureau of Labor Statistics",
+            "notation": "US6"
+        },
+        {
+            "label": "Bureau of Census",
+            "notation": "US7"
+        },
+        {
+            "label": "Bureau of Economic Analysis",
+            "notation": "US8"
+        },
+        {
+            "label": "Banco Central del Uruguay",
+            "notation": "UY2"
+        },
+        {
+            "label": "Ministerio de Econom\u00eda y Finanzas (Uruguay)",
+            "notation": "UY4"
+        },
+        {
+            "label": "Goskomprognozstat (Uzbekistan)",
+            "notation": "UZ1"
+        },
+        {
+            "label": "Ministry of Economy  (Uzbekistan)",
+            "notation": "UZ3"
+        },
+        {
+            "label": "Ministry of Finance (Uzbekistan)",
+            "notation": "UZ4"
+        },
+        {
+            "label": "Other competent National Authority (Uzbekistan)",
+            "notation": "UZ99"
+        },
+        {
+            "label": "Holy See (Vatican City State) National Central Bank",
+            "notation": "VA2"
+        },
+        {
+            "label": "Statistical Unit (St. Vincent and Grenadines)",
+            "notation": "VC1"
+        },
+        {
+            "label": "Eastern Caribbean Central Bank (ECCB) (St. Vincent and Grenadines)",
+            "notation": "VC2"
+        },
+        {
+            "label": "Ministry of Finance and Planning (St. Vincent and the Grenadines)",
+            "notation": "VC4"
+        },
+        {
+            "label": "Banco Central de Venezuela",
+            "notation": "VE2"
+        },
+        {
+            "label": "Ministerio de Finanzas (Venezuela)",
+            "notation": "VE4"
+        },
+        {
+            "label": "Other competent National Authority (Virgin Islands, British)",
+            "notation": "VG99"
+        },
+        {
+            "label": "Other competent National Authority (Virgin Islands, US)",
+            "notation": "VI99"
+        },
+        {
+            "label": "General Statistics Office (Vietnam)",
+            "notation": "VN1"
+        },
+        {
+            "label": "State Bank of Vietnam",
+            "notation": "VN2"
+        },
+        {
+            "label": "Other competent National Authority (Vietnam)",
+            "notation": "VN99"
+        },
+        {
+            "label": "Statistical Office (Vanuatu)",
+            "notation": "VU1"
+        },
+        {
+            "label": "Reserve Bank of Vanuatu",
+            "notation": "VU2"
+        },
+        {
+            "label": "Ministry of Finance and Economic Management (Vanuatu)",
+            "notation": "VU4"
+        },
+        {
+            "label": "Other competent National Authority (Vanuatu)",
+            "notation": "VU99"
+        },
+        {
+            "label": "Department of Statistics (Samoa)",
+            "notation": "WS1"
+        },
+        {
+            "label": "Central Bank of Samoa",
+            "notation": "WS2"
+        },
+        {
+            "label": "Samoa Treasury Department",
+            "notation": "WS4"
+        },
+        {
+            "label": "Other competent National Authority (Samoa)",
+            "notation": "WS99"
+        },
+        {
+            "label": "Kosovo agency of Statistics",
+            "notation": "XK1"
+        },
+        {
+            "label": "Central Bank of the Republic of Kosovo",
+            "notation": "XK2"
+        },
+        {
+            "label": "Ministry of Finance (Kosovo)",
+            "notation": "XK4"
+        },
+        {
+            "label": "Other competent National Authority (Kosovo)",
+            "notation": "XK99"
+        },
+        {
+            "label": "Central Statistical Organization (Yemen)",
+            "notation": "YE1"
+        },
+        {
+            "label": "Central Bank of Yemen",
+            "notation": "YE2"
+        },
+        {
+            "label": "Ministry of Finance (Yemen)",
+            "notation": "YE4"
+        },
+        {
+            "label": "Other competent National Authority (Yemen, Republic of)",
+            "notation": "YE99"
+        },
+        {
+            "label": "Central Statistical Service (South Africa)",
+            "notation": "ZA1"
+        },
+        {
+            "label": "South African Reserve Bank",
+            "notation": "ZA2"
+        },
+        {
+            "label": "Department of Customs and Excise (South Africa)",
+            "notation": "ZA3"
+        },
+        {
+            "label": "Other competent National Authority (South Africa)",
+            "notation": "ZA99"
+        },
+        {
+            "label": "Central Statistical Office (Zambia)",
+            "notation": "ZM1"
+        },
+        {
+            "label": "Bank of Zambia",
+            "notation": "ZM2"
+        },
+        {
+            "label": "Other competent National Authority (Zambia)",
+            "notation": "ZM99"
+        },
+        {
+            "label": "Central Statistical Office (Zimbabwe)",
+            "notation": "ZW1"
+        },
+        {
+            "label": "Reserve Bank of Zimbabwe",
+            "notation": "ZW2"
+        },
+        {
+            "label": "Ministry of Finance, Economic Planning  and Development (Zimbabwe)",
+            "notation": "ZW4"
+        },
+        {
+            "label": "Other competent National Authority (Zimbabwe)",
+            "notation": "ZW99"
+        },
+        {
+            "label": "Unspecified (e.g. any, dissemination, internal exchange etc)",
+            "notation": "ZZZ"
+        }
+    ]
+}

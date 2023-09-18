@@ -1,0 +1,877 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Industrial activity code list",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Total - All activities",
+            "notation": "_T",
+            "description": "This aggregate includes all activities"
+        },
+        {
+            "label": "Unknown",
+            "notation": "_U"
+        },
+        {
+            "label": "Unspecified",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "Agriculture, forestry and fishing",
+            "notation": "A"
+        },
+        {
+            "label": "Total Primary sector",
+            "notation": "A_B",
+            "description": "A+B"
+        },
+        {
+            "label": "All activities except Industry and Trade",
+            "notation": "A_F_HTU",
+            "description": "A_F_HTU=A+F+H+I+J+K+L+M+N+O+P+Q+R+S+T+U"
+        },
+        {
+            "label": "Crop and animal production, hunting and related service activities",
+            "notation": "A01"
+        },
+        {
+            "label": "Forestry and logging",
+            "notation": "A02"
+        },
+        {
+            "label": "Fishing and aquaculture",
+            "notation": "A03"
+        },
+        {
+            "label": "All activities except activities of public administration, defence, education, human health and social work",
+            "notation": "ATN_RTU",
+            "description": "ATN_RTU= A+B+C+D+E+F+G+H+I+J+K+L+M+N+R+S+T+U"
+        },
+        {
+            "label": "All activities except activities of households as employers; undifferentiated goods- and services-producing activities of households for own use and activities of extraterritorial organisations and bodies",
+            "notation": "ATS",
+            "description": "ATS=A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S"
+        },
+        {
+            "label": "Activities other than financial and insurance",
+            "notation": "ATUXFPRV",
+            "description": "ATUXFPRV=A+B+C+D35+E+F+G+H+I+J+L+M+N+P85+Q+R+S+O_T_U+PRV_VE"
+        },
+        {
+            "label": "Mining and quarrying",
+            "notation": "B"
+        },
+        {
+            "label": "Mining of coal and lignite",
+            "notation": "B05"
+        },
+        {
+            "label": "Extraction of crude petroleum and natural gas",
+            "notation": "B06"
+        },
+        {
+            "label": "Extraction of crude petroleum and natural gas; mining support service activities",
+            "notation": "B06_09",
+            "description": "B06+B09"
+        },
+        {
+            "label": "Mining of metal ores",
+            "notation": "B07"
+        },
+        {
+            "label": "Other mining and quarrying",
+            "notation": "B08"
+        },
+        {
+            "label": "Mining support service activities",
+            "notation": "B09"
+        },
+        {
+            "label": "Industry (except construction)",
+            "notation": "BTE",
+            "description": "BTE=B+C+D+E"
+        },
+        {
+            "label": "Industry and construction",
+            "notation": "BTF",
+            "description": "BTF=B+C+D+E+F"
+        },
+        {
+            "label": "Business economy",
+            "notation": "BTN",
+            "description": "BTN=B+C+D+E+F+G+H+I+J+K+L+M+N"
+        },
+        {
+            "label": "Industry, construction and services (except activities of households as employers and extra-territorial organisations and bodies)",
+            "notation": "BTS",
+            "description": "BTS=B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S"
+        },
+        {
+            "label": "Industry, construction and services (except public administration and defence; compulsory social security; activities of households as employers; undifferentiated goods- and services-producing activities of households for own use; activities of extraterritorial organisations and bodies)",
+            "notation": "BTSXO",
+            "description": "BTSXO=B+C+D+E+F+G+H+I+J+K+L+M+N+P+Q+R+S"
+        },
+        {
+            "label": "Manufacturing",
+            "notation": "C"
+        },
+        {
+            "label": "Other manufacturing (C15, C23, C27, C31, C32, C33)",
+            "notation": "C_OTH",
+            "description": "C15+C23+C27+C31+C32+C33"
+        },
+        {
+            "label": "Manufacture of food products",
+            "notation": "C10"
+        },
+        {
+            "label": "Manufacture of food products; beverages and tobacco products",
+            "notation": "C10T12",
+            "description": "C10T12=C10+C11+C12"
+        },
+        {
+            "label": "Manufacture of beverages",
+            "notation": "C11"
+        },
+        {
+            "label": "Manufacture of tobacco products",
+            "notation": "C12"
+        },
+        {
+            "label": "Manufacture of textiles",
+            "notation": "C13"
+        },
+        {
+            "label": "Manufacture of textiles and wearing apparel",
+            "notation": "C13_14",
+            "description": "C13+C14"
+        },
+        {
+            "label": "Manufacture of textiles, wearing apparel, leather and related products",
+            "notation": "C13T15",
+            "description": "C13T15=C13+C14+C15"
+        },
+        {
+            "label": "Manufacture of textiles, wearing apparel, wood and paper products; printing and reproduction",
+            "notation": "C13T18X15",
+            "description": "C13+C14+C16+C17+C18"
+        },
+        {
+            "label": "Manufacture of wearing apparel",
+            "notation": "C14"
+        },
+        {
+            "label": "Manufacture of leather and related products",
+            "notation": "C15"
+        },
+        {
+            "label": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+            "notation": "C16"
+        },
+        {
+            "label": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials; manufacture of paper and paper products; printing and reproduction of recorded media",
+            "notation": "C16T18",
+            "description": "C16T18=C16+C17+C18"
+        },
+        {
+            "label": "Other Manufactured Goods",
+            "notation": "C16T23_C31T33",
+            "description": "C16T23_C31T33= C16T18+C19T22+ C23+ C31T33"
+        },
+        {
+            "label": "Manufacture of paper and paper products",
+            "notation": "C17"
+        },
+        {
+            "label": "Printing and reproduction of recorded media",
+            "notation": "C18"
+        },
+        {
+            "label": "Manufacture of coke and refined petroleum products",
+            "notation": "C19"
+        },
+        {
+            "label": "Manufacture of petroleum, chemical, pharmaceutical, rubber and plastic products",
+            "notation": "C19T22",
+            "description": "C19+C20+C21+C22"
+        },
+        {
+            "label": "Manufacture of chemicals and chemical products",
+            "notation": "C20"
+        },
+        {
+            "label": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+            "notation": "C21"
+        },
+        {
+            "label": "Manufacture of rubber and plastic products",
+            "notation": "C22"
+        },
+        {
+            "label": "Manufacture of rubber and plastic products and other non-metallic mineral products",
+            "notation": "C22_23",
+            "description": "C22_23=C22+C23"
+        },
+        {
+            "label": "Manufacture of other non-metallic mineral products",
+            "notation": "C23"
+        },
+        {
+            "label": "Manufacture of basic metals",
+            "notation": "C24"
+        },
+        {
+            "label": "Manufacture of basic metals and fabricated metal products, except machinery and equipment",
+            "notation": "C24_25",
+            "description": "C24_25=C24+C25"
+        },
+        {
+            "label": "Manufacture of metal and machinery products, except electrical equipment",
+            "notation": "C24T28X27",
+            "description": "C24+C25+C26+C28"
+        },
+        {
+            "label": "Manufacture of fabricated metal products, except machinery and equipment",
+            "notation": "C25"
+        },
+        {
+            "label": "Manufacture of computer, electronic and optical products",
+            "notation": "C26"
+        },
+        {
+            "label": "Manufacture of computers and peripheral equipment",
+            "notation": "C262"
+        },
+        {
+            "label": "Manufacture of communication equipment and consumer electronics",
+            "notation": "C263_264",
+            "description": "This aggregate includes the NACE/ISIC activities C263 and C264"
+        },
+        {
+            "label": "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks; manufacture of irradiation, electromedical and electrotherapeutic equipment",
+            "notation": "C265_266",
+            "description": "This aggregate includes the NACE/ISIC activities C265 and C266"
+        },
+        {
+            "label": "Machinery and Equipment",
+            "notation": "C26T30",
+            "description": "C26T30 = C26 + C27 + C28 + C29 + C29+C30"
+        },
+        {
+            "label": "Manufacture of electrical equipment",
+            "notation": "C27"
+        },
+        {
+            "label": "Manufacture of machinery and equipment n.e.c.",
+            "notation": "C28"
+        },
+        {
+            "label": "Manufacture of motor vehicles, trailers and semi-trailers",
+            "notation": "C29"
+        },
+        {
+            "label": "Manufacture of motor vehicles, trailers, semi-trailers and of other transport equipment",
+            "notation": "C29_30",
+            "description": "C29_30=C29+C30"
+        },
+        {
+            "label": "Manufacture of other transport equipment",
+            "notation": "C30"
+        },
+        {
+            "label": "Manufacture of air and spacecraft and related machinery",
+            "notation": "C303",
+            "description": "C303"
+        },
+        {
+            "label": "Manufacture of furniture",
+            "notation": "C31"
+        },
+        {
+            "label": "Manufacture of furniture; other manufacturing",
+            "notation": "C31_32",
+            "description": "C31_32=C31+C32"
+        },
+        {
+            "label": "Manufacture of furniture; jewellery, musical instruments, toys, etc.; repair and installation of machinery and equipment",
+            "notation": "C31T33",
+            "description": "C31T33=C31+C32+C33"
+        },
+        {
+            "label": "Other manufacturing",
+            "notation": "C32"
+        },
+        {
+            "label": "Repair and installation of machinery and equipment",
+            "notation": "C33"
+        },
+        {
+            "label": "Electricity, gas, steam and air conditioning supply",
+            "notation": "D"
+        },
+        {
+            "label": "Electricity, gas, steam and air conditioning supply; Water supply; sewerage, waste management and remediation activities",
+            "notation": "D_E"
+        },
+        {
+            "label": "Electricity, gas, steam and air conditioning supply",
+            "notation": "D35"
+        },
+        {
+            "label": "Water supply; sewerage, waste management and remediation activities",
+            "notation": "E"
+        },
+        {
+            "label": "Water collection, treatment and supply",
+            "notation": "E36"
+        },
+        {
+            "label": "Sewerage",
+            "notation": "E37"
+        },
+        {
+            "label": "Sewerage, waste management, remediation activities",
+            "notation": "E37T39",
+            "description": "E37T39=E37+E38+E39"
+        },
+        {
+            "label": "Waste collection, treatment and disposal activities; materials recovery",
+            "notation": "E38"
+        },
+        {
+            "label": "Remediation activities and other waste management services",
+            "notation": "E39"
+        },
+        {
+            "label": "Construction",
+            "notation": "F"
+        },
+        {
+            "label": "Construction of buildings",
+            "notation": "F41"
+        },
+        {
+            "label": "Civil engineering",
+            "notation": "F42"
+        },
+        {
+            "label": "Specialised construction activities",
+            "notation": "F43"
+        },
+        {
+            "label": "All FDI activities",
+            "notation": "FDI_T",
+            "description": "Non Standard NACE/ISIC activity"
+        },
+        {
+            "label": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+            "notation": "G"
+        },
+        {
+            "label": "Wholesale and retail trade; repair of motor vehicles and motorcycles; Accommodation and food service activities",
+            "notation": "G_I",
+            "description": "G_I=G+I"
+        },
+        {
+            "label": "Wholesale and retail trade and repair of motor vehicles and motorcycles",
+            "notation": "G45"
+        },
+        {
+            "label": "Wholesale trade, except of motor vehicles and motorcycles",
+            "notation": "G46"
+        },
+        {
+            "label": "Retail trade, except of motor vehicles and motorcycles",
+            "notation": "G47"
+        },
+        {
+            "label": "Wholesale and retail trade; repair of motor vehicles and motorcycles; transportation and storage; accommodation and food service activities",
+            "notation": "GTI",
+            "description": "GTI=G+H+I"
+        },
+        {
+            "label": "Wholesale and retail trade; repair of motor vehicles and motorcycles; Accommodation and food service activities; Transportation and storage; Information and communication",
+            "notation": "GTJ",
+            "description": "GTJ=G+H+I+J"
+        },
+        {
+            "label": "Market services - sections G to N",
+            "notation": "GTN",
+            "description": "GTN=G+H+I+J+K+L+M+N"
+        },
+        {
+            "label": "Market services - Services excluding public administration, education, health and social services - sections G to N and R to U",
+            "notation": "GTN_RTU",
+            "description": "GTN_RTU=GTN+RTU"
+        },
+        {
+            "label": "Services (except activities of households as employers and extra-territorial organisations and bodies)",
+            "notation": "GTS",
+            "description": "GTS=G+H+I+J+K+L+M+N+O+P+Q+R+S"
+        },
+        {
+            "label": "Services",
+            "notation": "GTU",
+            "description": "GTU=G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U"
+        },
+        {
+            "label": "Services (except transportation and storage)",
+            "notation": "GTUXH",
+            "description": "GTUXH=G+I+J+K+L+M+N+O+P+Q+R+S+T+U"
+        },
+        {
+            "label": "Transportation and storage",
+            "notation": "H"
+        },
+        {
+            "label": "Transportation and storage; Information and communication",
+            "notation": "H_J",
+            "description": "H_J=H+J"
+        },
+        {
+            "label": "Land transport and transport via pipelines",
+            "notation": "H49"
+        },
+        {
+            "label": "Water transport",
+            "notation": "H50"
+        },
+        {
+            "label": "Air transport",
+            "notation": "H51"
+        },
+        {
+            "label": "Warehousing and support activities for transportation",
+            "notation": "H52"
+        },
+        {
+            "label": "Postal and courier activities",
+            "notation": "H53"
+        },
+        {
+            "label": "Transport and storage except postal and courier activities",
+            "notation": "HX53",
+            "description": "H49+H50+H51+H52"
+        },
+        {
+            "label": "Accommodation and food service activities",
+            "notation": "I"
+        },
+        {
+            "label": "Accommodation",
+            "notation": "I55"
+        },
+        {
+            "label": "Food and beverage service activities",
+            "notation": "I56"
+        },
+        {
+            "label": "Services (except wholesale and retail trade, transportation and storage)",
+            "notation": "ITU",
+            "description": "ITU=I+J+K+L+M+N+O+P+Q+R+S+T+U"
+        },
+        {
+            "label": "Information and communication",
+            "notation": "J"
+        },
+        {
+            "label": "Communication & services related to broadcasting",
+            "notation": "J_H53",
+            "description": "J_H53 = J + H53"
+        },
+        {
+            "label": "Information, communication, professional, business and other services",
+            "notation": "J_M_N_RTU",
+            "description": "J_M_N_RTU=J+M+N+RTU"
+        },
+        {
+            "label": "Publishing activities",
+            "notation": "J58"
+        },
+        {
+            "label": "Publishing, computer programming and consultancy, information service activities",
+            "notation": "J58_62_63",
+            "description": "J58_62_63=J58+J62+J63"
+        },
+        {
+            "label": "Publishing, motion picture, video, television programme production; sound recording, programming and broadcasting activities",
+            "notation": "J58T60",
+            "description": "J58T60=J58+J59+J60"
+        },
+        {
+            "label": "Motion picture, video and television programme production, sound recording and music publishing activities",
+            "notation": "J59"
+        },
+        {
+            "label": "Motion picture, video, television programme production; programming and broadcasting activities",
+            "notation": "J59_60",
+            "description": "J59_60=J59+J60"
+        },
+        {
+            "label": "Programming and broadcasting activities",
+            "notation": "J60"
+        },
+        {
+            "label": "Telecommunications",
+            "notation": "J61"
+        },
+        {
+            "label": "Computer programming, consultancy and related activities",
+            "notation": "J62"
+        },
+        {
+            "label": "Computer programming, consultancy, and information service activities",
+            "notation": "J62_63",
+            "description": "J62_63=J62+J63"
+        },
+        {
+            "label": "Information service activities",
+            "notation": "J63"
+        },
+        {
+            "label": "Financial and insurance activities",
+            "notation": "K"
+        },
+        {
+            "label": "Financial and insurance activities; real estate activities",
+            "notation": "K_L",
+            "description": "K_L=K+L"
+        },
+        {
+            "label": "Financial service activities, except insurance and pension funding",
+            "notation": "K64"
+        },
+        {
+            "label": "Monetary intermediation",
+            "notation": "K641",
+            "description": "This includes NACE/ISIC activity K6411 to K6419"
+        },
+        {
+            "label": "Activities of holding companies",
+            "notation": "K642"
+        },
+        {
+            "label": "Trusts, funds, and similar financial entities",
+            "notation": "K643",
+            "description": "This includes NACE/ISIC activity K6430"
+        },
+        {
+            "label": "Insurance, reinsurance and pension funding, except compulsory social security",
+            "notation": "K65"
+        },
+        {
+            "label": "Activities auxiliary to financial services and insurance activities",
+            "notation": "K66"
+        },
+        {
+            "label": "Financial and insurance activities; real estate activities; professional, scientific and technical activities; administrative and support service activities",
+            "notation": "KTN",
+            "description": "KTN=K+L+M+N"
+        },
+        {
+            "label": "Real estate activities",
+            "notation": "L"
+        },
+        {
+            "label": "Imputed rents of owner-occupied dwellings",
+            "notation": "L68A"
+        },
+        {
+            "label": "Real estate activities excluding imputed rents",
+            "notation": "L68B"
+        },
+        {
+            "label": "Real estate, ownership of dwelling & professional services",
+            "notation": "LTN",
+            "description": "LTN = L + M + N"
+        },
+        {
+            "label": "Professional, scientific and technical activities",
+            "notation": "M"
+        },
+        {
+            "label": "Professional, scientific and technical activities; administrative and support service activities",
+            "notation": "M_N",
+            "description": "M_N=M+N"
+        },
+        {
+            "label": "Legal and accounting activities",
+            "notation": "M69"
+        },
+        {
+            "label": "Legal and accounting activities; activities of head offices; management consultancy activities",
+            "notation": "M69_70",
+            "description": "M69_70=M69+M70"
+        },
+        {
+            "label": "Legal activities",
+            "notation": "M691"
+        },
+        {
+            "label": "Accounting, bookkeeping and auditing activities; tax consultancy",
+            "notation": "M692"
+        },
+        {
+            "label": "Legal and accounting activities; activities of head offices; management consultancy activities; architectural and engineering activities; technical testing and analysis",
+            "notation": "M69T71",
+            "description": "M69T71=M69+M70+M71"
+        },
+        {
+            "label": "Activities of head offices; management consultancy activities",
+            "notation": "M70"
+        },
+        {
+            "label": "Activities of head offices",
+            "notation": "M701"
+        },
+        {
+            "label": "Management consultancy activities",
+            "notation": "M702"
+        },
+        {
+            "label": "Architectural and engineering activities; technical testing and analysis",
+            "notation": "M71"
+        },
+        {
+            "label": "Scientific research and development",
+            "notation": "M72"
+        },
+        {
+            "label": "Advertising and market research",
+            "notation": "M73"
+        },
+        {
+            "label": "Advertising",
+            "notation": "M731"
+        },
+        {
+            "label": "Market research and public opinion polling",
+            "notation": "M732"
+        },
+        {
+            "label": "Advertising and market research; other professional, scientific and technical activities; veterinary activities",
+            "notation": "M73T75",
+            "description": "M73T75=M73+M74+M75"
+        },
+        {
+            "label": "Other professional, scientific and technical activities",
+            "notation": "M74"
+        },
+        {
+            "label": "Other professional, scientific and technical activities; veterinary activities",
+            "notation": "M74_75",
+            "description": "M74_75=M74+M75"
+        },
+        {
+            "label": "Veterinary activities",
+            "notation": "M75"
+        },
+        {
+            "label": "Administrative and support service activities",
+            "notation": "N"
+        },
+        {
+            "label": "Rental and leasing activities",
+            "notation": "N77"
+        },
+        {
+            "label": "Employment activities",
+            "notation": "N78"
+        },
+        {
+            "label": "Employment, travel agency, security and investigation, service and landscape, office administrative and support activities",
+            "notation": "N78T82",
+            "description": "N78T82= N78+N79+N80+N81+N82"
+        },
+        {
+            "label": "Travel agency, tour operator and other reservation service and related activities",
+            "notation": "N79"
+        },
+        {
+            "label": "Security and investigation activities",
+            "notation": "N80"
+        },
+        {
+            "label": "Security and investigation, service and landscape, office administrative and support activities",
+            "notation": "N80T82",
+            "description": "N80T82=N80+N81+N82"
+        },
+        {
+            "label": "Services to buildings and landscape activities",
+            "notation": "N81"
+        },
+        {
+            "label": "Office administrative, office support and other business support activities",
+            "notation": "N82"
+        },
+        {
+            "label": "Not allocated [deprecated]",
+            "notation": "NAL"
+        },
+        {
+            "label": "Public administration and defence; compulsory social security",
+            "notation": "O"
+        },
+        {
+            "label": "Public administration; activities of households and of extraterritorial organisations",
+            "notation": "O_T_U",
+            "description": "O_T_U=O+T+U"
+        },
+        {
+            "label": "Public administration and defence; compulsory social security",
+            "notation": "O84"
+        },
+        {
+            "label": "Public administration, defence, education, human health and social work activities",
+            "notation": "OTQ",
+            "description": "OTQ=O+P+Q"
+        },
+        {
+            "label": "Public administration and defence; compulsory social security; education; human health and social work activities; arts, entertainment and recreation; other service activities",
+            "notation": "OTS",
+            "description": "OTS=O+P+Q+R+S"
+        },
+        {
+            "label": "Public administration and defence; compulsory social security; education; human health and social work activities; arts, entertainment and recreation, repair of household goods and other services",
+            "notation": "OTU",
+            "description": "OTU=O+P+Q+R+S+T+U"
+        },
+        {
+            "label": "Education",
+            "notation": "P"
+        },
+        {
+            "label": "Education",
+            "notation": "P85"
+        },
+        {
+            "label": "Private real estate activities",
+            "notation": "PRV_RE",
+            "description": "Non Standard NACE/ISIC activity"
+        },
+        {
+            "label": "Education; human health and social work activities; arts, entertainment and recreation; other service activities",
+            "notation": "PTS",
+            "description": "PTS=P+Q+R+S"
+        },
+        {
+            "label": "Human health and social work activities",
+            "notation": "Q"
+        },
+        {
+            "label": "Human health activities",
+            "notation": "Q86"
+        },
+        {
+            "label": "Residential care activities",
+            "notation": "Q87"
+        },
+        {
+            "label": "Residential care activities and social work activities without accommodation",
+            "notation": "Q87_88",
+            "description": "Q87_88=Q87+Q88"
+        },
+        {
+            "label": "Social work activities without accommodation",
+            "notation": "Q88"
+        },
+        {
+            "label": "Arts, entertainment and recreation",
+            "notation": "R"
+        },
+        {
+            "label": "Arts, entertainment and recreation; other service activities",
+            "notation": "R_S",
+            "description": "R+S"
+        },
+        {
+            "label": "Creative, arts and entertainment activities",
+            "notation": "R90"
+        },
+        {
+            "label": "Creative, arts and entertainment activities; libraries, archives, museums and other cultural activities; gambling and betting activities",
+            "notation": "R90T92",
+            "description": "R90T92=R90+R91+R92"
+        },
+        {
+            "label": "Libraries, archives, museums and other cultural activities",
+            "notation": "R91"
+        },
+        {
+            "label": "Gambling and betting activities",
+            "notation": "R92"
+        },
+        {
+            "label": "Gambling and betting activities; sporting and other recreational activities",
+            "notation": "R92_93",
+            "description": "R92_93=R92+R93"
+        },
+        {
+            "label": "Sports activities and amusement and recreation activities",
+            "notation": "R93"
+        },
+        {
+            "label": "Arts, entertainment and recreation; Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use; other service activities",
+            "notation": "RTT",
+            "description": "RTT=R+S+T"
+        },
+        {
+            "label": "Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies",
+            "notation": "RTU",
+            "description": "RTU=R+S+T+U"
+        },
+        {
+            "label": "Other service activities",
+            "notation": "S"
+        },
+        {
+            "label": "Activities of membership organisations",
+            "notation": "S94"
+        },
+        {
+            "label": "Repair of computers and personal and household goods",
+            "notation": "S95"
+        },
+        {
+            "label": "Repair of computers, personal and household goods; other personal service activities",
+            "notation": "S95_96",
+            "description": "S95_96=S95+S96"
+        },
+        {
+            "label": "Other personal service activities",
+            "notation": "S96"
+        },
+        {
+            "label": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+            "notation": "T"
+        },
+        {
+            "label": "Activities of households as employers of domestic personnel",
+            "notation": "T97"
+        },
+        {
+            "label": "Undifferentiated goods- and services-producing activities of private households for own use",
+            "notation": "T98"
+        },
+        {
+            "label": "Activities of extraterritorial organisations and bodies",
+            "notation": "U"
+        },
+        {
+            "label": "Activities of extraterritorial organisations and bodies",
+            "notation": "U99"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Decimals",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Zero",
+            "notation": "0"
+        },
+        {
+            "label": "One",
+            "notation": "1"
+        },
+        {
+            "label": "Two",
+            "notation": "2"
+        },
+        {
+            "label": "Three",
+            "notation": "3"
+        },
+        {
+            "label": "Four",
+            "notation": "4"
+        },
+        {
+            "label": "Five",
+            "notation": "5"
+        },
+        {
+            "label": "Six",
+            "notation": "6"
+        },
+        {
+            "label": "Seven",
+            "notation": "7"
+        },
+        {
+            "label": "Eight",
+            "notation": "8"
+        },
+        {
+            "label": "Nine",
+            "notation": "9"
+        },
+        {
+            "label": "Ten",
+            "notation": "10"
+        },
+        {
+            "label": "Eleven",
+            "notation": "11"
+        },
+        {
+            "label": "Twelve",
+            "notation": "12"
+        },
+        {
+            "label": "Thirteen",
+            "notation": "13"
+        },
+        {
+            "label": "Fourteen",
+            "notation": "14"
+        },
+        {
+            "label": "Fifteen",
+            "notation": "15"
+        }
+    ]
+}
