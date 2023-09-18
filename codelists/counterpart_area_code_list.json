@@ -1,0 +1,3808 @@
+{
+    "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
+    "title": "Counterpart Area code list",
+    "summary": "",
+    "description": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sort": {
+        "by": "label",
+        "method": "ascending"
+    },
+    "concepts": [
+        {
+            "label": "Not allocated/ unspecified",
+            "notation": "_X"
+        },
+        {
+            "label": "Not applicable",
+            "notation": "_Z"
+        },
+        {
+            "label": "International organisations",
+            "notation": "1A",
+            "description": "1A=1B+4A+4F+4S+4W+5A+6A"
+        },
+        {
+            "label": "UN organisations",
+            "notation": "1B",
+            "description": "1B=1C+1D+1E+1F+1G+1H+1J+1K+1L+1M+1N+1O+1P+1Q+1R+1S+1T+1U"
+        },
+        {
+            "label": "IMF (International Monetary Fund)",
+            "notation": "1C"
+        },
+        {
+            "label": "WTO (World Trade Organisation)",
+            "notation": "1D"
+        },
+        {
+            "label": "IBRD (International Bank for Reconstruction and Development)",
+            "notation": "1E"
+        },
+        {
+            "label": "IDA (International Development Association)",
+            "notation": "1F"
+        },
+        {
+            "label": "ICSID (International Centre for Settlement of Investment Disputes)",
+            "notation": "1G"
+        },
+        {
+            "label": "UNESCO (United Nations Educational, Scientific and Cultural Organisation)",
+            "notation": "1H"
+        },
+        {
+            "label": "FAO (Food and Agriculture Organisation)",
+            "notation": "1J"
+        },
+        {
+            "label": "WHO (World Health Organisation)",
+            "notation": "1K"
+        },
+        {
+            "label": "IFAD (International Fund for Agricultural Development)",
+            "notation": "1L"
+        },
+        {
+            "label": "IFC (International Finance Corporation)",
+            "notation": "1M"
+        },
+        {
+            "label": "MIGA (Multilateral Investment Guarantee Agency)",
+            "notation": "1N"
+        },
+        {
+            "label": "UNICEF (United Nations Children Fund)",
+            "notation": "1O"
+        },
+        {
+            "label": "UNHCR (United Nations High Commissioner for Refugees)",
+            "notation": "1P"
+        },
+        {
+            "label": "UNRWA (United Nations Relief and Works Agency for Palestine)",
+            "notation": "1Q"
+        },
+        {
+            "label": "IAEA (International Atomic Energy Agency)",
+            "notation": "1R"
+        },
+        {
+            "label": "ILO (International Labour Organisation)",
+            "notation": "1S"
+        },
+        {
+            "label": "ITU (International Telecommunication Union)",
+            "notation": "1T"
+        },
+        {
+            "label": "Rest of UN Organisations n.i.e.",
+            "notation": "1U"
+        },
+        {
+            "label": "UNECE (United Nations Economic Commission for Europe)",
+            "notation": "1U1"
+        },
+        {
+            "label": "UNFCCC (United Nations Framework Convention for Climate Change)",
+            "notation": "1U2"
+        },
+        {
+            "label": "Universal Postal Union",
+            "notation": "1V"
+        },
+        {
+            "label": "World Bank Group",
+            "notation": "1W",
+            "description": "1W=1E+1F+1G+1M+1N"
+        },
+        {
+            "label": "United Nations Office on Drugs and Crimes(UNODC)",
+            "notation": "1X"
+        },
+        {
+            "label": "The United Nations World Food Programme",
+            "notation": "1Y"
+        },
+        {
+            "label": "All the European Union and EURATOM institutions, excluding euro area institutions (changing composition)",
+            "notation": "4A",
+            "description": "4A=4B+4C+4D+4E+4G+4H+4I+4J+4M+4R+4T+4U+4V"
+        },
+        {
+            "label": "All the European Union Institutions excluding the ECB",
+            "notation": "4AA",
+            "description": "4AA=4B+4C+4D+4E+4G+4H+4I+4J+4M+4R+4T+4U+4V+4S+4W"
+        },
+        {
+            "label": "EMS (European Monetary System)",
+            "notation": "4B"
+        },
+        {
+            "label": "EIB (European Investment Bank)",
+            "notation": "4C"
+        },
+        {
+            "label": "European Commission",
+            "notation": "4D"
+        },
+        {
+            "label": "All the European Union Institutions financed via the EU Budget",
+            "notation": "4DJ",
+            "description": "4DJ=4D+4J"
+        },
+        {
+            "label": "EDF (European Development Fund)",
+            "notation": "4E"
+        },
+        {
+            "label": "ECB (European Central Bank)",
+            "notation": "4F"
+        },
+        {
+            "label": "EIF (European Investment Fund)",
+            "notation": "4G"
+        },
+        {
+            "label": "European Coal and Steel Community",
+            "notation": "4H"
+        },
+        {
+            "label": "Neighbourhood Investment Facility",
+            "notation": "4I"
+        },
+        {
+            "label": "Other European Union institutions and bodies covered by General Budget",
+            "notation": "4J",
+            "description": "4J=4J1+4J2+4J3+4J4+4J5+4J6+4J7+4J8"
+        },
+        {
+            "label": "European Parliament",
+            "notation": "4J1"
+        },
+        {
+            "label": "Council of the European Union",
+            "notation": "4J2"
+        },
+        {
+            "label": "Court of Justice",
+            "notation": "4J3"
+        },
+        {
+            "label": "Court of Auditors",
+            "notation": "4J4"
+        },
+        {
+            "label": "European Council",
+            "notation": "4J5"
+        },
+        {
+            "label": "Economic and Social Committee",
+            "notation": "4J6"
+        },
+        {
+            "label": "Committee of Regions",
+            "notation": "4J7"
+        },
+        {
+            "label": "Other European Union bodies, interinstitutional services and agencies",
+            "notation": "4J8"
+        },
+        {
+            "label": "Agency for the Cooperation of Energy Regulators",
+            "notation": "4J81"
+        },
+        {
+            "label": "European Centre for Disease Prevention and Control",
+            "notation": "4J810"
+        },
+        {
+            "label": "European Centre for the Development of Vocational Training",
+            "notation": "4J811"
+        },
+        {
+            "label": "European Chemicals Agency",
+            "notation": "4J812"
+        },
+        {
+            "label": "European Data Protection Supervisor",
+            "notation": "4J813"
+        },
+        {
+            "label": "European Defence Agency",
+            "notation": "4J814"
+        },
+        {
+            "label": "European Environment Agency",
+            "notation": "4J815"
+        },
+        {
+            "label": "European External Action Service",
+            "notation": "4J816"
+        },
+        {
+            "label": "European Fisheries Control Agency",
+            "notation": "4J817"
+        },
+        {
+            "label": "European Food Safety Authority",
+            "notation": "4J818"
+        },
+        {
+            "label": "European Foundation for the Improvement of Living and Working Conditions",
+            "notation": "4J819"
+        },
+        {
+            "label": "Body of European Regulators for Electronic Communications",
+            "notation": "4J82"
+        },
+        {
+            "label": "European GNSS Agency",
+            "notation": "4J820"
+        },
+        {
+            "label": "European Institute for Gender Equality",
+            "notation": "4J821"
+        },
+        {
+            "label": "European Institute of Innovation and Technology",
+            "notation": "4J822"
+        },
+        {
+            "label": "European Maritime Safety Agency",
+            "notation": "4J823"
+        },
+        {
+            "label": "European Medicines Agency",
+            "notation": "4J824"
+        },
+        {
+            "label": "European Monitoring Centre for Drugs and Drug Addiction",
+            "notation": "4J825"
+        },
+        {
+            "label": "European Network and Information Security Agency",
+            "notation": "4J826"
+        },
+        {
+            "label": "European Ombudsman",
+            "notation": "4J827"
+        },
+        {
+            "label": "European Personnel Selection Office",
+            "notation": "4J828"
+        },
+        {
+            "label": "European Police College",
+            "notation": "4J829"
+        },
+        {
+            "label": "Community Plant Variety Office",
+            "notation": "4J83"
+        },
+        {
+            "label": "European Police Office",
+            "notation": "4J830"
+        },
+        {
+            "label": "European Public Prosecutor's Office",
+            "notation": "4J831"
+        },
+        {
+            "label": "European Railway Agency",
+            "notation": "4J832"
+        },
+        {
+            "label": "European School of Administration",
+            "notation": "4J833"
+        },
+        {
+            "label": "European Training Foundation",
+            "notation": "4J834"
+        },
+        {
+            "label": "European Union Agency for Fundamental Rights",
+            "notation": "4J835"
+        },
+        {
+            "label": "European Union Institute for Security Studies",
+            "notation": "4J836"
+        },
+        {
+            "label": "European Union Intellectual Property Office",
+            "notation": "4J837"
+        },
+        {
+            "label": "European Union Satellite Centre",
+            "notation": "4J838"
+        },
+        {
+            "label": "Publications Office of the European Union",
+            "notation": "4J839"
+        },
+        {
+            "label": "Computer Emergency Response Team",
+            "notation": "4J84"
+        },
+        {
+            "label": "The European Union\u2019s Judicial Cooperation Unit",
+            "notation": "4J840"
+        },
+        {
+            "label": "Translation Centre for the Bodies of the European Union",
+            "notation": "4J841"
+        },
+        {
+            "label": "ATHENA Mechanism",
+            "notation": "4J842"
+        },
+        {
+            "label": "European Agency for Safety and Health at Work",
+            "notation": "4J85"
+        },
+        {
+            "label": "European Agency for the Management of Operational Cooperation at the External Borders",
+            "notation": "4J86"
+        },
+        {
+            "label": "European Agency for the operational management of large-scale IT systems in the area of freedom, security and justice",
+            "notation": "4J87"
+        },
+        {
+            "label": "European Asylum Support Office",
+            "notation": "4J88"
+        },
+        {
+            "label": "European Aviation Safety Agency",
+            "notation": "4J89"
+        },
+        {
+            "label": "SRB (Single Resolution Board)",
+            "notation": "4M"
+        },
+        {
+            "label": "EU-Africa Infrastructure Trust Fund",
+            "notation": "4R"
+        },
+        {
+            "label": "ESM (European Stability Mechanism)",
+            "notation": "4S"
+        },
+        {
+            "label": "European Stability Mechanism (ESM) and European Financial Stability Facility (EFSF)",
+            "notation": "4SW",
+            "description": "4SW=4S+4W"
+        },
+        {
+            "label": "Joint Committee of the European Supervisory Authorities (ESAs)",
+            "notation": "4T",
+            "description": "4T=4T1+4T2+4T3"
+        },
+        {
+            "label": "EBA (European Banking Authority)",
+            "notation": "4T1"
+        },
+        {
+            "label": "ESMA (European Securities and Markets Authority)",
+            "notation": "4T2"
+        },
+        {
+            "label": "EIOPA (European Insurance and Occupational Pensions Authority)",
+            "notation": "4T3"
+        },
+        {
+            "label": "EURATOM",
+            "notation": "4U"
+        },
+        {
+            "label": "Fusion for Energy",
+            "notation": "4U1"
+        },
+        {
+            "label": "EURATOM Supply Agency",
+            "notation": "4U2"
+        },
+        {
+            "label": "FEMIP (Facility for Euro-Mediterranean Investment and Partnership)",
+            "notation": "4V"
+        },
+        {
+            "label": "EFSF (European Financial Stability Facility)",
+            "notation": "4W"
+        },
+        {
+            "label": "All the European Union Institutions not financed via the EU Budget",
+            "notation": "4X",
+            "description": "4C+4E+4G+4H+4I+4R+4T+4V+4F+4S+4U"
+        },
+        {
+            "label": "All the European Union and EURATOM institutions, including euro area institutions (changing composition)",
+            "notation": "4Y",
+            "description": "4Y=4A+4F+4S+4W"
+        },
+        {
+            "label": "Other International Organisations (financial institutions)",
+            "notation": "5A",
+            "description": "5AA+5B+\u2026+5Z+7A+\u20267M"
+        },
+        {
+            "label": "Multilateral Lending Agencies",
+            "notation": "5AA"
+        },
+        {
+            "label": "BIS (Bank for International Settlements)",
+            "notation": "5B"
+        },
+        {
+            "label": "IADB (Inter-American Development Bank)",
+            "notation": "5C"
+        },
+        {
+            "label": "AfDB (African Development Bank)",
+            "notation": "5D"
+        },
+        {
+            "label": "AsDB (Asian Development Bank)",
+            "notation": "5E"
+        },
+        {
+            "label": "EBRD (European Bank for Reconstruction and Development)",
+            "notation": "5F"
+        },
+        {
+            "label": "IIC (Inter-American Investment Corporation)",
+            "notation": "5G"
+        },
+        {
+            "label": "NIB (Nordic Investment Bank)",
+            "notation": "5H"
+        },
+        {
+            "label": "ECCB (Eastern Caribbean Central Bank)",
+            "notation": "5I"
+        },
+        {
+            "label": "IBEC (International Bank for Economic Co-operation)",
+            "notation": "5J"
+        },
+        {
+            "label": "IIB (International Investment Bank)",
+            "notation": "5K"
+        },
+        {
+            "label": "CDB (Caribbean Development Bank)",
+            "notation": "5L"
+        },
+        {
+            "label": "AMF (Arab Monetary Fund)",
+            "notation": "5M"
+        },
+        {
+            "label": "BADEA (Banque arabe pour le d\u00e9veloppement \u00e9conomique en Afrique)",
+            "notation": "5N"
+        },
+        {
+            "label": "BCEAO (Banque Centrale des Etats de l'Afrique de l'Ouest)",
+            "notation": "5O"
+        },
+        {
+            "label": "CASDB (Central African States Development Bank)",
+            "notation": "5P"
+        },
+        {
+            "label": "African Development Fund",
+            "notation": "5Q"
+        },
+        {
+            "label": "Asian Development Fund",
+            "notation": "5R"
+        },
+        {
+            "label": "Fonds sp\u00e9cial unifi\u00e9 de d\u00e9veloppement",
+            "notation": "5S"
+        },
+        {
+            "label": "CABEI (Central American Bank for Economic Integration)",
+            "notation": "5T"
+        },
+        {
+            "label": "ADC (Andean Development Corporation)",
+            "notation": "5U"
+        },
+        {
+            "label": "BEAC (Banque des Etats de l'Afrique Centrale)",
+            "notation": "5W"
+        },
+        {
+            "label": "Asian Infrastructure Investment Bank",
+            "notation": "5X"
+        },
+        {
+            "label": "Other International Financial Organisations n.i.e.",
+            "notation": "5Z"
+        },
+        {
+            "label": "Africa Finance Corporation",
+            "notation": "5Z1"
+        },
+        {
+            "label": "International Civil Aviation Organization",
+            "notation": "5Z10"
+        },
+        {
+            "label": "International Cocoa Organization",
+            "notation": "5Z11"
+        },
+        {
+            "label": "International Coffee Organization",
+            "notation": "5Z12"
+        },
+        {
+            "label": "International Copper Study Group",
+            "notation": "5Z13"
+        },
+        {
+            "label": "International Cotton Advisory Committee",
+            "notation": "5Z14"
+        },
+        {
+            "label": "International Grains Council",
+            "notation": "5Z15"
+        },
+        {
+            "label": "International Jute Study Group",
+            "notation": "5Z16"
+        },
+        {
+            "label": "International Lead and Zinc Study Group",
+            "notation": "5Z17"
+        },
+        {
+            "label": "International Maritime Organization",
+            "notation": "5Z18"
+        },
+        {
+            "label": "International Maritime Satellite Organization",
+            "notation": "5Z19"
+        },
+        {
+            "label": "African Development Bank Group",
+            "notation": "5Z2"
+        },
+        {
+            "label": "International Olive Oil Council",
+            "notation": "5Z20"
+        },
+        {
+            "label": "International Rubber Study Group",
+            "notation": "5Z21"
+        },
+        {
+            "label": "International Sugar Organization",
+            "notation": "5Z22"
+        },
+        {
+            "label": "Latin American and the Caribbean Economic System",
+            "notation": "5Z23"
+        },
+        {
+            "label": "Latin American Energy Organization",
+            "notation": "5Z24"
+        },
+        {
+            "label": "Latin American Integration Association",
+            "notation": "5Z25"
+        },
+        {
+            "label": "League of Arab States",
+            "notation": "5Z26"
+        },
+        {
+            "label": "Organisation of Eastern Caribbean States",
+            "notation": "5Z27"
+        },
+        {
+            "label": "Organization of American States",
+            "notation": "5Z28"
+        },
+        {
+            "label": "Organization of Arab Petroleum Exporting Countries",
+            "notation": "5Z29"
+        },
+        {
+            "label": "Arab Fund for Economic and Social Development",
+            "notation": "5Z3"
+        },
+        {
+            "label": "Organization of Central American States",
+            "notation": "5Z30"
+        },
+        {
+            "label": "Organization of the Petroleum Exporting Countries",
+            "notation": "5Z31"
+        },
+        {
+            "label": "South Asian Association for Regional Cooperation",
+            "notation": "5Z33"
+        },
+        {
+            "label": "United Nations Conference on Trade and Development",
+            "notation": "5Z34"
+        },
+        {
+            "label": "West African Economic Community",
+            "notation": "5Z35"
+        },
+        {
+            "label": "West African Health Organisation",
+            "notation": "5Z36"
+        },
+        {
+            "label": "West African Monetary Agency",
+            "notation": "5Z37"
+        },
+        {
+            "label": "West African Monetary Institute",
+            "notation": "5Z38"
+        },
+        {
+            "label": "World Council of Churches",
+            "notation": "5Z39"
+        },
+        {
+            "label": "Asian Clearing Union",
+            "notation": "5Z4"
+        },
+        {
+            "label": "World Intellectual Property Organization",
+            "notation": "5Z40"
+        },
+        {
+            "label": "World Meteorological Organization",
+            "notation": "5Z41"
+        },
+        {
+            "label": "World Tourism Organization",
+            "notation": "5Z42"
+        },
+        {
+            "label": "The Nordic Development Fund",
+            "notation": "5Z43"
+        },
+        {
+            "label": "The North American Development Bank",
+            "notation": "5Z44"
+        },
+        {
+            "label": "International Council for the Exploration of the Sea (ICES)",
+            "notation": "5Z45"
+        },
+        {
+            "label": "Regional Environmental Center for Central and Eastern Europe",
+            "notation": "5Z46"
+        },
+        {
+            "label": "Colombo Plan",
+            "notation": "5Z5"
+        },
+        {
+            "label": "Economic Community of West African States",
+            "notation": "5Z6"
+        },
+        {
+            "label": "European Free Trade Association",
+            "notation": "5Z7"
+        },
+        {
+            "label": "Fusion for Energy deprecated",
+            "notation": "5Z8"
+        },
+        {
+            "label": "Intergovernmental Council of Copper Exporting Countries",
+            "notation": "5Z9"
+        },
+        {
+            "label": "Other International Organisations (non-financial institutions)",
+            "notation": "6A",
+            "description": "6B+\u2026+6Z"
+        },
+        {
+            "label": "African Union",
+            "notation": "6A1"
+        },
+        {
+            "label": "IEA (International Energy Agency)",
+            "notation": "6A10"
+        },
+        {
+            "label": "Eurasian Economic Commission",
+            "notation": "6A11"
+        },
+        {
+            "label": "Association of Southeast Asian Nations",
+            "notation": "6A2"
+        },
+        {
+            "label": "Caribbean Community and Common Market",
+            "notation": "6A3"
+        },
+        {
+            "label": "Central American Common Market",
+            "notation": "6A4"
+        },
+        {
+            "label": "East African Development Bank",
+            "notation": "6A5"
+        },
+        {
+            "label": "ECOWAS Bank for Investment and Development",
+            "notation": "6A6"
+        },
+        {
+            "label": "Latin American Association of Development Financing Institutions",
+            "notation": "6A7"
+        },
+        {
+            "label": "OPEC Fund for International Development",
+            "notation": "6A8"
+        },
+        {
+            "label": "The Permanent Court of Arbitration",
+            "notation": "6A9"
+        },
+        {
+            "label": "NATO (North Atlantic Treaty Organisation)",
+            "notation": "6B"
+        },
+        {
+            "label": "Council of Europe",
+            "notation": "6C"
+        },
+        {
+            "label": "ICRC (International Committee of the Red Cross)",
+            "notation": "6D"
+        },
+        {
+            "label": "ESA (European Space Agency)",
+            "notation": "6E"
+        },
+        {
+            "label": "EPO (European Patent Office)",
+            "notation": "6F"
+        },
+        {
+            "label": "EUROCONTROL (European Organisation for the Safety of Air Navigation)",
+            "notation": "6G"
+        },
+        {
+            "label": "EUTELSAT (European Telecommunications Satellite Organisation)",
+            "notation": "6H"
+        },
+        {
+            "label": "EMBL (European Molecular Biology Laboratory)",
+            "notation": "6I"
+        },
+        {
+            "label": "ITSO (International Telecommunications Satellite Organisation)",
+            "notation": "6J"
+        },
+        {
+            "label": "EBU/UER (European Broadcasting Union/Union europ\u00e9enne de radio-t\u00e9l\u00e9vision)",
+            "notation": "6K"
+        },
+        {
+            "label": "EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)",
+            "notation": "6L"
+        },
+        {
+            "label": "ESO (European Southern Observatory)",
+            "notation": "6M"
+        },
+        {
+            "label": "ECMWF (European Centre for Medium-Range Weather Forecasts)",
+            "notation": "6N"
+        },
+        {
+            "label": "OECD (Organisation for Economic Co-operation and Development)",
+            "notation": "6O"
+        },
+        {
+            "label": "CERN (European Organisation for Nuclear Research)",
+            "notation": "6P"
+        },
+        {
+            "label": "IOM (International Organisation for Migration)",
+            "notation": "6Q"
+        },
+        {
+            "label": "Other International Non-Financial Organisations n.i.e.",
+            "notation": "6Z"
+        },
+        {
+            "label": "The Global Fund to Fight AIDS, Tuberculosis and Malaria",
+            "notation": "6Z1"
+        },
+        {
+            "label": "International Centre for Migration Policy Development",
+            "notation": "6Z2"
+        },
+        {
+            "label": "WAEMU (West African Economic and Monetary Union)",
+            "notation": "7A"
+        },
+        {
+            "label": "IDB (Islamic Development Bank)",
+            "notation": "7B"
+        },
+        {
+            "label": "EDB (Eurasian Development Bank )",
+            "notation": "7C"
+        },
+        {
+            "label": "Paris Club Creditor Institutions",
+            "notation": "7D"
+        },
+        {
+            "label": "CEB (Council of Europe Development Bank)",
+            "notation": "7E"
+        },
+        {
+            "label": "International Union of Credit and Investment Insurers",
+            "notation": "7F"
+        },
+        {
+            "label": "Black Sea Trade and Development Banks",
+            "notation": "7G"
+        },
+        {
+            "label": "AFREXIMBANK (African Export-Import Bank)",
+            "notation": "7H"
+        },
+        {
+            "label": "BLADEX (Banco Latino Americano De Comercio Exterior)",
+            "notation": "7I"
+        },
+        {
+            "label": "FLAR (Fondo Latino Americano de Reservas)",
+            "notation": "7J"
+        },
+        {
+            "label": "Fonds Belgo-Congolais d'Amortissement et de Gestion",
+            "notation": "7K"
+        },
+        {
+            "label": "IFFIm (International finance Facility for Immunisation)",
+            "notation": "7L"
+        },
+        {
+            "label": "EUROFIMA (European Company for the Financing of Railroad Rolling Stock)",
+            "notation": "7M"
+        },
+        {
+            "label": "Development Bank of Latin America (Banco de Desarrollo de America Latina)",
+            "notation": "7N"
+        },
+        {
+            "label": "The Eastern and Southern African Trade and Development Bank",
+            "notation": "7O"
+        },
+        {
+            "label": "International Organisations excluding European Union Institutions",
+            "notation": "9A",
+            "description": "1A-4Y"
+        },
+        {
+            "label": "International organization excluding the BIS and the IMF",
+            "notation": "9B",
+            "description": "1A-1C-5B"
+        },
+        {
+            "label": "America",
+            "notation": "A1",
+            "description": "CA + US + GL + AG + AI + AW + BB + BM + BQ + BS + BZ + CR + CU + CW + DM + DO + GD + GT + HN + HT + JM + KN + KY + LC + MS + MX + NI + PA + SV + SX + TC + TT + VC + VG + VI  + AR + BO + BR + CL + CO + EC + FK + GY + PE + PY + SR + UY + VE + A19"
+        },
+        {
+            "label": "Western Hemisphere",
+            "notation": "A10",
+            "description": "AI + AG + AR + AW + BS + BB + BZ + BM + BO + BR + KY + CL + CO + CR + CW + DM + DO + EC + SV + FK + GL + GD + GP + GT + GF + GY + HT + HN + JM + A42 + MQ + MX + MS + AN + NI + PA + PY + PE + SX + KN + LC + PM + VC + SR + TT + UY + VE + A41 + A109"
+        },
+        {
+            "label": "Western Hemisphere not allocated",
+            "notation": "A109"
+        },
+        {
+            "label": "America not allocated",
+            "notation": "A19"
+        },
+        {
+            "label": "America Excluding OECD countries",
+            "notation": "A1X",
+            "description": "A1 - CA - CL (from 2010) - CO (from 2020) - MX - US"
+        },
+        {
+            "label": "America Excluding OECD countries (Fixed composition-36 members)",
+            "notation": "A1X0",
+            "description": "A1 - CA - CL - MX - US"
+        },
+        {
+            "label": "America Excluding OECD countries (Fixed composition-37 members)",
+            "notation": "A1X1",
+            "description": "A1 - CA - CL - CO - MX - US"
+        },
+        {
+            "label": "North American countries",
+            "notation": "A2",
+            "description": "CA + US + GL"
+        },
+        {
+            "label": "North America not allocated deprecated",
+            "notation": "A29"
+        },
+        {
+            "label": "North and Central American countries (CDIS)",
+            "notation": "A2A3",
+            "description": "A2A3 = BZ + CA + CR + SV + GT + HN + MX + NI + PA + US + A2A39"
+        },
+        {
+            "label": "North and Central American countries Not Allocated (CDIS)",
+            "notation": "A2A39",
+            "description": "A2A3 = BZ + CA + CR + SV + GT + HN + MX + NI + PA + US"
+        },
+        {
+            "label": "North America Excluding OECD countries",
+            "notation": "A2X",
+            "description": "A2-CA-US"
+        },
+        {
+            "label": "Central America (UN composition, namely Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua and Panama) deprecated",
+            "notation": "A3",
+            "description": "BZ+CR+SV+GT+HN+MX+NI+PA+A39"
+        },
+        {
+            "label": "Central America not allocated deprecated",
+            "notation": "A39"
+        },
+        {
+            "label": "Central America Excluding OECD countries deprecated",
+            "notation": "A3X",
+            "description": "A3X=A3-MX"
+        },
+        {
+            "label": "Caribbean deprecated",
+            "notation": "A4",
+            "description": "AI+AG+AN (until end 2010)+AW+BS (from 2011)+BB+BM+BQ+KY+CU+CW (from 2011)+DM+DO+GD+HT+JM+MS+KN+LC+VC+SX (from 2011)+TT+TC+VG+VI+A49"
+        },
+        {
+            "label": "Windward Islands",
+            "notation": "A41",
+            "description": "A41 = GP + DM + MQ + LC + VC + GD"
+        },
+        {
+            "label": "Leeward Islands",
+            "notation": "A42",
+            "description": "A42 = VI+ VG+ AI+ MF+ BL+ BQ+ KN+ AG+ MS"
+        },
+        {
+            "label": "Caribbean not allocated deprecated",
+            "notation": "A49"
+        },
+        {
+            "label": "Central America and Caribbean countries",
+            "notation": "A5",
+            "description": "AG + AI + AW + BB + BM + BQ + BS + BZ + CR + CU + CW + DM + DO + GD + GT + HN + HT + JM + KN + KY + LC + MS + MX + NI + PA + SV + SX + TC + TT + VC + VG + VI"
+        },
+        {
+            "label": "Central America and Caribbean countries excluding OECD countries",
+            "notation": "A5X",
+            "description": "A5-MX"
+        },
+        {
+            "label": "North Atlantic & Caribbean",
+            "notation": "A6",
+            "description": "A6 = AI + AG + AW + BS + BB + BM + BQ+ KY + CU + CW + DM + DO + GD + GP + HT + JM + MQ + MS + AN + PR + KN + LC + PM + VC + MF + TT + TC + VG + VI + A69"
+        },
+        {
+            "label": "North Atlantic & Caribbean not allocated",
+            "notation": "A69"
+        },
+        {
+            "label": "South American countries",
+            "notation": "A7",
+            "description": "A7=AR + BO + BR + CL + CO + EC + FK + GY + PE + PY + SR + UY + VE"
+        },
+        {
+            "label": "South America not allocated deprecated",
+            "notation": "A79"
+        },
+        {
+            "label": "South American Economies (CDIS)",
+            "notation": "A7E",
+            "description": "A7E=AR + BO + BR + CL + CO + EC + FK + GF + GY + PE + PY + SR + UY + VE +A7E9"
+        },
+        {
+            "label": "South American Economies Not Allocated (CDIS)",
+            "notation": "A7E9"
+        },
+        {
+            "label": "South America Excluding OECD countries",
+            "notation": "A7X",
+            "description": "A7-CL (from 2010) - CO (from 2020)"
+        },
+        {
+            "label": "South America Excluding OECD countries (Fixed composition-36 members)",
+            "notation": "A7X0",
+            "description": "A7-CL"
+        },
+        {
+            "label": "South America Excluding OECD countries (Fixed composition-37 members)",
+            "notation": "A7X1",
+            "description": "A7-CL-CO"
+        },
+        {
+            "label": "Latin America",
+            "notation": "A8",
+            "description": "AR + BO + BR + CL + CO + CR + CU + EC + GT + HN + MX + NI + PA + PE + PY + SV + UY + VE"
+        },
+        {
+            "label": "Latin American NICs of the second wave of industrialization",
+            "notation": "A84",
+            "description": "AR+BR+CL+MX"
+        },
+        {
+            "label": "Latin America & Caribbean",
+            "notation": "A9",
+            "description": "AI + AG + AR + AW + BS + BB + BZ + BO + BR + VG + KY + CL + CO + CR + CU + DM + DO + EC + SV + FK + GD + GP + GT + GF + GY + HT + HN + JM + MQ + MX + MS + AN + NI + PA + PY + PE + PR + KN + LC + VC + SR + TT + TC + UY + VE + A99"
+        },
+        {
+            "label": "Latin America & Caribbean not allocated",
+            "notation": "A99"
+        },
+        {
+            "label": "Andorra",
+            "notation": "AD"
+        },
+        {
+            "label": "United Arab Emirates",
+            "notation": "AE"
+        },
+        {
+            "label": "Abu Dhabi",
+            "notation": "AE1"
+        },
+        {
+            "label": "Dubai",
+            "notation": "AE2"
+        },
+        {
+            "label": "Afghanistan",
+            "notation": "AF"
+        },
+        {
+            "label": "Antigua and Barbuda",
+            "notation": "AG"
+        },
+        {
+            "label": "Anguilla",
+            "notation": "AI"
+        },
+        {
+            "label": "Albania",
+            "notation": "AL"
+        },
+        {
+            "label": "Armenia",
+            "notation": "AM"
+        },
+        {
+            "label": "Netherlands Antilles",
+            "notation": "AN"
+        },
+        {
+            "label": "Angola",
+            "notation": "AO"
+        },
+        {
+            "label": "Antarctica",
+            "notation": "AQ"
+        },
+        {
+            "label": "Argentina",
+            "notation": "AR"
+        },
+        {
+            "label": "American Samoa",
+            "notation": "AS"
+        },
+        {
+            "label": "Austria",
+            "notation": "AT"
+        },
+        {
+            "label": "Australia",
+            "notation": "AU"
+        },
+        {
+            "label": "Aruba",
+            "notation": "AW"
+        },
+        {
+            "label": "Aland Islands",
+            "notation": "AX"
+        },
+        {
+            "label": "Azerbaijan",
+            "notation": "AZ"
+        },
+        {
+            "label": "EU (Member States and Institutions of the European Union) changing composition",
+            "notation": "B0"
+        },
+        {
+            "label": "EU (Member States of the European Union) changing composition, excluding EU Institutions",
+            "notation": "B00",
+            "description": "AT + BE + BG (from 2007)+ CY + CZ + DE + DK + EE + ES + FI + FR + GB (until 2020) + GR + HR (from 2013) + HU + IE + IT + LT + LU + LV\u00a0\u00a0 MT + NL + PL + PT + RO (from 2007)\u00a0SE + SI + SK + B09"
+        },
+        {
+            "label": "EU countries participating in the Single Supervisory Mechanism (SSM) (changing composition)",
+            "notation": "B01"
+        },
+        {
+            "label": "EU  (Member States and Institutions of the European Union) changing composition, not allocated",
+            "notation": "B09",
+            "description": "B09= U29+U39"
+        },
+        {
+            "label": "EU12 (fixed composition)",
+            "notation": "B1"
+        },
+        {
+            "label": "EU12 excluding EU institutions",
+            "notation": "B10"
+        },
+        {
+            "label": "EU15 (fixed composition)",
+            "notation": "B2"
+        },
+        {
+            "label": "EU15 excluding EU institutions",
+            "notation": "B20"
+        },
+        {
+            "label": "EU25 (fixed composition)",
+            "notation": "B3"
+        },
+        {
+            "label": "EU25 excluding EU institutions",
+            "notation": "B30"
+        },
+        {
+            "label": "EU 27 (fixed composition)",
+            "notation": "B4",
+            "description": "AT + BE + BG + CY + CZ + DE + DK + EE + ES + FI + FR + GB + GR + HU + IE + IT + LT + LU + LV +  MT + NL + PL + PT + RO + SE + SI + SK+4Y+B09"
+        },
+        {
+            "label": "EU27 excluding EU institutions",
+            "notation": "B40"
+        },
+        {
+            "label": "EU28 (fixed composition)",
+            "notation": "B5",
+            "description": "B5 = I8 + (BG + CZ + DK + GB + HR + HU + PL + RO + SE+ 4A + B09) -U29"
+        },
+        {
+            "label": "EU28 excluding EU institutions",
+            "notation": "B50"
+        },
+        {
+            "label": "EU27 (fixed composition) as of 31 January 2020 (brexit)",
+            "notation": "B6"
+        },
+        {
+            "label": "EU27 (fixed composition) excluding EU institutions as of 31 January 2020 (brexit)",
+            "notation": "B60"
+        },
+        {
+            "label": "Bosnia and Herzegovina",
+            "notation": "BA"
+        },
+        {
+            "label": "Barbados",
+            "notation": "BB"
+        },
+        {
+            "label": "Bangladesh",
+            "notation": "BD"
+        },
+        {
+            "label": "Belgium",
+            "notation": "BE"
+        },
+        {
+            "label": "Burkina Faso",
+            "notation": "BF"
+        },
+        {
+            "label": "Bulgaria",
+            "notation": "BG"
+        },
+        {
+            "label": "Bahrain",
+            "notation": "BH"
+        },
+        {
+            "label": "Burundi",
+            "notation": "BI"
+        },
+        {
+            "label": "Benin",
+            "notation": "BJ"
+        },
+        {
+            "label": "Saint Barthelemy",
+            "notation": "BL"
+        },
+        {
+            "label": "Bermuda",
+            "notation": "BM"
+        },
+        {
+            "label": "Brunei Darussalam",
+            "notation": "BN"
+        },
+        {
+            "label": "Bolivia",
+            "notation": "BO"
+        },
+        {
+            "label": "Bonaire, Saint Eustatius and Saba",
+            "notation": "BQ"
+        },
+        {
+            "label": "Brazil",
+            "notation": "BR"
+        },
+        {
+            "label": "Bahamas",
+            "notation": "BS"
+        },
+        {
+            "label": "Bhutan",
+            "notation": "BT"
+        },
+        {
+            "label": "Bouvet Island",
+            "notation": "BV"
+        },
+        {
+            "label": "Botswana",
+            "notation": "BW"
+        },
+        {
+            "label": "Belarus",
+            "notation": "BY"
+        },
+        {
+            "label": "Belize",
+            "notation": "BZ"
+        },
+        {
+            "label": "Candidate Countries (Changing composition)",
+            "notation": "C0"
+        },
+        {
+            "label": "Candidate countries (HR,\u00a0MK,\u00a0TR)",
+            "notation": "C1"
+        },
+        {
+            "label": "Candidate countries (HR,IS,MK,TR)",
+            "notation": "C2"
+        },
+        {
+            "label": "Candidate countries (HR,IS,ME,MK,TR)",
+            "notation": "C3"
+        },
+        {
+            "label": "Candidate countries (IS,ME,MK,RS,TR)",
+            "notation": "C4",
+            "description": "IS+ME+MK+RS+TR"
+        },
+        {
+            "label": "Candidate countries (AL,ME,MK,RS,TR)",
+            "notation": "C5",
+            "description": "C5=AL+ME+MK+RS+TR"
+        },
+        {
+            "label": "New EU member states joining in 2004 and 2007 (BG,CY,CZ,EE,HU,LV,LT,MT,PL,RO,SK,SI)",
+            "notation": "C98"
+        },
+        {
+            "label": "New EU member states 2004 (CY,CZ,EE,HU,LV,LT,MT,PL,SK,SI)",
+            "notation": "C99"
+        },
+        {
+            "label": "Canada",
+            "notation": "CA"
+        },
+        {
+            "label": "Cocos (Keeling) Islands",
+            "notation": "CC"
+        },
+        {
+            "label": "Congo, the Democratic Republic of the",
+            "notation": "CD"
+        },
+        {
+            "label": "Central African Republic",
+            "notation": "CF"
+        },
+        {
+            "label": "Congo",
+            "notation": "CG"
+        },
+        {
+            "label": "Switzerland",
+            "notation": "CH"
+        },
+        {
+            "label": "C\u00f4te d'Ivoire",
+            "notation": "CI"
+        },
+        {
+            "label": "Cook Islands",
+            "notation": "CK"
+        },
+        {
+            "label": "Chile",
+            "notation": "CL"
+        },
+        {
+            "label": "Cameroon",
+            "notation": "CM"
+        },
+        {
+            "label": "China",
+            "notation": "CN"
+        },
+        {
+            "label": "Colombia",
+            "notation": "CO"
+        },
+        {
+            "label": "Costa Rica",
+            "notation": "CR"
+        },
+        {
+            "label": "Serbia and Montenegro",
+            "notation": "CS"
+        },
+        {
+            "label": "Serbia and Montenegro not allocated",
+            "notation": "CS9"
+        },
+        {
+            "label": "Former Czechoslovakia",
+            "notation": "CSH"
+        },
+        {
+            "label": "Former Czechoslovakia not allocated",
+            "notation": "CSH9"
+        },
+        {
+            "label": "Cuba",
+            "notation": "CU"
+        },
+        {
+            "label": "Cape Verde",
+            "notation": "CV"
+        },
+        {
+            "label": "Curacao",
+            "notation": "CW"
+        },
+        {
+            "label": "Christmas Island",
+            "notation": "CX"
+        },
+        {
+            "label": "Cyprus",
+            "notation": "CY"
+        },
+        {
+            "label": "Czechia",
+            "notation": "CZ"
+        },
+        {
+            "label": "Extra-EU (changing composition)",
+            "notation": "D0"
+        },
+        {
+            "label": "Extra-EU (changing composition) not allocated",
+            "notation": "D09"
+        },
+        {
+            "label": "Extra-EU 12 (fixed composition)",
+            "notation": "D1"
+        },
+        {
+            "label": "Extra-EU 15 (fixed composition)",
+            "notation": "D2"
+        },
+        {
+            "label": "Extra-EU 25 (fixed composition)",
+            "notation": "D3"
+        },
+        {
+            "label": "Extra-EU 27 (fixed composition)",
+            "notation": "D4"
+        },
+        {
+            "label": "Extra-EU 28 (fixed composition)",
+            "notation": "D5"
+        },
+        {
+            "label": "Extra-EU 28 (fixed composition) excluding BR + CA + CN + IN + JP + RU + CH +US, as of 1 July 2013",
+            "notation": "D5A",
+            "description": "D5A = D5 - (BR + CA + CN + IN + JP + RU + CH +US)"
+        },
+        {
+            "label": "Extra-EU 28 (fixed composition) excluding CA + CN +HK + JP + CH +US + R12 + 9A, as of 1 July 2013",
+            "notation": "D5B",
+            "description": "D5B =  D5 -  (CA + CN +HK + JP + CH +US + R12 + 9A)"
+        },
+        {
+            "label": "Extra-EU 28 (fixed composition) excluding CA+ RU + CH + TR + US + F2 + E4 + B2, as of 1 July 2013",
+            "notation": "D5C",
+            "description": "D5C= D5 -  (CA+ RU + CH + TR + US + F2 + E4 + B2)"
+        },
+        {
+            "label": "Extra-EU 28 (fixed composition), as of 1 July 2013 excluding BR + CA + CN + IN + JP + RU + CH +US and including EU institutions non belonging to euro area",
+            "notation": "D5D"
+        },
+        {
+            "label": "Extra-EU 27 (fixed composition) as of 31 January 2020 (brexit)",
+            "notation": "D6"
+        },
+        {
+            "label": "Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding BR, CA, CN, IN, JP, RU, CH, US",
+            "notation": "D6A"
+        },
+        {
+            "label": "Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding CA, CN, JP, CH, US, R12, 9A",
+            "notation": "D6B"
+        },
+        {
+            "label": "Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding CA, RU, CH, TR, US, F2, E4, B2",
+            "notation": "D6C"
+        },
+        {
+            "label": "Extra-EU 27 (fixed composition), as of 31 January 2020 (brexit), excluding BR, CA, CN, IN, JP, RU, CH, US and including EU institutions non belonging to euro area",
+            "notation": "D6D"
+        },
+        {
+            "label": "Germany",
+            "notation": "DE"
+        },
+        {
+            "label": "West Germany",
+            "notation": "DE1"
+        },
+        {
+            "label": "East Germany",
+            "notation": "DE2"
+        },
+        {
+            "label": "Djibouti",
+            "notation": "DJ"
+        },
+        {
+            "label": "Denmark",
+            "notation": "DK"
+        },
+        {
+            "label": "Dominica",
+            "notation": "DM"
+        },
+        {
+            "label": "Dominican Republic",
+            "notation": "DO"
+        },
+        {
+            "label": "Algeria",
+            "notation": "DZ"
+        },
+        {
+            "label": "Europe",
+            "notation": "E1",
+            "description": "AT + BE + BG + CY + CZ + DE + DK + EE + ES + FI + FR + GB + GR + HR + HU + IE + IT + LT + LU + LV +  MT + NL + PL + PT + RO + SE + SI + SK + CH + IS + LI + NO + AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS+ E19"
+        },
+        {
+            "label": "Europe except European Economic Area countries",
+            "notation": "E10"
+        },
+        {
+            "label": "OECD-EU deprecated",
+            "notation": "E16O",
+            "description": "AT+BE+CZ+DE+DK+EE+ES+FI+FR+GB+GR+HU+IE+IT+LU+NL+PL+PT+SE+SI+SK  (from 2010)  AT+BE+CZ+DE+DK+ES+FI+FR+GB+GR+HU+IE+IT+LU+NL+PL+PT+SE+SK  (2004-2009) AT+BE+DE+DK+ES+FI+FR+GB+GR+IE+IT+LU+NL+PT+SE (up to 2003)"
+        },
+        {
+            "label": "Europe not allocated",
+            "notation": "E19"
+        },
+        {
+            "label": "European Economies (CDIS)",
+            "notation": "E1E",
+            "description": "E1E = AL + AD + AT + BY + BE + BA + BG + HR + CY + CZ + DK + EE + FO + FI + FR + DE + GI + GR + GL + GG + HU + IS + IE + IM + IT + JE + XK + LV + LI + LT + LU + MK + MT + MD + MC + ME + NL + NO + PL + PT + RO + RU + SM + RS + SK + SI + ES + SE + CH + TR + UA + GB + VA + E1E9"
+        },
+        {
+            "label": "European Economies Not Allocated (CDIS)",
+            "notation": "E1E9"
+        },
+        {
+            "label": "Europe Excluding OECD countries",
+            "notation": "E1X",
+            "description": "E1-AT-BE-CH-CZ-DE-DK-EE (from 2010) -ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-LV (from 2015)-NL-NO-PL-PT-SE-SI (from 2010)-SK-TR"
+        },
+        {
+            "label": "Europe Excluding OECD countries (Fixed composition-34 members)",
+            "notation": "E1X0",
+            "description": "E1-AT-BE-CH-CZ-DE-DK-EE-ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-NL-NO-PL-PT-SE-SI-SK-TR"
+        },
+        {
+            "label": "Europe Excluding OECD countries (Fixed composition-35 members)",
+            "notation": "E1X1",
+            "description": "E1-AT-BE-CH-CZ-DE-DK-EE-ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-LV-NL-NO-PL-PT-SE-SI-SK-TR"
+        },
+        {
+            "label": "Europe excluding OECD countries (Fixed composition-36 members)",
+            "notation": "E1X2",
+            "description": "E1-AT-BE-CH-CZ-DE-DK-EE-ES-FI-FR-GB-GR-HU-IE-IS-IT-LU-LT-LV-NL-NO-PL-PT-SE-SI-SK-TR"
+        },
+        {
+            "label": "Eastern Europe deprecated",
+            "notation": "E2",
+            "description": "BY+BG+CZ+HU+MD+PL+RO+RU+SK+UA+E29"
+        },
+        {
+            "label": "Eastern Europe not allocated deprecated",
+            "notation": "E29"
+        },
+        {
+            "label": "Eastern Europe Excluding OECD countries deprecated",
+            "notation": "E2X",
+            "description": "E2-CZ-HU-PL-SK"
+        },
+        {
+            "label": "Northern Europe deprecated",
+            "notation": "E3",
+            "description": "DK+EE(from2010)+FO+FI+GG+IS+IE+IM+JE+LV+LT+NO+SE+GB+E39"
+        },
+        {
+            "label": "Baltic countries",
+            "notation": "E31",
+            "description": "EE+LT+LV"
+        },
+        {
+            "label": "Northern Europe not allocated deprecated",
+            "notation": "E39"
+        },
+        {
+            "label": "Northern Europe Excluding OECD countries deprecated",
+            "notation": "E3X",
+            "description": "E3-DK-EE(from 2010)-FI-IS-IE-NO-SE-GB"
+        },
+        {
+            "label": "Southern Europe deprecated",
+            "notation": "E4",
+            "description": "AL+AD+BA+HR+CY+GI+GR+VA+IT+MK+MT+ME+PT+SM+RS+SI(from 2010)+ES+TR+E49"
+        },
+        {
+            "label": "Southern Europe not allocated deprecated",
+            "notation": "E49"
+        },
+        {
+            "label": "Southern Europe Excluding OECD countries deprecated",
+            "notation": "E4X",
+            "description": "E4-GR-IT-PT-SI(from 2010)-ES-TR"
+        },
+        {
+            "label": "Western Europe deprecated",
+            "notation": "E5",
+            "description": "AT+BE+FR+DE+LI+LU+NL+CH+E59"
+        },
+        {
+            "label": "Western Europe not allocated deprecated",
+            "notation": "E59"
+        },
+        {
+            "label": "Western Europe Excluding OECD countries deprecated",
+            "notation": "E5X",
+            "description": "E5-AT-BE-FR-DE-LU-NL-CH"
+        },
+        {
+            "label": "Central and Eastern Europe",
+            "notation": "E7",
+            "description": "AL+BA+ME+MK+RS"
+        },
+        {
+            "label": "Ecuador",
+            "notation": "EC"
+        },
+        {
+            "label": "Estonia",
+            "notation": "EE"
+        },
+        {
+            "label": "Egypt",
+            "notation": "EG"
+        },
+        {
+            "label": "Western Sahara",
+            "notation": "EH"
+        },
+        {
+            "label": "Eritrea",
+            "notation": "ER"
+        },
+        {
+            "label": "Spain",
+            "notation": "ES"
+        },
+        {
+            "label": "Ceuta and Melilla",
+            "notation": "ES1"
+        },
+        {
+            "label": "Ceuta",
+            "notation": "ES11"
+        },
+        {
+            "label": "Melilla",
+            "notation": "ES12"
+        },
+        {
+            "label": "Canary Islands",
+            "notation": "ES2"
+        },
+        {
+            "label": "Ethiopia",
+            "notation": "ET"
+        },
+        {
+            "label": "Africa",
+            "notation": "F1",
+            "description": "rule 1: DZ + EG + LY + MA + TN + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RE + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW  + F19"
+        },
+        {
+            "label": "Africa not allocated",
+            "notation": "F19"
+        },
+        {
+            "label": "Africa excluding North Africa",
+            "notation": "F1XF4"
+        },
+        {
+            "label": "African Countries excluding Maghreb",
+            "notation": "F1XM",
+            "description": "EG + LY + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW (53 countries)"
+        },
+        {
+            "label": "Central and South Africa countries",
+            "notation": "F2",
+            "description": "AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW (51 countries)"
+        },
+        {
+            "label": "Eastern Africa deprecated",
+            "notation": "F3",
+            "description": "BI+KM+DJ+ER+ET+KE+MG+MW+MU+MZ+RW+SC+SD+SO+SS+TZ+UG+ZM+ZW+F39"
+        },
+        {
+            "label": "Eastern Africa not allocated deprecated",
+            "notation": "F39"
+        },
+        {
+            "label": "North Africa",
+            "notation": "F4",
+            "description": "DZ + EG + LY + MA + TN (5 countries) +F49"
+        },
+        {
+            "label": "Maghreb countries",
+            "notation": "F41",
+            "description": "DZ+MA+TN (3 countries)"
+        },
+        {
+            "label": "Mashrek Countries",
+            "notation": "F42",
+            "description": "EG+JO+LB+PS+SY (5 countries)"
+        },
+        {
+            "label": "North Africa not allocated",
+            "notation": "F49"
+        },
+        {
+            "label": "Middle Africa deprecated",
+            "notation": "F5",
+            "description": "AO+CM+CF+TD+CG+CD+GQ+GA+ST+F59"
+        },
+        {
+            "label": "Middle Africa not allocated deprecated",
+            "notation": "F59"
+        },
+        {
+            "label": "Sub-Saharan Africa",
+            "notation": "F6",
+            "description": "F6 = AO+ BJ+ BW+ IO+ BF+ BI+ CV+ CM+ CF+ TD+ KM+ CD+ CG+ CI+ DJ+ GQ+ ER+ ET+ GA+ GM+ GH+ GN+ GW + KE+ LS+ LR+ MG+ MW+ ML+ MR+ MU+ YT+ MZ+ NA+ NE+ NG+ RE+ RW+ ST+ SN+ SC+ SL+ SO+ ZA+ SS+ SH+ SD+ SZ+ TZ + TG+ UG+ EH+ ZM + ZW + F69"
+        },
+        {
+            "label": "Sub-Saharan Africa not allocated",
+            "notation": "F69"
+        },
+        {
+            "label": "Southern Africa deprecated",
+            "notation": "F7",
+            "description": "BW+LS+NA+ZA+SZ+F79"
+        },
+        {
+            "label": "Southern Africa not allocated deprecated",
+            "notation": "F79"
+        },
+        {
+            "label": "Western Africa deprecated",
+            "notation": "F8",
+            "description": "BJ+BF+CV+CI+GM+GH+GN+GW+LR+ML+MR+NE+NG+SH+SN+SL+TG+F89"
+        },
+        {
+            "label": "Western Africa not allocated deprecated",
+            "notation": "F89"
+        },
+        {
+            "label": "Middle East",
+            "notation": "F97",
+            "description": "BH + EG + IR + IQ + JO + KW + LB + LY + OM + QA + SA + SY + AE + PS + YE +F979"
+        },
+        {
+            "label": "Middle East not allocated",
+            "notation": "F979"
+        },
+        {
+            "label": "Middle East and North Africa (MENA)",
+            "notation": "F98",
+            "description": "AE+BH+DJ+DZ+EG+IQ+JO+KW+LB+LY+MA+OM+PS+QA+SA+SY+TN+YE"
+        },
+        {
+            "label": "Africa and Middle East countries",
+            "notation": "F99",
+            "description": "DZ + EG + LY + MA + TN + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW + AE + BH + IQ + KW + OM + QA + SA+YE+AM+AZ+GE+IL+JO+LB+SY (72 countries)"
+        },
+        {
+            "label": "Finland",
+            "notation": "FI"
+        },
+        {
+            "label": "Fiji",
+            "notation": "FJ"
+        },
+        {
+            "label": "Falkland Islands (Malvinas)",
+            "notation": "FK"
+        },
+        {
+            "label": "Micronesia, Federated States of",
+            "notation": "FM"
+        },
+        {
+            "label": "Faroe Islands",
+            "notation": "FO"
+        },
+        {
+            "label": "France",
+            "notation": "FR"
+        },
+        {
+            "label": "French West Indies",
+            "notation": "FR1"
+        },
+        {
+            "label": "French West Indies not allocated",
+            "notation": "FR19"
+        },
+        {
+            "label": "Wallis",
+            "notation": "FR2"
+        },
+        {
+            "label": "European Economic Area",
+            "notation": "G0",
+            "description": "AT + BE + BG (from 2007)+ CY + CZ + DE + DK + EE + ES + FI + FR + GB (until 2020) + GR + HR (from 2013) + HU + IE + IT + LT + LU + LV\u00a0\u00a0 MT + NL + PL + PT + RO (from 2007)\u00a0SE + SI + SK + IS + LI +NO + 4Y + B09"
+        },
+        {
+            "label": "EEA except the EU countries participating in the Single Supervisory Mechanism (SSM)",
+            "notation": "G00"
+        },
+        {
+            "label": "Extra EEA",
+            "notation": "G1"
+        },
+        {
+            "label": "Other European countries (not EU nor EFTA) (from 2020 - fixed composition)",
+            "notation": "G10",
+            "description": "AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + GB"
+        },
+        {
+            "label": "EEA except the euro area and reference area",
+            "notation": "G2"
+        },
+        {
+            "label": "Other EEA countries (all countries excluding the reference area)",
+            "notation": "G3"
+        },
+        {
+            "label": "Other European countries (not EU)",
+            "notation": "G4",
+            "description": "AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + CH + NO + IS + LI + HR (until 2013) + BG (until 2007) + RO (until 2007) + GB (from 2020)"
+        },
+        {
+            "label": "Other European countries (not EU) (from 2020 - fixed composition)",
+            "notation": "G6",
+            "description": "G6=AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + GB + CH + IS + LI + NO"
+        },
+        {
+            "label": "Other European countries (not EU nor EFTA)",
+            "notation": "G9",
+            "description": "AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS +\u00a0 HR (until 2013) + BG (until 2007) + RO (until 2007) + GB (from 2020)"
+        },
+        {
+            "label": "Gabon",
+            "notation": "GA"
+        },
+        {
+            "label": "United Kingdom of Great Britain and Northern Ireland",
+            "notation": "GB"
+        },
+        {
+            "label": "UK including Guernsey, Isle of Man, Jersey",
+            "notation": "GB1"
+        },
+        {
+            "label": "West Indies UK",
+            "notation": "GB2"
+        },
+        {
+            "label": "British Overseas Territories",
+            "notation": "GB3"
+        },
+        {
+            "label": "Grenada",
+            "notation": "GD"
+        },
+        {
+            "label": "Georgia",
+            "notation": "GE"
+        },
+        {
+            "label": "French Guiana",
+            "notation": "GF"
+        },
+        {
+            "label": "Guernsey",
+            "notation": "GG"
+        },
+        {
+            "label": "Ghana",
+            "notation": "GH"
+        },
+        {
+            "label": "Gibraltar",
+            "notation": "GI"
+        },
+        {
+            "label": "Greenland",
+            "notation": "GL"
+        },
+        {
+            "label": "Gambia",
+            "notation": "GM"
+        },
+        {
+            "label": "Guinea",
+            "notation": "GN"
+        },
+        {
+            "label": "Guadeloupe",
+            "notation": "GP"
+        },
+        {
+            "label": "Equatorial Guinea",
+            "notation": "GQ"
+        },
+        {
+            "label": "Greece",
+            "notation": "GR"
+        },
+        {
+            "label": "South Georgia and the South Sandwich Islands",
+            "notation": "GS"
+        },
+        {
+            "label": "Guatemala",
+            "notation": "GT"
+        },
+        {
+            "label": "Guam",
+            "notation": "GU"
+        },
+        {
+            "label": "Guinea-Bissau",
+            "notation": "GW"
+        },
+        {
+            "label": "Guyana",
+            "notation": "GY"
+        },
+        {
+            "label": "Hong Kong, China",
+            "notation": "HK"
+        },
+        {
+            "label": "Heard Island and McDonald Islands",
+            "notation": "HM"
+        },
+        {
+            "label": "Honduras",
+            "notation": "HN"
+        },
+        {
+            "label": "Croatia",
+            "notation": "HR"
+        },
+        {
+            "label": "Haiti",
+            "notation": "HT"
+        },
+        {
+            "label": "Hungary",
+            "notation": "HU"
+        },
+        {
+            "label": "Euro area 11 (fixed composition) as of 1 January 1999",
+            "notation": "I1"
+        },
+        {
+            "label": "Euro area 11 (fixed composition) not allocated as of 1 January 1999",
+            "notation": "I19"
+        },
+        {
+            "label": "Euro area 12 (fixed composition) as of 1 January 2001",
+            "notation": "I2"
+        },
+        {
+            "label": "Euro area 12 (fixed composition) not allocated as of 1 January 2001",
+            "notation": "I29"
+        },
+        {
+            "label": "Euro area 13 (fixed composition) as of 1 January 2007",
+            "notation": "I3"
+        },
+        {
+            "label": "Euro area 13 (fixed composition) not allocated as of 1 January 2007",
+            "notation": "I39"
+        },
+        {
+            "label": "Euro area 15 (fixed composition) as of 1 January 2008",
+            "notation": "I4"
+        },
+        {
+            "label": "Euro area 15 (fixed composition) not allocated as of 1 January 2008",
+            "notation": "I49"
+        },
+        {
+            "label": "Euro area 16 (fixed composition) as of 1 January 2009",
+            "notation": "I5"
+        },
+        {
+            "label": "Euro area 16 (fixed composition) not allocated as of 1 January 2009",
+            "notation": "I59"
+        },
+        {
+            "label": "Euro area 17 (fixed composition) as of 1 January 2011",
+            "notation": "I6"
+        },
+        {
+            "label": "Euro area 17 (fixed composition) not allocated as of 1 January 2011",
+            "notation": "I69"
+        },
+        {
+            "label": "Euro area 18 (fixed composition) as of 1 January 2014",
+            "notation": "I7"
+        },
+        {
+            "label": "Euro area 18 (fixed composition) not allocated as of 1 January 2014",
+            "notation": "I79"
+        },
+        {
+            "label": "Euro area 19 (fixed composition) as of 1 January 2015",
+            "notation": "I8"
+        },
+        {
+            "label": "Euro area 19 (fixed composition) not allocated as of 1 January 2014",
+            "notation": "I89"
+        },
+        {
+            "label": "Euro area 20 (fixed composition) as of 1 January 2023",
+            "notation": "I9"
+        },
+        {
+            "label": "Euro area 20 (fixed composition) not allocated as of 1 January 2023",
+            "notation": "I99"
+        },
+        {
+            "label": "Indonesia",
+            "notation": "ID"
+        },
+        {
+            "label": "Ireland",
+            "notation": "IE"
+        },
+        {
+            "label": "Israel",
+            "notation": "IL"
+        },
+        {
+            "label": "Isle of Man",
+            "notation": "IM"
+        },
+        {
+            "label": "India",
+            "notation": "IN"
+        },
+        {
+            "label": "British Indian Ocean territory",
+            "notation": "IO"
+        },
+        {
+            "label": "Iraq",
+            "notation": "IQ"
+        },
+        {
+            "label": "Iran, Islamic Republic of",
+            "notation": "IR"
+        },
+        {
+            "label": "Iceland",
+            "notation": "IS"
+        },
+        {
+            "label": "Italy",
+            "notation": "IT"
+        },
+        {
+            "label": "Extra-Euro area 11 (fixed composition) as of 1 January 1999",
+            "notation": "J1"
+        },
+        {
+            "label": "Extra-Euro area 11 (fixed composition) not allocated as of 1 January 1999",
+            "notation": "J19"
+        },
+        {
+            "label": "Extra-Euro area 12 (fixed composition) as of 1 January 2001",
+            "notation": "J2"
+        },
+        {
+            "label": "Extra-Euro area 12 (fixed composition) not allocated as of 1 January 2001",
+            "notation": "J29"
+        },
+        {
+            "label": "Extra-Euro area 13 (fixed composition) as of 1 January 2007",
+            "notation": "J3"
+        },
+        {
+            "label": "Extra-Euro area 13 (fixed composition) not allocated) as of 1 January 2007",
+            "notation": "J39"
+        },
+        {
+            "label": "Extra-Euro area 15 (fixed composition) as of 1 January 2008",
+            "notation": "J4"
+        },
+        {
+            "label": "Extra-Euro area 15 (fixed composition) not allocated as of 1 January 2008",
+            "notation": "J49"
+        },
+        {
+            "label": "Extra-Euro area 16 (fixed composition) as of 1 January 2009",
+            "notation": "J5"
+        },
+        {
+            "label": "Extra-Euro area 16 (fixed composition) not allocated as of 1 January 2009",
+            "notation": "J59"
+        },
+        {
+            "label": "Extra-Euro area 17 (fixed composition) as of 1 January 2011",
+            "notation": "J6"
+        },
+        {
+            "label": "Extra-Euro area 17 (fixed composition) not allocated as of 1 January 2011",
+            "notation": "J69"
+        },
+        {
+            "label": "Extra-Euro area 18 (fixed composition) as of 1 January 2014",
+            "notation": "J7"
+        },
+        {
+            "label": "Extra-Euro area 18 (fixed composition) not allocated as of 1 January 2014",
+            "notation": "J79"
+        },
+        {
+            "label": "Extra-Euro area 19 (fixed composition) as of 1 January 2015",
+            "notation": "J8"
+        },
+        {
+            "label": "Extra-Euro area 19 (fixed composition) not allocated as of 1 January 2015",
+            "notation": "J89"
+        },
+        {
+            "label": "Extra-Euro area 20 (fixed composition) as of 1 January 2023",
+            "notation": "J9"
+        },
+        {
+            "label": "Extra-Euro area 20 (fixed composition) not allocated as of 1 January 2023",
+            "notation": "J99"
+        },
+        {
+            "label": "Jersey",
+            "notation": "JE"
+        },
+        {
+            "label": "Jamaica",
+            "notation": "JM"
+        },
+        {
+            "label": "Jordan",
+            "notation": "JO"
+        },
+        {
+            "label": "Japan",
+            "notation": "JP"
+        },
+        {
+            "label": "EU member states not belonging to Euro area 11 (fixed composition) as of 1 January 1999",
+            "notation": "K1"
+        },
+        {
+            "label": "EU27 member states, as of 31 January 2020 (brexit), not belonging to Euro area 19 (fixed composition)",
+            "notation": "K10"
+        },
+        {
+            "label": "EU27 member states, as of 31 January 2020 (brexit), not belonging to Euro area 19 (fixed composition) excluding EU institutions not belonging to euro area",
+            "notation": "K10B"
+        },
+        {
+            "label": "EU27 member states not belonging to Euro area 20 (fixed composition) as of 1 January 2023",
+            "notation": "K11"
+        },
+        {
+            "label": "EU27 member states not belonging to Euro area 20 (fixed composition) - EU institutions as of 1 January 2023",
+            "notation": "K11A"
+        },
+        {
+            "label": "EU27 member states not belonging to Euro area 20 (fixed composition), as of 1 January 2023 excluding EU institutions not belonging to euro area",
+            "notation": "K11B"
+        },
+        {
+            "label": "EU member states not belonging to Euro area 12 (fixed composition) as of 1 January 2001",
+            "notation": "K2"
+        },
+        {
+            "label": "EU member states not belonging to Euro area 13 (fixed composition) as of 1 January 2007",
+            "notation": "K3"
+        },
+        {
+            "label": "EU member states not belonging to Euro area 15 (fixed composition) as of 1 January 2008",
+            "notation": "K4"
+        },
+        {
+            "label": "EU member states not belonging to Euro area 16 (fixed composition) as of 1 January 2009",
+            "notation": "K5"
+        },
+        {
+            "label": "EU27 member states not belonging to Euro area 17 (fixed composition) as of 1 January 2011",
+            "notation": "K6"
+        },
+        {
+            "label": "EU28 member states not belonging to Euro area 17 (fixed composition) as of 1 July 2013",
+            "notation": "K7"
+        },
+        {
+            "label": "EU28 member states not belonging to Euro area 18 (fixed composition) as of 1 January 2014",
+            "notation": "K8"
+        },
+        {
+            "label": "Other EU countries, i.e. EU28 member states not belonging to Euro area 18 (fixed composition) - United Kingdom - EU institutions ) as of 1 January 2014",
+            "notation": "K8A"
+        },
+        {
+            "label": "EU28 member states not belonging to Euro area 19 (fixed composition) as of 1 January 2015",
+            "notation": "K9"
+        },
+        {
+            "label": "EU28 member states not belonging to Euro area 19 (fixed composition) - United Kingdom - EU institutions as of 1 January 2015",
+            "notation": "K9A"
+        },
+        {
+            "label": "EU28 member states not belonging to Euro area 19 (fixed composition), as of 1 January 2015\u00a0excluding EU institutions not belonging to euro area",
+            "notation": "K9B"
+        },
+        {
+            "label": "Kenya",
+            "notation": "KE"
+        },
+        {
+            "label": "Kyrgyzstan",
+            "notation": "KG"
+        },
+        {
+            "label": "Cambodia",
+            "notation": "KH"
+        },
+        {
+            "label": "Kiribati",
+            "notation": "KI"
+        },
+        {
+            "label": "Comoros",
+            "notation": "KM"
+        },
+        {
+            "label": "Saint Kitts and Nevis",
+            "notation": "KN"
+        },
+        {
+            "label": "Korea, Democratic People's Republic of",
+            "notation": "KP"
+        },
+        {
+            "label": "Korea, Republic of",
+            "notation": "KR"
+        },
+        {
+            "label": "Kuwait",
+            "notation": "KW"
+        },
+        {
+            "label": "Cayman Islands",
+            "notation": "KY"
+        },
+        {
+            "label": "Kazakhstan",
+            "notation": "KZ"
+        },
+        {
+            "label": "Other Euro area 11 member states (fixed composition - all countries except the reference area) as of 1 January 1999",
+            "notation": "L1"
+        },
+        {
+            "label": "Other Euro area 12 member states (fixed composition - all countries except the reference area) as of 1 January 2001",
+            "notation": "L2"
+        },
+        {
+            "label": "Other Euro area 13 member states (fixed composition - all countries except the reference area) as of 1 January 2007",
+            "notation": "L3"
+        },
+        {
+            "label": "Other Euro area 15 member states (fixed composition - all countries except the reference area) as of 1 January 2008",
+            "notation": "L4"
+        },
+        {
+            "label": "Other Euro area 16 member states (fixed composition - all countries except the reference area) as of 1 January 2009",
+            "notation": "L5"
+        },
+        {
+            "label": "Other Euro area 17 member states (fixed composition - all countries except the reference area) as of 1 January 2011",
+            "notation": "L6"
+        },
+        {
+            "label": "Other Euro area 18 member states (fixed composition - all countries except the reference area) as of 1 January 2014",
+            "notation": "L7"
+        },
+        {
+            "label": "Other Euro area 19 member states (fixed composition - all countries except the reference area) as of 1 January 2015",
+            "notation": "L8"
+        },
+        {
+            "label": "Lao People's Democratic Republic",
+            "notation": "LA"
+        },
+        {
+            "label": "Lebanon",
+            "notation": "LB"
+        },
+        {
+            "label": "Saint Lucia",
+            "notation": "LC"
+        },
+        {
+            "label": "Liechtenstein",
+            "notation": "LI"
+        },
+        {
+            "label": "Sri Lanka",
+            "notation": "LK"
+        },
+        {
+            "label": "Liberia",
+            "notation": "LR"
+        },
+        {
+            "label": "Lesotho",
+            "notation": "LS"
+        },
+        {
+            "label": "Lithuania",
+            "notation": "LT"
+        },
+        {
+            "label": "Luxembourg",
+            "notation": "LU"
+        },
+        {
+            "label": "Latvia",
+            "notation": "LV"
+        },
+        {
+            "label": "Libya",
+            "notation": "LY"
+        },
+        {
+            "label": "All areas other than Euro area 11 (fixed composition) and reference/home area as of 1 January 1999",
+            "notation": "M1"
+        },
+        {
+            "label": "All areas other than Euro area 12 (fixed composition) and reference/home area as of 1 January 2001",
+            "notation": "M2"
+        },
+        {
+            "label": "All areas other than Euro area 13 (fixed composition) and reference/home area as of 1 January 2007",
+            "notation": "M3"
+        },
+        {
+            "label": "All areas other than Euro area 15 (fixed composition) and reference/home area as of 1 January 2008",
+            "notation": "M4"
+        },
+        {
+            "label": "All areas other than Euro area 16 (fixed composition) and reference/home area as of 1 January 2009",
+            "notation": "M5"
+        },
+        {
+            "label": "All areas other than Euro area 17 (fixed composition) and reference/home area as of 1 January 2011",
+            "notation": "M6"
+        },
+        {
+            "label": "All areas other than Euro area 18 (fixed composition) and reference/home area as of 1 January 2014",
+            "notation": "M7"
+        },
+        {
+            "label": "All areas other than Euro area 19 (fixed composition) and reference/home area as of 1 January 2015",
+            "notation": "M8"
+        },
+        {
+            "label": "Morocco",
+            "notation": "MA"
+        },
+        {
+            "label": "Monaco",
+            "notation": "MC"
+        },
+        {
+            "label": "Moldova, Republic of",
+            "notation": "MD"
+        },
+        {
+            "label": "Montenegro",
+            "notation": "ME"
+        },
+        {
+            "label": "Saint Martin (French part)",
+            "notation": "MF"
+        },
+        {
+            "label": "Madagascar",
+            "notation": "MG"
+        },
+        {
+            "label": "Marshall Islands",
+            "notation": "MH"
+        },
+        {
+            "label": "North Macedonia",
+            "notation": "MK"
+        },
+        {
+            "label": "Mali",
+            "notation": "ML"
+        },
+        {
+            "label": "Myanmar",
+            "notation": "MM"
+        },
+        {
+            "label": "Mongolia",
+            "notation": "MN"
+        },
+        {
+            "label": "Macao",
+            "notation": "MO"
+        },
+        {
+            "label": "Northern Mariana Islands",
+            "notation": "MP"
+        },
+        {
+            "label": "Martinique",
+            "notation": "MQ"
+        },
+        {
+            "label": "Mauritania",
+            "notation": "MR"
+        },
+        {
+            "label": "Montserrat",
+            "notation": "MS"
+        },
+        {
+            "label": "Malta",
+            "notation": "MT"
+        },
+        {
+            "label": "Mauritius",
+            "notation": "MU"
+        },
+        {
+            "label": "Maldives",
+            "notation": "MV"
+        },
+        {
+            "label": "Malawi",
+            "notation": "MW"
+        },
+        {
+            "label": "Mexico",
+            "notation": "MX"
+        },
+        {
+            "label": "Malaysia",
+            "notation": "MY"
+        },
+        {
+            "label": "Sabah",
+            "notation": "MY1"
+        },
+        {
+            "label": "Sarawak",
+            "notation": "MY2"
+        },
+        {
+            "label": "Mozambique",
+            "notation": "MZ"
+        },
+        {
+            "label": "CEMAC (Communaut\u00e9 \u00c9conomique et Mon\u00e9taire de l\u2019Afrique Centrale)",
+            "notation": "N1"
+        },
+        {
+            "label": "ECCU (Eastern Caribbean Currency Union)",
+            "notation": "N2"
+        },
+        {
+            "label": "Namibia",
+            "notation": ""
+        },
+        {
+            "label": "New Caledonia",
+            "notation": "NC"
+        },
+        {
+            "label": "Niger",
+            "notation": "NE"
+        },
+        {
+            "label": "Norfolk Island",
+            "notation": "NF"
+        },
+        {
+            "label": "Nigeria",
+            "notation": "NG"
+        },
+        {
+            "label": "Nicaragua",
+            "notation": "NI"
+        },
+        {
+            "label": "Netherlands",
+            "notation": "NL"
+        },
+        {
+            "label": "Norway",
+            "notation": "NO"
+        },
+        {
+            "label": "Nepal",
+            "notation": "NP"
+        },
+        {
+            "label": "Nauru",
+            "notation": "NR"
+        },
+        {
+            "label": "Niue",
+            "notation": "NU"
+        },
+        {
+            "label": "New Zealand",
+            "notation": "NZ"
+        },
+        {
+            "label": "Australia, Oceania and polar regions",
+            "notation": "O1",
+            "description": "AU + FJ + FM + KI + MH + MP + NC + NR + NZ + PF + PG + PN + PW + SB + TO + TV + VU + WF + WS + CC + CX+HM + NF + AS + GU + UM + CK + NU + TK + AQ + BV + GS + T F+ O19"
+        },
+        {
+            "label": "Australia, Oceania and polar regions not allocated",
+            "notation": "O19"
+        },
+        {
+            "label": "Polar regions",
+            "notation": "O1P",
+            "description": "AQ + BV + GS + TF ("
+        },
+        {
+            "label": "Australia, Oceania and Polar regions Excluding OECD countries",
+            "notation": "O1X0",
+            "description": "O1-AU-NZ"
+        },
+        {
+            "label": "Oceania and Polar Regions",
+            "notation": "O2",
+            "description": "AS + AU + BV + CX + CC + CK + FJ + TF + PF + GU + HM + KI + MH + O8 + NR + NC + NZ + NU + NF + MP + PW + PG + PN + GS + WS + SB + TK + TO + TV + UM + VU + WF + O29"
+        },
+        {
+            "label": "Oceania and Polar Regions not allocated",
+            "notation": "O29"
+        },
+        {
+            "label": "Oceania",
+            "notation": "O3",
+            "description": "AS + AU + CK + FJ + PF + GU + KI + MH + O8 + NR + NC + NZ + NU + NF + PW + PG + PN + WS + SB + TO + TV + VU + WF + O19"
+        },
+        {
+            "label": "Oceania not allocated",
+            "notation": "O39"
+        },
+        {
+            "label": "Australian Oceania",
+            "notation": "O3A",
+            "description": "CC + CX + HM + NF"
+        },
+        {
+            "label": "American Oceania",
+            "notation": "O3M",
+            "description": "AS + GU + UM"
+        },
+        {
+            "label": "New Zealand Oceania",
+            "notation": "O3Z",
+            "description": "CK + NU + TK"
+        },
+        {
+            "label": "Other Oceania & Polar regions countries deprecated",
+            "notation": "O5",
+            "description": "AQ+BV+CX+CC+GS+HM+TF+UM"
+        },
+        {
+            "label": "Australia and New Zealand deprecated",
+            "notation": "O6",
+            "description": "AU+NZ+NF+O69"
+        },
+        {
+            "label": "Australia and New Zealand not allocated deprecated",
+            "notation": "O69"
+        },
+        {
+            "label": "Australia and New Zealand Excluding OECD countries deprecated",
+            "notation": "O6X0",
+            "description": "O6-AU-NZ"
+        },
+        {
+            "label": "Melanesia deprecated",
+            "notation": "O7",
+            "description": "FJ+NC+PG+SB+VU+O79"
+        },
+        {
+            "label": "Melanesia  not allocated deprecated",
+            "notation": "O79"
+        },
+        {
+            "label": "Micronesia deprecated",
+            "notation": "O8",
+            "description": "GU+KI+MH+FM+NR+MP+PW+O89"
+        },
+        {
+            "label": "Micronesia  not allocated deprecated",
+            "notation": "O89"
+        },
+        {
+            "label": "Polynesia deprecated",
+            "notation": "O9",
+            "description": "AS+CK+PF+NU+PN+WS+TK+TO+TV+WF+O99"
+        },
+        {
+            "label": "Polynesia not allocated deprecated",
+            "notation": "O99"
+        },
+        {
+            "label": "Oman",
+            "notation": "OM"
+        },
+        {
+            "label": "OECD countries (evolving composition)",
+            "notation": "P0",
+            "description": "AT+AU+BE+CA+CH+CL(from 2010)+CO(from 2020)+CZ+DE+DK+EE(from 2010)+ES+FI+FR+GB+GR+LU+LT(from 2018)+LV(from 2015)+HU+IE+IL(from 2010)+IS+IT+JP+KR MX+NL+NO+NZ+PL+PT+SE+SI(from 2010)+SK+TR+US"
+        },
+        {
+            "label": "OECD countries (fixed composition-30 members)",
+            "notation": "P00",
+            "description": "AT+AU+BE+CA+CH+CZ+DE+DK+ES+FI+FR+GB+GR+LU+HU+IE+IS+IT+JP+KR+MX+NL+NO+NZ+PL+PT+SE+SK+TR+US"
+        },
+        {
+            "label": "OECD not allocated deprecated",
+            "notation": "P09"
+        },
+        {
+            "label": "OECD countries (fixed composition-34 members)",
+            "notation": "P1",
+            "description": "AT + AU + BE + CA + CH + CL + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR +  MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (34 countries)"
+        },
+        {
+            "label": "World Excluding OECD countries (fixed composition-35 members)",
+            "notation": "P10",
+            "description": "P10=W0-P2"
+        },
+        {
+            "label": "World Excluding OECD countries (fixed composition-36 members)",
+            "notation": "P11",
+            "description": "P11=W0-P5"
+        },
+        {
+            "label": "World Excluding OECD countries (fixed composition-37 members)",
+            "notation": "P12",
+            "description": "P12=W0-P6"
+        },
+        {
+            "label": "OECD Key partners",
+            "notation": "P2",
+            "description": "BR+CN+IN+ID+ZA"
+        },
+        {
+            "label": "DAC Reporting Countries",
+            "notation": "P3"
+        },
+        {
+            "label": "OECD countries (fixed composition-35 members)",
+            "notation": "P4",
+            "description": "AT + AU + BE + CA + CH + CL + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR + LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (35 countries)"
+        },
+        {
+            "label": "OECD countries (fixed composition-36 members)",
+            "notation": "P5",
+            "description": "AT + AU + BE + CA + CH + CL + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR + LT+LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (36 countries)"
+        },
+        {
+            "label": "OECD countries (fixed composition-37 members)",
+            "notation": "P6",
+            "description": "P6=AT + AU + BE + CA + CH + CL + CO + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL+ IS + IT + JP + KR + LT+LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (36 countries)"
+        },
+        {
+            "label": "OECD countries (fixed composition-38 members)",
+            "notation": "P7",
+            "description": "P7=AT + AU + BE + CA + CH + CL + CO + CR + CZ + DE + DK + EE + ES + FI + FR + GB + GR + LU + HU + IE + IL + IS + IT + JP + KR + LT+LV+ MX + NL + NO + NZ + PL + PT + SE + SI + SK + TR + US (38 countries)"
+        },
+        {
+            "label": "World Excluding OECD countries",
+            "notation": "P8",
+            "description": "P8=W0-P0"
+        },
+        {
+            "label": "World Excluding OECD countries (fixed composition-34 members)",
+            "notation": "P9",
+            "description": "P9=W0-P1"
+        },
+        {
+            "label": "Panama",
+            "notation": "PA"
+        },
+        {
+            "label": "Peru",
+            "notation": "PE"
+        },
+        {
+            "label": "French Polynesia",
+            "notation": "PF"
+        },
+        {
+            "label": "Papua New Guinea",
+            "notation": "PG"
+        },
+        {
+            "label": "Philippines",
+            "notation": "PH"
+        },
+        {
+            "label": "Pakistan",
+            "notation": "PK"
+        },
+        {
+            "label": "Poland",
+            "notation": "PL"
+        },
+        {
+            "label": "Saint Pierre and Miquelon",
+            "notation": "PM"
+        },
+        {
+            "label": "Pitcairn",
+            "notation": "PN"
+        },
+        {
+            "label": "Puerto Rico",
+            "notation": "PR"
+        },
+        {
+            "label": "Palestine, State of",
+            "notation": "PS"
+        },
+        {
+            "label": "Portugal",
+            "notation": "PT"
+        },
+        {
+            "label": "Palau",
+            "notation": "PW"
+        },
+        {
+            "label": "Paraguay",
+            "notation": "PY"
+        },
+        {
+            "label": "EU 27 member states, outside the euro area 13, excluding DK, SE, GB (CY,CZ,EE,HU,LV,LT,MT,PL,SK,RO,BG) as of 1 January 2007",
+            "notation": "Q1"
+        },
+        {
+            "label": "EU 27 member states, outside the euro area 15, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,SK,RO,BG) as of 1 January 2008",
+            "notation": "Q2"
+        },
+        {
+            "label": "EU 27 member states, outside the euro area 16, excluding DK, SE, GB (CZ,EE,HU,LV,LT,PL,RO,BG) as of 1 January 2009",
+            "notation": "Q3"
+        },
+        {
+            "label": "EU 27 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG) as of 1 January 2011",
+            "notation": "Q4"
+        },
+        {
+            "label": "EU 28 member states, outside the euro area 17, excluding DK, SE, GB (CZ,HU,LV,LT,PL,RO,BG) as of 1 July 2013",
+            "notation": "Q5"
+        },
+        {
+            "label": "EU 28 member states, outside the euro area 18, excluding DK, SE, GB (CZ,HU,LT,PL,RO,BG) as of 1 January 2014",
+            "notation": "Q6"
+        },
+        {
+            "label": "EU 28 member states, outside the euro area 19, excluding DK, SE, GB (CZ,HR,HU,PL,RO,BG) as of 1 January 2015",
+            "notation": "Q7"
+        },
+        {
+            "label": "EU 27 member states, outside the euro area 20, excluding DK, SE (CZ,HU,PL,RO,BG) as of 1 January 2023",
+            "notation": "Q8"
+        },
+        {
+            "label": "Qatar",
+            "notation": "QA"
+        },
+        {
+            "label": "Belgo-Luxembourg Economic Union",
+            "notation": "R1",
+            "description": "BE+LU"
+        },
+        {
+            "label": "Belgium-Luxembourg not allocated",
+            "notation": "R109"
+        },
+        {
+            "label": "Mediterranean Basin countries",
+            "notation": "R11",
+            "description": "AL+BA+DZ+EG+GI+IL+JO+LB+LY+MA+ME+MK+PS+RS+SY+TN+TR"
+        },
+        {
+            "label": "Offshore financial centers",
+            "notation": "R12",
+            "description": "AD + AG + AI + AW + BB + BH + BM + BS + BZ + CK + CW + DM + GD + GG + GI + HK + IM + JE + KN + KY + LB + LC + LI + LR + MH + MS + MU + NR + NU + PA + PH + SC + SG + SX + TC + VC + VG + VI + VU + WS"
+        },
+        {
+            "label": "Offshore financial centers excluding Hong Kong",
+            "notation": "R121",
+            "description": "R121 = AD + AG + AI + AW + BB + BH + BM + BS + BZ + CK + CW + DM + GD + GG + GI + IM + JE + KN + KY + LB + LC + LI + LR + MH + MS + MU + NR + NU + PA + PH + SC + SG + SX + TC + VC + VG + VI + VU + WS"
+        },
+        {
+            "label": "French Franc zone",
+            "notation": "R13",
+            "description": "BF+BJ+CF+CG+CI+CM+GA+GQ+GW + KM + ML + NE + SN + TD + TG"
+        },
+        {
+            "label": "Community of Independent States (CIS)",
+            "notation": "R14",
+            "description": "AM + AZ + BY + GE (until end 2009)+ KG + KZ + MD + RU + TJ + TM + UA + UZ"
+        },
+        {
+            "label": "CIS & Mongolia",
+            "notation": "R14M",
+            "description": "R14 + MN"
+        },
+        {
+            "label": "Mercado comun de los paises del cono sur",
+            "notation": "R15",
+            "description": "AR+BR+PY+UY+VE"
+        },
+        {
+            "label": "APEC (Asia-Pacific Economic Co-operation)",
+            "notation": "R16",
+            "description": "AU + BN + CA + CL + CN + HK + ID + JP + KR + MX+ MY + NZ + PE + PG + PH + RU + SG + TH + TW + US +VN"
+        },
+        {
+            "label": "Mediterranean countries in the European Unionro-Mediterranean Partnership",
+            "notation": "R17",
+            "description": "AL + BA + DZ + EG + IL + JO + LB + MA + ME + MR + PS + SY +TN + TR"
+        },
+        {
+            "label": "SADC (South African Development Community)",
+            "notation": "R18",
+            "description": "AO+BW+CD+LS+MG+MW+MU+MZ+NA+SC+SZ+TZ+ZA+ZM+ZW"
+        },
+        {
+            "label": "EAC (East African Community) deprecated",
+            "notation": "R19",
+            "description": "BI+KE+RW+TZ+UG"
+        },
+        {
+            "label": "EFTA (European Free Trade Association)",
+            "notation": "R2",
+            "description": "CH+IS+LI+NO"
+        },
+        {
+            "label": "G20 (Argentina, Australia, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Russia, Saudi Arabia, South Africa, South Korea, T\u00fcrkiye, United States and the European Union Member States - including France, Germany, Italy, United Kingdom)",
+            "notation": "R22",
+            "description": "R22=AR + AU + BR + CA +CN + B5 + IN + ID + JP + MX+RU+SA+ZA+KR+TR + US"
+        },
+        {
+            "label": "G20 excluding European Union (19 individual countries)",
+            "notation": "R220",
+            "description": "R220=AU+CA+DE+FR+GB+IT+JP+KR+MX+TR+US+ AR+BR+CN+IN+ID+RU+SA+ZA"
+        },
+        {
+            "label": "G20 OECD countries",
+            "notation": "R221",
+            "description": "AU+CA+DE+FR+GB+IT+JP+KR+MX+TR+US"
+        },
+        {
+            "label": "G20 Non-OECD countries",
+            "notation": "R222",
+            "description": "AR+BR+CN+IN+ID+RU+SA+ZA"
+        },
+        {
+            "label": "G20 countries (excluding the EU and individual euro area members states)",
+            "notation": "R223",
+            "description": "R223=AU+CA+JP+KR+MX+TR+US+ AR+BR+CN+IN+ID+RU+SA+ZA+GB"
+        },
+        {
+            "label": "Major Advanced Economies - G7",
+            "notation": "R23",
+            "description": "US + GB + FR + DE + IT + CA + JP"
+        },
+        {
+            "label": "G8: G7 + Russia",
+            "notation": "R24",
+            "description": "R23 + RU"
+        },
+        {
+            "label": "Total Official Development Assistance (ODA) recipients (changing composition)",
+            "notation": "R25",
+            "description": "R25=TR + RS + BA + ME + MK + AL + UA + BY + MD + DZ + LY + MA + TN + EG + ZA + AO + BW + BI + CM + CV + CF + TD + KM + CG + CD + BJ + ET + GA + GM + GH + GN + GW + GQ + CI + KE + LS + LR + MG + MW + ML + MR + MU + MZ + NE + NG + ZW + RW + ST + SN + SC + ER + SL + SO + DJ + NA + SH + SD + SS + SZ + TZ + TG + UG + BF + ZM + CR + CU + DO + SV + GT + HT + HN + BZ + JM + MX + NI + PA + AG + DM + GD + LC + VC + MS + AR + BO + BR + CL + CO + EC + GY + PY + PE + SR + UY + VE + IR + IQ + JO + PS + LB + SY + YE + AM + AZ + GE + KZ + KG + TJ + TM + UZ + AF + BT + MM + LK + IN + MV + NP + PK + BD + KH + CN + ID + KP + LA + MY + MN + PH + TH + TL + VN + CK + FJ + KI + NR + VU + NU + MH + FM + PW + PG + SB + TK + TO + TV + WF + WS + XK"
+        },
+        {
+            "label": "ODA recipients-Europe (changing composition)",
+            "notation": "R251",
+            "description": "TR + RS + BA + ME + MK + AL + UA + BY + MD + XK"
+        },
+        {
+            "label": "ODA recipients-Africa (changing composition)",
+            "notation": "R252",
+            "description": "DZ + LY + MA + TN + EG + ZA + AO + BW + BI + CM + CV + CF + TD + KM + CG + CD + BJ + ET + GA + GM + GH + GN + GW + GQ + CI + KE + LS + LR + MG + MW + ML + MR + MU + MZ + NE + NG + ZW + RW + ST + SN + SC + ER + SL + SO + DJ + NA + SH + SD + SS + SZ + TZ + TG + UG + BF + ZM"
+        },
+        {
+            "label": "ODA recipients-America (changing composition)",
+            "notation": "R253",
+            "description": "R253=CR + CU + DO + SV + GT + HT + HN + BZ + JM + MX + NI + PA + AG + DM + GD + LC + VC + MS + AR + BO + BR + CL + CO + EC + GY + PY + PE + SR + UY + VE"
+        },
+        {
+            "label": "ODA recipients-Asia (changing composition)",
+            "notation": "R254",
+            "description": "IR + IQ + JO + PS + LB + SY + YE + AM + AZ + GE + KZ + KG + TJ + TM + UZ + AF + BT + MM + LK + IN + MV + NP + PK + BD + KH + CN + ID + KP + LA + MY + MN + PH + TH + TL + VN"
+        },
+        {
+            "label": "ODA recipients-Oceania (changing composition)",
+            "notation": "R255",
+            "description": "CK + FJ + KI + NR + VU + NU + MH + FM + PW + PG + SB + TK + TO + TV + WF + WS"
+        },
+        {
+            "label": "NAFTA (North American Free Trade Association)",
+            "notation": "R3",
+            "description": "CA+US+MX"
+        },
+        {
+            "label": "ASEAN (Countries for the Association of South-East Asian Nations)",
+            "notation": "R4",
+            "description": "BN + ID + KH + LA + MM + MY + PH + SG + TH + VN"
+        },
+        {
+            "label": "ASEAN-5",
+            "notation": "R45",
+            "description": "ID + MY + PH + SG + TH"
+        },
+        {
+            "label": "OPEC (Organization of Petroleum Exporting Countries) - changing composition until 2015",
+            "notation": "R5",
+            "description": "R5=AE + AO (from 2007) + DZ + EC (from 2008) + ID (until 2008)+IQ + IR + KW + LY + NG + QA + SA + VE"
+        },
+        {
+            "label": "OPEC (Organization of Petroleum Exporting Countries) (from 2016)",
+            "notation": "R51",
+            "description": "R51=AE + AO + DZ + EC + GA + ID + IQ + IR + KW + LY + NG + QA + SA + VE"
+        },
+        {
+            "label": "OPEC (Organization of Petroleum Exporting Countries) (from 2017)",
+            "notation": "R52",
+            "description": "R52 = AE + AO + DZ + EC + GA + GQ + IQ + IR + KW + LY + NG + QA + SA + VE"
+        },
+        {
+            "label": "OPEC (Organization of Petroleum Exporting Countries) (from 2019)",
+            "notation": "R53",
+            "description": "R53 = AE + AO + CG + DZ + EC + GA + GQ + IQ + IR + KW + LY + NG + SA + VE"
+        },
+        {
+            "label": "OPEC (Organization of Petroleum Exporting Countries) (from 2020)",
+            "notation": "R54",
+            "description": "R54 = AE + AO + CG + DZ + GA + GQ + IQ + IR + KW + LY + NG + SA + VE"
+        },
+        {
+            "label": "ACP (African, Caribbean and Pacific countries, Lom\u00e9 convention)",
+            "notation": "R6",
+            "description": "AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SL + SN + SO + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW+AG + BB + BS + BZ + CU (from 2009) + DM + DO + GD + GY + HT + JM + KN + LC + SR + TT + VC+CK + FJ + FM + KI + MH + NR + NU + PG + PW + SB + TL (from 2009) + TO + TV + VU + WS"
+        },
+        {
+            "label": "African ACP countries",
+            "notation": "R61",
+            "description": "AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SL + SN + SO + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW"
+        },
+        {
+            "label": "Caribbean ACP countries",
+            "notation": "R62",
+            "description": "AG + BB + BS + BZ + CU + DM + DO + GD + GY + HT + JM + KN + LC + SR + TT + VC"
+        },
+        {
+            "label": "Pacific ACP countries",
+            "notation": "R63",
+            "description": "CK + FJ + FM + KI + MH + NR + NU + PG + PW + SB + TL + TO + TV + VU + WS"
+        },
+        {
+            "label": "BRIC",
+            "notation": "R7",
+            "description": "BR+RU+IN+CN"
+        },
+        {
+            "label": "BRICS deprecated",
+            "notation": "R8",
+            "description": "BR+RU+IN+CN+ZA"
+        },
+        {
+            "label": "Core Newly Industrializing Countries",
+            "notation": "R9",
+            "description": "HK+KR+SG+TW"
+        },
+        {
+            "label": "Reunion",
+            "notation": "RE"
+        },
+        {
+            "label": "Romania",
+            "notation": "RO"
+        },
+        {
+            "label": "Serbia",
+            "notation": "RS"
+        },
+        {
+            "label": "Russian Federation",
+            "notation": "RU"
+        },
+        {
+            "label": "Rwanda",
+            "notation": "RW"
+        },
+        {
+            "label": "Asia",
+            "notation": "S1",
+            "description": "S1 = S3 + S6 + S19"
+        },
+        {
+            "label": "Asia not allocated",
+            "notation": "S19"
+        },
+        {
+            "label": "Asian NICs of the second wave of industrialization",
+            "notation": "S198",
+            "description": "MY+PH+TH"
+        },
+        {
+            "label": "Asia Excluding OECD countries",
+            "notation": "S1X",
+            "description": "S1-IL(from 2010)-JP-KR"
+        },
+        {
+            "label": "Asia Excluding OECD countries (Fixed composition)",
+            "notation": "S1X0",
+            "description": "S1-IL-JP-KR"
+        },
+        {
+            "label": "Asia excl. Japan",
+            "notation": "S1X2",
+            "description": "S1 - JP"
+        },
+        {
+            "label": "Asia excl. Japan & China",
+            "notation": "S1X3",
+            "description": "S1 - JP - CN"
+        },
+        {
+            "label": "Eastern Asia",
+            "notation": "S2",
+            "description": "CN+TW+HK+MO+KP+KR+JP+MN+S29"
+        },
+        {
+            "label": "Eastern Asia not allocated",
+            "notation": "S29"
+        },
+        {
+            "label": "Eastern Asia Excluding OECD countries deprecated",
+            "notation": "S2X",
+            "description": "S2-KR-JP"
+        },
+        {
+            "label": "Near and Middle East countries",
+            "notation": "S3",
+            "description": "AM + AZ + GE + IL + JO + LB + PS + SY + AE + BH + IQ + KW + OM + QA + SA + YE"
+        },
+        {
+            "label": "Gulf Arabian Countries",
+            "notation": "S35",
+            "description": "AE + BH + IQ + KW + OM + QA + SA + YE"
+        },
+        {
+            "label": "Gulf Arabian Countries not allocated deprecated",
+            "notation": "S359"
+        },
+        {
+            "label": "Persian Gulf Economies (CDIS)",
+            "notation": "S35E",
+            "description": "S35E = BH + IQ + IR + KW + OM + QA + SA + AE + A35E9"
+        },
+        {
+            "label": "Persian Gulf Economies Not Allocated (CDIS)",
+            "notation": "S35E9"
+        },
+        {
+            "label": "Other Near and Middle East countries",
+            "notation": "S37",
+            "description": "AM + AZ + GE + IL + JO + LB + PS + SY"
+        },
+        {
+            "label": "Other Near and Middle East not allocated  deprecated",
+            "notation": "S379"
+        },
+        {
+            "label": "Other Near and Middle East Economies (CDIS)",
+            "notation": "S37E",
+            "description": "S37E = AM + AZ + GE + IL + JO + LB + SY + PS + YE + S37E9"
+        },
+        {
+            "label": "Other Near and Middle East Economies Not Allocated (CDIS)",
+            "notation": "S37E9"
+        },
+        {
+            "label": "Other Near and Middle East Excluding OECD countries",
+            "notation": "S37X",
+            "description": "S37-IL (from 2010)"
+        },
+        {
+            "label": "Other Near and Middle East Excluding OECD countries (Fixed composition)",
+            "notation": "S37Z",
+            "description": "S37-IL"
+        },
+        {
+            "label": "Near and Middle East not allocated  deprecated",
+            "notation": "S39"
+        },
+        {
+            "label": "Near and Middle East Excluding OECD countries",
+            "notation": "S3X",
+            "description": "S3-IL (from 2010)"
+        },
+        {
+            "label": "Near and Middle East Excluding OECD countries (Fixed composition)",
+            "notation": "S3X0",
+            "description": "S3-IL"
+        },
+        {
+            "label": "Central Asia deprecated",
+            "notation": "S4",
+            "description": "KZ+KG+TJ+TM+UZ+S49"
+        },
+        {
+            "label": "Central Asia not allocated deprecated",
+            "notation": "S49"
+        },
+        {
+            "label": "Central & South Asia",
+            "notation": "S5",
+            "description": "AF + BD + BT + BN + KH + IN + ID + KZ + KG + LA + MY + MV + MM + NP + PK + PH + SG + LK + TJ + TH + TL + TM + UZ + VN + S59"
+        },
+        {
+            "label": "Central & South Asia not allocated",
+            "notation": "S59"
+        },
+        {
+            "label": "Other Asian countries (non Near and Middle East countries)",
+            "notation": "S6",
+            "description": "AF + BD + BN + BT + CN + HK + ID + IN + IR + JP + KG + KH + KP + KR + KZ + LA + LK + MM + MN + MO + MV + MY + NP + PK + PH + SG + TH + TJ + TL + TM + TW + UZ + VN"
+        },
+        {
+            "label": "Other Asian countries excluding OECD countries",
+            "notation": "S6X",
+            "description": "S6-KR-JP"
+        },
+        {
+            "label": "Southern Asia deprecated",
+            "notation": "S7",
+            "description": "AF+BD+BT+IN+IR+MV+NP+PK+LK+S79"
+        },
+        {
+            "label": "Southern Asia not allocated deprecated",
+            "notation": "S79"
+        },
+        {
+            "label": "South-Eastern Asia  deprecated",
+            "notation": "S8",
+            "description": "BN+KH+ID+LA+MY+MM+PH+SG+TH+TL+VN+S89"
+        },
+        {
+            "label": "South-Eastern Asia not allocated deprecated",
+            "notation": "S89"
+        },
+        {
+            "label": "Saudi Arabia",
+            "notation": "SA"
+        },
+        {
+            "label": "Solomon Islands",
+            "notation": "SB"
+        },
+        {
+            "label": "Seychelles",
+            "notation": "SC"
+        },
+        {
+            "label": "Sudan",
+            "notation": "SD"
+        },
+        {
+            "label": "Sweden",
+            "notation": "SE"
+        },
+        {
+            "label": "Singapore",
+            "notation": "SG"
+        },
+        {
+            "label": "Saint Helena",
+            "notation": "SH"
+        },
+        {
+            "label": "Slovenia",
+            "notation": "SI"
+        },
+        {
+            "label": "Svalbard and Jan Mayen",
+            "notation": "SJ"
+        },
+        {
+            "label": "Slovakia",
+            "notation": "SK"
+        },
+        {
+            "label": "Sierra Leone",
+            "notation": "SL"
+        },
+        {
+            "label": "San Marino",
+            "notation": "SM"
+        },
+        {
+            "label": "Senegal",
+            "notation": "SN"
+        },
+        {
+            "label": "Somalia",
+            "notation": "SO"
+        },
+        {
+            "label": "Suriname",
+            "notation": "SR"
+        },
+        {
+            "label": "South Sudan",
+            "notation": "SS"
+        },
+        {
+            "label": "Sao Tome and Principe",
+            "notation": "ST"
+        },
+        {
+            "label": "Former U.S.S.R.",
+            "notation": "SUH"
+        },
+        {
+            "label": "Former U.S.S.R. not allocated",
+            "notation": "SUH9"
+        },
+        {
+            "label": "El Salvador",
+            "notation": "SV"
+        },
+        {
+            "label": "Sint Maarten (Dutch part)",
+            "notation": "SX"
+        },
+        {
+            "label": "Syrian Arab Republic",
+            "notation": "SY"
+        },
+        {
+            "label": "Kingdom of Eswatini",
+            "notation": "SZ"
+        },
+        {
+            "label": "Turks and Caicos Islands",
+            "notation": "TC"
+        },
+        {
+            "label": "Chad",
+            "notation": "TD"
+        },
+        {
+            "label": "French Southern Territories",
+            "notation": "TF"
+        },
+        {
+            "label": "Togo",
+            "notation": "TG"
+        },
+        {
+            "label": "Thailand",
+            "notation": "TH"
+        },
+        {
+            "label": "Tajikistan",
+            "notation": "TJ"
+        },
+        {
+            "label": "Tokelau",
+            "notation": "TK"
+        },
+        {
+            "label": "Timor-Leste",
+            "notation": "TL"
+        },
+        {
+            "label": "Turkmenistan",
+            "notation": "TM"
+        },
+        {
+            "label": "Tunisia",
+            "notation": "TN"
+        },
+        {
+            "label": "Tonga",
+            "notation": "TO"
+        },
+        {
+            "label": "T\u00fcrkiye",
+            "notation": "TR"
+        },
+        {
+            "label": "Trinidad and Tobago",
+            "notation": "TT"
+        },
+        {
+            "label": "Tuvalu",
+            "notation": "TV"
+        },
+        {
+            "label": "Taiwan, Province of China",
+            "notation": "TW"
+        },
+        {
+            "label": "Tanzania, United Republic of",
+            "notation": "TZ"
+        },
+        {
+            "label": "Tanzania, United Republic of (excluding Zanzibar)",
+            "notation": "TZXZ"
+        },
+        {
+            "label": "Zanzibar",
+            "notation": "TZZN"
+        },
+        {
+            "label": "EU excluding the Euro area and reference area (changing composition)",
+            "notation": "U0"
+        },
+        {
+            "label": "Euro area (Member States and Institutions of the Euro Area) changing composition",
+            "notation": "U2"
+        },
+        {
+            "label": "Euro area (Member States of the Euro Area) excluding ECB, ESM and EFSF",
+            "notation": "U20",
+            "description": "AT + BE + CY + DE + EE + ES + FI + FR + GR + IE + IT + LV + LT + LU +  MT + NL + PT + SI + SK + HR (from 01/01/2023)"
+        },
+        {
+            "label": "Euro area (changing composition) not allocated",
+            "notation": "U29"
+        },
+        {
+            "label": "Intra EU Extra Euro Area (EU member states and institutions not belonging to the Euro area) changing composition",
+            "notation": "U3",
+            "description": "U3=U30+4A"
+        },
+        {
+            "label": "Intra EU Extra Euro Area  (changing composition) excluding EU institutions",
+            "notation": "U30",
+            "description": "BG + CZ + DK + GB + HR + HU + LT + LV + PL + RO + SE (from 2103)"
+        },
+        {
+            "label": "Intra EU Extra Euro Area (EU member states and institutions not belonging to the Euro area) changing composition\u00a0excluding the reference area",
+            "notation": "U31"
+        },
+        {
+            "label": "Intra EU Extra Euro Area  (changing composition) not allocated",
+            "notation": "U39"
+        },
+        {
+            "label": "Extra Euro area  (changing composition)",
+            "notation": "U4"
+        },
+        {
+            "label": "Extra-Euro area (changing composition) not allocated",
+            "notation": "U49"
+        },
+        {
+            "label": "Other Euro area member states (all countries except the reference area) (changing composition)",
+            "notation": "U5"
+        },
+        {
+            "label": "Euro area and the reference area",
+            "notation": "U7"
+        },
+        {
+            "label": "All areas other than Euro area and ref./home area",
+            "notation": "U8"
+        },
+        {
+            "label": "All areas other than EU and ref./home area",
+            "notation": "U9"
+        },
+        {
+            "label": "Ukraine",
+            "notation": "UA"
+        },
+        {
+            "label": "Uganda",
+            "notation": "UG"
+        },
+        {
+            "label": "United States Minor outlying islands",
+            "notation": "UM"
+        },
+        {
+            "label": "United States",
+            "notation": "US"
+        },
+        {
+            "label": "Alaska",
+            "notation": "US1"
+        },
+        {
+            "label": "Hawaii",
+            "notation": "US2"
+        },
+        {
+            "label": "Uruguay",
+            "notation": "UY"
+        },
+        {
+            "label": "Uzbekistan",
+            "notation": "UZ"
+        },
+        {
+            "label": "Holy See (Vatican City State)",
+            "notation": "VA"
+        },
+        {
+            "label": "Saint Vincent and the Grenadines",
+            "notation": "VC"
+        },
+        {
+            "label": "Venezuela, Bolivarian Republic",
+            "notation": "VE"
+        },
+        {
+            "label": "Virgin Islands, British",
+            "notation": "VG"
+        },
+        {
+            "label": "Virgin Islands, U.S.",
+            "notation": "VI"
+        },
+        {
+            "label": "Viet Nam",
+            "notation": "VN"
+        },
+        {
+            "label": "Vanuatu",
+            "notation": "VU"
+        },
+        {
+            "label": "World (all areas, including reference area, including IO)",
+            "notation": "W0",
+            "description": "W0=W1+W2"
+        },
+        {
+            "label": "All Countries, excluding the IO",
+            "notation": "W00",
+            "description": "W00=W0-1A"
+        },
+        {
+            "label": "Domestic vis-\u00e0-vis world plus rest of the world vis-\u00e0-vis domestic",
+            "notation": "W08",
+            "description": "Reference / counterpart area (W2.W0+W1.W2)"
+        },
+        {
+            "label": "World (all area, including reference area, including IO) not allocated",
+            "notation": "W09"
+        },
+        {
+            "label": "Rest of the World",
+            "notation": "W1",
+            "description": "W1=sum of all the (ISO 3166-1 alpha-2) partner countries +1A+W19; W1 = BE + LU + DK + DE + GR + ES + FR + IE + IT + NL + AT + PT +\u00a0 FI + SE + GB + CY + CZ + EE + HU + LT + LV + MT + PL + SI + SK + BG + RO + HR+ CH + IS + LI +\u00a0 NO + AD + AL + BA + BY + FO + GG + GI + IM + JE + MD + MK + RU + SM + TR + UA + VA + ME + RS + DZ + EG + LY + MA + TN + AO + BF + BI + BJ + BW + CD + CF + CG + CI + CM + CV + DJ + ER + ET + GA + GH + GM + GN + GQ + GW + IO + KE + KM + LR + LS + MG + ML + MR + MU + MW + MZ + NA + NE + NG + RW + SC + SD + SH + SL + SN + SO + SS + ST + SZ + TD + TG + TZ + UG + ZA + ZM + ZW + CA + US + GL + AG + AI + AW + BB + BM + BQ + BS + BZ + CR + CU + CW + DM + DO + GD + GT + HN + HT + JM + KN + KY + LC + MS + MX + NI + PA + SV + SX + TC + TT + VC + VG + VI + AR + BO + BR + CL + CO + EC + FK + GY + PE + PY + SR + UY + VE + AE + BH + IQ + KW + OM + QA + SA + YE + IL + IR + AM + AZ + GE + JO + LB + PS + SY + BN + ID + KH + LA + MM + MY + PH + SG + TH + VN + AF + BD + BT + CN + HK + IN + JP + KG + KP + KR + KZ + LK + MN + MO + MV + NP + PK + TJ + TL + TM + TW + UZ + AU + FJ + FM + KI + MH + MP + NC + NR + NZ + PF + PG + PN + PW + SB + TO + TV + VU + WF + WS + CC + CX + HM + NF + AS + GU + UM + CK + NU + TK + AQ + BV + GS + TF + 1A + W19"
+        },
+        {
+            "label": "Rest of the world excluding International Organisations",
+            "notation": "W10",
+            "description": "W10=W1-1A"
+        },
+        {
+            "label": "Rest of the World excluding IO and not allocated",
+            "notation": "W12",
+            "description": "W12=sum of (ISO 3166-1 alpha-2) partner countries; W12=W1-1A-W19"
+        },
+        {
+            "label": "Rest of the World (non allocated geographically)",
+            "notation": "W19"
+        },
+        {
+            "label": "Rest of the World (non allocated geographically) plus IO",
+            "notation": "W190",
+            "description": "W190=W19+1A"
+        },
+        {
+            "label": "Rest of the World excluding IMF",
+            "notation": "W1X1",
+            "description": "W1X1=W1-1C"
+        },
+        {
+            "label": "Rest of World excluding 25 countries (AT, BE, BR, CA, HK, CN, FR, DE, IN, IE, IT, JP, KR, LU, MX, NL, RU, SG, ES, SE, CH, TR, GB, US)",
+            "notation": "W1X2"
+        },
+        {
+            "label": "Domestic (home or reference area)",
+            "notation": "W2"
+        },
+        {
+            "label": "General governments and institutions of the EU",
+            "notation": "W24"
+        },
+        {
+            "label": "Non-resident in the economic territory",
+            "notation": "W29"
+        },
+        {
+            "label": "Wallis and Futuna",
+            "notation": "WF"
+        },
+        {
+            "label": "Wake Islands",
+            "notation": "WKU"
+        },
+        {
+            "label": "Samoa",
+            "notation": "WS"
+        },
+        {
+            "label": "IMF Member Countries (IMF)",
+            "notation": "X0"
+        },
+        {
+            "label": "Export Earnings: Fuel (IMF)",
+            "notation": "X1F"
+        },
+        {
+            "label": "Export Earnings: Nonfuel (IMF)",
+            "notation": "X1NF"
+        },
+        {
+            "label": "Other Countries n.i.e. (IMF)",
+            "notation": "X88"
+        },
+        {
+            "label": "Total reporting countries (IMF)",
+            "notation": "X999"
+        },
+        {
+            "label": "Other Central America (IMF)",
+            "notation": "XA6"
+        },
+        {
+            "label": "Other Central America not allocated (IMF)",
+            "notation": "XA69"
+        },
+        {
+            "label": "Other South America (IMF)",
+            "notation": "XA7"
+        },
+        {
+            "label": "Other South America not allocated (IMF)",
+            "notation": "XA79"
+        },
+        {
+            "label": "Advanced Europe (IMF)",
+            "notation": "XE2"
+        },
+        {
+            "label": "Other European Countries (IMF)",
+            "notation": "XE3"
+        },
+        {
+            "label": "Other European Countries not allocated (IMF)",
+            "notation": "XE39"
+        },
+        {
+            "label": "Gaza and Jericho",
+            "notation": "XG"
+        },
+        {
+            "label": "United Kingdom (Northern Ireland)",
+            "notation": "XI"
+        },
+        {
+            "label": "Kosovo",
+            "notation": "XK"
+        },
+        {
+            "label": "Oil-exporting Countries (IMF)",
+            "notation": "XR21"
+        },
+        {
+            "label": "Advanced Economies G-20 (IMF)",
+            "notation": "XR23"
+        },
+        {
+            "label": "Emerging Economies G-20 (IMF)",
+            "notation": "XR24"
+        },
+        {
+            "label": "Non G-20 Countries (IMF)",
+            "notation": "XR25"
+        },
+        {
+            "label": "Advanced Economies (IMF)",
+            "notation": "XR29"
+        },
+        {
+            "label": "Oil-Importing Countries (IMF)",
+            "notation": "XR30"
+        },
+        {
+            "label": "Other Advanced Economies (IMF)",
+            "notation": "XR32"
+        },
+        {
+            "label": "Heavily Indebted Poor Countries (IMF)",
+            "notation": "XR40"
+        },
+        {
+            "label": "Countries in Transition (IMF)",
+            "notation": "XR41"
+        },
+        {
+            "label": "MDRI Countries (IMF)",
+            "notation": "XR42"
+        },
+        {
+            "label": "Emerging and developing economies (IMF)",
+            "notation": "XR43"
+        },
+        {
+            "label": "Non-oil Developing Countries (IMF)",
+            "notation": "XR44"
+        },
+        {
+            "label": "Resource Intensive Countries (IMF)",
+            "notation": "XR55"
+        },
+        {
+            "label": "Special Categories and Economic Zones",
+            "notation": "XR99"
+        },
+        {
+            "label": "Other CPIS Holding Countries Excluding Key Partners (Mandatory FSAP countries - changing composition)",
+            "notation": "XRC1"
+        },
+        {
+            "label": "Emerging Asia (IMF)",
+            "notation": "XS2"
+        },
+        {
+            "label": "Developing Asia (IMF)",
+            "notation": "XS25"
+        },
+        {
+            "label": "Developing Asia Excl. China & India (IMF)",
+            "notation": "XS3"
+        },
+        {
+            "label": "Newly Industrialized Asian Economies (IMF)",
+            "notation": "XS4"
+        },
+        {
+            "label": "Middle East and Central Asia (IMF)",
+            "notation": "XS5"
+        },
+        {
+            "label": "Emerging Europe (IMF)",
+            "notation": "XS6"
+        },
+        {
+            "label": "United Kingdom (excluding Northern Ireland)",
+            "notation": "XU"
+        },
+        {
+            "label": "Yemen",
+            "notation": "YE"
+        },
+        {
+            "label": "Mayotte",
+            "notation": "YT"
+        },
+        {
+            "label": "Former Yugoslavia",
+            "notation": "YUC"
+        },
+        {
+            "label": "Former Yugoslavia not allocated",
+            "notation": "YUC9"
+        },
+        {
+            "label": "Euro area (moving concept in the Real Time database context)",
+            "notation": "Z1"
+        },
+        {
+            "label": "EU 12 (fixed composition) including West Germany as of 1 November 1993",
+            "notation": "Z10"
+        },
+        {
+            "label": "Euro area countries: LU, LT, LV, SI, CY, MT, EE, SK",
+            "notation": "Z11",
+            "description": "Z11=LU+LT+LV+SI+CY+MT+EE+SK"
+        },
+        {
+            "label": "Equally-shared control of UCIs (ultimate controlling institutional units of a foreign affiliate) of more than one EU member state",
+            "notation": "Z12"
+        },
+        {
+            "label": "Country aggregate (HR+HU+BG+RO)",
+            "notation": "Z13"
+        },
+        {
+            "label": "Country aggregate (HR+HU+BG)",
+            "notation": "Z14"
+        },
+        {
+            "label": "Small euro area countries",
+            "notation": "Z15",
+            "description": "Z15=LU+LT+LV+SI+CY+MT+EE+SK+HR"
+        },
+        {
+            "label": "Euro area 11 (fixed composition) excluding LU as of 1 January 1999",
+            "notation": "Z3"
+        },
+        {
+            "label": "Euro area countries except Germany, France, Italy and Spain",
+            "notation": "Z4"
+        },
+        {
+            "label": "Residual for BOP & IIP step 3 ECB needs (J2-DK-GB-SE-4A-D8-CH-CA-US-JP-C4-7Z)",
+            "notation": "Z5"
+        },
+        {
+            "label": "All areas other than EU 15 (fixed composition) and reference/home area as of 1 January 1995",
+            "notation": "Z6"
+        },
+        {
+            "label": "Other EU member states (all countries except the reference area)",
+            "notation": "Z8"
+        },
+        {
+            "label": "EU 15 (fixed composition) excluding LU as of 1 January 1995",
+            "notation": "Z9"
+        },
+        {
+            "label": "South Africa",
+            "notation": "ZA"
+        },
+        {
+            "label": "Zambia",
+            "notation": "ZM"
+        },
+        {
+            "label": "Zimbabwe",
+            "notation": "ZW"
+        }
+    ]
+}

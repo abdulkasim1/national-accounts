@@ -30,7 +30,7 @@
         },
         "COUNTERPART_AREA": {
             "type": "dimension",
-            "code_list": "codelists/area_code_list.json" 
+            "code_list": "codelists/counterpart_area_code_list.json" 
         },
         "REF_SECTOR": {
             "type": "dimension",
@@ -38,7 +38,7 @@
         },
         "COUNTERPART_SECTOR": {
             "type": "dimension",
-            "code_list": "codelists/sector_codes.json" 
+            "code_list": "codelists/counterpart_sector_codes.json" 
         },
         "ACCOUNTING_ENTRY": {
             "type": "dimension",

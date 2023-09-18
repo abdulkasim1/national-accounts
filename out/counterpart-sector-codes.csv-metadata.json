@@ -1,11 +1,11 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "na-table-ids.csv#code-list",
-    "url": "na-table-ids.csv",
-    "tableSchema": "na-table-ids.table.json",
+    "@id": "counterpart-sector-codes.csv#code-list",
+    "url": "counterpart-sector-codes.csv",
+    "tableSchema": "counterpart-sector-codes.table.json",
     "rdfs:seeAlso": [
         {
-            "@id": "na-table-ids.csv#code-list",
+            "@id": "counterpart-sector-codes.csv#code-list",
             "@type": [
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                 "http://www.w3.org/ns/dcat#Dataset",
@@ -20,13 +20,13 @@
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
-                    "@value": "NA Table IDs"
+                    "@value": "Counterpart Sector codes"
                 }
             ],
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-09-18T13:41:51.902147"
+                    "@value": "2023-09-18T13:41:51.851003"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -37,7 +37,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-09-18T13:41:51.902147"
+                    "@value": "2023-09-18T13:41:51.851003"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -48,23 +48,23 @@
             "http://purl.org/dc/terms/title": [
                 {
                     "@language": "en",
-                    "@value": "NA Table IDs"
+                    "@value": "Counterpart Sector codes"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "NA Table IDs"
+                    "@value": "Counterpart Sector codes"
                 }
             ],
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
-                    "@id": "na-table-ids.csv#csvcubed-build-activity"
+                    "@id": "counterpart-sector-codes.csv#csvcubed-build-activity"
                 }
             ]
         },
         {
-            "@id": "na-table-ids.csv#csvcubed-build-activity",
+            "@id": "counterpart-sector-codes.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/prov#Activity"
