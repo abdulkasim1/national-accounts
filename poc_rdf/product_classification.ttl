@@ -1,0 +1,1019 @@
+@prefix cl: <https://example.org/productclassification#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+
+cl:CPA_A a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Products of agriculture, forestry and fishing" .
+
+cl:CPA_A01 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Products of agriculture, hunting and related services" .
+
+cl:CPA_A02 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Products of forestry, logging and related services" .
+
+cl:CPA_A03 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Fish and other fishing products; aquaculture products; support services to fishing" .
+
+cl:CPA_B05 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Coal and lignite" .
+
+cl:CPA_B06 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Crude petroleum and natural gas" .
+
+cl:CPA_B07 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Metal ores" .
+
+cl:CPA_B08 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other mining and quarrying products" .
+
+cl:CPA_B09 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Mining support services" .
+
+cl:CPA_BTE a skos:Concept ;
+    xkos:hasPart cl:CPA_B,
+        cl:CPA_C,
+        cl:CPA_D,
+        cl:CPA_E ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Industrial products (except construction works)" .
+
+cl:CPA_BTF a skos:Concept ;
+    xkos:hasPart cl:CPA_B,
+        cl:CPA_C,
+        cl:CPA_D,
+        cl:CPA_F ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Industrial products and construction works" .
+
+cl:CPA_C10T12 a skos:Concept ;
+    xkos:hasPart cl:CPA_C10,
+        cl:CPA_C11,
+        cl:CPA_C12 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Food, beverages and tobacco products" .
+
+cl:CPA_C13T15 a skos:Concept ;
+    xkos:hasPart cl:CPA_C13,
+        cl:CPA_C14,
+        cl:CPA_C15 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Textiles, wearing apparel, leather and related products" .
+
+cl:CPA_C16T18 a skos:Concept ;
+    xkos:hasPart cl:CPA_C16,
+        cl:CPA_C17,
+        cl:CPA_C18 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials; paper and paper products; printing and recording services" .
+
+cl:CPA_C19 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Coke and refined petroleum products" .
+
+cl:CPA_C20 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Chemicals and chemical products" .
+
+cl:CPA_C21 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Basic pharmaceutical products and pharmaceutical preparations" .
+
+cl:CPA_C22_23 a skos:Concept ;
+    xkos:hasPart cl:CPA_C22,
+        cl:CPA_C23 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Rubber, plastic and other non-metallic mineral products" .
+
+cl:CPA_C24_25 a skos:Concept ;
+    xkos:hasPart cl:CPA_C24,
+        cl:CPA_C25 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Basic metals and fabricated metal products, except machinery and equipment" .
+
+cl:CPA_C26 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Computer, electronic and optical products" .
+
+cl:CPA_C27 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Electrical equipment" .
+
+cl:CPA_C28 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Machinery and equipment n.e.c." .
+
+cl:CPA_C29_30 a skos:Concept ;
+    xkos:hasPart cl:CPA_C29,
+        cl:CPA_C30 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Motor vehicles, trailers and semi-trailers and other transport equipment" .
+
+cl:CPA_C31T33 a skos:Concept ;
+    xkos:hasPart cl:CPA_C31,
+        cl:CPA_C32,
+        cl:CPA_C33 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Furniture, other manufactured goods, repair and installation services of machinery and equipment" .
+
+cl:CPA_C31_32 a skos:Concept ;
+    xkos:hasPart cl:CPA_C31,
+        cl:CPA_C32 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Furniture and other manufactured goods" .
+
+cl:CPA_D35 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Electricity, gas, steam and air conditioning" .
+
+cl:CPA_E36 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Natural water; water treatment and supply services" .
+
+cl:CPA_E37T39 a skos:Concept ;
+    xkos:hasPart cl:CPA_E37,
+        cl:CPA_E38,
+        cl:CPA_E39 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services" .
+
+cl:CPA_F41 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Buildings and building construction works" .
+
+cl:CPA_F42 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Constructions and construction works for civil engineering" .
+
+cl:CPA_F43 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Specialised construction works" .
+
+cl:CPA_G45 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wholesale and retail trade and repair services of motor vehicles and motorcycles" .
+
+cl:CPA_G46 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wholesale trade services, except of motor vehicles and motorcycles" .
+
+cl:CPA_G47 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Retail trade services, except of motor vehicles and motorcycles" .
+
+cl:CPA_GTI a skos:Concept ;
+    xkos:hasPart cl:CPA_G,
+        cl:CPA_H,
+        cl:CPA_I ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wholesale and retail trade; transportation and storage; accommodation and food services" .
+
+cl:CPA_GTU a skos:Concept ;
+    xkos:hasPart cl:CPA_G,
+        cl:CPA_H,
+        cl:CPA_I,
+        cl:CPA_J,
+        cl:CPA_K,
+        cl:CPA_L,
+        cl:CPA_M,
+        cl:CPA_N,
+        cl:CPA_O,
+        cl:CPA_P,
+        cl:CPA_Q,
+        cl:CPA_R,
+        cl:CPA_S,
+        cl:CPA_T,
+        cl:CPA_U ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services" .
+
+cl:CPA_H49 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Land transport services and transport services via pipelines" .
+
+cl:CPA_H50 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Water transport services" .
+
+cl:CPA_H51 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Air transport services" .
+
+cl:CPA_H52 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Warehousing and support services for transportation" .
+
+cl:CPA_H53 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Postal and courier services" .
+
+cl:CPA_I55 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Accommodation services" .
+
+cl:CPA_I56 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Food and beverage serving services" .
+
+cl:CPA_J58T60 a skos:Concept ;
+    xkos:hasPart cl:CPA_J58,
+        cl:CPA_J59,
+        cl:CPA_J60 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Publishing services; motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services" .
+
+cl:CPA_J59_60 a skos:Concept ;
+    xkos:hasPart cl:CPA_J59,
+        cl:CPA_J60 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services" .
+
+cl:CPA_J61 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Telecommunications services" .
+
+cl:CPA_J62_63 a skos:Concept ;
+    xkos:hasPart cl:CPA_J62,
+        cl:CPA_J63 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Computer programming, consultancy and related services; Information services" .
+
+cl:CPA_K64 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Financial services, except insurance and pension funding" .
+
+cl:CPA_K65 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Insurance, reinsurance and pension funding services, except compulsory social security" .
+
+cl:CPA_K66 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services auxiliary to financial services and insurance services" .
+
+cl:CPA_L68A a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Imputed rents of owner-occupied dwellings" .
+
+cl:CPA_L68B a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Real estate services excluding imputed rents" .
+
+cl:CPA_M69T71 a skos:Concept ;
+    xkos:hasPart cl:CPA_M69,
+        cl:CPA_M70,
+        cl:CPA_M71 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Legal and accounting services; services of head offices; management consultancy services; architectural and engineering services; technical testing and analysis services" .
+
+cl:CPA_M69_70 a skos:Concept ;
+    xkos:hasPart cl:CPA_M69,
+        cl:CPA_M70 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Legal and accounting services; services of head offices; management consultancy services" .
+
+cl:CPA_M72 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Scientific research and development services" .
+
+cl:CPA_M73T75 a skos:Concept ;
+    xkos:hasPart cl:CPA_M73,
+        cl:CPA_M74,
+        cl:CPA_M75 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Advertising and market research services; other professional, scientific and technical services and veterinary services" .
+
+cl:CPA_M74_75 a skos:Concept ;
+    xkos:hasPart cl:CPA_M74,
+        cl:CPA_M75 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other professional, scientific and technical services and veterinary services" .
+
+cl:CPA_M_N a skos:Concept ;
+    xkos:hasPart cl:CPA_M,
+        cl:CPA_N ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Professional, scientific and technical services; administrative and support services" .
+
+cl:CPA_N77 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Rental and leasing services" .
+
+cl:CPA_N78 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Employment services" .
+
+cl:CPA_N79 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Travel agency, tour operator and other reservation services and related services" .
+
+cl:CPA_N80T82 a skos:Concept ;
+    xkos:hasPart cl:CPA_N80,
+        cl:CPA_N81,
+        cl:CPA_N82 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services" .
+
+cl:CPA_O84 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Public administration and defence services; compulsory social security services" .
+
+cl:CPA_OTQ a skos:Concept ;
+    xkos:hasPart cl:CPA_O,
+        cl:CPA_P,
+        cl:CPA_Q ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Public administration, defence, education, human health and social work services" .
+
+cl:CPA_P85 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Education services" .
+
+cl:CPA_Q86 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Human health services" .
+
+cl:CPA_Q87_88 a skos:Concept ;
+    xkos:hasPart cl:CPA_Q87,
+        cl:CPA_Q88 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Residential care services; social work services without accommodation" .
+
+cl:CPA_R90T92 a skos:Concept ;
+    xkos:hasPart cl:CPA_R90,
+        cl:CPA_R91,
+        cl:CPA_R92 ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services" .
+
+cl:CPA_R93 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Sporting services and amusement and recreation services" .
+
+cl:CPA_RTU a skos:Concept ;
+    xkos:hasPart cl:CPA_R,
+        cl:CPA_S,
+        cl:CPA_T,
+        cl:CPA_U ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Arts, entertainment and recreation; other services; services of household and extra-territorial organizations and bodies" .
+
+cl:CPA_S94 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services furnished by membership organisations" .
+
+cl:CPA_S95 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Repair services of computers and personal and household goods" .
+
+cl:CPA_S96 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other personal services" .
+
+cl:CPA_T97 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services of households as employers of domestic personnel" .
+
+cl:CPA_T98 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Undifferentiated goods and services produced by private households for own use" .
+
+cl:CPA_U99 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services provided by extraterritorial organisations and bodies" .
+
+cl:CPC_0 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Agriculture, forestry and fishery products" .
+
+cl:CPC_01 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Products of agriculture, horticulture and market gardening" .
+
+cl:CPC_02 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Live animals and animal products (excluding meat)" .
+
+cl:CPC_03 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Forestry and logging products" .
+
+cl:CPC_04 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Fish and other fishing products" .
+
+cl:CPC_1 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Ores and minerals; electricity, gas and water" .
+
+cl:CPC_11 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Coal and lignite; peat" .
+
+cl:CPC_12 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Crude petroleum and natural gas" .
+
+cl:CPC_13 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Uranium and thorium ores and concentrates" .
+
+cl:CPC_14 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Metal ores" .
+
+cl:CPC_15 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Stone, sand and clay" .
+
+cl:CPC_16 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other minerals" .
+
+cl:CPC_17 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Electricity, town gas, steam and hot water" .
+
+cl:CPC_18 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Natural water" .
+
+cl:CPC_2 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Food products, beverages and tobacco; textiles, apparel and leather products" .
+
+cl:CPC_21 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Meat, fish, fruit, vegetables, oils and fats" .
+
+cl:CPC_22 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Dairy products and egg products" .
+
+cl:CPC_23 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Grain mill products, starches and starch products; other food products" .
+
+cl:CPC_24 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Beverages" .
+
+cl:CPC_25 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Tobacco products" .
+
+cl:CPC_26 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Yarn and thread; woven and tufted textile fabrics" .
+
+cl:CPC_27 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Textile articles other than apparel" .
+
+cl:CPC_28 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Knitted or crocheted fabrics; wearing apparel" .
+
+cl:CPC_29 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Leather and leather products; footwear" .
+
+cl:CPC_3 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other transportable goods, except metal products, machinery and equipment" .
+
+cl:CPC_31 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Products of wood, cork, straw and plaiting materials" .
+
+cl:CPC_32 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Pulp, paper and paper products; printed matter and related articles" .
+
+cl:CPC_33 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Coke oven products; refined petroleum products; nuclear fuel" .
+
+cl:CPC_34 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Basic chemicals" .
+
+cl:CPC_35 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other chemical products; man-made fibres" .
+
+cl:CPC_36 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Rubber and plastics products" .
+
+cl:CPC_37 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Glass and glass products and other non-metallic products n.e.c." .
+
+cl:CPC_38 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Furniture; other transportable goods n.e.c." .
+
+cl:CPC_39 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wastes or scraps" .
+
+cl:CPC_4 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Metal products, machinery and equipment" .
+
+cl:CPC_41 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Basic metals" .
+
+cl:CPC_42 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Fabricated metal products, except machinery and equipment" .
+
+cl:CPC_43 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "General-purpose machinery" .
+
+cl:CPC_44 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Special-purpose machinery" .
+
+cl:CPC_45 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Office, accounting and computing machinery" .
+
+cl:CPC_46 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Electrical machinery and apparatus" .
+
+cl:CPC_47 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Radio, television and communication equipment and apparatus" .
+
+cl:CPC_48 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Medical appliances, precision and optical instruments, watches and clocks" .
+
+cl:CPC_49 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Transport equipment" .
+
+cl:CPC_5 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Constructions and construction services" .
+
+cl:CPC_53 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Constructions" .
+
+cl:CPC_54 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Construction services" .
+
+cl:CPC_6 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Distributive trade services; accommodation, food and beverage serving services; transport services; and electricity, gas and water distribution services" .
+
+cl:CPC_61 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wholesale trade services" .
+
+cl:CPC_62 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Retail trade services" .
+
+cl:CPC_63 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Accommodation, food and beverage services" .
+
+cl:CPC_64 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Passenger transport services" .
+
+cl:CPC_65 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Freight transport services" .
+
+cl:CPC_66 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Rental services of transport vehicles with operators" .
+
+cl:CPC_67 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Supporting transport services" .
+
+cl:CPC_68 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Postal and courier services" .
+
+cl:CPC_69 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Electricity, gas and water distribution (on own account)" .
+
+cl:CPC_7 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Financial and related services; real estate services; and rental and leasing services" .
+
+cl:CPC_71 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Financial and related services" .
+
+cl:CPC_72 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Real estate services" .
+
+cl:CPC_73 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Leasing or rental services without operator" .
+
+cl:CPC_8 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Business and production services" .
+
+cl:CPC_81 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Research and development services" .
+
+cl:CPC_82 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Legal and accounting services" .
+
+cl:CPC_83 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other professional, technical and business services" .
+
+cl:CPC_84 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Telecommunications, broadcasting and information supply services" .
+
+cl:CPC_85 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Support services" .
+
+cl:CPC_86 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Support services to agriculture, hunting, forestry, fishing, mining and utilities" .
+
+cl:CPC_87 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Maintenance, repair and installation (except construction) services" .
+
+cl:CPC_88 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Manufacturing services on physical inputs owned by others" .
+
+cl:CPC_89 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other manufacturing services; publishing, printing and reproduction services; materials recovery services" .
+
+cl:CPC_9 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Community, social and personal services" .
+
+cl:CPC_91 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Public administration and other services provided to the community as a whole; compulsory social security services" .
+
+cl:CPC_92 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Education services" .
+
+cl:CPC_93 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Human health and social care services" .
+
+cl:CPC_94 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Sewage and waste collection, treatment and disposal and other environmental protection services" .
+
+cl:CPC_95 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services of membership organizations" .
+
+cl:CPC_96 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Recreational, cultural and sporting services" .
+
+cl:CPC_97 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other services" .
+
+cl:CPC_98 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Domestic services" .
+
+cl:CPC_99 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services provided by extraterritorial organizations and bodies" .
+
+cl:FAO_1017 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Meat, goat" .
+
+cl:FAO_1020 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Milk, whole fresh goat" .
+
+cl:FAO_1035 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Meat, pig" .
+
+cl:FAO_1058 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Meat, chicken" .
+
+cl:FAO_1062 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Eggs, hen, in shell" .
+
+cl:FAO_1718 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Cereals excluding rice" .
+
+cl:FAO_27 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Rice, paddy" .
+
+cl:FAO_867 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Meat, cattle" .
+
+cl:FAO_882 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Milk, whole fresh cow" .
+
+cl:FAO_977 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Meat, sheep" .
+
+cl:FAO_982 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Milk, whole fresh sheep" .
+
+cl:_T a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Total" .
+
+cl:_U a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Unknown" .
+
+cl:_X a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Unspecified" .
+
+cl:_Z a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Not applicable" .
+
+cl:CPA_C10 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Food products" .
+
+cl:CPA_C11 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Beverages" .
+
+cl:CPA_C12 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Tobacco products" .
+
+cl:CPA_C13 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Textiles" .
+
+cl:CPA_C14 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wearing apparel" .
+
+cl:CPA_C15 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Leather and related products" .
+
+cl:CPA_C16 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials" .
+
+cl:CPA_C17 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Paper and paper products" .
+
+cl:CPA_C18 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Printing and recording services" .
+
+cl:CPA_C22 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Rubber and plastic products" .
+
+cl:CPA_C23 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other non-metallic mineral products" .
+
+cl:CPA_C24 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Basic metals" .
+
+cl:CPA_C25 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Fabricated metal products, except machinery and equipment" .
+
+cl:CPA_C29 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Motor vehicles, trailers and semi-trailers" .
+
+cl:CPA_C30 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other transport equipment" .
+
+cl:CPA_C33 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Repair and installation services of machinery and equipment" .
+
+cl:CPA_E a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Water supply; sewerage, waste management and remediation services" .
+
+cl:CPA_E37 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Sewerage services; sewage sludge" .
+
+cl:CPA_E38 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Waste collection, treatment and disposal services; materials recovery services" .
+
+cl:CPA_E39 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Remediation services and other waste management services" .
+
+cl:CPA_F a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Constructions and construction works" .
+
+cl:CPA_J a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Information and communication services" .
+
+cl:CPA_J58 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Publishing services" .
+
+cl:CPA_J62 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Computer programming, consultancy and related services" .
+
+cl:CPA_J63 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Information services" .
+
+cl:CPA_K a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Financial and insurance services" .
+
+cl:CPA_L a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Real estate services" .
+
+cl:CPA_M71 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Architectural and engineering services; technical testing and analysis services" .
+
+cl:CPA_M73 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Advertising and market research services" .
+
+cl:CPA_N80 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Security and investigation services" .
+
+cl:CPA_N81 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services to buildings and landscape" .
+
+cl:CPA_N82 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Office administrative, office support and other business support services" .
+
+cl:CPA_Q87 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Residential care services" .
+
+cl:CPA_Q88 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Social work services without accommodation" .
+
+cl:CPA_R90 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Creative, arts and entertainment services" .
+
+cl:CPA_R91 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Library, archive, museum and other cultural services" .
+
+cl:CPA_R92 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Gambling and betting services" .
+
+cl:CPA_B a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Mining and quarrying" .
+
+cl:CPA_C a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Manufactured products" .
+
+cl:CPA_C31 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Furniture" .
+
+cl:CPA_C32 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other manufactured goods" .
+
+cl:CPA_D a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Electricity, gas, steam and air conditioning" .
+
+cl:CPA_G a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Wholesale and retail trade services; repair services of motor vehicles and motorcycles" .
+
+cl:CPA_H a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Transportation and storage services" .
+
+cl:CPA_I a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Accommodation and food services" .
+
+cl:CPA_J59 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Motion picture, video and television programme production services, sound recording and music publishing" .
+
+cl:CPA_J60 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Programming and broadcasting services" .
+
+cl:CPA_M a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Professional, scientific and technical services" .
+
+cl:CPA_M69 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Legal and accounting services" .
+
+cl:CPA_M70 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services of head offices; management consulting services" .
+
+cl:CPA_M74 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other professional, scientific and technical services" .
+
+cl:CPA_M75 a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Veterinary services" .
+
+cl:CPA_N a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Administrative and support services" .
+
+cl:CPA_O a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Public administration and defence services; compulsory social security services" .
+
+cl:CPA_P a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Education services" .
+
+cl:CPA_Q a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Human health and social work services" .
+
+cl:CPA_R a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Arts, entertainment and recreation services" .
+
+cl:CPA_S a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Other services" .
+
+cl:CPA_T a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services of households as employers; undifferentiated goods and services produced by households for own use" .
+
+cl:CPA_U a skos:Concept ;
+    skos:inScheme <example.org/productclassification> ;
+    skos:prefLabel "Services provided by extraterritorial organisations and bodies" .
+
+<example.org/productclassification> a skos:ConceptScheme ;
+    rdfs:label "Product classification"@en .
+
