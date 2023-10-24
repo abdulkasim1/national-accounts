@@ -13,8 +13,25 @@
     "concepts": [
         {
             "label": "All currencies",
-            "notation": "_T"
+            "notation": "_T",
+            "children": [
+                {
+                    "label": "Euro area non-participating foreign currency",
+                    "notation": "XNC",
+                    "description": "_T (All currencies) = XNC + XPC + XDC"
+                },
+                {
+                    "label": "Euro area participating foreign currency",
+                    "notation": "XPC",
+                    "description": "_T (All currencies) = XNC + XPC + XDC"
+                },
+                {
+                    "label": "Domestic currency (incl. conversion to current currency made using a fixed parity)",
+                    "notation": "XDC"
+                }
+            ]
         },
+        
         {
             "label": "Not specified",
             "notation": "_X"
@@ -1720,10 +1737,6 @@
             "notation": "XDB"
         },
         {
-            "label": "Domestic currency (incl. conversion to current currency made using a fixed parity)",
-            "notation": "XDC"
-        },
-        {
             "label": "Domestic currency (incl. conversion to current currency made using a fix parity); ratio to total assets of households and NPISHs",
             "notation": "XDC_R_A_S1M"
         },
@@ -2056,18 +2069,8 @@
             "notation": "XGO"
         },
         {
-            "label": "Euro area non-participating foreign currency",
-            "notation": "XNC",
-            "description": "_T (All currencies) = XNC + XPC + XDC"
-        },
-        {
             "label": "CFA franc / BCEAO",
             "notation": "XOF"
-        },
-        {
-            "label": "Euro area participating foreign currency",
-            "notation": "XPC",
-            "description": "_T (All currencies) = XNC + XPC + XDC"
         },
         {
             "label": "Palladium",

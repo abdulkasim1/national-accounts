@@ -44,10 +44,6 @@
             "notation": "CPA_A03"
         },
         {
-            "label": "Mining and quarrying",
-            "notation": "CPA_B"
-        },
-        {
             "label": "Coal and lignite",
             "notation": "CPA_B05"
         },
@@ -70,67 +66,105 @@
         {
             "label": "Industrial products (except construction works)",
             "notation": "CPA_BTE",
-            "description": "CPA_BTE=B+C+D+E"
+            "description": "CPA_BTE=B+C+D+E",
+            "children": [
+                {
+                    "label": "Mining and quarrying",
+                    "notation": "CPA_B"
+                },
+                {
+                    "label": "Manufactured products",
+                    "notation": "CPA_C"
+                },
+                {
+                    "label": "Electricity, gas, steam and air conditioning",
+                    "notation": "CPA_D"
+                },
+                {
+                    "label": "Water supply; sewerage, waste management and remediation services",
+                    "notation": "CPA_E"
+                }
+            ]
         },
         {
             "label": "Industrial products and construction works",
             "notation": "CPA_BTF",
-            "description": "CPA_BTF=B+C+D+F"
-        },
-        {
-            "label": "Manufactured products",
-            "notation": "CPA_C"
-        },
-        {
-            "label": "Food products",
-            "notation": "CPA_C10"
+            "description": "CPA_BTF=B+C+D+F",
+            "children": [
+                {
+                    "label": "Mining and quarrying",
+                    "notation": "CPA_B"
+                },
+                {
+                    "label": "Manufactured products",
+                    "notation": "CPA_C"
+                },
+                {
+                    "label": "Electricity, gas, steam and air conditioning",
+                    "notation": "CPA_D"
+                },
+                {
+                    "label": "Constructions and construction works",
+                    "notation": "CPA_F"
+                }
+            ]
         },
         {
             "label": "Food, beverages and tobacco products",
             "notation": "CPA_C10T12",
-            "description": "CPA_C10T12=C10+C11+C12"
-        },
-        {
-            "label": "Beverages",
-            "notation": "CPA_C11"
-        },
-        {
-            "label": "Tobacco products",
-            "notation": "CPA_C12"
-        },
-        {
-            "label": "Textiles",
-            "notation": "CPA_C13"
+            "description": "CPA_C10T12=C10+C11+C12",
+            "children": [
+                {
+                    "label": "Food products",
+                    "notation": "CPA_C10"
+                },
+                {
+                    "label": "Beverages",
+                    "notation": "CPA_C11"
+                },
+                {
+                    "label": "Tobacco products",
+                    "notation": "CPA_C12"
+                }
+            ]
         },
         {
             "label": "Textiles, wearing apparel, leather and related products",
             "notation": "CPA_C13T15",
-            "description": "CPA_C13T15=C13+C14+C15"
-        },
-        {
-            "label": "Wearing apparel",
-            "notation": "CPA_C14"
-        },
-        {
-            "label": "Leather and related products",
-            "notation": "CPA_C15"
-        },
-        {
-            "label": "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",
-            "notation": "CPA_C16"
+            "description": "CPA_C13T15=C13+C14+C15",
+            "children": [
+                {
+                    "label": "Textiles",
+                    "notation": "CPA_C13"
+                },
+                {
+                    "label": "Wearing apparel",
+                    "notation": "CPA_C14"
+                },
+                {
+                    "label": "Leather and related products",
+                    "notation": "CPA_C15"
+                }
+            ]
         },
         {
             "label": "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials; paper and paper products; printing and recording services",
             "notation": "CPA_C16T18",
-            "description": "CPA_C16T18=C16+C17+C18"
-        },
-        {
-            "label": "Paper and paper products",
-            "notation": "CPA_C17"
-        },
-        {
-            "label": "Printing and recording services",
-            "notation": "CPA_C18"
+            "description": "CPA_C16T18=C16+C17+C18",
+            "children": [
+                {
+                    "label": "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",
+                    "notation": "CPA_C16"
+                },
+                {
+                    "label": "Paper and paper products",
+                    "notation": "CPA_C17"
+                },
+                {
+                    "label": "Printing and recording services",
+                    "notation": "CPA_C18"
+                }
+            ]
         },
         {
             "label": "Coke and refined petroleum products",
@@ -145,30 +179,34 @@
             "notation": "CPA_C21"
         },
         {
-            "label": "Rubber and plastic products",
-            "notation": "CPA_C22"
-        },
-        {
             "label": "Rubber, plastic and other non-metallic mineral products",
             "notation": "CPA_C22_23",
-            "description": "CPA_C22_23=C22+C23"
-        },
-        {
-            "label": "Other non-metallic mineral products",
-            "notation": "CPA_C23"
-        },
-        {
-            "label": "Basic metals",
-            "notation": "CPA_C24"
+            "description": "CPA_C22_23=C22+C23",
+            "children": [
+                {
+                    "label": "Rubber and plastic products",
+                    "notation": "CPA_C22"
+                },
+                {
+                    "label": "Other non-metallic mineral products",
+                    "notation": "CPA_C23"
+                }
+            ]
         },
         {
             "label": "Basic metals and fabricated metal products, except machinery and equipment",
             "notation": "CPA_C24_25",
-            "description": "CPA_C24_25=C24+C25"
-        },
-        {
-            "label": "Fabricated metal products, except machinery and equipment",
-            "notation": "CPA_C25"
+            "description": "CPA_C24_25=C24+C25",
+            "children": [
+                {
+                    "label": "Basic metals",
+                    "notation": "CPA_C24"
+                },
+                {
+                    "label": "Fabricated metal products, except machinery and equipment",
+                    "notation": "CPA_C25"
+                }
+            ]
         },
         {
             "label": "Computer, electronic and optical products",
@@ -183,76 +221,80 @@
             "notation": "CPA_C28"
         },
         {
-            "label": "Motor vehicles, trailers and semi-trailers",
-            "notation": "CPA_C29"
-        },
-        {
             "label": "Motor vehicles, trailers and semi-trailers and other transport equipment",
             "notation": "CPA_C29_30",
-            "description": "CPA_C29_30=C29+C30"
-        },
-        {
-            "label": "Other transport equipment",
-            "notation": "CPA_C30"
-        },
-        {
-            "label": "Furniture",
-            "notation": "CPA_C31"
+            "description": "CPA_C29_30=C29+C30",
+            "children": [
+                {
+                    "label": "Motor vehicles, trailers and semi-trailers",
+                    "notation": "CPA_C29"
+                },
+                {
+                    "label": "Other transport equipment",
+                    "notation": "CPA_C30"
+                }
+            ]
         },
         {
             "label": "Furniture and other manufactured goods",
             "notation": "CPA_C31_32",
-            "description": "CPA_C31_32=C31+C32"
+            "description": "CPA_C31_32=C31+C32",
+            "children": [
+                {
+                    "label": "Furniture",
+                    "notation": "CPA_C31"
+                },
+                {
+                    "label": "Other manufactured goods",
+                    "notation": "CPA_C32"
+                }
+            ]
         },
         {
             "label": "Furniture, other manufactured goods, repair and installation services of machinery and equipment",
             "notation": "CPA_C31T33",
-            "description": "CPA_C31T33=C31+C32+C33"
-        },
-        {
-            "label": "Other manufactured goods",
-            "notation": "CPA_C32"
-        },
-        {
-            "label": "Repair and installation services of machinery and equipment",
-            "notation": "CPA_C33"
-        },
-        {
-            "label": "Electricity, gas, steam and air conditioning",
-            "notation": "CPA_D"
+            "description": "CPA_C31T33=C31+C32+C33",
+            "children": [
+                {
+                    "label": "Furniture",
+                    "notation": "CPA_C31"
+                },
+                {
+                    "label": "Other manufactured goods",
+                    "notation": "CPA_C32"
+                },
+                {
+                    "label": "Repair and installation services of machinery and equipment",
+                    "notation": "CPA_C33"
+                }
+            ]
         },
         {
             "label": "Electricity, gas, steam and air conditioning",
             "notation": "CPA_D35"
         },
         {
-            "label": "Water supply; sewerage, waste management and remediation services",
-            "notation": "CPA_E"
-        },
-        {
             "label": "Natural water; water treatment and supply services",
             "notation": "CPA_E36"
         },
         {
-            "label": "Sewerage services; sewage sludge",
-            "notation": "CPA_E37"
-        },
-        {
             "label": "Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",
             "notation": "CPA_E37T39",
-            "description": "CPA_E37T39=E37+E38+E39"
-        },
-        {
-            "label": "Waste collection, treatment and disposal services; materials recovery services",
-            "notation": "CPA_E38"
-        },
-        {
-            "label": "Remediation services and other waste management services",
-            "notation": "CPA_E39"
-        },
-        {
-            "label": "Constructions and construction works",
-            "notation": "CPA_F"
+            "description": "CPA_E37T39=E37+E38+E39",
+            "children": [
+                {
+                    "label": "Sewerage services; sewage sludge",
+                    "notation": "CPA_E37"
+                },
+                {
+                    "label": "Waste collection, treatment and disposal services; materials recovery services",
+                    "notation": "CPA_E38"
+                },
+                {
+                    "label": "Remediation services and other waste management services",
+                    "notation": "CPA_E39"
+                }
+            ]
         },
         {
             "label": "Buildings and building construction works",
@@ -265,10 +307,6 @@
         {
             "label": "Specialised construction works",
             "notation": "CPA_F43"
-        },
-        {
-            "label": "Wholesale and retail trade services; repair services of motor vehicles and motorcycles",
-            "notation": "CPA_G"
         },
         {
             "label": "Wholesale and retail trade and repair services of motor vehicles and motorcycles",
@@ -285,16 +323,88 @@
         {
             "label": "Wholesale and retail trade; transportation and storage; accommodation and food services",
             "notation": "CPA_GTI",
-            "description": "CPA_GTI=G+H+I"
+            "description": "CPA_GTI=G+H+I",
+            "children": [
+                {
+                    "label": "Wholesale and retail trade services; repair services of motor vehicles and motorcycles",
+                    "notation": "CPA_G"
+                },
+                {
+                    "label": "Transportation and storage services",
+                    "notation": "CPA_H"
+                },
+                {
+                    "label": "Accommodation and food services",
+                    "notation": "CPA_I"
+                }
+            ]
         },
         {
             "label": "Services",
             "notation": "CPA_GTU",
-            "description": "CPA_GTU=G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U"
-        },
-        {
-            "label": "Transportation and storage services",
-            "notation": "CPA_H"
+            "description": "CPA_GTU=G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U",
+            "children": [
+                {
+                    "label": "Wholesale and retail trade services; repair services of motor vehicles and motorcycles",
+                    "notation": "CPA_G"
+                },
+                {
+                    "label": "Transportation and storage services",
+                    "notation": "CPA_H"
+                },
+                {
+                    "label": "Accommodation and food services",
+                    "notation": "CPA_I"
+                },
+                {
+                    "label": "Information and communication services",
+                    "notation": "CPA_J"
+                },
+                {
+                    "label": "Financial and insurance services",
+                    "notation": "CPA_K"
+                },
+                {
+                    "label": "Real estate services",
+                    "notation": "CPA_L"
+                },
+                {
+                    "label": "Professional, scientific and technical services",
+                    "notation": "CPA_M"
+                },
+                {
+                    "label": "Administrative and support services",
+                    "notation": "CPA_N"
+                },
+                {
+                    "label": "Public administration and defence services; compulsory social security services",
+                    "notation": "CPA_O"
+                },
+                {
+                    "label": "Education services",
+                    "notation": "CPA_P"
+                },
+                {
+                    "label": "Human health and social work services",
+                    "notation": "CPA_Q"
+                },
+                {
+                    "label": "Arts, entertainment and recreation services",
+                    "notation": "CPA_R"
+                },
+                {
+                    "label": "Other services",
+                    "notation": "CPA_S"
+                },
+                {
+                    "label": "Services of households as employers; undifferentiated goods and services produced by households for own use",
+                    "notation": "CPA_T"
+                },
+                {
+                    "label": "Services provided by extraterritorial organisations and bodies",
+                    "notation": "CPA_U"
+                }
+            ]
         },
         {
             "label": "Land transport services and transport services via pipelines",
@@ -317,10 +427,6 @@
             "notation": "CPA_H53"
         },
         {
-            "label": "Accommodation and food services",
-            "notation": "CPA_I"
-        },
-        {
             "label": "Accommodation services",
             "notation": "CPA_I55"
         },
@@ -329,51 +435,57 @@
             "notation": "CPA_I56"
         },
         {
-            "label": "Information and communication services",
-            "notation": "CPA_J"
-        },
-        {
-            "label": "Publishing services",
-            "notation": "CPA_J58"
-        },
-        {
             "label": "Publishing services; motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",
             "notation": "CPA_J58T60",
-            "description": "CPA_J58T60=J58+J59+J60"
-        },
-        {
-            "label": "Motion picture, video and television programme production services, sound recording and music publishing",
-            "notation": "CPA_J59"
+            "description": "CPA_J58T60=J58+J59+J60",
+            "children": [
+                {
+                    "label": "Publishing services",
+                    "notation": "CPA_J58"
+                },
+                {
+                    "label": "Motion picture, video and television programme production services, sound recording and music publishing",
+                    "notation": "CPA_J59"
+                },
+                {
+                    "label": "Programming and broadcasting services",
+                    "notation": "CPA_J60"
+                }
+            ]
         },
         {
             "label": "Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",
             "notation": "CPA_J59_60",
-            "description": "CPA_J59_60=J59+J60"
-        },
-        {
-            "label": "Programming and broadcasting services",
-            "notation": "CPA_J60"
+            "description": "CPA_J59_60=J59+J60",
+            "children": [
+                {
+                    "label": "Motion picture, video and television programme production services, sound recording and music publishing",
+                    "notation": "CPA_J59"
+                },
+                {
+                    "label": "Programming and broadcasting services",
+                    "notation": "CPA_J60"
+                }
+            ]
         },
         {
             "label": "Telecommunications services",
             "notation": "CPA_J61"
         },
         {
-            "label": "Computer programming, consultancy and related services",
-            "notation": "CPA_J62"
-        },
-        {
             "label": "Computer programming, consultancy and related services; Information services",
             "notation": "CPA_J62_63",
-            "description": "CPA_J62_63=J62+J63"
-        },
-        {
-            "label": "Information services",
-            "notation": "CPA_J63"
-        },
-        {
-            "label": "Financial and insurance services",
-            "notation": "CPA_K"
+            "description": "CPA_J62_63=J62+J63",
+            "children": [
+                {
+                    "label": "Computer programming, consultancy and related services",
+                    "notation": "CPA_J62"
+                },
+                {
+                    "label": "Information services",
+                    "notation": "CPA_J63"
+                }
+            ]
         },
         {
             "label": "Financial services, except insurance and pension funding",
@@ -388,10 +500,6 @@
             "notation": "CPA_K66"
         },
         {
-            "label": "Real estate services",
-            "notation": "CPA_L"
-        },
-        {
             "label": "Imputed rents of owner-occupied dwellings",
             "notation": "CPA_L68A"
         },
@@ -400,65 +508,91 @@
             "notation": "CPA_L68B"
         },
         {
-            "label": "Professional, scientific and technical services",
-            "notation": "CPA_M"
-        },
-        {
             "label": "Professional, scientific and technical services; administrative and support services",
             "notation": "CPA_M_N",
-            "description": "CPA_M_N=M+N"
-        },
-        {
-            "label": "Legal and accounting services",
-            "notation": "CPA_M69"
+            "description": "CPA_M_N=M+N",
+            "children": [
+                {
+                    "label": "Professional, scientific and technical services",
+                    "notation": "CPA_M"
+                },
+                {
+                    "label": "Administrative and support services",
+                    "notation": "CPA_N"
+                }
+            ]
         },
         {
             "label": "Legal and accounting services; services of head offices; management consultancy services",
             "notation": "CPA_M69_70",
-            "description": "CPA_M69_70=M69+M70"
+            "description": "CPA_M69_70=M69+M70",
+            "children": [
+                {
+                    "label": "Legal and accounting services",
+                    "notation": "CPA_M69"
+                },
+                {
+                    "label": "Services of head offices; management consulting services",
+                    "notation": "CPA_M70"
+                }
+            ]
         },
         {
             "label": "Legal and accounting services; services of head offices; management consultancy services; architectural and engineering services; technical testing and analysis services",
             "notation": "CPA_M69T71",
-            "description": "CPA_M69T71=M69+M70+M71"
-        },
-        {
-            "label": "Services of head offices; management consulting services",
-            "notation": "CPA_M70"
-        },
-        {
-            "label": "Architectural and engineering services; technical testing and analysis services",
-            "notation": "CPA_M71"
+            "description": "CPA_M69T71=M69+M70+M71",
+            "children": [
+                {
+                    "label": "Legal and accounting services",
+                    "notation": "CPA_M69"
+                },
+                {
+                    "label": "Services of head offices; management consulting services",
+                    "notation": "CPA_M70"
+                },
+                {
+                    "label": "Architectural and engineering services; technical testing and analysis services",
+                    "notation": "CPA_M71"
+                }
+            ]
         },
         {
             "label": "Scientific research and development services",
             "notation": "CPA_M72"
         },
         {
-            "label": "Advertising and market research services",
-            "notation": "CPA_M73"
-        },
-        {
             "label": "Advertising and market research services; other professional, scientific and technical services and veterinary services",
             "notation": "CPA_M73T75",
-            "description": "CPA_M73T75=M73+M74+M75"
-        },
-        {
-            "label": "Other professional, scientific and technical services",
-            "notation": "CPA_M74"
+            "description": "CPA_M73T75=M73+M74+M75",
+            "children": [
+                {
+                    "label": "Advertising and market research services",
+                    "notation": "CPA_M73"
+                },
+                {
+                    "label": "Other professional, scientific and technical services",
+                    "notation": "CPA_M74"
+                },
+                {
+                    "label": "Veterinary services",
+                    "notation": "CPA_M75"
+                }
+            ]
         },
         {
             "label": "Other professional, scientific and technical services and veterinary services",
             "notation": "CPA_M74_75",
-            "description": "CPA_M74_75=M74+M75"
-        },
-        {
-            "label": "Veterinary services",
-            "notation": "CPA_M75"
-        },
-        {
-            "label": "Administrative and support services",
-            "notation": "CPA_N"
+            "description": "CPA_M74_75=M74+M75",
+            "children": [
+                {
+                    "label": "Other professional, scientific and technical services",
+                    "notation": "CPA_M74"
+                },
+                {
+                    "label": "Veterinary services",
+                    "notation": "CPA_M75"
+                }
+            ]
         },
         {
             "label": "Rental and leasing services",
@@ -473,25 +607,23 @@
             "notation": "CPA_N79"
         },
         {
-            "label": "Security and investigation services",
-            "notation": "CPA_N80"
-        },
-        {
             "label": "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
             "notation": "CPA_N80T82",
-            "description": "CPA_N80T82=N80+N81+N82"
-        },
-        {
-            "label": "Services to buildings and landscape",
-            "notation": "CPA_N81"
-        },
-        {
-            "label": "Office administrative, office support and other business support services",
-            "notation": "CPA_N82"
-        },
-        {
-            "label": "Public administration and defence services; compulsory social security services",
-            "notation": "CPA_O"
+            "description": "CPA_N80T82=N80+N81+N82",
+            "children": [
+                {
+                    "label": "Security and investigation services",
+                    "notation": "CPA_N80"
+                },
+                {
+                    "label": "Services to buildings and landscape",
+                    "notation": "CPA_N81"
+                },
+                {
+                    "label": "Office administrative, office support and other business support services",
+                    "notation": "CPA_N82"
+                }
+            ]
         },
         {
             "label": "Public administration and defence services; compulsory social security services",
@@ -500,57 +632,63 @@
         {
             "label": "Public administration, defence, education, human health and social work services",
             "notation": "CPA_OTQ",
-            "description": "CPA_OTQ=O+P+Q"
-        },
-        {
-            "label": "Education services",
-            "notation": "CPA_P"
+            "description": "CPA_OTQ=O+P+Q",
+            "children": [
+                {
+                    "label": "Public administration and defence services; compulsory social security services",
+                    "notation": "CPA_O"
+                },
+                {
+                    "label": "Education services",
+                    "notation": "CPA_P"
+                },
+                {
+                    "label": "Human health and social work services",
+                    "notation": "CPA_Q"
+                }
+            ]
         },
         {
             "label": "Education services",
             "notation": "CPA_P85"
         },
         {
-            "label": "Human health and social work services",
-            "notation": "CPA_Q"
-        },
-        {
             "label": "Human health services",
             "notation": "CPA_Q86"
         },
         {
-            "label": "Residential care services",
-            "notation": "CPA_Q87"
-        },
-        {
             "label": "Residential care services; social work services without accommodation",
             "notation": "CPA_Q87_88",
-            "description": "CPA_Q87_88=Q87+Q88"
-        },
-        {
-            "label": "Social work services without accommodation",
-            "notation": "CPA_Q88"
-        },
-        {
-            "label": "Arts, entertainment and recreation services",
-            "notation": "CPA_R"
-        },
-        {
-            "label": "Creative, arts and entertainment services",
-            "notation": "CPA_R90"
+            "description": "CPA_Q87_88=Q87+Q88",
+            "children": [
+                {
+                    "label": "Residential care services",
+                    "notation": "CPA_Q87"
+                },
+                {
+                    "label": "Social work services without accommodation",
+                    "notation": "CPA_Q88"
+                }
+            ]
         },
         {
             "label": "Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",
             "notation": "CPA_R90T92",
-            "description": "CPA_R90T92=R90+R91+R92"
-        },
-        {
-            "label": "Library, archive, museum and other cultural services",
-            "notation": "CPA_R91"
-        },
-        {
-            "label": "Gambling and betting services",
-            "notation": "CPA_R92"
+            "description": "CPA_R90T92=R90+R91+R92",
+            "children": [
+                {
+                    "label": "Creative, arts and entertainment services",
+                    "notation": "CPA_R90"
+                },
+                {
+                    "label": "Library, archive, museum and other cultural services",
+                    "notation": "CPA_R91"
+                },
+                {
+                    "label": "Gambling and betting services",
+                    "notation": "CPA_R92"
+                }
+            ]
         },
         {
             "label": "Sporting services and amusement and recreation services",
@@ -559,11 +697,25 @@
         {
             "label": "Arts, entertainment and recreation; other services; services of household and extra-territorial organizations and bodies",
             "notation": "CPA_RTU",
-            "description": "CPA_RTU=R+S+T+U"
-        },
-        {
-            "label": "Other services",
-            "notation": "CPA_S"
+            "description": "CPA_RTU=R+S+T+U",
+            "children": [
+                {
+                    "label": "Arts, entertainment and recreation services",
+                    "notation": "CPA_R"
+                },
+                {
+                    "label": "Other services",
+                    "notation": "CPA_S"
+                },
+                {
+                    "label": "Services of households as employers; undifferentiated goods and services produced by households for own use",
+                    "notation": "CPA_T"
+                },
+                {
+                    "label": "Services provided by extraterritorial organisations and bodies",
+                    "notation": "CPA_U"
+                }
+            ]
         },
         {
             "label": "Services furnished by membership organisations",
@@ -578,20 +730,12 @@
             "notation": "CPA_S96"
         },
         {
-            "label": "Services of households as employers; undifferentiated goods and services produced by households for own use",
-            "notation": "CPA_T"
-        },
-        {
             "label": "Services of households as employers of domestic personnel",
             "notation": "CPA_T97"
         },
         {
             "label": "Undifferentiated goods and services produced by private households for own use",
             "notation": "CPA_T98"
-        },
-        {
-            "label": "Services provided by extraterritorial organisations and bodies",
-            "notation": "CPA_U"
         },
         {
             "label": "Services provided by extraterritorial organisations and bodies",

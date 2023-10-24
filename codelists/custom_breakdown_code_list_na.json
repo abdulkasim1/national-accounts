@@ -478,21 +478,29 @@
         {
             "label": "Imputed - LCD concept",
             "notation": "L_I",
-            "description": "L_I = L_ICP + L_ICL"
-        },
-        {
-            "label": "Cash collateral related to financial derivatives - LCD concept",
-            "notation": "L_ICC"
-        },
-        {
-            "label": "Cashless at inception - LCD concept",
-            "notation": "L_ICL"
-        },
-        {
-            "label": "Cash payment at inception - LCD concept",
-            "notation": "L_ICP",
-            "description": "L_ICP = L_ICC + L_ISL"
-        },
+            "description": "L_I = L_ICP + L_ICL",
+            "children": [
+                {
+                    "label": "Cash payment at inception - LCD concept",
+                    "notation": "L_ICP",
+                    "description": "L_ICP = L_ICC + L_ISL",
+                    "children": [
+                        {
+                            "label": "Cash collateral related to financial derivatives - LCD concept",
+                            "notation": "L_ICC"
+                        },
+                        {
+                            "label": "Loan component in Off Market Swaps - LCD concept",
+                            "notation": "L_ISL"
+                        }
+                    ]
+                },
+                {
+                    "label": "Cashless at inception - LCD concept",
+                    "notation": "L_ICL"
+                }
+            ]
+        },  
         {
             "label": "Rerouted from Development Banks - LCD concept",
             "notation": "L_IDBK"
@@ -504,10 +512,6 @@
         {
             "label": "Other imputations or rearrangements - LCD concept",
             "notation": "L_IRXR"
-        },
-        {
-            "label": "Loan component in Off Market Swaps - LCD concept",
-            "notation": "L_ISL"
         },
         {
             "label": "Long Term payables, including trade credits (F.89 reclassified in F.4) - LCD concept",
